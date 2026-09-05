@@ -1,0 +1,32 @@
+name: Apply changelog from bot
+
+on:
+  repository_dispatch:
+    types: [changelog_update]
+
+permissions:
+  contents: write
+
+jobs:
+  apply-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Apply changelog payload
+        env:
+          CHANGELOG_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: node scripts/apply-changelog.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Preem Team Bot"
+          git config user.email "actions@github.com"
+          git add docs/changelog/index.md docs/changelog/archive.md
+          if git diff --cached --quiet; then
+            echo "No changelog changes to commit"
+            exit 0
+          fi
+          git commit -m "Update changelog: ${{ github.event.client_payload.version }}"
+          git push
