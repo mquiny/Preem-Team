@@ -34,13 +34,11 @@ if your problem isn't listed, use the button below to report it.
 
 <!-- BOT-INJECT:ISSUE-TABLE:START -->
 
-**Last synced:** `not yet connected`
+**Last synced:** `2026-09-05 23:50 UTC`
 
 | Status | Issue | Labels | Opened | Comments |
 |---|---|---|---|---|
-| <span class="pt-chip pt-chip--open">Open</span> | [Example: Stutter in City Center with visual bundle](https://github.com/mquiny/Preem-Team/issues) | `performance`, `visual-bundle` | `2025-01-02` | 4 |
-| <span class="pt-chip pt-chip--open">Open</span> | [Example: ArchiveXL conflict with custom clothing mod](https://github.com/mquiny/Preem-Team/issues) | `bug`, `archivexl` | `2024-12-20` | 2 |
-| <span class="pt-chip pt-chip--resolved">Resolved</span> | [Example: CET fails to open with non-US keyboard layouts](https://github.com/mquiny/Preem-Team/issues) | `bug`, `cet` | `2024-12-01` | 7 |
+| <span class="pt-chip pt-chip--open">Open</span> | [Test Log](https://github.com/mquiny/Preem-Team/issues/7) | `bug` | `2026-09-05` | 0 |
 
 <!-- BOT-INJECT:ISSUE-TABLE:END -->
 
