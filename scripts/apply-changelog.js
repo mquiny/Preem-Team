@@ -26,6 +26,17 @@ const CURRENT_GRID_START = "<!-- CHANGELOG:CURRENT:START -->";
 const CURRENT_GRID_END = "<!-- CHANGELOG:CURRENT:END -->";
 const ARCHIVE_PREPEND_MARKER = "<!-- CHANGELOG:PREPEND_HERE -->";
 
+// Collection slug -> thumbnail filename in docs/changelog/assets/. Add a
+// line here (and drop the image in that folder) whenever a new collection
+// starts posting to the site. A slug with no entry here just gets a
+// text-only card — nothing breaks, it's purely cosmetic.
+const COLLECTION_IMAGES = {
+  usushu: "cpe.webp",
+  "9htmlb": "sub2.webp",
+  jzmqt4: "e33.webp",
+  rcuccp: "ncr_core.webp"
+};
+
 function readPayload() {
   const raw = process.env.CHANGELOG_PAYLOAD;
   if (!raw) {
@@ -84,13 +95,21 @@ function buildModalBody(payload) {
 // innermost div — md_in_html treats a whole subtree as opaque raw HTML
 // the moment it hits an ancestor without that attribute, any depth deep.
 function buildCardAndDialog(payload, dialogId) {
+  const thumbFile = COLLECTION_IMAGES[payload.collection_slug];
+  const thumbImg = thumbFile
+    ? `<img class="pt-changelog-card-thumb" src="assets/${thumbFile}" alt="">`
+    : "";
+
   const card = [
     `<button type="button" class="pt-changelog-card" data-pt-changelog-open="${dialogId}">`,
+    thumbImg,
+    `<span class="pt-changelog-card-body">`,
     `<span class="pt-changelog-card-version">${payload.version}</span>`,
     `<span class="pt-changelog-card-date">${payload.date} · CP2077 ${payload.game_version}</span>`,
     `<span class="pt-changelog-card-chips">${buildChipsHtml(payload)}</span>`,
+    `</span>`,
     `</button>`
-  ].join("\n");
+  ].filter(Boolean).join("\n");
 
   const dialog = [
     `<dialog class="pt-changelog-modal" id="${dialogId}" markdown="1">`,

@@ -20,9 +20,9 @@
 
 .pt-changelog-card {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.5em;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.9em;
   width: 100%;
   border: 1px solid rgba(0, 246, 255, 0.25);
   border-radius: 0.4rem;
@@ -39,6 +39,23 @@
 .pt-changelog-card:focus-visible {
   border-color: var(--pt-neon-pink);
   transform: translateY(-2px);
+}
+
+.pt-changelog-card-thumb {
+  flex: none;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 0.3rem;
+  object-fit: cover;
+  border: 1px solid rgba(0, 246, 255, 0.35);
+}
+
+.pt-changelog-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+  min-width: 0;
 }
 
 .pt-changelog-card-version {

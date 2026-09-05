@@ -83,9 +83,8 @@ nav:
       - First Boot: guides/first_time_boot.md
       - CET Setup: guides/cet_setup.md
   - Changelog:
-      - changelog/index.md
-      - Archive: changelog/archive.md
-      - Bot Template: changelog/template.md
+      - Current Revision: changelog/index.md
+      - Archived Revisions: changelog/archive.md
   - FAQ: faq/index.md
   - Showcase: showcase/index.md
   - Troubleshooting:

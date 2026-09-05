@@ -75,9 +75,12 @@ markdown="1" div sits.
 
 ````markdown
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="{{ dialog_id }}">
+<img class="pt-changelog-card-thumb" src="assets/{{ thumbnail_file }}" alt="">
+<span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">{{ version }}</span>
 <span class="pt-changelog-card-date">{{ date }} · CP2077 {{ game_version }}</span>
 <span class="pt-changelog-card-chips">{{ chips }}</span>
+</span>
 </button>
 
 <dialog class="pt-changelog-modal" id="{{ dialog_id }}" markdown="1">
@@ -111,9 +114,15 @@ markdown="1" div sits.
   `changelog-current-{{ collection_slug }}` (one fixed, unique id per
   tracked collection). On `changelog/archive.md`, where many old releases
   from every collection coexist, it's `changelog-{{ slugified version }}`
-  instead (e.g. `changelog-v4-3-0`) — versions are assumed unique enough
-  across the whole archive; slugs alone aren't reused there since each
-  archived entry is a one-off snapshot, not a live card being replaced.
+  instead (e.g. `changelog-v4-3-0`), with a `-2`, `-3`, ... suffix added if
+  that id's already taken (a collection re-posting an identical version
+  string, most likely while testing, would otherwise collide with an
+  already-archived entry).
+- `{{ thumbnail_file }}` — looked up from `collection_slug` via the
+  `COLLECTION_IMAGES` map at the top of `apply-changelog.js`. A slug with
+  no entry there just gets a card with no image — nothing breaks. To add
+  a new collection's thumbnail: drop a `.webp` into
+  `docs/changelog/assets/` and add one line to that map.
 - `{{ chips }}` — one `<span class="pt-chip pt-chip--{added|updated|removed}">…</span>`
   per non-empty category, nothing for empty ones.
 - The `{: .pt-changelog-h-added }` / `{: .pt-changelog-h-removed }` bits are

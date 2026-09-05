@@ -32,9 +32,12 @@ stay exactly as they are. Older revisions roll off into the
 
 <!-- CHANGELOG:CURRENT:ENTRY:9htmlb:START -->
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-9htmlb">
+<img class="pt-changelog-card-thumb" src="assets/sub2.webp" alt="">
+<span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">Subnautica 2 Reborn-8</span>
 <span class="pt-changelog-card-date">2026-09-05 · CP2077 Early Access 1.2</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+</span>
 </button>
 
 <dialog class="pt-changelog-modal" id="changelog-current-9htmlb" markdown="1">
@@ -66,11 +69,14 @@ stay exactly as they are. Older revisions roll off into the
 
 <!-- CHANGELOG:CURRENT:ENTRY:rcuccp:START -->
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-rcuccp">
+<img class="pt-changelog-card-thumb" src="assets/ncr_core.webp" alt="">
+<span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">NCR Core-187</span>
 <span class="pt-changelog-card-date">2026-09-05 · CP2077 2.31a</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--updated">Updated</span>
 <span class="pt-chip pt-chip--removed">Removed</span></span>
+</span>
 </button>
 
 <dialog class="pt-changelog-modal" id="changelog-current-rcuccp" markdown="1">
@@ -152,9 +158,12 @@ stay exactly as they are. Older revisions roll off into the
 
 <!-- CHANGELOG:CURRENT:ENTRY:jzmqt4:START -->
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-jzmqt4">
+<img class="pt-changelog-card-thumb" src="assets/e33.webp" alt="">
+<span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">Expedition 33-2</span>
 <span class="pt-changelog-card-date">2026-09-05 · CP2077 1.0</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span></span>
+</span>
 </button>
 
 <dialog class="pt-changelog-modal" id="changelog-current-jzmqt4" markdown="1">
