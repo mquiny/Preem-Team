@@ -47,16 +47,71 @@ body.pt-bg-troubleshooting { --pt-bg-image: url("../assets/background7.png"); }
 body.pt-bg-team            { --pt-bg-image: url("../assets/background8.png"); }
 body.pt-bg-systems         { --pt-bg-image: url("../assets/background9.png"); }
 
-/* Let the art show through the header & tabs bar; main content column stays
-   fully opaque so reading is never affected. */
-[data-md-color-scheme="slate"] .md-header,
+/* Site-wide banner — "PREEM EDITION" sits crisp at the top of the header,
+   the city skyline below it continues down and shows through the tabs
+   bar blurred (see .md-tabs rules below). Deliberately back on
+   .md-header (not .md-header__inner): .md-header__inner carries
+   Material's own "md-grid" class, which caps its width (~61rem) and
+   centers it — that's exactly why the banner wasn't stretching to fill
+   wide/1440p+ screens, it was rendering inside that capped box, not the
+   full header. .md-header itself has no such cap, so the image now
+   spans the true full viewport width at any screen size.
+
+   .md-header__inner's height is locked to the image's aspect ratio
+   (scoped to just the "PREEM EDITION" band, 1920×~155, with a little
+   safety margin) rather than a fixed rem height, so the crisp text
+   never gets cut off regardless of viewport width — same fix as before,
+   just re-applied to the shorter single-line crop.
+
+   Scrim is a FLAT tint, not a top-to-bottom gradient — a gradient here
+   spans .md-header's whole box (text row + tabs row together), and
+   since the tabs row's height is ~fixed in px while the text row's
+   height scales with viewport width, the text row eats a bigger share
+   of that gradient on wider screens, so the bottom of the letters
+   lands at a darker point the wider the screen is (reads as the text
+   "fading out"/missing at the bottom on a big monitor, not an actual
+   crop). A flat tint keeps the text evenly lit at every width; .md-tabs
+   layers its own darkening + blur on top for the fade into the nav bar. */
+.md-header {
+  background-image:
+    linear-gradient(rgba(10, 10, 18, 0.3), rgba(10, 10, 18, 0.3)),
+    url("../assets/bannercroppedpreem.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.md-header__inner {
+  aspect-ratio: 1920 / 155;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* The banner is the branding now — drop the logo, site title, the
+   light/dark toggle, search, and the repo link from the header row,
+   leaving just the tabs bar for navigation. Hidden rather than removed
+   so nothing else that targets these elements breaks; system light/dark
+   preference is still picked up automatically, there's just no manual
+   switch for it any more. (Moving search/the repo link down into the
+   tabs bar was tried and dropped — they didn't survive instant
+   navigation reliably.) */
+.md-header__inner .md-logo,
+.md-header__inner .md-header__title,
+.md-header__inner form[data-md-component="palette"],
+.md-header__inner .md-search,
+.md-header__inner .md-header__source,
+.md-header__inner label[for="__search"] {
+  display: none;
+}
+
+/* Let the page's per-tab art show through the tabs bar underneath;
+   main content column stays fully opaque so reading is never affected. */
 [data-md-color-scheme="slate"] .md-tabs {
   background-color: rgba(10, 10, 18, 0.55);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
 
-[data-md-color-scheme="default"] .md-header,
 [data-md-color-scheme="default"] .md-tabs {
   background-color: rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(8px);

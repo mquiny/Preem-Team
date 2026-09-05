@@ -16,12 +16,24 @@ beyond the basic [Installation](../installation/index.md) steps.
 
 <div class="grid cards" markdown>
 
--   :material-tools:{ .lg .middle } **[Example Guide — CET Setup](example_guide.md)**
+-   :material-restart:{ .lg .middle } **[Clean Install](clean_install.md)**
 
     ---
 
-    A full example guide showing the expected structure, tone, and formatting
-    for anything added to this section.
+    How to strip the collection back out and restore a vanilla Cyberpunk 2077
+    install.
+
+-   :material-tools:{ .lg .middle } **[First Boot](first_time_boot.md)**
+
+    ---
+
+    What to do during first boot.
+	
+-   :material-tools:{ .lg .middle } **[CET Setup](cet_setup.md)**
+
+    ---
+
+    Configuring Cyber Engine Tweaks and reading its console log.
 
 </div>
 
@@ -50,7 +62,7 @@ docs/guides/cyberware_balance_overhaul.md
 ### 2. Use the standard front matter and header block
 
 Start every guide with front matter and a netrunner-style header, matching
-[the example guide](example_guide.md):
+existing guides like [Clean Install](clean_install.md):
 
 ```markdown
 ---
@@ -84,7 +96,7 @@ Add the new file to the `nav` section of `mkdocs.yml` under **Guides**:
 nav:
   - Guides:
       - guides/index.md
-      - Example Guide — CET Setup: guides/example_guide.md
+      - Clean Install: guides/clean_install.md
       - Your New Guide: guides/your_new_guide.md
 ```
 

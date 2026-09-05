@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Preem Team — collapsible, checkable install steps
+   Structure lives in docs/installation/index.md ([data-pt-steps] wrapper),
+   state + progress math in docs/javascripts/steps.js.
+   ========================================================================== */
+
+.pt-steps {
+  margin: 1.2em 0;
+}
+
+/* ---- progress bar, sits above step 1 ---- */
+.pt-steps-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.8em 1em;
+  margin-bottom: 1em;
+  border: 1px solid rgba(0, 246, 255, 0.3);
+  border-radius: 0.4rem;
+  background: rgba(0, 246, 255, 0.05);
+}
+
+.pt-steps-progress-check {
+  width: 1.15em;
+  height: 1.15em;
+  flex: none;
+  accent-color: var(--pt-neon-cyan);
+}
+
+.pt-steps-progress-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+}
+
+.pt-steps-progress-text span {
+  font-family: var(--md-code-font);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--pt-neon-cyan);
+}
+
+.pt-steps-progress-bar {
+  width: 100%;
+  height: 0.4em;
+  border-radius: 999px;
+  background: rgba(0, 246, 255, 0.12);
+  overflow: hidden;
+}
+
+.pt-steps-progress-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--pt-neon-cyan), var(--pt-neon-pink));
+  transition: width 0.25s ease;
+}
+
+/* ---- individual step accordions ---- */
+.pt-step {
+  border: 1px solid rgba(0, 246, 255, 0.25);
+  border-left: 3px solid rgba(0, 246, 255, 0.4);
+  border-radius: 0.4rem;
+  margin: 0.6em 0;
+  padding: 0 0 0 0;
+  background: rgba(10, 10, 18, 0.03);
+  transition: border-color 0.2s ease;
+}
+
+.pt-step > summary {
+  list-style: revert;
+  cursor: pointer;
+  padding: 0.75em 1em;
+  font-weight: 600;
+}
+
+.pt-step > summary::marker,
+.pt-step > summary::-webkit-details-marker {
+  color: var(--pt-neon-pink);
+}
+
+.pt-step-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  cursor: pointer;
+}
+
+.pt-step-check {
+  width: 1.1em;
+  height: 1.1em;
+  flex: none;
+  accent-color: var(--pt-neon-pink);
+  cursor: pointer;
+}
+
+.pt-step-title {
+  font-family: var(--md-code-font);
+}
+
+/* everything inside the <details>, below the summary */
+.pt-step > *:not(summary) {
+  padding: 0 1em 1em 1em;
+}
+
+.pt-step[open] {
+  border-left-color: var(--pt-neon-cyan);
+}
+
+/* completed state */
+.pt-step.is-complete {
+  border-color: rgba(120, 255, 160, 0.4);
+  border-left-color: #78ffa0;
+  background: rgba(120, 255, 160, 0.05);
+}
+
+.pt-step.is-complete .pt-step-title {
+  opacity: 0.75;
+  text-decoration: line-through;
+}
+
+.pt-step.is-complete .pt-step-title::after {
+  content: " ✓ done";
+  text-decoration: none;
+  color: #78ffa0;
+  font-size: 0.8em;
+  letter-spacing: 0.04em;
+}

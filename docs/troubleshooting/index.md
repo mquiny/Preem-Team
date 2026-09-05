@@ -25,6 +25,13 @@ have already been solved once.
 
     Live-synced view of open GitHub issues for the collection.
 
+-   :material-magnify-scan:{ .lg .middle } **[How to Bisect](how_to_bisect.md)**
+
+    ---
+
+    Step-by-step guide to isolating exactly which mod is causing your crash
+    or issue.
+
 </div>
 
 ## Before you report anything
@@ -37,7 +44,7 @@ have already been solved once.
 !!! warning "Don't skip the CET log"
     Almost every bug report request starts with "check your CET console
     log." Save yourself a round-trip and grab it before you ask for help —
-    see [Reading the console log](../guides/example_guide.md#reading-the-console-log).
+    see [Reading the console log](../guides/cet_setup.md#reading-the-console-log).
 
 ## Still stuck? File an issue
 

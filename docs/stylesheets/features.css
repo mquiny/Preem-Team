@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Preem Team — Features showcase page
+   Alternating media/text rows, each row showing an autoplaying looped
+   preview (animated .avif/.gif via a plain <img>) alongside a title and
+   description. Structure: .pt-feature > .pt-feature-media + .pt-feature-text
+   ========================================================================== */
+
+.pt-features {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.pt-feature {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid rgba(0, 246, 255, 0.2);
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  background: linear-gradient(180deg, rgba(0, 246, 255, 0.04), rgba(0, 0, 0, 0));
+}
+
+/* Alternate media left/right on wide screens for visual rhythm */
+.pt-feature:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.pt-feature-media {
+  flex: 0 0 46%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(0, 246, 255, 0.35);
+  box-shadow: 0 0 24px rgba(0, 246, 255, 0.15);
+  background: #0a0a12;
+}
+
+.pt-feature-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pt-feature-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pt-feature-eyebrow {
+  display: inline-block;
+  font-family: var(--md-code-font);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pt-neon-pink);
+  margin-bottom: 0.4em;
+}
+
+.pt-feature-text h3 {
+  margin: 0 0 0.5em;
+}
+
+.pt-feature-caption {
+  display: block;
+  margin-top: 0.6em;
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+/* Stack on narrower screens — media on top, text below, no reversing */
+@media screen and (max-width: 76.25em) {
+  .pt-feature,
+  .pt-feature:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .pt-feature-media {
+    flex-basis: auto;
+    width: 100%;
+  }
+}

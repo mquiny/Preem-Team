@@ -63,7 +63,7 @@ someone's probably already answered it.
 
 ??? question "CET console won't open. Is something broken?"
     Usually not — it's most often a keybind conflict. See the
-    [CET setup guide](../guides/example_guide.md#opening-the-console) for
+    [CET setup guide](../guides/cet_setup.md#opening-the-console) for
     the fix.
 
 ??? question "I updated the collection and now nothing works. Help?"

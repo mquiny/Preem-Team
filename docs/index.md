@@ -3,36 +3,28 @@ title: Home
 description: Preem Team — a curated Cyberpunk 2077 mod collection.
 ---
 
-# PREEM TEAM // NIGHT CITY MOD NETWORK
+# PREEM TEAM // NIGHT CITY
 
 > `> CONNECTION ESTABLISHED...`
 > `> WELCOME BACK, CHOOM.`
 > `> LOADING PREEM TEAM DATABASE...`
 
-Jack in, choom. You've reached the **Preem Team** knowledge base — the home of
-a hand-curated, staff-tested Cyberpunk 2077 mod collection built for people
-who want Night City to look, feel, and play like the netrunners always
-promised it would. No bloatware. No conflicting spaghetti installs. Just a
-clean, opinionated stack of mods that work together out of the box.
-
+**Welcome Choom, You've reached the home of the Preem Team, we hope you enjoy your stay**
 <div class="pt-flavor">
 "Every city's got a skeleton. Ours just happens to run on mods." — Preem Team crew
 </div>
 
-## What is Preem Team?
+## Who are the Preem Team?
 
-Preem Team is a **community-maintained Cyberpunk 2077 mod collection** —
-think of it as a pre-flashed relic, ready to jack straight into your rig.
-Instead of spending a weekend fighting load orders, dependency hell, and
-outdated wikis, you download one collection, follow one guide, and get a
-stable, curated build of the game.
+Preem Team are a bunch of experienced Cyberpunk ethusiasts, looking to make the best collection in Night City. With years of experience with curating collections, we want to bring the best modding experience possible to all.
 
 !!! quote "Our philosophy"
-    - **Stability first.** Every mod in the collection is tested together, not in isolation.
-    - **Curated, not maximal.** We'd rather ship 40 mods that work than 400 that might.
-    - **Documented everything.** If it's in the collection, it's explained somewhere in these docs.
-    - **Community-driven.** Guides, FAQs, and troubleshooting are written and maintained by the team — and by you.
-
+    - **Immersion** - We build the collection around making Night City feel alive. Smarter crowds, more reactive AI, deeper systems for V’s needs, injuries, addictions, and the kind of small details that make the world feel connected to the roots of Night City. Everything we add is optional and adjustable, you can tailor it, tone it down, or turn it off entirely mid‑save. The goal is simple: let players sink into a version of Night City that feels more responsive, more grounded, and more personal.
+	- **Creation Focused** - After immersion, our second pillar is creativity. Photomode is one of Cyberpunk’s strongest features, and we treat it like a studio tool, not an afterthought. The collection expands character creation, clothing options, poses, lighting tools, and NPC interactions so players can shape their V and capture them exactly how they imagine. Every addition is chosen for quality, not quantity, and built to support the artists, storytellers, and screenshot creators who make the community what it is.
+    - **Stability first.** - Fixing bugs, improving performance, and maximizing user experience.
+    - **Curated sensibly, not maximally.** - We take pride in the mods we include, they're well tested for quality, and never quantity.
+    - **Well Documented.** - Our collection has a bunch of well put together and helpful guides. Even for the most unexperienced chooms out there.
+    
 ## What's included
 
 The Preem Team collection typically bundles together categories like:
@@ -131,12 +123,6 @@ Exact mod lists change as the collection is updated — check the
 !!! tip "New here?"
     Start at [Installation](installation/index.md). It's written to be followed
     top to bottom, no prior modding experience required.
-
-!!! warning "Before you install anything"
-    Always back up your save files and your `Cyberpunk 2077` install directory
-    before applying any mod collection. See
-    [Installation → Preparing the Game](installation/index.md#step-2-prepare-the-game)
-    for details.
 
 <div class="pt-flavor">
 "You don't choose the collection. The collection chooses you." — probably not true, but it sounded preem.
