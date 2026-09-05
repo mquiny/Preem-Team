@@ -24,10 +24,11 @@ users need to read.
     1. Looks for that payload's `collection_slug` among the cards already on
        `changelog/index.md`.
     2. If found: pulls that ONE collection's old card+popup out, re-IDs it,
-       and moves it into `changelog/archive.md`'s card grid — every other
-       collection's card is left completely untouched.
-    3. If not found (first post ever for that collection): just adds a new
-       card to `index.md` — nothing to archive yet.
+       and moves it into that same collection's own section on
+       `changelog/archive.md` — every other collection's section is left
+       completely untouched.
+    3. If not found (first post ever for that collection): builds a whole
+       new collapsible section for it on `index.md` — nothing to archive yet.
     4. Builds the fresh card+popup from the payload and puts it in `index.md`.
 
     Nothing on `index.md` or `archive.md` should be hand-edited except by
@@ -36,10 +37,20 @@ users need to read.
 !!! note "Multiple collections, tracked independently"
     `index.md` can hold any number of "current" cards at once — one per
     collection currently being tracked (e.g. your CPE collection, Sub2, E33,
-    ...). An update to one collection only ever touches *that* collection's
-    card. There's no shared "Supported Game Version" summary any more (that
-    only ever made sense for a single collection) — each card/popup shows
-    its own game version instead.
+    ...). Each collection gets its own collapsible section (a
+    `<details class="pt-changelog-collection">`), open by default, so
+    visitors can collapse a collection they don't care about without
+    affecting the others. An update to one collection only ever touches
+    *that* collection's section. There's no shared "Supported Game Version"
+    summary any more (that only ever made sense for a single collection) —
+    each card/popup shows its own game version instead.
+
+!!! note "Archive is grouped by collection too"
+    `changelog/archive.md` mirrors the same pattern — each collection has
+    its own collapsible section holding only its own past releases (newest
+    first), instead of one long flat grid mixing every collection together.
+    A collection's archive section is created automatically the first time
+    one of its releases gets archived.
 
 ---
 
@@ -134,44 +145,65 @@ markdown="1" div sits.
 
 ## Where new entries go
 
-**`changelog/index.md`** — all current cards live inside one shared grid,
-and each collection's card is individually wrapped in its own marker pair
-keyed by slug:
+**`changelog/index.md`** — each tracked collection has its own collapsible
+section (`<details class="pt-changelog-collection" open>`), and inside that
+section its one "current" card is wrapped in a marker pair keyed by slug:
 
 ```html
 <!-- CHANGELOG:CURRENT:START -->
+
+<details class="pt-changelog-collection" open markdown="1" data-collection-slug="{{ collection_slug }}">
+<summary>{{ collection display name }}</summary>
 <div class="pt-changelog-cards" markdown="1">
 
 <!-- CHANGELOG:CURRENT:ENTRY:{{ collection_slug }}:START -->
   ...card + dialog for this one collection...
 <!-- CHANGELOG:CURRENT:ENTRY:{{ collection_slug }}:END -->
 
-  ...one more per other tracked collection...
-
 </div>
+</details>
+
+  ...one more <details> section per other tracked collection...
+
 <!-- CHANGELOG:CURRENT:END -->
 ```
 
 `apply-changelog.js` only ever replaces the one `ENTRY:{{ collection_slug }}`
-block matching the incoming payload — every other collection's entry (and
-its markers) is left byte-for-byte untouched. If no entry exists yet for
-that slug, a new one is inserted at the top of the grid instead.
+block matching the incoming payload — every other collection's `<details>`
+section (and its entry) is left byte-for-byte untouched. If no entry exists
+yet for that slug, a whole new `<details>` section is built and inserted at
+the top of the list instead. The display name comes from the
+`COLLECTION_NAMES` map at the top of `apply-changelog.js` (falls back to the
+raw slug if a collection isn't listed there).
 
-**`changelog/archive.md`** — every past entry from every collection lives
-inside one shared grid (no per-collection separation needed here — it's
-just history), and new entries are inserted right after a marker comment
-(which stays put for next time):
+**`changelog/archive.md`** — mirrors the same pattern: each collection gets
+its own `<details class="pt-changelog-collection">` holding only that
+collection's past releases, newest first, inserted right after its own
+marker comment (which stays put for next time):
 
 ```html
+<!-- CHANGELOG:ENTRIES:START -->
+
+<details class="pt-changelog-collection" open markdown="1" data-collection-slug="{{ collection_slug }}">
+<summary>{{ collection display name }}</summary>
 <div class="pt-changelog-cards" markdown="1">
 
-<!-- CHANGELOG:PREPEND_HERE -->
-  ...new entry gets inserted right here, pushing older ones down...
-  ...card + dialog...
-  ...card + dialog...
+<!-- CHANGELOG:ARCHIVE:{{ collection_slug }}:PREPEND_HERE -->
+  ...new entry for this collection gets inserted right here...
+  ...older entries for this same collection...
 
 </div>
+</details>
+
+  ...one more <details> section per other collection with archived history...
+
+<!-- CHANGELOG:ENTRIES:END -->
 ```
+
+The first time a collection's release ever gets archived, its `<details>`
+section (with its own `PREPEND_HERE` marker) is created and added to the
+top of the list — after that, every later archive for that same collection
+just prepends inside its existing section.
 
 <div class="pt-flavor">
 "A template is just a promise the future will look like the past, formatted correctly." — Bot integration notes

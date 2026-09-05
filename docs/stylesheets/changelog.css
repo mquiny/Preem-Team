@@ -20,13 +20,13 @@
 
 .pt-changelog-card {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.9em;
+  flex-direction: column;
+  align-items: stretch;
   width: 100%;
   border: 1px solid rgba(0, 246, 255, 0.25);
-  border-radius: 0.4rem;
-  padding: 0.9em 1.1em;
+  border-radius: 0.5rem;
+  padding: 0;
+  overflow: hidden;
   background: rgba(10, 10, 18, 0.4);
   color: inherit;
   font: inherit;
@@ -43,11 +43,12 @@
 
 .pt-changelog-card-thumb {
   flex: none;
-  width: 3.2rem;
-  height: 3.2rem;
-  border-radius: 0.3rem;
+  width: 100%;
+  height: 9rem;
+  border-radius: 0;
   object-fit: cover;
-  border: 1px solid rgba(0, 246, 255, 0.35);
+  border: none;
+  border-bottom: 1px solid rgba(0, 246, 255, 0.35);
 }
 
 .pt-changelog-card-body {
@@ -56,6 +57,7 @@
   align-items: flex-start;
   gap: 0.5em;
   min-width: 0;
+  padding: 0.9em 1.1em;
 }
 
 .pt-changelog-card-version {
@@ -135,4 +137,39 @@
 .pt-changelog-modal-inner h3.pt-changelog-h-removed {
   color: #ff4d4d;
   text-shadow: none;
+}
+
+/* ---- per-collection collapsible group (index.md + archive.md) ----
+   Same accordion look as the install steps ([data-pt-steps] / .pt-step in
+   steps.css) so the whole site's collapsible sections feel consistent. */
+.pt-changelog-collection {
+  border: 1px solid rgba(0, 246, 255, 0.25);
+  border-left: 3px solid rgba(0, 246, 255, 0.4);
+  border-radius: 0.4rem;
+  margin: 0.8em 0;
+  transition: border-color 0.2s ease;
+}
+
+.pt-changelog-collection > summary {
+  list-style: revert;
+  cursor: pointer;
+  padding: 0.75em 1em;
+  font-family: var(--md-code-font);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--pt-neon-cyan);
+}
+
+.pt-changelog-collection > summary::marker,
+.pt-changelog-collection > summary::-webkit-details-marker {
+  color: var(--pt-neon-pink);
+}
+
+.pt-changelog-collection[open] {
+  border-left-color: var(--pt-neon-cyan);
+}
+
+.pt-changelog-collection > .pt-changelog-cards {
+  margin: 0;
+  padding: 0 1em 1em 1em;
 }

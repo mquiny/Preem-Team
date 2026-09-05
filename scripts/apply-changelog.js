@@ -5,9 +5,13 @@
 // docs/changelog/template.md.
 //
 // Multiple collections are tracked independently: each has its own
-// card+popup on index.md, keyed by collection_slug. Posting an update for
-// one collection only replaces THAT collection's card (archiving its old
-// one) — every other collection's card is untouched.
+// collapsible section (a <details class="pt-changelog-collection">) on
+// both index.md and archive.md, keyed by collection_slug. Posting an
+// update for one collection only ever touches that collection's own
+// section — every other collection's section is left untouched. On
+// index.md, that section holds exactly one "current" card+popup, expanded
+// by default. On archive.md, it holds every past release for that
+// collection, newest first.
 //
 // Invoked by .github/workflows/changelog-dispatch.yml with the payload
 // JSON in the CHANGELOG_PAYLOAD env var.
@@ -24,7 +28,8 @@ const ARCHIVE_PATH = path.join(__dirname, "..", "docs", "changelog", "archive.md
 
 const CURRENT_GRID_START = "<!-- CHANGELOG:CURRENT:START -->";
 const CURRENT_GRID_END = "<!-- CHANGELOG:CURRENT:END -->";
-const ARCHIVE_PREPEND_MARKER = "<!-- CHANGELOG:PREPEND_HERE -->";
+const ARCHIVE_GRID_START = "<!-- CHANGELOG:ENTRIES:START -->";
+const ARCHIVE_GRID_END = "<!-- CHANGELOG:ENTRIES:END -->";
 
 // Collection slug -> thumbnail filename in docs/changelog/assets/. Add a
 // line here (and drop the image in that folder) whenever a new collection
@@ -36,6 +41,20 @@ const COLLECTION_IMAGES = {
   jzmqt4: "e33.webp",
   rcuccp: "ncr_core.webp"
 };
+
+// Collection slug -> display name used as the <summary> label on its
+// collapsible section. A slug with no entry here just falls back to the
+// raw slug — nothing breaks, it's purely cosmetic.
+const COLLECTION_NAMES = {
+  usushu: "CPE Collection",
+  "9htmlb": "Subnautica 2 Reborn",
+  jzmqt4: "Expedition 33",
+  rcuccp: "NCR Core"
+};
+
+function collectionLabel(slug) {
+  return COLLECTION_NAMES[slug] || slug;
+}
 
 function readPayload() {
   const raw = process.env.CHANGELOG_PAYLOAD;
@@ -58,6 +77,10 @@ function entryMarkers(slug) {
     start: `<!-- CHANGELOG:CURRENT:ENTRY:${slug}:START -->`,
     end: `<!-- CHANGELOG:CURRENT:ENTRY:${slug}:END -->`
   };
+}
+
+function archivePrependMarker(slug) {
+  return `<!-- CHANGELOG:ARCHIVE:${slug}:PREPEND_HERE -->`;
 }
 
 function buildChipsHtml(payload) {
@@ -126,6 +149,25 @@ function buildCardAndDialog(payload, dialogId) {
   return `${card}\n\n${dialog}`;
 }
 
+// Wraps a collection's card grid in its own collapsible <details> section,
+// labelled via COLLECTION_NAMES. `open` on index.md so the current release
+// is visible by default; also `open` on archive.md so browsing history
+// doesn't require an extra click per collection — either can still be
+// collapsed by the visitor. `innerHtml` is whatever markers/entries go
+// inside the grid div.
+function buildCollectionSection(slug, innerHtml) {
+  return [
+    `<details class="pt-changelog-collection" open markdown="1" data-collection-slug="${slug}">`,
+    `<summary>${collectionLabel(slug)}</summary>`,
+    `<div class="pt-changelog-cards" markdown="1">`,
+    ``,
+    innerHtml,
+    ``,
+    `</div>`,
+    `</details>`
+  ].join("\n");
+}
+
 // Finds `<!-- MARKER:START -->...<!-- MARKER:END -->` (inclusive) inside
 // `content`, returning null if not present.
 function findMarkedBlock(content, start, end) {
@@ -165,8 +207,10 @@ function main() {
   let archivedEntryForThisSlug = null;
 
   if (existingEntry) {
-    // This collection already has a card — pull its old one out to archive,
-    // then swap in the fresh one in the exact same spot.
+    // This collection already has a card (and therefore already has its own
+    // collapsible section) — pull its old card out to archive, then swap in
+    // the fresh one in the exact same spot. The surrounding <details> for
+    // this collection is untouched.
     const versionMatch = existingEntry.block.match(/<span class="pt-changelog-card-version">([^<]+)<\/span>/);
     const oldVersion = versionMatch ? versionMatch[1] : "entry";
     // Guard against two archived entries ending up with the same id (e.g.
@@ -191,32 +235,50 @@ function main() {
       newEntryBlock +
       indexContent.slice(existingEntry.endIdx);
   } else {
-    // First time this collection has posted — add its card to the grid,
-    // right after the opening <div>, without archiving anything.
-    const divOpenMarker = '<div class="pt-changelog-cards" markdown="1">';
-    const divOpenIdx = indexContent.indexOf(divOpenMarker, grid.startIdx);
-    if (divOpenIdx === -1) {
-      throw new Error('Could not find the .pt-changelog-cards opening <div> inside the CURRENT grid');
-    }
-    const insertAt = divOpenIdx + divOpenMarker.length;
+    // First time this collection has posted — it has no section yet, so
+    // build a whole new collapsible section (card grid + this one entry)
+    // and add it to the top of the CURRENT list. Nothing to archive yet.
+    const collectionSection = buildCollectionSection(slug, newEntryBlock);
+    const insertAt = grid.startIdx + CURRENT_GRID_START.length;
     indexContent =
       indexContent.slice(0, insertAt) +
-      `\n\n${newEntryBlock}` +
+      `\n\n${collectionSection}` +
       indexContent.slice(insertAt);
   }
 
   fs.writeFileSync(INDEX_PATH, indexContent, "utf8");
 
   if (archivedEntryForThisSlug) {
-    const prependIdx = archiveContent.indexOf(ARCHIVE_PREPEND_MARKER);
-    if (prependIdx === -1) {
-      throw new Error("Could not find CHANGELOG:PREPEND_HERE marker in changelog/archive.md");
+    const archiveGrid = findMarkedBlock(archiveContent, ARCHIVE_GRID_START, ARCHIVE_GRID_END);
+    if (!archiveGrid) {
+      throw new Error("Could not find CHANGELOG:ENTRIES markers in changelog/archive.md");
     }
-    const insertAt = prependIdx + ARCHIVE_PREPEND_MARKER.length;
-    archiveContent =
-      archiveContent.slice(0, insertAt) +
-      `\n\n${archivedEntryForThisSlug}` +
-      archiveContent.slice(insertAt);
+
+    const prependMarker = archivePrependMarker(slug);
+    const prependIdx = archiveContent.indexOf(prependMarker);
+
+    if (prependIdx !== -1) {
+      // This collection already has its own archive section — prepend the
+      // newly-retired entry right after its marker, pushing its older
+      // entries down. Every other collection's section is untouched.
+      const insertAt = prependIdx + prependMarker.length;
+      archiveContent =
+        archiveContent.slice(0, insertAt) +
+        `\n\n${archivedEntryForThisSlug}` +
+        archiveContent.slice(insertAt);
+    } else {
+      // First-ever archived entry for this collection — build its
+      // collapsible section (with its own prepend marker for next time)
+      // and add it to the top of the archive list.
+      const sectionInner = `${prependMarker}\n\n${archivedEntryForThisSlug}`;
+      const collectionSection = buildCollectionSection(slug, sectionInner);
+      const insertAt = archiveGrid.startIdx + ARCHIVE_GRID_START.length;
+      archiveContent =
+        archiveContent.slice(0, insertAt) +
+        `\n\n${collectionSection}` +
+        archiveContent.slice(insertAt);
+    }
+
     fs.writeFileSync(ARCHIVE_PATH, archiveContent, "utf8");
   }
 

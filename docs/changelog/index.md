@@ -28,6 +28,9 @@ stay exactly as they are. Older revisions roll off into the
 ---
 
 <!-- CHANGELOG:CURRENT:START -->
+
+<details class="pt-changelog-collection" open markdown="1" data-collection-slug="9htmlb">
+<summary>Subnautica 2 Reborn</summary>
 <div class="pt-changelog-cards" markdown="1">
 
 <!-- CHANGELOG:CURRENT:ENTRY:9htmlb:START -->
@@ -66,6 +69,13 @@ stay exactly as they are. Older revisions roll off into the
 </div>
 </dialog>
 <!-- CHANGELOG:CURRENT:ENTRY:9htmlb:END -->
+
+</div>
+</details>
+
+<details class="pt-changelog-collection" open markdown="1" data-collection-slug="rcuccp">
+<summary>NCR Core</summary>
+<div class="pt-changelog-cards" markdown="1">
 
 <!-- CHANGELOG:CURRENT:ENTRY:rcuccp:START -->
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-rcuccp">
@@ -156,6 +166,13 @@ stay exactly as they are. Older revisions roll off into the
 </dialog>
 <!-- CHANGELOG:CURRENT:ENTRY:rcuccp:END -->
 
+</div>
+</details>
+
+<details class="pt-changelog-collection" open markdown="1" data-collection-slug="jzmqt4">
+<summary>Expedition 33</summary>
+<div class="pt-changelog-cards" markdown="1">
+
 <!-- CHANGELOG:CURRENT:ENTRY:jzmqt4:START -->
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-jzmqt4">
 <img class="pt-changelog-card-thumb" src="assets/e33.webp" alt="">
@@ -232,6 +249,8 @@ stay exactly as they are. Older revisions roll off into the
 <!-- CHANGELOG:CURRENT:ENTRY:jzmqt4:END -->
 
 </div>
+</details>
+
 <!-- CHANGELOG:CURRENT:END -->
 
 ---
