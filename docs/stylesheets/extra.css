@@ -82,9 +82,10 @@
   display: inline-block;
   font-size: 0.7rem;
   font-weight: 700;
+  line-height: 1.6;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 0.15em 0.6em;
+  padding: 0.2em 0.6em;
   border-radius: 999px;
   margin-right: 0.3em;
 }
