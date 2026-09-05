@@ -1,0 +1,74 @@
+site_name: Preem Team Help Hub
+site_url: https://ncreborn.github.io/Preem-Team/
+site_description: Documentation hub for the Preem Team Cyberpunk 2077 mod collection.
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - search.suggest
+  palette:
+    scheme: slate
+    primary: yellow
+    accent: amber
+
+nav:
+  - Home: index.md
+
+  - Installation:
+      - Overview: Installation/index.md
+      - Full Installation Guide: Installation/full-installation.md
+      - Updating the Collection: Installation/update-guide.md
+      - Optional Add-Ons: Installation/optional-addons.md
+      - Common Mistakes: Installation/common-mistakes.md
+
+  - Guides:
+      - Overview: Guides/index.md
+      - CET & Tools: Guides/cet-tools.md
+      - Performance Tips: Guides/performance-tips.md
+      - Recommended Settings: Guides/recommended-settings.md
+      - Collection Overview: Guides/collection-overview.md
+
+  - FAQ:
+      - General FAQ: FAQ/general.md
+      - Compatibility FAQ: FAQ/compatibility.md
+      - Troubleshooting FAQ: FAQ/troubleshooting.md
+
+  - Troubleshooting:
+      - Overview: Troubleshooting/index.md
+      - Startup Issues: Troubleshooting/startup.md
+      - Mod Conflicts: Troubleshooting/mod-conflicts.md
+      - Crashes & Stability: Troubleshooting/crashes.md
+      - Reporting Problems: Troubleshooting/reporting.md
+
+  - Showcase:
+      - SnapSmith Gallery: Showcase/gallery.md
+
+  - Contributing:
+      - How to Contribute: Contributing/how-to-contribute.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.emoji
+  - pymdownx.tasklist
+
+plugins:
+  - search
