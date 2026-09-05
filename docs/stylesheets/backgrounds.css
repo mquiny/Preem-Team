@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Preem Team — per-tab background art
+   Each top-level nav tab gets its own backdrop image (docs/assets/backgroundN.png),
+   applied to <body> via a class set by javascripts/backgrounds.js.
+
+   Only 2 images exist so far (background1.png, background2.png). Rules for
+   background3.png..background9.png are defined ahead of time — once those
+   files are added to docs/assets/, their tabs pick up art automatically,
+   no code changes needed.
+   ========================================================================== */
+
+body {
+  position: relative;
+}
+
+/* Fixed, full-viewport backdrop layer, dimmed with a scrim so it never
+   fights with foreground text. Sits behind everything (z-index: -1). */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(180deg, rgba(10, 10, 18, 0.78), rgba(10, 10, 18, 0.78)),
+    var(--pt-bg-image, none);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 0.25s ease;
+}
+
+/* Lighter scrim so the art doesn't muddy the light "chrome-and-glass" scheme */
+[data-md-color-scheme="default"] body::before {
+  background-image:
+    linear-gradient(180deg, rgba(245, 245, 250, 0.85), rgba(245, 245, 250, 0.85)),
+    var(--pt-bg-image, none);
+}
+
+body.pt-bg-home            { --pt-bg-image: url("../assets/background1.png"); }
+body.pt-bg-installation    { --pt-bg-image: url("../assets/background2.png"); }
+body.pt-bg-guides          { --pt-bg-image: url("../assets/background3.png"); }
+body.pt-bg-changelog       { --pt-bg-image: url("../assets/background4.png"); }
+body.pt-bg-faq             { --pt-bg-image: url("../assets/background5.png"); }
+body.pt-bg-showcase        { --pt-bg-image: url("../assets/background6.png"); }
+body.pt-bg-troubleshooting { --pt-bg-image: url("../assets/background7.png"); }
+body.pt-bg-team            { --pt-bg-image: url("../assets/background8.png"); }
+body.pt-bg-systems         { --pt-bg-image: url("../assets/background9.png"); }
+
+/* Let the art show through the header & tabs bar; main content column stays
+   fully opaque so reading is never affected. */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: rgba(10, 10, 18, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-md-color-scheme="default"] .md-header,
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
