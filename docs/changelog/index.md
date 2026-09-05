@@ -24,8 +24,8 @@ entries roll off into the [Archive](archive.md).
 
 ## Supported Game Version
 
-**Cyberpunk 2077:** `Early Access 1.2`
-**Collection Build:** `Subnautica 2 Reborn-8`
+**Cyberpunk 2077:** `1.0`
+**Collection Build:** `Expedition 33-2`
 **Last Updated:** `2026-09-05`
 
 !!! tip "Always check this first"
@@ -38,9 +38,9 @@ entries roll off into the [Archive](archive.md).
 <div class="pt-changelog-entry" markdown="1">
 
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current">
-<span class="pt-changelog-card-version">Subnautica 2 Reborn-8</span>
+<span class="pt-changelog-card-version">Expedition 33-2</span>
 <span class="pt-changelog-card-date">2026-09-05</span>
-<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span></span>
 </button>
 
 <dialog class="pt-changelog-modal" id="changelog-current" markdown="1">
@@ -48,23 +48,22 @@ entries roll off into the [Archive](archive.md).
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
 
-## Subnautica 2 Reborn-8
+## Expedition 33-2
 
-<span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--added">Added</span>
 
-`2026-09-05` · Posted by **Choomba** · Synced from `#Sub2`
+`2026-09-05` · Posted by **Choomba** · Synced from `#E33`
 
-### Updated
+### Added {: .pt-changelog-h-added }
 
-- [Capacity and QuickBar Tweaks](https://www.nexusmods.com/subnautica2/mods/252) (v1.4.0 → v1.4.3)
-- [Limitless Building](https://www.nexusmods.com/subnautica2/mods/331) (v1 → v2)
-- [Mod Settings for Subnautica 2 - DELETED](https://www.nexusmods.com/subnautica2/mods/20) (v1.1.2 → v1.3.1)
-- [Processor Rush PAK And UE4SS Version](https://www.nexusmods.com/subnautica2/mods/101) (v1.0.1 → v1.0.2)
-- [Quick Stack to Nearby Containers](https://www.nexusmods.com/subnautica2/mods/128) (v3.3.3 → v5.0.0)
-- [Resource Multiplier](https://www.nexusmods.com/subnautica2/mods/132) (v1.0.3 → v1.0.4)
-- [Sleep Through the Night](https://www.nexusmods.com/subnautica2/mods/207) (v1.0.2 → v1.0.3)
-- [SNwaypoint](https://www.nexusmods.com/subnautica2/mods/294) (v0.4-beta → v0.5-beta)
-- [UE4SS - Subnautica 2](https://www.nexusmods.com/subnautica2/mods/36) (v3.0.1 → vd7e7826d)
+- [Fantasy Expedition](https://www.nexusmods.com/clairobscurexpedition33/mods/666) (v1.0)
+- [ForetellVisualBugFixMod](https://www.nexusmods.com/clairobscurexpedition33/mods/645) (v0.1.1)
+- [Gestral Dance Menu](https://www.nexusmods.com/clairobscurexpedition33/mods/652) (v1.0)
+- [HUD Tweaks - Disable battle pictos effects popups](https://www.nexusmods.com/clairobscurexpedition33/mods/557) (v0.1)
+- [Piano At Camp](https://www.nexusmods.com/clairobscurexpedition33/mods/668) (v1.0)
+- [Random Menu Music](https://www.nexusmods.com/clairobscurexpedition33/mods/647) (v1.0)
+- [Sphere Paint Lumina Farm](https://www.nexusmods.com/clairobscurexpedition33/mods/658) (v1.0)
+- [Weapon Collection Abysseram](https://www.nexusmods.com/clairobscurexpedition33/mods/644) (v1.0)
 
 </div>
 </dialog>
