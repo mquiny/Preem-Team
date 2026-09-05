@@ -70,6 +70,7 @@ extra_css:
   - stylesheets/steps.css
   - stylesheets/features.css
   - stylesheets/changelog.css
+  - stylesheets/showcase.css
 
 nav:
   - Home: index.md

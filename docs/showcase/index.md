@@ -9,20 +9,35 @@ description: Community screenshots from the Preem Team collection.
 > `> SOURCE: #showcase (DISCORD)`
 
 Screenshots from the Preem Team community, running the collection in the
-wild. Everything below is a placeholder — once the Discord integration goes
-live, this gallery will pull images directly from the **#showcase** channel
-automatically.
+wild. A post in **#showcase** gets featured here automatically once it
+either picks up reactions from **10 different people**, or catches a staff
+member's eye for an instant ⭐ feature.
 
-!!! info "How this will work"
-    A future update will connect this page to the Preem Team Discord bot.
-    Images posted to **#showcase** with a reaction threshold (or a staff
-    pin) will be automatically synced here via `glightbox`-compatible image
-    embeds, along with the poster's username and an optional caption pulled
-    from their message.
+!!! info "How this works"
+    The Discord bot watches **#showcase**. A post gets synced to this page
+    the moment either:
 
-## Gallery
+    - **10 different people** react to it — any emoji, any mix, just 10
+      unique reactors, or
+    - **A staff member** reacts with ⭐ — an instant staff pick, no
+      reaction count needed.
 
-<div class="grid cards" markdown>
+    Each calendar month's featured submissions live in their own
+    collapsible section below, newest month first. Nothing on this page
+    should be hand-edited except by the bot — see
+    [`scripts/apply-showcase.js`](https://github.com/mquiny/Preem-Team/blob/main/scripts/apply-showcase.js)
+    for exactly how that works.
+
+<!-- SHOWCASE:START -->
+
+<details class="pt-showcase-month" markdown="1" data-month="preview">
+<summary>Example Layout (Preview)</summary>
+
+Everything in this section is placeholder data showing how a real month
+looks once submissions start coming in — staff can delete this section
+once real entries exist.
+
+<div class="grid cards" markdown="1">
 
 -   ![Placeholder screenshot of a neon-lit Night City street](https://placehold.co/640x400/0a0a12/00f6ff?text=Night+City+%2F%2F+Street+Level)
     **Street Level — Watson**
@@ -49,11 +64,14 @@ automatically.
     *Posted by `@example_user_6` in #showcase*
 
 </div>
+</details>
+
+<!-- SHOWCASE:END -->
 
 !!! tip "Want your shot featured?"
-    Post your best Preem Team screenshots in **#showcase** on Discord. Once
-    the automated sync is live, popular and staff-pinned posts will appear
-    here automatically — no manual submission needed.
+    Post your best Preem Team screenshots in **#showcase** on Discord — get
+    10 people to react, or catch a staff member's eye for an instant ⭐
+    feature.
 
 <div class="pt-flavor">
 "Every screenshot's a postcard from a city that never sleeps and never forgives." — Showcase curators

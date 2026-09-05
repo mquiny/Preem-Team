@@ -1,0 +1,32 @@
+name: Apply showcase submission from bot
+
+on:
+  repository_dispatch:
+    types: [showcase_submission]
+
+permissions:
+  contents: write
+
+jobs:
+  apply-showcase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Apply showcase payload
+        env:
+          SHOWCASE_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: node scripts/apply-showcase.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Preem Team Bot"
+          git config user.email "actions@github.com"
+          git add docs/showcase/index.md
+          if git diff --cached --quiet; then
+            echo "No showcase changes to commit (probably already featured)"
+            exit 0
+          fi
+          git commit -m "Showcase: feature submission ${{ github.event.client_payload.submission_id }}"
+          git push

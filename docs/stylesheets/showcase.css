@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Preem Team — showcase gallery, grouped by month
+   Each calendar month's featured submissions live in their own collapsible
+   <details> section (newest month first, newest submission within a month
+   first). See scripts/apply-showcase.js for how the bot integration
+   generates a new month's section / new entries automatically.
+   ========================================================================== */
+
+.pt-showcase-month {
+  border: 1px solid rgba(0, 246, 255, 0.25);
+  border-left: 3px solid rgba(0, 246, 255, 0.4);
+  border-radius: 0.4rem;
+  margin: 0.8em 0;
+  transition: border-color 0.2s ease;
+}
+
+.pt-showcase-month > summary {
+  list-style: revert;
+  cursor: pointer;
+  padding: 0.75em 1em;
+  font-family: var(--md-code-font);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--pt-neon-cyan);
+}
+
+.pt-showcase-month > summary::marker,
+.pt-showcase-month > summary::-webkit-details-marker {
+  color: var(--pt-neon-pink);
+}
+
+.pt-showcase-month[open] {
+  border-left-color: var(--pt-neon-cyan);
+}
+
+.pt-showcase-month > .grid.cards {
+  margin: 0;
+  padding: 0 1em 1em 1em;
+}
