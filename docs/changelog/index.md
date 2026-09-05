@@ -24,9 +24,9 @@ entries roll off into the [Archive](archive.md).
 
 ## Supported Game Version
 
-**Cyberpunk 2077:** `2.21`
-**Collection Build:** `v4.3.0`
-**Last Updated:** `2025-01-01`
+**Cyberpunk 2077:** `Early Access 1.2`
+**Collection Build:** `Subnautica 2 Reborn-8`
+**Last Updated:** `2026-09-05`
 
 !!! tip "Always check this first"
     Before downloading the collection in [Installation](../installation/index.md),
@@ -34,46 +34,23 @@ entries roll off into the [Archive](archive.md).
 
 ---
 
-## Latest Release — v4.3.0
+## Latest Release — Subnautica 2 Reborn-8
 
-<span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--changed">Changed</span>
-<span class="pt-chip pt-chip--fixed">Fixed</span>
-<span class="pt-chip pt-chip--removed">Removed</span>
 
-`2025-01-01` · Posted by **Preem Team Bot** · Synced from `#changelog-feed`
-
-### Added
-
-- Added `Cyberware Rebalance Suite` to the core gameplay bundle.
-- Added a new ReShade preset: `Night City — Chrome Noir`.
-- Added support for the `2.21` game patch across all bundled frameworks.
+`2026-09-05` · Posted by **Preem Team Bot** · Synced from `#Sub2`
 
 ### Changed
 
-- Updated `RED4ext` to the latest compatible build.
-- Adjusted default HUD scale in the UI bundle for 21:9 ultrawide displays.
-- Reordered load order for `TweakXL`-dependent gameplay mods to resolve
-  minor stat conflicts.
-
-### Fixed
-
-- Fixed a crash on boot when running the collection alongside certain
-  outdated ReShade installs.
-- Fixed missing textures on select cyberware models introduced in a prior
-  patch.
-- Fixed CET console failing to open for users with non-default keyboard
-  layouts.
-
-### Removed
-
-- Removed `Legacy Weather Overhaul` — superseded by the bundled weather
-  system in `2.21`.
-
-!!! warning "Breaking change"
-    If you're updating from `v4.2.x`, you must fully re-apply the collection
-    rather than patching in place — the load order changes in this release
-    are not backward compatible with the previous mod set.
+- [Capacity and QuickBar Tweaks](https://www.nexusmods.com/subnautica2/mods/252) (v1.4.0 → v1.4.3)
+- [Limitless Building](https://www.nexusmods.com/subnautica2/mods/331) (v1 → v2)
+- [Mod Settings for Subnautica 2 - DELETED](https://www.nexusmods.com/subnautica2/mods/20) (v1.1.2 → v1.3.1)
+- [Processor Rush PAK And UE4SS Version](https://www.nexusmods.com/subnautica2/mods/101) (v1.0.1 → v1.0.2)
+- [Quick Stack to Nearby Containers](https://www.nexusmods.com/subnautica2/mods/128) (v3.3.3 → v5.0.0)
+- [Resource Multiplier](https://www.nexusmods.com/subnautica2/mods/132) (v1.0.3 → v1.0.4)
+- [Sleep Through the Night](https://www.nexusmods.com/subnautica2/mods/207) (v1.0.2 → v1.0.3)
+- [SNwaypoint](https://www.nexusmods.com/subnautica2/mods/294) (v0.4-beta → v0.5-beta)
+- [UE4SS - Subnautica 2](https://www.nexusmods.com/subnautica2/mods/36) (v3.0.1 → vd7e7826d)
 
 ---
 
