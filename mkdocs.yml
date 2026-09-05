@@ -67,15 +67,20 @@ theme:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/backgrounds.css
+  - stylesheets/steps.css
+  - stylesheets/features.css
 
 nav:
   - Home: index.md
+  - Features: features/index.md
   - Installation:
       - installation/index.md
       - Installing the CPE Collections: installation/cpe_collection.md
   - Guides:
       - guides/index.md
-      - Example Guide — CET Setup: guides/example_guide.md
+      - Clean Install: guides/clean_install.md
+      - First Boot: guides/first_time_boot.md
+      - CET Setup: guides/cet_setup.md
   - Changelog:
       - changelog/index.md
       - Archive: changelog/archive.md
@@ -85,6 +90,7 @@ nav:
   - Troubleshooting:
       - troubleshooting/index.md
       - Common Problems: troubleshooting/common_problems.md
+      - How to Bisect: troubleshooting/how_to_bisect.md
       - Issue Viewer: troubleshooting/issue_viewer.md
   - Meet the Team: team/index.md
   - Systems:
@@ -158,3 +164,4 @@ extra:
 
 extra_javascript:
   - javascripts/backgrounds.js
+  - javascripts/steps.js

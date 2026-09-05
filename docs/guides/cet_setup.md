@@ -1,6 +1,6 @@
 ---
-title: Example Guide — CET Setup
-description: A worked example guide covering Cyber Engine Tweaks configuration.
+title: CET Setup
+description: Configuring Cyber Engine Tweaks and reading its console log.
 ---
 
 # CYBER ENGINE TWEAKS // CONFIGURATION DEEP-DIVE
@@ -8,10 +8,9 @@ description: A worked example guide covering Cyber Engine Tweaks configuration.
 > `> LOADING MODULE: cyber_engine_tweaks.dll`
 > `> STATUS: NOMINAL`
 
-This is an **example guide** demonstrating the structure and tone expected
-for anything added to the [Guides](index.md) section. It covers configuring
-**Cyber Engine Tweaks (CET)**, one of the core frameworks bundled in the
-Preem Team collection.
+A walkthrough for configuring **Cyber Engine Tweaks (CET)** — one of the core
+frameworks bundled in the Preem Team collection — and for reading its
+console log when something goes wrong.
 
 !!! info "Who this is for"
     Anyone running the Preem Team collection who wants to understand what
@@ -102,12 +101,6 @@ If something's crashing, the CET log is usually the first place to look.
     This almost always means a mod version mismatch. Check
     [Common Problems](../troubleshooting/common_problems.md#mod-fails-to-load-in-cet)
     for the fix.
-
-## Wrapping up
-
-That's the full shape of a Preem Team guide: a clear intro, numbered or
-checklisted steps, tabbed alternatives where relevant, and admonitions
-calling out anything risky. Use this file as your template for new guides.
 
 <div class="pt-flavor">
 "The console doesn't lie. It just doesn't always tell you the whole truth either." — CET maintainers
