@@ -1,0 +1,40 @@
+name: Sync GitHub Issues to site
+
+on:
+  issues:
+    types: [opened, closed, reopened, edited, labeled, unlabeled, deleted]
+  issue_comment:
+    types: [created, deleted]
+  schedule:
+    # Fallback in case a webhook event is ever missed — keeps the table
+    # from drifting stale for more than half an hour.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  sync-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync issues into issue_viewer.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync-issues.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Preem Team Bot"
+          git config user.email "actions@github.com"
+          git add docs/troubleshooting/issue_viewer.md
+          if git diff --cached --quiet; then
+            echo "No issue changes to commit"
+            exit 0
+          fi
+          git commit -m "Sync issue tracker"
+          git push

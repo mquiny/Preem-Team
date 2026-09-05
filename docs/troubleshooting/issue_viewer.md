@@ -6,26 +6,33 @@ description: Live view of open GitHub issues for the Preem Team collection.
 # ISSUE VIEWER // LIVE NETWATCH FEED
 
 > `> CONNECTING TO github.com/mquiny/Preem-Team...`
-> `> STREAM STATUS: PENDING BOT INTEGRATION`
+> `> STREAM STATUS: LIVE`
 
-This page is reserved for an **automated feed of open GitHub Issues**, kept
-in sync by the Preem Team bot. Once live, it will list currently open bugs
-with status, labels, and a direct link to each issue — so you can check
-whether your problem is already known before filing a duplicate.
+An automated feed of GitHub Issues for the Preem Team collection, kept in
+sync automatically. Check the table below before filing a duplicate — and
+if your problem isn't listed, use the button below to report it.
 
-!!! info "How this will work"
-    The Preem Team bot will periodically pull open issues from the
-    [GitHub repository](https://github.com/mquiny/Preem-Team/issues)
-    via the GitHub REST API and inject them into this page as a generated
-    table, replacing the placeholder block below. Each sync will update the
-    **Last synced** timestamp at the top of the table.
+<a href="https://github.com/mquiny/Preem-Team/issues/new/choose" class="md-button md-button--primary" target="_blank" rel="noopener">
+:material-github: Create an Issue
+</a>
+
+!!! info "How this works"
+    Reports are filed directly on [GitHub](https://github.com/mquiny/Preem-Team/issues)
+    — there's no Discord channel for this, so if someone in Discord has a
+    bug to report, point them here. A GitHub Action in this repo
+    ([`scripts/sync-issues.js`](https://github.com/mquiny/Preem-Team/blob/main/scripts/sync-issues.js))
+    re-fetches the issue list and rewrites the table below every time an
+    issue is opened, closed, reopened, edited, or commented on — plus every
+    30 minutes as a fallback. The **Last synced** timestamp confirms when
+    that last happened.
+
+<!--
+  scripts/sync-issues.js writes between the two markers below on every
+  sync. Do not hand-edit content between BOT-INJECT:ISSUE-TABLE:START and
+  BOT-INJECT:ISSUE-TABLE:END — it will be overwritten on the next sync.
+-->
 
 <!-- BOT-INJECT:ISSUE-TABLE:START -->
-<!--
-  The Preem Team bot writes its generated issue table between these two
-  markers. Do not manually edit content between BOT-INJECT:ISSUE-TABLE:START
-  and BOT-INJECT:ISSUE-TABLE:END — it will be overwritten on the next sync.
--->
 
 **Last synced:** `not yet connected`
 
@@ -37,11 +44,10 @@ whether your problem is already known before filing a duplicate.
 
 <!-- BOT-INJECT:ISSUE-TABLE:END -->
 
-!!! note "This table is a placeholder"
-    The rows above are illustrative examples only, showing the intended
-    format (status chip, linked title, labels, open date, comment count).
-    Once the bot integration ships, this table will reflect real, live data
-    from the repository.
+!!! note "This table is still showing placeholder rows"
+    The rows above are illustrative examples — they'll be replaced with
+    real, live issues the moment the [`sync-issues.yml`](https://github.com/mquiny/Preem-Team/blob/main/.github/workflows/sync-issues.yml)
+    workflow first runs.
 
 ## Filtering (planned)
 
@@ -52,9 +58,9 @@ noted here as a planned enhancement, not yet implemented.
 
 ## Don't see your issue?
 
-If a live search of this page (once synced) doesn't turn up your problem,
-head back to [Troubleshooting](index.md#still-stuck-file-an-issue) to file
-a new one.
+If a search of this page doesn't turn up your problem, use the
+**Create an Issue** button above to file a new one on GitHub — it'll show
+up here automatically once it's synced.
 
 <div class="pt-flavor">
 "The netwatch never sleeps. Neither, apparently, does the bug tracker." — Issue triage team

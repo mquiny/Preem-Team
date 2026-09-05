@@ -9,7 +9,7 @@ on:
   # avoid workflows recursively triggering each other) — so listen for that
   # workflow finishing instead, and rebuild if it did.
   workflow_run:
-    workflows: ["Apply changelog from bot", "Apply showcase submission from bot"]
+    workflows: ["Apply changelog from bot", "Apply showcase submission from bot", "Sync GitHub Issues to site"]
     types: [completed]
     branches: [main]
 
