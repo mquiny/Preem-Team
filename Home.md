@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NCReborn/content-images/refs/heads/main/CT2-LOGO-BW-photomode_31052025_114439.png" alt="Preem Team Logo" width="600">
+  <img src="https://raw.githubusercontent.com/NCReborn/content-images/refs/heads/main/CT2-LOGO-BW-photomode_31052025_114439.png" style="max-width: 300px;">
 </p>
 
 <h1 align="center">Preem Team – Help & Support Hub</h1>
