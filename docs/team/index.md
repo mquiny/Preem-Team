@@ -12,76 +12,65 @@ The Preem Team collection is built and maintained by a small crew of
 volunteers who test mods, write documentation, and keep the Discord running.
 Here's who's behind the curtain.
 
+## Preem Devs
+
 <div class="grid cards" markdown>
 
--   :material-account-tie:{ .lg .middle } **Rook**
+-   :material-account-tie:{ .lg .middle } **mquiny**
 
     ---
 
-    **Role:** Collection Lead
+    **Role:** *(add role)*
 
-    Oversees the overall mod list, load order, and release cadence. Final
-    call on what goes into (and comes out of) the collection.
+    *(add a short description here.)*
 
-    *"If it doesn't survive a full playthrough, it doesn't ship."*
+    *"(add a quote here.)"*
 
--   :material-console-network:{ .lg .middle } **Vex**
-
-    ---
-
-    **Role:** Framework & Tooling
-
-    Maintains the core framework stack (CET, RED4ext, ArchiveXL, TweakXL)
-    and handles compatibility work whenever a new game patch drops.
-
-    *"Somebody has to read the changelogs CD Projekt Red doesn't write."*
-
--   :material-palette-swatch:{ .lg .middle } **Chrome**
+-   :material-account-tie:{ .lg .middle } **excel**
 
     ---
 
-    **Role:** Visual & Immersion
+    **Role:** *(add role)*
 
-    Curates the ReShade presets, weather mods, and UI tweaks that give the
-    collection its signature look.
+    *(add a short description here.)*
 
-    *"Night City should look like it's lying to you. Beautifully."*
+    *"(add a quote here.)"*
 
--   :material-book-edit:{ .lg .middle } **Nomad**
-
-    ---
-
-    **Role:** Documentation
-
-    Writes and maintains this site — guides, changelog formatting, and the
-    FAQ. Keeps the docs honest and up to date with every release.
-
-    *"If it's not written down, it didn't happen."*
-
--   :material-forum:{ .lg .middle } **Ghost**
+-   :material-account-tie:{ .lg .middle } **cara**
 
     ---
 
-    **Role:** Community & Support
+    **Role:** *(add role)*
 
-    Runs day-to-day Discord support, triages bug reports, and keeps
-    [Troubleshooting](../troubleshooting/index.md) current with real
-    issues from the community.
+    *(add a short description here.)*
 
-    *"Ask twice before you panic once."*
+    *"(add a quote here.)"*
 
--   :material-account-plus:{ .lg .middle } **Helper Team**
+</div>
+
+## Community Support
+
+<div class="grid cards" markdown>
+
+-   :material-account-plus:{ .lg .middle } **Open Position**
 
     ---
 
-    **Role:** Rotating Volunteers
+    **Role:** Community Support
 
-    A rotating group of trusted community members with permission to
-    contribute Guides, FAQ entries, and Troubleshooting fixes. See
-    [Discord Auth (Concept)](../systems/discord_auth.md) for how this role
-    is defined.
+    *(add a short description here.)*
 
-    *"Everyone starts as a Member. Some stick around."*
+    *"(add a quote here.)"*
+
+-   :material-account-plus:{ .lg .middle } **Open Position**
+
+    ---
+
+    **Role:** Community Support
+
+    *(add a short description here.)*
+
+    *"(add a quote here.)"*
 
 </div>
 
