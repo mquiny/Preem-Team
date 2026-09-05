@@ -24,7 +24,7 @@ entries roll off into the [Archive](archive.md).
 
 ## Supported Game Version
 
-**Cyberpunk 2077:** `1.0`
+**Cyberpunk 2077:** `2.31a`
 **Collection Build:** `NCR Core-187`
 **Last Updated:** `2026-09-05`
 
