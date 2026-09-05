@@ -1,0 +1,43 @@
+/* Preem Team Help Hub - Background & Logo Styling */
+
+/* ---------------------------------------------------------
+   FULL-WIDTH BACKGROUND IMAGE
+--------------------------------------------------------- */
+.md-main__inner {
+    position: relative;
+    z-index: 0;
+}
+
+.md-main__inner::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("https://raw.githubusercontent.com/NCReborn/content-images/refs/heads/main/CT2-LOGO-BW-photomode_31052025_114439.png");
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-attachment: fixed;
+    filter: brightness(0.10) blur(4px);
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* ---------------------------------------------------------
+   LOGO SIZING
+--------------------------------------------------------- */
+.md-header__button.md-logo img {
+    height: 56px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Show site title next to logo */
+.md-header__title {
+    display: block !important;
+}
+
+/* Spacing between logo and title */
+.md-header__button.md-logo {
+    margin-right: 0.5rem;
+}

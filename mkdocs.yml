@@ -1,74 +1,160 @@
-site_name: Preem Team Help Hub
-site_url: https://ncreborn.github.io/Preem-Team/
-site_description: Documentation hub for the Preem Team Cyberpunk 2077 mod collection.
+site_name: Preem Team Cyberpunk Collection
+site_description: >-
+  Preem Team — a curated, staff-maintained Cyberpunk 2077 mod collection.
+  Docs, guides, changelog, and support hub.
+site_author: Preem Team Crew
+site_url: https://mquiny.github.io/Preem-Team/
+
+repo_url: https://github.com/mquiny/Preem-Team
+repo_name: mquiny/Preem-Team
+edit_uri: edit/main/docs/
+
+copyright: >-
+  Preem Team is a fan-made mod collection. Not affiliated with CD PROJEKT RED.
+  Cyberpunk 2077 and all related trademarks are property of their respective owners.
 
 theme:
   name: material
+  language: en
   logo: assets/logo.png
-  favicon: assets/favicon.png
-  features:
-    - navigation.expand
-    - navigation.sections
-    - navigation.tabs
-    - navigation.top
-    - content.code.copy
-    - content.tabs.link
-    - search.highlight
-    - search.suggest
+  favicon: assets/logo.png
+  icon:
+    logo: material/chip
+    repo: fontawesome/brands/github
+    admonition:
+      note: material/chip
+      tip: material/lightning-bolt
+      warning: material/alert-decagram
+      danger: material/skull-crossbones
+      example: material/console-network
+  font:
+    text: Rajdhani
+    code: JetBrains Mono
   palette:
-    scheme: slate
-    primary: yellow
-    accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to night-city mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to chrome-and-glass mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/backgrounds.css
 
 nav:
   - Home: index.md
-
   - Installation:
-      - Overview: Installation/index.md
-      - Full Installation Guide: Installation/full-installation.md
-      - Updating the Collection: Installation/update-guide.md
-      - Optional Add-Ons: Installation/optional-addons.md
-      - Common Mistakes: Installation/common-mistakes.md
-
+      - installation/index.md
+      - Installing the CPE Collections: installation/cpe_collection.md
   - Guides:
-      - Overview: Guides/index.md
-      - CET & Tools: Guides/cet-tools.md
-      - Performance Tips: Guides/performance-tips.md
-      - Recommended Settings: Guides/recommended-settings.md
-      - Collection Overview: Guides/collection-overview.md
-
-  - FAQ:
-      - General FAQ: FAQ/general.md
-      - Compatibility FAQ: FAQ/compatibility.md
-      - Troubleshooting FAQ: FAQ/troubleshooting.md
-
+      - guides/index.md
+      - Example Guide — CET Setup: guides/example_guide.md
+  - Changelog:
+      - changelog/index.md
+      - Archive: changelog/archive.md
+      - Bot Template: changelog/template.md
+  - FAQ: faq/index.md
+  - Showcase: showcase/index.md
   - Troubleshooting:
-      - Overview: Troubleshooting/index.md
-      - Startup Issues: Troubleshooting/startup.md
-      - Mod Conflicts: Troubleshooting/mod-conflicts.md
-      - Crashes & Stability: Troubleshooting/crashes.md
-      - Reporting Problems: Troubleshooting/reporting.md
-
-  - Showcase:
-      - SnapSmith Gallery: Showcase/gallery.md
-
-  - Contributing:
-      - How to Contribute: Contributing/how-to-contribute.md
-
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-  - codehilite
-  - footnotes
-  - meta
-  - def_list
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.tabbed
-  - pymdownx.highlight
-  - pymdownx.emoji
-  - pymdownx.tasklist
+      - troubleshooting/index.md
+      - Common Problems: troubleshooting/common_problems.md
+      - Issue Viewer: troubleshooting/issue_viewer.md
+  - Meet the Team: team/index.md
+  - Systems:
+      - Discord Auth (Concept): systems/discord_auth.md
 
 plugins:
-  - search
+  - search:
+      lang: en
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: fade
+      slide_effect: slide
+      width: 90%
+      height: auto
+      zoomable: true
+      draggable: true
+  - tags
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - admonition
+  - toc:
+      permalink: "#"
+      title: On this page
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: false
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/QvYzYZFmnE
+      name: Preem Team Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/mquiny/Preem-Team
+      name: Preem Team on GitHub
+  generator: false
+
+extra_javascript:
+  - javascripts/backgrounds.js
