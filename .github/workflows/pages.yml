@@ -4,6 +4,14 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # A push made with the changelog-dispatch workflow's own token doesn't
+  # trigger the `push` event above (GitHub suppresses that on purpose, to
+  # avoid workflows recursively triggering each other) — so listen for that
+  # workflow finishing instead, and rebuild if it did.
+  workflow_run:
+    workflows: ["Apply changelog from bot"]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -19,6 +27,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Only proceed for a workflow_run if the changelog job actually succeeded
+    # (workflow_run also fires on failure/cancellation) — push/workflow_dispatch
+    # have no workflow_run conclusion to check, so let those through as-is.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
