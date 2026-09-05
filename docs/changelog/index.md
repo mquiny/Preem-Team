@@ -9,41 +9,35 @@ description: Latest changes to the Preem Team collection.
 > `> AUTO-SYNC: ENABLED`
 > `> SOURCE: DISCORD BOT`
 
-This page tracks the current state of the Preem Team collection. Entries
-below are posted automatically by the Preem Team Discord bot whenever staff
-push a new revision — this page always reflects the **latest** entry. Older
-entries roll off into the [Archive](archive.md).
+This page tracks the current revision of every collection we track. Each
+collection's card below always reflects its own **latest** revision — an
+update to one collection only replaces that collection's card, the others
+stay exactly as they are. Older revisions roll off into the
+[Archive](archive.md) as soon as that specific collection updates again.
 
 !!! info "How this page updates"
     Entries are generated from [`template.md`](template.md), which the bot
-    fills in and posts here whenever a new collection version ships. Nothing
-    on this page should be hand-edited except by the bot or a staff member
-    performing a manual sync.
-
----
-
-## Supported Game Version
-
-**Cyberpunk 2077:** `1.0`
-**Collection Build:** `Expedition 33-2`
-**Last Updated:** `2026-09-05`
+    fills in and posts here whenever a tracked collection ships a new
+    revision. Nothing on this page should be hand-edited except by the bot
+    or a staff member performing a manual sync.
 
 !!! tip "Always check this first"
-    Before downloading the collection in [Installation](../installation/index.md),
-    confirm your game version matches the one listed above.
+    Before downloading a collection in [Installation](../installation/index.md),
+    confirm your game version matches the one shown on its card below.
 
 ---
 
 <!-- CHANGELOG:CURRENT:START -->
-<div class="pt-changelog-entry" markdown="1">
+<div class="pt-changelog-cards" markdown="1">
 
-<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current">
+<!-- CHANGELOG:CURRENT:ENTRY:jzmqt4:START -->
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-jzmqt4">
 <span class="pt-changelog-card-version">Expedition 33-2</span>
-<span class="pt-changelog-card-date">2026-09-05</span>
+<span class="pt-changelog-card-date">2026-09-05 · CP2077 1.0</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span></span>
 </button>
 
-<dialog class="pt-changelog-modal" id="changelog-current" markdown="1">
+<dialog class="pt-changelog-modal" id="changelog-current-jzmqt4" markdown="1">
 <div class="pt-changelog-modal-inner" markdown="1">
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
@@ -52,7 +46,7 @@ entries roll off into the [Archive](archive.md).
 
 <span class="pt-chip pt-chip--added">Added</span>
 
-`2026-09-05` · Posted by **Choomba** · Synced from `#E33`
+`2026-09-05` · Game Version `1.0` · Posted by **Choomba** · Synced from `#E33`
 
 ### Added {: .pt-changelog-h-added }
 
@@ -67,6 +61,7 @@ entries roll off into the [Archive](archive.md).
 
 </div>
 </dialog>
+<!-- CHANGELOG:CURRENT:ENTRY:jzmqt4:END -->
 
 </div>
 <!-- CHANGELOG:CURRENT:END -->

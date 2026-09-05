@@ -142,7 +142,7 @@ pushes a new release to the live page.
 </div>
 </dialog>
 
-<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-ncr-core-187">
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-ncr-core-187-2">
 <span class="pt-changelog-card-version">NCR Core-187</span>
 <span class="pt-changelog-card-date">2026-09-05</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
@@ -150,7 +150,7 @@ pushes a new release to the live page.
 <span class="pt-chip pt-chip--removed">Removed</span></span>
 </button>
 
-<dialog class="pt-changelog-modal" id="changelog-ncr-core-187" markdown="1">
+<dialog class="pt-changelog-modal" id="changelog-ncr-core-187-2" markdown="1">
 <div class="pt-changelog-modal-inner" markdown="1">
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
@@ -226,13 +226,13 @@ pushes a new release to the live page.
 </div>
 </dialog>
 
-<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-subnautica-2-reborn-8">
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-subnautica-2-reborn-8-2">
 <span class="pt-changelog-card-version">Subnautica 2 Reborn-8</span>
 <span class="pt-changelog-card-date">2026-09-05</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
 </button>
 
-<dialog class="pt-changelog-modal" id="changelog-subnautica-2-reborn-8" markdown="1">
+<dialog class="pt-changelog-modal" id="changelog-subnautica-2-reborn-8-2" markdown="1">
 <div class="pt-changelog-modal-inner" markdown="1">
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
