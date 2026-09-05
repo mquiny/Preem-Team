@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Preem Team — changelog release cards + popup modal
+   Each release (current or archived) is a small clickable card; clicking it
+   opens a native <dialog> "popup" with that release's full changes, instead
+   of navigating anywhere or scrolling a long page. See javascripts/changelog.js
+   for the open/close wiring, and scripts/apply-changelog.js for how the bot
+   integration generates this markup automatically.
+   ========================================================================== */
+
+.pt-changelog-entry,
+.pt-changelog-cards {
+  margin: 1.2em 0;
+}
+
+.pt-changelog-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.8rem;
+}
+
+.pt-changelog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+  width: 100%;
+  border: 1px solid rgba(0, 246, 255, 0.25);
+  border-radius: 0.4rem;
+  padding: 0.9em 1.1em;
+  background: rgba(10, 10, 18, 0.4);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.pt-changelog-card:hover,
+.pt-changelog-card:focus-visible {
+  border-color: var(--pt-neon-pink);
+  transform: translateY(-2px);
+}
+
+.pt-changelog-card-version {
+  font-family: var(--md-code-font);
+  font-weight: 700;
+  color: var(--pt-neon-cyan);
+}
+
+.pt-changelog-card-date {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.pt-changelog-card-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+
+/* ---- the popup itself ---- */
+.pt-changelog-modal {
+  max-width: 40rem;
+  width: 90vw;
+  max-height: 80vh;
+  overflow-y: auto;
+  border: 1px solid var(--pt-neon-cyan);
+  border-radius: 0.6rem;
+  padding: 0;
+  background: var(--pt-void);
+  color: inherit;
+  box-shadow: 0 0 32px rgba(0, 246, 255, 0.25);
+}
+
+.pt-changelog-modal::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(2px);
+}
+
+.pt-changelog-modal-inner {
+  position: relative;
+  padding: 1.5em 1.75em;
+}
+
+.pt-changelog-modal-inner > *:first-child {
+  margin-top: 0;
+}
+
+.pt-changelog-modal-close {
+  position: absolute;
+  top: 0.6em;
+  right: 0.7em;
+  width: 2em;
+  height: 2em;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.pt-changelog-modal-close:hover,
+.pt-changelog-modal-close:focus-visible {
+  opacity: 1;
+  color: var(--pt-neon-pink);
+}
+
+/* Section headings inside a changelog popup — Added/Removed get their own
+   colour; "Updated" is left alone since h3s are already yellow site-wide
+   ([data-md-color-scheme="slate"] .md-typeset h3 in extra.css). */
+.pt-changelog-modal-inner h3.pt-changelog-h-added {
+  color: #78ffa0;
+  text-shadow: none;
+}
+
+.pt-changelog-modal-inner h3.pt-changelog-h-removed {
+  color: #ff4d4d;
+  text-shadow: none;
+}

@@ -69,6 +69,7 @@ extra_css:
   - stylesheets/backgrounds.css
   - stylesheets/steps.css
   - stylesheets/features.css
+  - stylesheets/changelog.css
 
 nav:
   - Home: index.md
@@ -165,3 +166,4 @@ extra:
 extra_javascript:
   - javascripts/backgrounds.js
   - javascripts/steps.js
+  - javascripts/changelog.js

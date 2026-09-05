@@ -34,13 +34,27 @@ entries roll off into the [Archive](archive.md).
 
 ---
 
-## Latest Release — Subnautica 2 Reborn-8
+<!-- CHANGELOG:CURRENT:START -->
+<div class="pt-changelog-entry" markdown="1">
 
-<span class="pt-chip pt-chip--changed">Changed</span>
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current">
+<span class="pt-changelog-card-version">Subnautica 2 Reborn-8</span>
+<span class="pt-changelog-card-date">2026-09-05</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-current" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Subnautica 2 Reborn-8
+
+<span class="pt-chip pt-chip--updated">Updated</span>
 
 `2026-09-05` · Posted by **Preem Team Bot** · Synced from `#Sub2`
 
-### Changed
+### Updated
 
 - [Capacity and QuickBar Tweaks](https://www.nexusmods.com/subnautica2/mods/252) (v1.4.0 → v1.4.3)
 - [Limitless Building](https://www.nexusmods.com/subnautica2/mods/331) (v1 → v2)
@@ -51,6 +65,12 @@ entries roll off into the [Archive](archive.md).
 - [Sleep Through the Night](https://www.nexusmods.com/subnautica2/mods/207) (v1.0.2 → v1.0.3)
 - [SNwaypoint](https://www.nexusmods.com/subnautica2/mods/294) (v0.4-beta → v0.5-beta)
 - [UE4SS - Subnautica 2](https://www.nexusmods.com/subnautica2/mods/36) (v3.0.1 → vd7e7826d)
+
+</div>
+</dialog>
+
+</div>
+<!-- CHANGELOG:CURRENT:END -->
 
 ---
 
