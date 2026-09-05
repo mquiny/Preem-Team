@@ -26,6 +26,37 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-expedition-33-2">
+<span class="pt-changelog-card-version">Expedition 33-2</span>
+<span class="pt-changelog-card-date">2026-09-05 · CP2077 1.0</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span></span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-expedition-33-2" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Expedition 33-2
+
+<span class="pt-chip pt-chip--added">Added</span>
+
+`2026-09-05` · Game Version `1.0` · Posted by **Choomba** · Synced from `#E33`
+
+### Added {: .pt-changelog-h-added }
+
+- [Fantasy Expedition](https://www.nexusmods.com/clairobscurexpedition33/mods/666) (v1.0)
+- [ForetellVisualBugFixMod](https://www.nexusmods.com/clairobscurexpedition33/mods/645) (v0.1.1)
+- [Gestral Dance Menu](https://www.nexusmods.com/clairobscurexpedition33/mods/652) (v1.0)
+- [HUD Tweaks - Disable battle pictos effects popups](https://www.nexusmods.com/clairobscurexpedition33/mods/557) (v0.1)
+- [Piano At Camp](https://www.nexusmods.com/clairobscurexpedition33/mods/668) (v1.0)
+- [Random Menu Music](https://www.nexusmods.com/clairobscurexpedition33/mods/647) (v1.0)
+- [Sphere Paint Lumina Farm](https://www.nexusmods.com/clairobscurexpedition33/mods/658) (v1.0)
+- [Weapon Collection Abysseram](https://www.nexusmods.com/clairobscurexpedition33/mods/644) (v1.0)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-subnautica-2-reborn-8">
 <span class="pt-changelog-card-version">Subnautica 2 Reborn-8</span>
 <span class="pt-changelog-card-date">2026-09-05</span>
