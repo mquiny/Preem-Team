@@ -89,10 +89,9 @@
   margin-right: 0.3em;
 }
 
-.pt-chip--added { background: rgba(0, 246, 255, 0.15); color: var(--pt-neon-cyan); border: 1px solid var(--pt-neon-cyan); }
-.pt-chip--fixed { background: rgba(180, 255, 120, 0.12); color: #b4ff78; border: 1px solid #b4ff78; }
-.pt-chip--changed { background: rgba(244, 255, 46, 0.12); color: var(--pt-neon-yellow); border: 1px solid var(--pt-neon-yellow); }
-.pt-chip--removed { background: rgba(255, 46, 151, 0.12); color: var(--pt-neon-pink); border: 1px solid var(--pt-neon-pink); }
+.pt-chip--added { background: rgba(120, 255, 160, 0.12); color: #78ffa0; border: 1px solid #78ffa0; }
+.pt-chip--updated { background: rgba(244, 255, 46, 0.12); color: var(--pt-neon-yellow); border: 1px solid var(--pt-neon-yellow); }
+.pt-chip--removed { background: rgba(255, 77, 77, 0.12); color: #ff4d4d; border: 1px solid #ff4d4d; }
 .pt-chip--open { background: rgba(255, 165, 46, 0.14); color: #ffa52e; border: 1px solid #ffa52e; }
 .pt-chip--resolved { background: rgba(120, 255, 160, 0.12); color: #78ffa0; border: 1px solid #78ffa0; }
 
