@@ -117,8 +117,10 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
 
+hooks:
+  - scripts/pt_mdx_block_html.py
+
 markdown_extensions:
-  - scripts.pt_mdx_block_html
   - abbr
   - attr_list
   - def_list
