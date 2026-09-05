@@ -42,11 +42,6 @@ if your problem isn't listed, use the button below to report it.
 
 <!-- BOT-INJECT:ISSUE-TABLE:END -->
 
-!!! note "This table is still showing placeholder rows"
-    The rows above are illustrative examples — they'll be replaced with
-    real, live issues the moment the [`sync-issues.yml`](https://github.com/mquiny/Preem-Team/blob/main/.github/workflows/sync-issues.yml)
-    workflow first runs.
-
 ## Filtering (planned)
 
 Once live-synced, this page is intended to support lightweight filtering by
