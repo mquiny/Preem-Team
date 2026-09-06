@@ -1,0 +1,32 @@
+name: Apply auto-responder list from bot
+
+on:
+  repository_dispatch:
+    types: [autoresponder_update]
+
+permissions:
+  contents: write
+
+jobs:
+  apply-autoresponders:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Apply auto-responder payload
+        env:
+          AUTORESPONDER_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: node scripts/apply-autoresponders.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Preem Team Bot"
+          git config user.email "actions@github.com"
+          git add docs/troubleshooting/quick_commands.md
+          if git diff --cached --quiet; then
+            echo "No auto-responder changes to commit"
+            exit 0
+          fi
+          git commit -m "Sync auto-responder list"
+          git push

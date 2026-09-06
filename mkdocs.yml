@@ -97,6 +97,7 @@ nav:
       - How to Bisect: troubleshooting/how_to_bisect.md
       - Issue Viewer: troubleshooting/issue_viewer.md
       - Issue Archive: troubleshooting/issue_archive.md
+      - Quick Commands: troubleshooting/quick_commands.md
   - Meet the Team: team/index.md
 
 plugins:

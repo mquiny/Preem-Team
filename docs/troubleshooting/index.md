@@ -28,6 +28,13 @@ have already been solved once.
     Step-by-step guide to isolating exactly which mod is causing your crash
     or issue.
 
+-   :material-chat-question:{ .lg .middle } **[Quick Commands](quick_commands.md)**
+
+    ---
+
+    Every shortcut phrase Choomba Bot auto-replies to in Discord, all in
+    one searchable list.
+
 </div>
 
 ## GitHub Issues Tracker 
