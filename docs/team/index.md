@@ -20,31 +20,31 @@ Here's who's behind the curtain.
 
     ---
 
-    **Role:** *(add role)*
+    **Role:** Preem Dev
 
-    *(add a short description here.)*
+    *(mquiny is an experienced Cyberpunk lover, with years of modding experience on his belt, and has helped shape and run other successful Cyberpunk modding communities.) *
 
-    *"(add a quote here.)"*
+    *"Would you rather live in peace as Mr. Nobody, die ripe, old and smelling slightly of urine? Or go down for all times in a blaze of glory, smelling near like posies, without seeing your thirtieth?”*
 
 -   :material-account-tie:{ .lg .middle } **excel**
 
     ---
 
-    **Role:** *(add role)*
+    **Role:** Preem Dev
 
-    *(add a short description here.)*
+    *(spends way too much time modding cyberpunk.)*
 
-    *"(add a quote here.)"*
+    *"(rust in piss, shit bot.)"*
 
 -   :material-account-tie:{ .lg .middle } **cara**
 
     ---
 
-    **Role:** *(add role)*
+    **Role:** Preem Dev
 
-    *(add a short description here.)*
+    *(a devoted Cyberpunk 2077 choom, the go-to-guide for reshades (loves realism), takes amazing photos, plays on 30FPS (EWWW), loves to platinum games..)*
 
-    *"(add a quote here.)"*
+    *"(always be kind <3.)"*
 
 </div>
 

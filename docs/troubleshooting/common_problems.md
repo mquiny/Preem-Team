@@ -32,12 +32,11 @@ search (`Ctrl+F` / `Cmd+F`) to jump to your symptom.
 3. Re-download the collection package fresh (a partial or corrupted
    download is a common culprit).
 4. Reapply the collection following [Installation](../installation/index.md)
-   from Step 2 onward.
+   from Step 3 onward.
 
-- [ ] Verified game files
-- [ ] Removed all previous mods
-- [ ] Re-downloaded the collection package
-- [ ] Reapplied the full collection
+- [ ] Vortex - Select collection
+- [ ] Vortex - Install Collection
+- [ ] Verify installation
 
 ---
 

@@ -20,6 +20,9 @@ you'll have a stable, modded Night City by the end of it.
     wrong, you may need to perform a [Clean Install](../guides/clean_install.md)
     to revert your game installation back to a pre-modded state.
 
+!!! danger "We do not support Pirated copies"
+    We do not support, endorse or recommend you mod Cyberpunk with a pirated copy of the game, Please make sure you have a legitimate copy of the game aquired through Steam/GOG/Epic Game, we will not offer to support to those who are running non-legit copies of the game.
+	
 ## Overview checklist
 
 Use this as your master checklist. Each item is explained in detail below.
@@ -112,6 +115,9 @@ browser, so it's still here if you close the tab and come back later.
 	- So if your game is installed on your C: drive, make sure your staging folder is also on your C: drive. (If you don't you won't get the "Hardlink Deployment" option which is required for mods to stage properly.) 
 	- BUT - Make sure your staging folder is NOT inside of your Cyberpunk installation. Install it to a seperate part of the same drive.
 
+!!! danger "We do not support Pirated copies"
+    We do not support, endorse or recommend you mod Cyberpunk with a pirated copy of the game, Please make sure you have a legitimate copy of the game aquired through Steam/GOG/Epic Game, we will not offer to support to those who are running non-legit copies of the game.
+	
 </details>
 
 <details class="pt-step" markdown="1" data-pt-step="3" id="step-3-vortex-select-collection">

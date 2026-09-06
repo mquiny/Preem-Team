@@ -20,6 +20,9 @@ you'll have a stable, modded Night City by the end of it.
     wrong, you may need to perform a [Clean Install](../guides/clean_install.md)
     to revert your game installation back to a pre-modded state.
 
+!!! danger "We do not support Pirated copies"
+    We do not support, endorse or recommend you mod Cyberpunk with a pirated copy of the game, Please make sure you have a legitimate copy of the game aquired through Steam/GOG/Epic Game, we will not offer to support to those who are running non-legit copies of the game.
+	
 ## Overview checklist
 
 Use this as your master checklist. Each item is explained in detail below.
