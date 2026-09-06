@@ -62,7 +62,7 @@ Switches back to first person instantly whenever you want it.
 
 <div class="pt-feature" markdown="1">
   <div class="pt-feature-media">
-    <img src="assets/balloon_fight.avif" alt="New drivable vehicles added to Night City" loading="lazy">
+    <img src="assets/newvehicles.avif" alt="New drivable vehicles added to Night City" loading="lazy">
   </div>
   <div class="pt-feature-text" markdown="1">
 
@@ -70,11 +70,11 @@ Switches back to first person instantly whenever you want it.
 
 ### New Vehicles
 
-Dozens of new rides added straight into world spawns and dealer rotations —
+Several new rides added straight into world spawns and available to purchase on vs computer
 from the everyday to the absurd. Two favorites from the current lineup: the
 **Toyota Supra Mk3**, a proper street-tuner icon, and the **Lamborghini
 Miura P400 SV**, a slice of pre-War old-world excess that has no business
-looking this good parked outside a ripperdoc.
+looking this good parked outside a ripperdoc. Cruise around the City of Dreams In Style.
 
 <span class="pt-feature-caption">Placeholder preview — final capture coming soon.</span>
 
