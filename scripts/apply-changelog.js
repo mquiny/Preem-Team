@@ -38,8 +38,7 @@ const ARCHIVE_GRID_END = "<!-- CHANGELOG:ENTRIES:END -->";
 const COLLECTION_IMAGES = {
   usushu: "cpe.webp",
   "9htmlb": "sub2.webp",
-  jzmqt4: "e33.webp",
-  rcuccp: "ncr_core.webp"
+  jzmqt4: "e33.webp"
 };
 
 // Collection slug -> display name used as the <summary> label on its
@@ -48,8 +47,7 @@ const COLLECTION_IMAGES = {
 const COLLECTION_NAMES = {
   usushu: "CPE Collection",
   "9htmlb": "Subnautica 2 Reborn",
-  jzmqt4: "Expedition 33",
-  rcuccp: "NCR Core"
+  jzmqt4: "Expedition 33"
 };
 
 function collectionLabel(slug) {
@@ -150,14 +148,12 @@ function buildCardAndDialog(payload, dialogId) {
 }
 
 // Wraps a collection's card grid in its own collapsible <details> section,
-// labelled via COLLECTION_NAMES. `open` on index.md so the current release
-// is visible by default; also `open` on archive.md so browsing history
-// doesn't require an extra click per collection — either can still be
-// collapsed by the visitor. `innerHtml` is whatever markers/entries go
-// inside the grid div.
+// labelled via COLLECTION_NAMES. Starts collapsed on both index.md and
+// archive.md -- visitors open whichever collection they actually want to
+// read. `innerHtml` is whatever markers/entries go inside the grid div.
 function buildCollectionSection(slug, innerHtml) {
   return [
-    `<details class="pt-changelog-collection" open markdown="1" data-collection-slug="${slug}">`,
+    `<details class="pt-changelog-collection" markdown="1" data-collection-slug="${slug}">`,
     `<summary>${collectionLabel(slug)}</summary>`,
     `<div class="pt-changelog-cards" markdown="1">`,
     ``,
