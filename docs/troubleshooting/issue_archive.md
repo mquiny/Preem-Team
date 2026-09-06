@@ -41,11 +41,11 @@ here if you want to see whether your issue was already dealt with.
 
 <!-- BOT-INJECT:ISSUE-ARCHIVE-TABLE:START -->
 
-**Last synced:** `2026-09-06 15:39 UTC`
+**Last synced:** `2026-09-06 16:22 UTC`
 
 | Status | Issue | Labels | Opened | Closed | Comments |
 |---|---|---|---|---|---|
-| — | *No closed issues yet.* | — | — | — | — |
+| <span class="pt-chip pt-chip--resolved">Resolved</span> | [Test Log](https://github.com/mquiny/Preem-Team/issues/7) | `bug` | `2026-09-05` | `2026-09-06` | 0 |
 
 <!-- BOT-INJECT:ISSUE-ARCHIVE-TABLE:END -->
 
