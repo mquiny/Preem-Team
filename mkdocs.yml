@@ -72,6 +72,7 @@ extra_css:
   - stylesheets/changelog.css
   - stylesheets/showcase.css
   - stylesheets/issue-viewer.css
+  - stylesheets/streetcred.css
 
 nav:
   - Home: index.md
@@ -98,7 +99,9 @@ nav:
       - Issue Viewer: troubleshooting/issue_viewer.md
       - Issue Archive: troubleshooting/issue_archive.md
       - Quick Commands: troubleshooting/quick_commands.md
-  - Meet the Team: team/index.md
+  - Meet the Team:
+      - team/index.md
+      - StreetCred Leaderboard: team/streetcred.md
 
 plugins:
   - search:
@@ -176,3 +179,4 @@ extra_javascript:
   - javascripts/steps.js
   - javascripts/changelog.js
   - javascripts/issue-viewer.js
+  - javascripts/streetcred.js

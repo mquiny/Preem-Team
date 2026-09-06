@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Preem Team — StreetCred leaderboard
+   ========================================================================== */
+
+.pt-streetcred-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0 0 1.2em 0;
+}
+
+.pt-streetcred-filter-chip {
+  font-family: var(--md-code-font);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.35em 0.9em;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 246, 255, 0.4);
+  background: transparent;
+  color: var(--pt-neon-cyan);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.pt-streetcred-filter-chip:hover {
+  border-color: var(--pt-neon-cyan);
+  background: rgba(0, 246, 255, 0.08);
+}
+
+.pt-streetcred-filter-chip.is-active {
+  background: var(--pt-neon-cyan);
+  border-color: var(--pt-neon-cyan);
+  color: #0a0a12;
+}
+
+.pt-streetcred-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.pt-streetcred-table th,
+.pt-streetcred-table td {
+  padding: 0.5em 0.8em;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 246, 255, 0.15);
+}
+
+.pt-streetcred-table th {
+  color: var(--pt-neon-cyan);
+  font-family: var(--md-code-font);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.pt-streetcred-table tbody tr[hidden] {
+  display: none;
+}
+
+.pt-streetcred-table tbody tr:hover {
+  background: rgba(0, 246, 255, 0.05);
+}
