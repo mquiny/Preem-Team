@@ -42,7 +42,7 @@ feel dangerous.
 
 <div class="pt-feature" markdown="1">
   <div class="pt-feature-media">
-    <img src="assets/overcharged_unleashed.avif" alt="Third person camera mode while exploring Night City" loading="lazy">
+    <img src="assets/3rdperson.avif" alt="Third person camera mode while exploring Night City" loading="lazy">
   </div>
   <div class="pt-feature-text" markdown="1">
 
@@ -50,12 +50,12 @@ feel dangerous.
 
 ### Third Person
 
-See your build. A full third-person camera for walking, driving, and combat,
+A full third-person camera for walking, driving, and combat,
 so every cyberware sculpt, outfit, and paint job you've agonized over
-actually gets seen — not just glimpsed in a mirror or a menu preview.
-Switches back to first person instantly whenever you want it.
+actually gets seen, not just glimpsed in a mirror or a menu preview.
+Switches back to first person instantly whenever you want it in the CET Menu.
 
-<span class="pt-feature-caption">Placeholder preview — final capture coming soon.</span>
+<span class="pt-feature-caption">This mod is currently very new, so expect bugs and issues to occur while this mod matures</span>
 
   </div>
 </div>
