@@ -55,7 +55,6 @@ can't add, edit, or run anything from this page.
 | `!offtopic` | Wildcard | Oops, It appears you are going off-topic in the wrong channel, please discuss this in <#1304172034737180764> to keep this channel clear. Thanks choom. | All (global) |
 | `!reqs` | Wildcard | It appears as if your system might not have the correct specifications to run our collections, please double check <#1306308050503733350> and make sure you meet these (Collections will require higher specs than the playing a unmodded base game) | All (global) |
 | `!Romance` | Wildcard | You can enable Non-Canon Romances once in-game by going to the pause menu and enabling the romance in the Mod Setting menu for Non-Canon Romances Enhanced. | All (global) |
-| `!rule8` | Wildcard | Please DO NOT discuss ways to circumvent Nexus premium features. As per rule 8, any discussion around this is not allowed. And you will be banned if conversations continue. | All (global) |
 | `!spawncmds` | Wildcard | Here is a handy guide on how to use our bot to search for spawn commands<br><br>https://discord.com/channels/1285796904160202752/1421285814700081263 | All (global) |
 | `!test` | Wildcard | Test | All (global) |
 | `!test2` | Wildcard | Test | All (global) |
