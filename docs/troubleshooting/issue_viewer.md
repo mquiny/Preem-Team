@@ -8,9 +8,10 @@ description: Live view of open GitHub issues for the Preem Team collection.
 > `> CONNECTING TO github.com/mquiny/Preem-Team...`
 > `> STREAM STATUS: LIVE`
 
-An automated feed of GitHub Issues for the Preem Team collection, kept in
-sync automatically. Check the table below before filing a duplicate — and
-if your problem isn't listed, use the button below to report it.
+An automated feed of **open** GitHub Issues for the Preem Team collection,
+kept in sync automatically. Check the table below before filing a
+duplicate — and if your problem isn't listed, use the button below to
+report it.
 
 <a href="https://github.com/mquiny/Preem-Team/issues/new/choose" class="md-button md-button--primary" target="_blank" rel="noopener">
 :material-github: Create an Issue
@@ -25,6 +26,17 @@ if your problem isn't listed, use the button below to report it.
     issue is opened, closed, reopened, edited, or commented on — plus every
     30 minutes as a fallback. The **Last synced** timestamp confirms when
     that last happened.
+
+    Only **open** issues live on this page — the moment one's closed on
+    GitHub, the next sync drops it here and it shows up on the
+    [**Issue Archive**](issue_archive.md) instead.
+
+<div class="pt-issue-viewer" data-pt-issue-viewer markdown="1">
+
+<div class="pt-issue-toolbar" data-pt-issue-toolbar>
+<input type="search" class="pt-issue-search" data-pt-issue-search placeholder="Search issues…" aria-label="Search issues">
+<div class="pt-issue-filters" data-pt-issue-filters hidden></div>
+</div>
 
 <!--
   scripts/sync-issues.js writes between the two markers below on every
@@ -42,12 +54,18 @@ if your problem isn't listed, use the button below to report it.
 
 <!-- BOT-INJECT:ISSUE-TABLE:END -->
 
-## Filtering (planned)
+</div>
 
-Once live-synced, this page is intended to support lightweight filtering by
-label — for example, showing only `bug`, `performance`, or
-`visual-bundle`-tagged issues — via a simple client-side script. This is
-noted here as a planned enhancement, not yet implemented.
+## Searching and filtering
+
+Type in the search box above the table to match against an issue's title,
+or use the label chips to show only issues tagged with one label at a time
+— for example just `bug`, or just `performance`. Both can be combined, and
+**All** clears the label filter. This runs entirely in your browser
+([`javascripts/issue-viewer.js`](https://github.com/mquiny/Preem-Team/blob/main/docs/javascripts/issue-viewer.js))
+against whatever's currently in the table, so it stays in sync with the
+live issue list automatically — no separate configuration to maintain as
+labels change.
 
 ## Don't see your issue?
 

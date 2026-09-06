@@ -71,6 +71,7 @@ extra_css:
   - stylesheets/features.css
   - stylesheets/changelog.css
   - stylesheets/showcase.css
+  - stylesheets/issue-viewer.css
 
 nav:
   - Home: index.md
@@ -87,12 +88,15 @@ nav:
       - Current Revision: changelog/index.md
       - Archived Revisions: changelog/archive.md
   - FAQ: faq/index.md
-  - Showcase: showcase/index.md
+  - Showcase:
+      - showcase/index.md
+      - Archive: showcase/archive.md
   - Troubleshooting:
       - troubleshooting/index.md
       - Common Problems: troubleshooting/common_problems.md
       - How to Bisect: troubleshooting/how_to_bisect.md
       - Issue Viewer: troubleshooting/issue_viewer.md
+      - Issue Archive: troubleshooting/issue_archive.md
   - Meet the Team: team/index.md
   - Systems:
       - Discord Auth (Concept): systems/discord_auth.md
@@ -172,3 +176,4 @@ extra_javascript:
   - javascripts/backgrounds.js
   - javascripts/steps.js
   - javascripts/changelog.js
+  - javascripts/issue-viewer.js

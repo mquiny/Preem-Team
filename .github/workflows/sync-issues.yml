@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Sync issues into issue_viewer.md
+      - name: Sync issues into issue_viewer.md / issue_archive.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/sync-issues.js
@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name "Preem Team Bot"
           git config user.email "actions@github.com"
-          git add docs/troubleshooting/issue_viewer.md
+          git add docs/troubleshooting/issue_viewer.md docs/troubleshooting/issue_archive.md
           if git diff --cached --quiet; then
             echo "No issue changes to commit"
             exit 0
