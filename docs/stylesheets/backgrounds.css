@@ -3,10 +3,12 @@
    Each top-level nav tab gets its own backdrop image (docs/assets/backgroundN.png),
    applied to <body> via a class set by javascripts/backgrounds.js.
 
-   Only background1.png..background3.png exist so far (home, installation,
-   guides). Rules for background4.png..background10.png are defined ahead
-   of time — once those files are added to docs/assets/, their tabs pick
-   up art automatically, no code changes needed.
+   Source PNGs were full 4K exports (9-16MB each, ~132MB total) shown
+   behind a heavy scrim at background-size: cover -- way more resolution
+   and file weight than that ever needed. Each is downsized to 2560x1440
+   and re-encoded as WebP (~50-270KB each, ~1.5MB total) via Pillow; see
+   git history for the one-off resize script. Add new tabs' art as
+   backgroundN.webp the same way.
    ========================================================================== */
 
 body {
@@ -37,16 +39,16 @@ body::before {
     var(--pt-bg-image, none);
 }
 
-body.pt-bg-home            { --pt-bg-image: url("../assets/background1.png"); }
-body.pt-bg-installation    { --pt-bg-image: url("../assets/background2.png"); }
-body.pt-bg-guides          { --pt-bg-image: url("../assets/background3.png"); }
-body.pt-bg-changelog       { --pt-bg-image: url("../assets/background4.png"); }
-body.pt-bg-faq             { --pt-bg-image: url("../assets/background5.png"); }
-body.pt-bg-showcase        { --pt-bg-image: url("../assets/background6.png"); }
-body.pt-bg-troubleshooting { --pt-bg-image: url("../assets/background7.png"); }
-body.pt-bg-team            { --pt-bg-image: url("../assets/background8.png"); }
-body.pt-bg-systems         { --pt-bg-image: url("../assets/background9.png"); }
-body.pt-bg-features        { --pt-bg-image: url("../assets/background10.png"); }
+body.pt-bg-home            { --pt-bg-image: url("../assets/background1.webp"); }
+body.pt-bg-installation    { --pt-bg-image: url("../assets/background2.webp"); }
+body.pt-bg-guides          { --pt-bg-image: url("../assets/background3.webp"); }
+body.pt-bg-changelog       { --pt-bg-image: url("../assets/background4.webp"); }
+body.pt-bg-faq             { --pt-bg-image: url("../assets/background5.webp"); }
+body.pt-bg-showcase        { --pt-bg-image: url("../assets/background6.webp"); }
+body.pt-bg-troubleshooting { --pt-bg-image: url("../assets/background7.webp"); }
+body.pt-bg-team            { --pt-bg-image: url("../assets/background8.webp"); }
+body.pt-bg-systems         { --pt-bg-image: url("../assets/background9.webp"); }
+body.pt-bg-features        { --pt-bg-image: url("../assets/background10.webp"); }
 
 /* Site-wide banner — "PREEM EDITION" sits crisp at the top of the header,
    the city skyline below it continues down and shows through the tabs
