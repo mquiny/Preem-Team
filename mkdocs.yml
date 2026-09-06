@@ -71,7 +71,6 @@ extra_css:
   - stylesheets/features.css
   - stylesheets/changelog.css
   - stylesheets/showcase.css
-  - stylesheets/discord-widget.css
 
 nav:
   - Home: index.md
@@ -173,4 +172,3 @@ extra_javascript:
   - javascripts/backgrounds.js
   - javascripts/steps.js
   - javascripts/changelog.js
-  - javascripts/discord-widget.js
