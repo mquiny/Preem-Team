@@ -23,9 +23,11 @@ feature.
     - **A staff member** reacts with ⭐ — an instant staff pick, no
       reaction count needed.
 
-    Each calendar month's featured submissions live in their own
-    collapsible section below, newest month first. Nothing on this page
-    should be hand-edited except by the bot — see
+    Only the **current calendar month's** submissions live on this page.
+    The moment a new month's first submission gets featured, the previous
+    month is moved wholesale to the [**Archive**](archive.md) so this page
+    stays a quick, current snapshot rather than an ever-growing scroll.
+    Nothing on this page should be hand-edited except by the bot — see
     [`scripts/apply-showcase.js`](https://github.com/mquiny/Preem-Team/blob/main/scripts/apply-showcase.js)
     for exactly how that works.
 
@@ -52,6 +54,8 @@ feature.
     Post your best Preem Team screenshots in [**#gallery**](https://discordapp.com/channels/1543366600525217802/1543381631073525850)
     on Discord — get 10 people to react, or catch a staff member's eye for
     an instant ⭐ feature.
+
+Looking for an older month? Check the [**Showcase Archive**](archive.md).
 
 <div class="pt-flavor">
 "Every screenshot's a postcard from a city that never sleeps and never forgives." — Showcase curators
