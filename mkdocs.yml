@@ -98,8 +98,6 @@ nav:
       - Issue Viewer: troubleshooting/issue_viewer.md
       - Issue Archive: troubleshooting/issue_archive.md
   - Meet the Team: team/index.md
-  - Systems:
-      - Discord Auth (Concept): systems/discord_auth.md
 
 plugins:
   - search:

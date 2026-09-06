@@ -110,12 +110,6 @@ Exact mod lists change as the collection is updated — check the
 
     The chooms behind the collection.
 
--   :material-shield-key:{ .lg .middle } **[Discord Auth (Concept)](systems/discord_auth.md)**
-
-    ---
-
-    How staff tooling and permissions will work on this site.
-
 </div>
 
 ---
