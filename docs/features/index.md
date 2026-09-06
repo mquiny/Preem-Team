@@ -172,11 +172,7 @@ them.
 
 ### H10 Food Vendors
 
-Street food stalls scattered throughout Night City, staffed by vendor NPCs
-V can actually stop and buy from — another small slice of the city that
-feels lived-in instead of just set dressing.
-
-<span class="pt-feature-caption">First real capture on this page — more replacing the placeholders soon.</span>
+Interact more around the H10 apartment, with the H10 Food Vendor mod, Adds a food stall outside Megabuilding H10 with a selection of food, drink and consumables and a free coffee machine, with Energized buff.
 
   </div>
 </div>
