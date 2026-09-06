@@ -162,6 +162,25 @@ them.
   </div>
 </div>
 
+<div class="pt-feature" markdown="1">
+  <div class="pt-feature-media">
+    <img src="assets/h10_food_vendors.avif" alt="H10 Food Vendors mod adding street food stalls to Night City" loading="lazy">
+  </div>
+  <div class="pt-feature-text" markdown="1">
+
+<span class="pt-feature-eyebrow">World & NPCs</span>
+
+### H10 Food Vendors
+
+Street food stalls scattered throughout Night City, staffed by vendor NPCs
+V can actually stop and buy from — another small slice of the city that
+feels lived-in instead of just set dressing.
+
+<span class="pt-feature-caption">First real capture on this page — more replacing the placeholders soon.</span>
+
+  </div>
+</div>
+
 </div>
 
 <div class="pt-flavor">
