@@ -105,3 +105,53 @@
   padding-left: 0.8em;
   margin: 1.2em 0;
 }
+
+/* Guide mascot cutout — floats beside the intro copy */
+.pt-mascot {
+  float: right;
+  max-width: 260px;
+  width: 38%;
+  margin: 0 0 1em 1.5em;
+  filter: drop-shadow(0 0 12px rgba(0, 246, 255, 0.35))
+    drop-shadow(0 0 24px rgba(255, 46, 151, 0.2));
+}
+
+.pt-mascot img {
+  display: block;
+  width: 100%;
+}
+
+/* Force content after a floated mascot to start below it instead of
+   wrapping into its remaining height */
+.pt-clear {
+  clear: both;
+}
+
+/* Stack above the text on narrow viewports instead of squeezing it */
+@media screen and (max-width: 76.1875em) {
+  .pt-mascot {
+    float: none;
+    max-width: 200px;
+    margin: 0 auto 1.5em auto;
+  }
+}
+
+/* Judy-voiced pull quotes */
+.pt-judy-quote {
+  font-family: var(--md-code-font);
+  font-style: italic;
+  color: var(--pt-neon-cyan);
+  opacity: 0.9;
+  border-left: 2px solid var(--pt-neon-cyan);
+  padding: 0.4em 0 0.4em 0.8em;
+  margin: 1.2em 0;
+}
+
+.pt-judy-quote cite {
+  display: block;
+  margin-top: 0.4em;
+  font-style: normal;
+  font-size: 0.85em;
+  opacity: 0.75;
+  color: var(--pt-neon-pink);
+}

@@ -8,6 +8,14 @@ description: What to do when after you install the collection.
 > `> loading directory....`
 > `> what do i do now chief?`
 
+<div class="pt-mascot" markdown="1">
+![Judy Alvarez](assets/judy3.png)
+</div>
+
+Hey, choom. It's Judy, so I see you've got yourself a Preem collection, let me walk you through what you should expect when you first load up this raw BD.
+
+<p class="pt-judy-quote">"A raw BD, whaddya think, ever taken a dip before?" <cite>— Judy Alvarez</cite></p>
+
 !!! info "What this guide is for"
     For anyone wondering how to check mods work, or just general things to check and configure, this is the place
 

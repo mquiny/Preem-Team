@@ -8,17 +8,31 @@ description: How to reset your modded Cyberpunk 2077 install back to a clean, va
 > `> INITIATING ROLLBACK SEQUENCE...`
 > `> TARGET STATE: PRE-MODDED / VANILLA`
 
-This guide walks you through quickly resetting your modded Cyberpunk 2077
-install back to a clean, vanilla state using the **Mod Remover** tool —
-useful for diagnosing crashes, redscript errors, or conflicts, and for
-double-checking whether an issue is caused by the collection or by the game
-itself.
+<div class="pt-mascot" markdown="1">
+![Judy Alvarez](assets/judy1.png)
+</div>
+
+Hey, choom. Judy here, figured someone should walk you through this instead
+of leaving you to untangle it yourself.
+
+A clean install just means stripping your game back down to stock, no mods,
+no leftover junk in the way, using the **Mod Remover** tool. Think of it like
+wiping a 'deck before you jack back in, sometimes you need bare metal to
+tell if the problem's the collection, or the game itself throwing a tantrum.
+We don't need no shoddy virtu enviros spoiling your fun now do we.
+
+<p class="pt-judy-quote">"Your synapses will sizzle like locusts in a deep fryer." <cite>— Judy Alvarez</cite></p>
+
+<div class="pt-clear"></div>
 
 !!! info "Who this is for"
     Anyone who hit an install problem they can't shake, wants to update the
     game before the collection supports the new patch, or just wants to
     uninstall everything and start fresh.
 
+!!! danger "We do not support Pirated copies"
+    We do not support, endorse or recommend you mod Cyberpunk with a pirated copy of the game, Please make sure you have a legitimate copy of the game aquired through Steam/GOG/Epic Game, we will not offer to support to those who are running non-legit copies of the game.
+	
 ## Before you start
 
 - [ ] I've backed up any save files I want to keep (a clean install doesn't
