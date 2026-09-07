@@ -30,21 +30,20 @@ theme:
   font:
     text: Rajdhani
     code: JetBrains Mono
+  # Dark ("slate") only, deliberately. The whole site's identity (neon
+  # accents, dark Night City photography, terminal-style text) is designed
+  # and tested exclusively against this scheme. A "(prefers-color-scheme)"
+  # media-matched palette here would let Material auto-pick light mode for
+  # some visitors, cache that choice in their browser's localStorage
+  # (__palette) on first visit, and never re-check it again -- with no
+  # toggle in the header (removed further down) to fix a stale/wrong pick,
+  # that leaves them permanently stuck on an unstyled, low-contrast light
+  # render of a page meant to be dark. Forcing a single scheme with no
+  # `media` key sidesteps that whole failure mode for every future visitor.
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: black
       accent: pink
-      toggle:
-        icon: material/weather-night
-        name: Switch to night-city mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: black
-      accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to chrome-and-glass mode
   features:
     - navigation.tabs
     - navigation.tabs.sticky

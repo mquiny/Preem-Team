@@ -32,13 +32,6 @@ body::before {
   transition: background-image 0.25s ease;
 }
 
-/* Lighter scrim so the art doesn't muddy the light "chrome-and-glass" scheme */
-[data-md-color-scheme="default"] body::before {
-  background-image:
-    linear-gradient(180deg, rgba(245, 245, 250, 0.85), rgba(245, 245, 250, 0.85)),
-    var(--pt-bg-image, none);
-}
-
 body.pt-bg-home            { --pt-bg-image: url("../assets/background1.webp"); }
 body.pt-bg-installation    { --pt-bg-image: url("../assets/background2.webp"); }
 body.pt-bg-guides          { --pt-bg-image: url("../assets/background3.webp"); }
@@ -93,9 +86,10 @@ body.pt-bg-features        { --pt-bg-image: url("../assets/background10.webp"); 
 /* The banner is the branding now — drop the logo, site title, the
    light/dark toggle, search, and the repo link from the header row,
    leaving just the tabs bar for navigation. Hidden rather than removed
-   so nothing else that targets these elements breaks; system light/dark
-   preference is still picked up automatically, there's just no manual
-   switch for it any more. (Moving search/the repo link down into the
+   so nothing else that targets these elements breaks. The palette itself
+   is forced to a single dark scheme in mkdocs.yml (no light option, no
+   media-matched auto-detect), so there's nothing left for a toggle to
+   switch between anyway. (Moving search/the repo link down into the
    tabs bar was tried and dropped — they didn't survive instant
    navigation reliably.) */
 .md-header__inner .md-logo,
@@ -109,14 +103,8 @@ body.pt-bg-features        { --pt-bg-image: url("../assets/background10.webp"); 
 
 /* Let the page's per-tab art show through the tabs bar underneath;
    main content column stays fully opaque so reading is never affected. */
-[data-md-color-scheme="slate"] .md-tabs {
+.md-tabs {
   background-color: rgba(10, 10, 18, 0.55);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
-[data-md-color-scheme="default"] .md-tabs {
-  background-color: rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
