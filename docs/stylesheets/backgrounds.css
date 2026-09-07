@@ -43,44 +43,44 @@ body.pt-bg-team            { --pt-bg-image: url("../assets/background8.webp"); }
 body.pt-bg-systems         { --pt-bg-image: url("../assets/background9.webp"); }
 body.pt-bg-features        { --pt-bg-image: url("../assets/background10.webp"); }
 
-/* Site-wide banner — "PREEM EDITION" sits crisp at the top of the header,
-   the city skyline below it continues down and shows through the tabs
-   bar blurred (see .md-tabs rules below). Deliberately back on
-   .md-header (not .md-header__inner): .md-header__inner carries
-   Material's own "md-grid" class, which caps its width (~61rem) and
-   centers it — that's exactly why the banner wasn't stretching to fill
-   wide/1440p+ screens, it was rendering inside that capped box, not the
-   full header. .md-header itself has no such cap, so the image now
-   spans the true full viewport width at any screen size.
+/* Site-wide banner — "PREEM EDITION".
+   bannerfullcroppedpreem.png is pre-cropped to exactly the visible band
+   (1920x155, no skyline/extra content below it needing to be cropped
+   away), so there's no reliance on CSS cropping a taller composite image
+   down to size any more -- that was the previous version's actual bug.
 
-   .md-header__inner's height is locked to the image's aspect ratio
-   (scoped to just the "PREEM EDITION" band, 1920×~155, with a little
-   safety margin) rather than a fixed rem height, so the crisp text
-   never gets cut off regardless of viewport width — same fix as before,
-   just re-applied to the shorter single-line crop.
+   Applied to .md-header__inner, NOT .md-header: .md-tabs (the nav bar)
+   turned out to be a CHILD of .md-header, not a sibling below it, so a
+   background on .md-header was being background-size:cover-fit against
+   the COMBINED height of the banner row + tabs row together. The tabs
+   row's height is ~fixed regardless of viewport width while the banner
+   row's height scales with it, so how much of that combined box was
+   "banner" vs. "tabs" shifted unpredictably at different widths -- some
+   resolutions cropped into the lettering, others showed a sliver of
+   whatever sat below it in the source image. Scoping the image to just
+   .md-header__inner makes its sizing math depend only on that row's own
+   box, independent of the tabs row entirely.
 
-   Scrim is a FLAT tint, not a top-to-bottom gradient — a gradient here
-   spans .md-header's whole box (text row + tabs row together), and
-   since the tabs row's height is ~fixed in px while the text row's
-   height scales with viewport width, the text row eats a bigger share
-   of that gradient on wider screens, so the bottom of the letters
-   lands at a darker point the wider the screen is (reads as the text
-   "fading out"/missing at the bottom on a big monitor, not an actual
-   crop). A flat tint keeps the text evenly lit at every width; .md-tabs
-   layers its own darkening + blur on top for the fade into the nav bar. */
-.md-header {
-  background-image:
-    linear-gradient(rgba(10, 10, 18, 0.3), rgba(10, 10, 18, 0.3)),
-    url("../assets/bannercroppedpreem.png");
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
+   .md-header__inner normally carries Material's "md-grid" class, which
+   caps its width (~61rem) and centers it -- overridden below to always
+   be full width, so it's never narrower than .md-header itself at any
+   viewport size (that mismatch was the other half of the old bug: an
+   aspect-ratio locked to a width that wasn't actually the image's
+   rendered width). With both width and aspect-ratio now driven off the
+   same box, and the source image's own ratio matching that aspect-ratio
+   exactly, the whole image always displays with no cropping at all. */
 .md-header__inner {
+  width: 100%;
+  max-width: none;
   aspect-ratio: 1920 / 155;
   padding-top: 0;
   padding-bottom: 0;
+  background-image:
+    linear-gradient(rgba(10, 10, 18, 0.3), rgba(10, 10, 18, 0.3)),
+    url("../assets/bannerfullcroppedpreem.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* The banner is the branding now — drop the logo, site title, the
@@ -102,9 +102,25 @@ body.pt-bg-features        { --pt-bg-image: url("../assets/background10.webp"); 
 }
 
 /* Let the page's per-tab art show through the tabs bar underneath;
-   main content column stays fully opaque so reading is never affected. */
+   main content column stays fully opaque so reading is never affected.
+   The banner above (.md-header) has no autohide feature enabled, so it
+   stays pinned at the top of the viewport at every resolution -- only
+   this tabs bar collapses out of the way on scroll, per nav-autohide.js.
+   max-height (not display/visibility) is what's animated so the
+   collapse itself is a smooth transition rather than an instant jump,
+   and opacity fades alongside it so the tab links don't sit there
+   visibly squashing before they're fully gone. */
 .md-tabs {
   background-color: rgba(10, 10, 18, 0.55);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  max-height: 3rem;
+  opacity: 1;
+  overflow: hidden;
+  transition: max-height 0.25s ease, opacity 0.2s ease;
+}
+
+.md-tabs.pt-tabs-hidden {
+  max-height: 0;
+  opacity: 0;
 }

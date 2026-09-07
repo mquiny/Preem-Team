@@ -175,6 +175,7 @@ extra:
 
 extra_javascript:
   - javascripts/backgrounds.js
+  - javascripts/nav-autohide.js
   - javascripts/steps.js
   - javascripts/changelog.js
   - javascripts/issue-viewer.js
