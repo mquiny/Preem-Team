@@ -26,7 +26,17 @@ once a day.
 
 <!-- BOT-INJECT:STREETCRED:START -->
 
-*No leaderboard data yet.*
+**Last synced:** `2026-09-07 05:00 UTC`
+
+<table class="pt-streetcred-table">
+<thead><tr><th>Rank</th><th>Member</th><th>Tier</th><th>Score</th></tr></thead>
+<tbody>
+<tr data-staff="true"><td>1</td><td>excel</td><td>Street Kid</td><td>941.65</td></tr>
+<tr data-staff="true"><td>2</td><td>mquiny</td><td>Street Kid</td><td>878.75</td></tr>
+<tr data-staff="true"><td>3</td><td>Cara (The Glitchfixer)</td><td>Choom</td><td>244.2</td></tr>
+<tr data-staff="false"><td>4</td><td>not mquiny</td><td>Gutter-Pup</td><td>164.65</td></tr>
+</tbody>
+</table>
 
 <!-- BOT-INJECT:STREETCRED:END -->
 
