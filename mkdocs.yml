@@ -116,6 +116,7 @@ plugins:
       draggable: true
       skip_classes:
         - pt-changelog-card-thumb
+        - pt-feature-modal-img
   - tags
   - minify:
       minify_html: true
@@ -178,5 +179,6 @@ extra_javascript:
   - javascripts/nav-autohide.js
   - javascripts/steps.js
   - javascripts/changelog.js
+  - javascripts/features.js
   - javascripts/issue-viewer.js
   - javascripts/streetcred.js

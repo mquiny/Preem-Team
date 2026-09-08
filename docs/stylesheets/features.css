@@ -1,64 +1,166 @@
 /* ==========================================================================
    Preem Team — Features showcase page
-   Alternating media/text rows, each row showing an autoplaying looped
-   preview (animated .avif/.gif via a plain <img>) alongside a title and
-   description. Structure: .pt-feature > .pt-feature-media + .pt-feature-text
+   Clickable category cards, each opening a popup modal (native <dialog>,
+   same open/close pattern as the changelog cards — see javascripts/features.js
+   and stylesheets/changelog.css for the shared approach) listing that
+   category's mods as media+text entries. Keeps the page short and fast to
+   scroll instead of every mod's preview clip sitting inline on load.
    ========================================================================== */
 
-.pt-features {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+.pt-feature-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
   margin: 2rem 0;
 }
 
-.pt-feature {
+.pt-feature-category {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+  width: 100%;
+  border: 1px solid rgba(0, 246, 255, 0.25);
+  border-radius: 0.6rem;
+  padding: 1.4em 1.5em;
+  background: linear-gradient(180deg, rgba(0, 246, 255, 0.04), rgba(0, 0, 0, 0));
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.pt-feature-category:hover,
+.pt-feature-category:focus-visible {
+  border-color: var(--pt-neon-pink);
+  transform: translateY(-2px);
+}
+
+.pt-feature-category-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.pt-feature-category-name {
+  font-family: var(--md-code-font);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--pt-neon-cyan);
+}
+
+.pt-feature-category-count {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+/* ---- the popup itself ----
+   Wider than the changelog modal (40rem) since each entry inside carries
+   a media preview alongside its text, not just a bullet list. */
+.pt-feature-modal {
+  max-width: 52rem;
+  width: 90vw;
+  max-height: 85vh;
+  overflow-y: auto;
+  border: 1px solid var(--pt-neon-cyan);
+  border-radius: 0.6rem;
+  padding: 0;
+  background: var(--pt-void);
+  color: inherit;
+  box-shadow: 0 0 32px rgba(0, 246, 255, 0.25);
+}
+
+.pt-feature-modal::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(2px);
+}
+
+.pt-feature-modal-inner {
+  position: relative;
+  padding: 1.5em 1.75em;
+}
+
+.pt-feature-modal-inner > *:first-child {
+  margin-top: 0;
+}
+
+.pt-feature-modal-close {
+  position: absolute;
+  top: 0.6em;
+  right: 0.7em;
+  width: 2em;
+  height: 2em;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.pt-feature-modal-close:hover,
+.pt-feature-modal-close:focus-visible {
+  opacity: 1;
+  color: var(--pt-neon-pink);
+}
+
+/* One mod's media + text inside an open category modal. Same left/right
+   media+text idea as the old inline .pt-feature layout, just reused here
+   at a smaller scale and stacked vertically when a category holds more
+   than one mod. */
+.pt-feature-modal-entry {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  border: 1px solid rgba(0, 246, 255, 0.2);
-  border-radius: 0.6rem;
-  padding: 1.5rem;
-  background: linear-gradient(180deg, rgba(0, 246, 255, 0.04), rgba(0, 0, 0, 0));
+  gap: 1.5rem;
+  padding: 1.2em 0;
 }
 
-/* Alternate media left/right on wide screens for visual rhythm */
-.pt-feature:nth-child(even) {
-  flex-direction: row-reverse;
+.pt-feature-modal-entry + .pt-feature-modal-entry {
+  border-top: 1px solid rgba(0, 246, 255, 0.15);
 }
 
-.pt-feature-media {
-  flex: 0 0 46%;
+.pt-feature-modal-media {
+  flex: 0 0 45%;
   border-radius: 0.5rem;
   overflow: hidden;
   border: 1px solid rgba(0, 246, 255, 0.35);
-  box-shadow: 0 0 24px rgba(0, 246, 255, 0.15);
+  box-shadow: 0 0 20px rgba(0, 246, 255, 0.12);
   background: #0a0a12;
 }
 
-.pt-feature-media img {
+/* Two (or more) clips for the same mod — e.g. New Vehicles' Supra +
+   Lamborghini — stacked with a gap instead of one wrapping border, since
+   each clip gets its own frame rather than reading as one continuous shot. */
+.pt-feature-modal-media--stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 0;
+}
+
+.pt-feature-modal-media--stack img {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 246, 255, 0.35);
+  box-shadow: 0 0 20px rgba(0, 246, 255, 0.12);
+}
+
+.pt-feature-modal-media img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.pt-feature-text {
+.pt-feature-modal-text {
   flex: 1 1 auto;
   min-width: 0;
 }
 
-.pt-feature-eyebrow {
-  display: inline-block;
-  font-family: var(--md-code-font);
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--pt-neon-pink);
-  margin-bottom: 0.4em;
-}
-
-.pt-feature-text h3 {
-  margin: 0 0 0.5em;
+.pt-feature-modal-text h3 {
+  margin: 0 0 0.4em;
 }
 
 .pt-feature-caption {
@@ -69,14 +171,15 @@
   opacity: 0.7;
 }
 
-/* Stack on narrower screens — media on top, text below, no reversing */
+/* Stack media above text on narrower screens/viewports, same breakpoint
+   the old inline layout used. */
 @media screen and (max-width: 76.25em) {
-  .pt-feature,
-  .pt-feature:nth-child(even) {
+  .pt-feature-modal-entry {
     flex-direction: column;
+    align-items: stretch;
   }
 
-  .pt-feature-media {
+  .pt-feature-modal-media {
     flex-basis: auto;
     width: 100%;
   }
