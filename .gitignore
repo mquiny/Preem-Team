@@ -4,3 +4,8 @@ site/
 # Python bytecode cache
 __pycache__/
 *.pyc
+
+# Local cache for scripts/generate-spawn-commands.js -- a scraped snapshot
+# of Nexus API responses keyed by mod ID, purely a perf cache so re-running
+# the script doesn't re-fetch every mod every time. Not site content.
+data/

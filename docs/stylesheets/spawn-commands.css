@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Preem Team — Spawn Commands directory
+   Search bar + one collapsible <details> per mod, matching the same
+   accordion look as the changelog cards (stylesheets/changelog.css) and
+   install steps (stylesheets/steps.css) for consistency. See
+   javascripts/spawn-commands.js for the fetch/search/render logic.
+   ========================================================================== */
+
+.pt-spawn-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1.2rem 0;
+}
+
+.pt-spawn-search-bar input[type="search"] {
+  flex: 1 1 auto;
+  padding: 0.6em 0.9em;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(0, 246, 255, 0.35);
+  background: rgba(10, 10, 18, 0.5);
+  color: inherit;
+  font: inherit;
+}
+
+.pt-spawn-search-bar input[type="search"]:focus {
+  outline: none;
+  border-color: var(--pt-neon-pink);
+}
+
+.pt-spawn-count {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.pt-spawn-mod {
+  border: 1px solid rgba(0, 246, 255, 0.25);
+  border-left: 3px solid rgba(0, 246, 255, 0.4);
+  border-radius: 0.4rem;
+  margin: 0.6em 0;
+  transition: border-color 0.2s ease;
+}
+
+.pt-spawn-mod[open] {
+  border-left-color: var(--pt-neon-cyan);
+}
+
+.pt-spawn-mod > summary {
+  list-style: revert;
+  cursor: pointer;
+  padding: 0.7em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6em;
+}
+
+.pt-spawn-mod > summary::marker,
+.pt-spawn-mod > summary::-webkit-details-marker {
+  color: var(--pt-neon-pink);
+}
+
+.pt-spawn-mod-name {
+  font-family: var(--md-code-font);
+  font-weight: 700;
+  color: var(--pt-neon-cyan);
+}
+
+.pt-spawn-mod-meta {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.pt-spawn-mod-body {
+  padding: 0 1em 1em 1em;
+}
+
+.pt-spawn-mod-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  margin-bottom: 0.6em;
+}
+
+.pt-spawn-mod-actions a {
+  font-size: 0.8rem;
+}
+
+.pt-spawn-copy-btn {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.35em 0.8em;
+  border-radius: 0.3rem;
+  border: 1px solid rgba(0, 246, 255, 0.35);
+  background: rgba(0, 246, 255, 0.08);
+  color: inherit;
+  cursor: pointer;
+}
+
+.pt-spawn-copy-btn:hover,
+.pt-spawn-copy-btn:focus-visible {
+  border-color: var(--pt-neon-pink);
+}
+
+.pt-spawn-commands {
+  background: rgba(10, 10, 18, 0.6);
+  border: 1px solid rgba(0, 246, 255, 0.2);
+  border-radius: 0.4rem;
+  padding: 0.8em 1em;
+  font-family: var(--md-code-font);
+  font-size: 0.78rem;
+  line-height: 1.6;
+  white-space: pre;
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 24rem;
+}
+
+.pt-spawn-empty {
+  opacity: 0.7;
+  font-style: italic;
+}

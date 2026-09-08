@@ -72,10 +72,12 @@ extra_css:
   - stylesheets/showcase.css
   - stylesheets/issue-viewer.css
   - stylesheets/streetcred.css
+  - stylesheets/spawn-commands.css
 
 nav:
   - Home: index.md
   - Features: features/index.md
+  - Commands: commands/index.md
   - Installation:
       - installation/index.md
       - Installing the CPE Collections: installation/cpe_collection.md
@@ -182,3 +184,4 @@ extra_javascript:
   - javascripts/features.js
   - javascripts/issue-viewer.js
   - javascripts/streetcred.js
+  - javascripts/spawn-commands.js

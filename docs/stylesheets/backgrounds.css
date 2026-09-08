@@ -42,6 +42,7 @@ body.pt-bg-troubleshooting { --pt-bg-image: url("../assets/background7.webp"); }
 body.pt-bg-team            { --pt-bg-image: url("../assets/background8.webp"); }
 body.pt-bg-systems         { --pt-bg-image: url("../assets/background9.webp"); }
 body.pt-bg-features        { --pt-bg-image: url("../assets/background10.webp"); }
+body.pt-bg-commands        { --pt-bg-image: url("../assets/background11.webp"); }
 
 /* Site-wide banner — "PREEM EDITION".
    bannerfullcroppedpreem.png is pre-cropped to exactly the visible band

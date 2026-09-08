@@ -7,6 +7,7 @@
 (function () {
   var ROUTES = [
     { test: /\/features\//, cls: "pt-bg-features" },
+    { test: /\/commands\//, cls: "pt-bg-commands" },
     { test: /\/installation\//, cls: "pt-bg-installation" },
     { test: /\/guides\//, cls: "pt-bg-guides" },
     { test: /\/changelog\//, cls: "pt-bg-changelog" },
