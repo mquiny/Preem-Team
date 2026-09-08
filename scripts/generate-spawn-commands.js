@@ -19,8 +19,12 @@
 // NOT every mod that HAS a spawn command puts it in its own files --
 // some authors only post it as text (or worse, an image) on the Nexus
 // mod page description and nowhere in the actual download. There's
-// nothing this script (or any local file scan) can do about those; they
-// just won't appear here.
+// nothing a local file scan can do about those automatically -- but
+// docs/commands/manual-entries.json (git-tracked, hand-maintained) lets
+// you add one by hand for a specific mod, and it always gets folded
+// back into the output on every run since this script fully rebuilds
+// spawn_commands.json from scratch each time (so hand-editing that file
+// directly would just get silently wiped on the next refresh).
 //
 // Each mod folder's name is parsed for a Nexus mod ID (two naming
 // conventions exist across the collection -- see parseModFolderName),
@@ -44,6 +48,7 @@ const SCAN_EXTENSIONS = new Set(['.yaml', '.yml', '.reds', '.txt', '.md', '.lua'
 const COMMAND_RE = /Game\.AddToInventory\([^)]*\)|Game\.GetVehicleSystem\(\):EnablePlayerVehicle\([^)]*\)/g;
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'nexus-mod-cache.json');
 const OUTPUT_PATH = path.join(__dirname, '..', 'docs', 'commands', 'assets', 'spawn_commands.json');
+const MANUAL_ENTRIES_PATH = path.join(__dirname, '..', 'docs', 'commands', 'manual-entries.json');
 const DOMAIN = 'cyberpunk2077';
 const NEXUS_API_KEY = process.env.NEXUS_API_KEY;
 const APP_NAME = process.env.APP_NAME || 'PreemTeamSite';
@@ -244,21 +249,63 @@ async function main() {
     });
   }
 
-  const merged = mergeDuplicatesByCommandSet(results);
-  merged.sort((a, b) => a.name.localeCompare(b.name));
+  const autoMerged = mergeDuplicatesByCommandSet(results);
+  const { combined, skipped } = addManualEntries(autoMerged);
+  combined.sort((a, b) => a.name.localeCompare(b.name));
 
   fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
   fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
 
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(merged, null, 2));
+  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(combined, null, 2));
 
   console.log(`Looked up ${lookedUp} new mod(s) on Nexus this run (${Object.keys(cache).length} cached total).`);
   if (lookedUp >= MAX_NEW_LOOKUPS_PER_RUN) {
     console.log(`Hit the per-run lookup cap (${MAX_NEW_LOOKUPS_PER_RUN}) -- some mods may still show their raw folder name. Run this again to pick up the rest.`);
   }
-  console.log(`Merged ${results.length} raw entries down to ${merged.length} (same install bundled/named differently across the two folders).`);
-  console.log(`Wrote ${merged.length} mods to ${OUTPUT_PATH}`);
+  console.log(`Merged ${results.length} raw entries down to ${autoMerged.length} (same install bundled/named differently across the two folders).`);
+  if (skipped.length > 0) {
+    console.log(`Skipped ${skipped.length} manual-entries.json mod(s) now found automatically -- safe to remove from that file: ${skipped.join(', ')}`);
+  }
+  console.log(`Wrote ${combined.length} mods to ${OUTPUT_PATH}`);
+}
+
+// Mods whose author only ever posts the spawn command as text/an image on
+// their Nexus page, never in the actual downloadable files (confirmed
+// cases: HK SMG Pack, and presumably others) -- nothing a file scan can
+// find automatically, so docs/commands/manual-entries.json is a small
+// hand-maintained list of exceptions that always gets folded back in
+// here, surviving every regeneration instead of being wiped by it.
+function loadManualEntries() {
+  try {
+    const raw = fs.readFileSync(MANUAL_ENTRIES_PATH, 'utf8');
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function addManualEntries(autoEntries) {
+  const manualEntries = loadManualEntries();
+  if (manualEntries.length === 0) return { combined: autoEntries, skipped: [] };
+
+  const autoNames = new Set(autoEntries.map((e) => e.name.toLowerCase()));
+  const skipped = [];
+  const combined = autoEntries.slice();
+
+  for (const entry of manualEntries) {
+    if (autoNames.has((entry.name || '').toLowerCase())) {
+      // The scanner found this mod on its own since the manual entry was
+      // added (author updated their files, or it was added to a folder
+      // that's now scanned) -- the automatic one wins, don't duplicate.
+      skipped.push(entry.name);
+      continue;
+    }
+    combined.push({ aliases: [], ...entry });
+  }
+
+  return { combined, skipped };
 }
 
 // The same mod frequently shows up as two separate folders -- once in
