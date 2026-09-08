@@ -38,12 +38,6 @@ feature.
 
 <div class="grid cards" markdown="1">
 
-<!-- SHOWCASE:ENTRY:1545933184687145080:START -->
--   ![Screenshot posted by mquinytest in #🌄┃gallery](https://cdn.discordapp.com/attachments/1543381631073525850/1545933183185588344/photomode_29082026_121613.png?ex=6a9df1f8&is=6a9ca078&hm=6de5a98f0b918f2b1d881102b6f0075e97fdd29950db929f3b0dafcb1990adb2&)
-    **Showcase submission**
-    *Posted by `mquinytest` in #🌄┃gallery*
-    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1545933184687145080)
-<!-- SHOWCASE:ENTRY:1545933184687145080:END -->
 
 </div>
 </details>
