@@ -1805,6 +1805,20 @@
     ]
   },
   {
+    "modId": 20456,
+    "name": "Cyber Kart",
+    "author": "Oranje 3",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/20456",
+    "version": "1.1.0",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.oranje3_kart',true,false)"
+    ],
+    "aliases": []
+  },
+  {
     "modId": 27707,
     "name": "Dancing Night Outfit - Archive XL",
     "author": "Atomiic",
@@ -1935,6 +1949,20 @@
     "aliases": [
       "Dave X Veegee Casual Style Outfit Pt9 - VanillaArm"
     ]
+  },
+  {
+    "modId": 32744,
+    "name": "De Tomaso Pantera GTS - ArchiveXL",
+    "author": "yellingintothevoid",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/32744",
+    "version": "1.1",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_pantera_customisable', true, false)"
+    ],
+    "aliases": []
   },
   {
     "modId": 31817,
@@ -2298,6 +2326,24 @@
     "aliases": []
   },
   {
+    "modId": 26613,
+    "name": "Go on a Date (Panam) - Side romance activity",
+    "author": "Dedra",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/26613",
+    "version": "2.1",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"Items.LowQualityAlcohol1\", 1)",
+      "Game.AddToInventory(\"Items.MediumQualityFood7\", 1)",
+      "Game.AddToInventory(\"Items.money\", -50)"
+    ],
+    "aliases": [
+      "0-Engine Enhanced Mods"
+    ]
+  },
+  {
     "modId": 21350,
     "name": "Granite - Archive XL Masc Fem",
     "author": "Raenef",
@@ -2587,6 +2633,35 @@
     ]
   },
   {
+    "modId": 32495,
+    "name": "Honda Beat 1996",
+    "author": "SDH0",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/32495",
+    "version": "0.9",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.beat_base\", true, false)"
+    ],
+    "aliases": []
+  },
+  {
+    "modId": 32203,
+    "name": "Immersive Third Person - Best Of Both Worlds",
+    "author": "CybrDrake",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/32203",
+    "version": "1",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.AddToInventory(\" .. itemRecord .. \")",
+      "Game.AddToInventory(itemRecord, 1)"
+    ],
+    "aliases": []
+  },
+  {
     "modId": 31845,
     "name": "infrab's Bright Stockings",
     "author": "infraredbe",
@@ -2783,6 +2858,20 @@
       "Game.AddToInventory(\"Items.ib_micro_bikini_top_solidred\")",
       "Game.AddToInventory(\"Items.ib_micro_bikini_top_solidtan\")",
       "Game.AddToInventory(\"Items.ib_micro_bikini_top_solidwhite\")"
+    ],
+    "aliases": []
+  },
+  {
+    "modId": 28312,
+    "name": "Judy Diving Suit (Pyramid Song Acquisition Patch)",
+    "author": "Dedra",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/28312",
+    "version": "1.0",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"Items.SQ030_Diving_Suit\", 1)"
     ],
     "aliases": []
   },
@@ -3360,6 +3449,31 @@
       "Game.AddToInventory(\"Items.melgardens_sweaterbodysuit_stripe01\",1)",
       "Game.AddToInventory(\"Items.melgardens_sweaterbodysuit_stripe02\",1)",
       "Game.AddToInventory(\"Items.melgardens_sweaterbodysuit_white\",1)"
+    ],
+    "aliases": []
+  },
+  {
+    "modId": 21574,
+    "name": "Lotus Esprit Turbo - ArchiveXL",
+    "author": "yellingintothevoid",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/21574",
+    "version": "1.6.3",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_black_glossy', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_black_matte', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_blue', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_green', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_grey', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_pink', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_purple', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_red', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_silver', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_sky', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_white', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_lotus_esprit_yellow', true, false)"
     ],
     "aliases": []
   },
@@ -4782,6 +4896,25 @@
       "Game.AddToInventory(\"Items.hyst_mini_short_outfit_top_pink\",1)",
       "Game.AddToInventory(\"Items.hyst_mini_short_outfit_top_purple\",1)",
       "Game.AddToInventory(\"Items.hyst_mini_short_outfit_top_red\",1)"
+    ],
+    "aliases": []
+  },
+  {
+    "modId": 5058,
+    "name": "Missing Persons - Fixer's Hidden Gems",
+    "author": "Darkcopse",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/5058",
+    "version": "2.3.0",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"Items.AttributePointSkillbook\", 1)",
+      "Game.AddToInventory(\"Items.PerkPointSkillbook\", 1)",
+      "Game.AddToInventory(\"Items.Q203_Spacesuit_Outfit_WithHelmet\", 1)",
+      "Game.AddToInventory(\"Items.money\", self.hiddenGems.settings.EDValue * rewardMultiplier)",
+      "Game.AddToInventory(\"Items.q115_thrusters\", 1)",
+      "Game.AddToInventory(record, 1)"
     ],
     "aliases": []
   },
@@ -6377,6 +6510,21 @@
     ]
   },
   {
+    "modId": 12245,
+    "name": "Pacifica Typhoon - Dogtown's Hidden Gems",
+    "author": "Darkcopse",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/12245",
+    "version": "2.3.0",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"Items.money\", self.pacificaTyphoon.settings.EDValue * rewardMultiplier)",
+      "Game.AddToInventory(record, 1)"
+    ],
+    "aliases": []
+  },
+  {
     "modId": null,
     "name": "Pants",
     "author": null,
@@ -6555,6 +6703,57 @@
     "aliases": [
       "Peachu Mini Skirt AXL"
     ]
+  },
+  {
+    "modId": 21496,
+    "name": "Post-Romance Delivery System (Judy) With physical packages",
+    "author": "Dedra",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/21496",
+    "version": "5.0",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"GenericJunkItem23\", 3)",
+      "Game.AddToInventory(\"Items.EpicMaterial1\", 25)",
+      "Game.AddToInventory(\"Items.GoodQualityFood11\", 12)",
+      "Game.AddToInventory(\"Items.HealthBooster\", 5)",
+      "Game.AddToInventory(\"Items.LegendaryMaterial1\", 20)",
+      "Game.AddToInventory(\"Items.QuickHackEpicMaterial1\", 23)",
+      "Game.AddToInventory(\"Items.QuickHackLegendaryMaterial1\", 15)",
+      "Game.AddToInventory(\"Items.TechnicalAbilitySkill_Skillbook\", 1)"
+    ],
+    "aliases": []
+  },
+  {
+    "modId": 21689,
+    "name": "Post-Romance Delivery System (Panam) - With physical packages",
+    "author": "Dedra",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/21689",
+    "version": "5.0",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"GenericJunkItem23\", 3)",
+      "Game.AddToInventory(\"Items.BodySkill_Skillbook\", 1)",
+      "Game.AddToInventory(\"Items.EpicMaterial1\", 17)",
+      "Game.AddToInventory(\"Items.HealthBooster\", 4)",
+      "Game.AddToInventory(\"Items.LegendaryMaterial1\", 23)",
+      "Game.AddToInventory(\"Items.LowQualityDrink10\", 1)",
+      "Game.AddToInventory(\"Items.MediumQualityDrink1\", 1)",
+      "Game.AddToInventory(\"Items.MediumQualityDrink4\", 1)",
+      "Game.AddToInventory(\"Items.MediumQualityFood12\", 1)",
+      "Game.AddToInventory(\"Items.MediumQualityFood13\", 1)",
+      "Game.AddToInventory(\"Items.MeleeMod1_Legendary\", 6)",
+      "Game.AddToInventory(\"Items.QuickHackLegendaryMaterial1\", 11)",
+      "Game.AddToInventory(\"Items.ShotgunMod3_Legendary\", 1)",
+      "Game.AddToInventory(\"Items.SmartMod2_Epic\", 2)",
+      "Game.AddToInventory(\"Items.SmartMod3_Uncommon\", 5)",
+      "Game.AddToInventory(\"Items.TechMod2_Epic\", 4)",
+      "Game.AddToInventory(\"Items.money\", 14000)"
+    ],
+    "aliases": []
   },
   {
     "modId": 27118,

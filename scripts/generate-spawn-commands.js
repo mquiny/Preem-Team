@@ -6,13 +6,21 @@
 // local Vortex staging folder and/or Nexus "mod-extra-files" folder
 // directly, so it only works run by hand on your own PC.
 //
-// Scans every mod folder for `Game.AddToInventory("Items.xxx")` lines --
-// the one console-spawn-command convention that's actually reliable
-// across the collection (checked against ~8700 real occurrences; every
-// other candidate pattern like bare ".AddItem(" turned out to be
-// unrelated reds script internals, not user-facing commands). Lines are
-// picked up whether they're a standalone comment or a trailing comment
-// on a YAML data line, since mod authors do both.
+// Scans every mod folder for two console-spawn-command conventions:
+//   Game.AddToInventory("Items.xxx")                          -- items
+//   Game.GetVehicleSystem():EnablePlayerVehicle("Vehicle.xxx", true, false) -- vehicles
+// (checked against ~8700 real item-command occurrences; every other
+// candidate pattern like bare ".AddItem(" turned out to be unrelated reds
+// script internals, not user-facing commands). Lines are picked up
+// whether they're a standalone comment or a trailing comment on a YAML
+// data line, since mod authors do both, and regardless of single vs.
+// double quotes, since both show up across different authors' mods.
+//
+// NOT every mod that HAS a spawn command puts it in its own files --
+// some authors only post it as text (or worse, an image) on the Nexus
+// mod page description and nowhere in the actual download. There's
+// nothing this script (or any local file scan) can do about those; they
+// just won't appear here.
 //
 // Each mod folder's name is parsed for a Nexus mod ID (two naming
 // conventions exist across the collection -- see parseModFolderName),
@@ -32,8 +40,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const SCAN_EXTENSIONS = new Set(['.yaml', '.yml', '.reds', '.txt', '.md']);
-const COMMAND_RE = /Game\.AddToInventory\([^)]*\)/g;
+const SCAN_EXTENSIONS = new Set(['.yaml', '.yml', '.reds', '.txt', '.md', '.lua', '.json', '.ini', '.cfg']);
+const COMMAND_RE = /Game\.AddToInventory\([^)]*\)|Game\.GetVehicleSystem\(\):EnablePlayerVehicle\([^)]*\)/g;
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'nexus-mod-cache.json');
 const OUTPUT_PATH = path.join(__dirname, '..', 'docs', 'commands', 'assets', 'spawn_commands.json');
 const DOMAIN = 'cyberpunk2077';
