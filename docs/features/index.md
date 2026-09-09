@@ -49,7 +49,7 @@ survive. Hunger, thirst, fatigue, and addiction all become real pressures on
 V, environmental hazards actually matter, and healing items get scarce
 enough that a firefight has actual stakes again. Everything is
 tunable — dial it up for a proper survival run, or just enough to make combat
-feel dangerous.
+feel dangerous. [Dark Future](https://www.nexusmods.com/cyberpunk2077/mods/16300)
 
 </div>
 </div>
@@ -62,7 +62,7 @@ feel dangerous.
 
 ### Drink Anywhere
 
-<span class="pt-feature-caption">Description coming soon.</span>
+<span class="pt-feature-caption">Drink to your hearts content. Anytime, anywhere. (Feature of the [Dark Future](https://www.nexusmods.com/cyberpunk2077/mods/16300) mod).</span>
 
 </div>
 </div>
@@ -75,7 +75,7 @@ feel dangerous.
 
 ### Smoking
 
-<span class="pt-feature-caption">Description coming soon.</span>
+<span class="pt-feature-caption">Feel like unleashing your inner Johnny, and smoking your heart out. Well now you can. (Feature of the [Dark Future](https://www.nexusmods.com/cyberpunk2077/mods/16300) mod).</span>
 
 </div>
 </div>
@@ -88,7 +88,7 @@ feel dangerous.
 
 ### Weeee
 
-<span class="pt-feature-caption">Description coming soon.</span>
+<span class="pt-feature-caption">Leave the H10 apartment block in...style? Yeah you land in a heap of garbage, guess Night City always has the last laugh.</span>
 
 </div>
 </div>
