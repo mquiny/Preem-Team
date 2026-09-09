@@ -201,6 +201,27 @@ Now it's time to select the collection to be downloaded/installed
 
 </div>
 
+## Popups you might see during install
+
+Vortex throws up a handful of warning-style popups mid-install that look
+alarming but are expected — the collection is large enough that a few of
+these are normal, not a sign anything's gone wrong. Click a popup below if
+you're not sure whether to worry about it.
+
+??? info "📷 Mod Installed But May Need Manual Adjustment!"
+    This one's **safe to ignore**. It shows up because some mods bundle
+    multiple variants (different colors, body types, etc.) as loose files
+    rather than one clean installer, so Vortex can't automatically decide
+    which ones you want and installs everything into the staging folder for
+    you to sort out later if needed.
+
+    You don't need to do anything — just click **Understood!** and carry
+    on with the install. The mod is already installed correctly for normal
+    use; this is only relevant if you specifically want to hand-pick between
+    variants of that particular mod later on.
+
+    ![Mod Installed But May Need Manual Adjustment popup](assets/manual_adjustment.png){ width="500" }
+
 <div class="pt-flavor">
 "First rule of netrunning: always know your exit. Second rule: always back up your save." — Preem Team install notes
 </div>
