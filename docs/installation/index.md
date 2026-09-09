@@ -21,7 +21,7 @@ you'll have a stable, modded Night City by the end of it.
     to revert your game installation back to a pre-modded state.
 
 !!! danger "We do not support Pirated copies"
-    We do not support, endorse or recommend you mod Cyberpunk with a pirated copy of the game, Please make sure you have a legitimate copy of the game aquired through Steam/GOG/Epic Game, we will not offer to support to those who are running non-legit copies of the game.
+    We do not support, endorse or recommend you mod Cyberpunk with a pirated copy of the game, Please make sure you have a legitimate copy of the game aquired through Steam/GOG/Epic Games, we will not offer to support to those who are running non-legit copies of the game.
 	
 ## Overview checklist
 
