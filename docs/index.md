@@ -16,7 +16,7 @@ description: Preem Team — a curated Cyberpunk 2077 mod collection.
 
 ## Who are the Preem Team?
 
-Preem Team are a bunch of experienced Cyberpunk ethusiasts, looking to make the best collection in Night City. With years of experience with curating collections, we want to bring the best modding experience possible to all.
+Preem Team are a bunch of experienced Cyberpunk enthusiasts, looking to make the best collection in Night City. With years of experience with curating collections, we want to bring the best modding experience possible to all.
 
 !!! quote "Our philosophy"
     - **Immersion** - We build the collection around making Night City feel alive. Smarter crowds, more reactive AI, deeper systems for V’s needs, injuries, addictions, and the kind of small details that make the world feel connected to the roots of Night City. Everything we add is optional and adjustable, you can tailor it, tone it down, or turn it off entirely mid‑save. The goal is simple: let players sink into a version of Night City that feels more responsive, more grounded, and more personal.
