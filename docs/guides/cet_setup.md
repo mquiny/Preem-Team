@@ -16,6 +16,8 @@ A walkthrough for configuring **Cyber Engine Tweaks (CET)** — one of the core
 frameworks bundled in the Preem Team collection — and for reading its
 console log when something goes wrong.
 
+<p class="pt-misty-quote">"Life is so powerfully beautiful. So much more powerful than death" <cite>— Misty</cite></p>
+
 !!! info "Who this is for"
     Anyone running the Preem Team collection who wants to understand what
     CET does and how to tweak its settings safely.
