@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Preem Team — hover dropdown on the top nav tabs
+   See javascripts/nav-dropdown.js. Appended to <body> as position:fixed
+   rather than nested inside .md-tabs__item, since .md-tabs has
+   overflow:hidden (for nav-autohide.js's collapse animation) which would
+   clip a nested dropdown regardless of z-index. Shown/hidden by JS toggling
+   .pt-nav-dropdown--visible, not plain CSS :hover, since it's no longer a
+   descendant of the tab it belongs to.
+   ========================================================================== */
+
+.pt-nav-dropdown {
+  display: none;
+  position: fixed;
+  min-width: 15rem;
+  margin: 0;
+  padding: 0.4em 0;
+  list-style: none;
+  background: rgba(10, 10, 18, 0.95);
+  border: 1px solid rgba(0, 246, 255, 0.35);
+  border-top: none;
+  border-radius: 0 0 0.4rem 0.4rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+  z-index: 1000;
+}
+
+.pt-nav-dropdown.pt-nav-dropdown--visible {
+  display: block;
+}
+
+.pt-nav-dropdown li a {
+  display: block;
+  padding: 0.55em 1.1em;
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.pt-nav-dropdown li a:hover,
+.pt-nav-dropdown li a:focus-visible {
+  background: rgba(0, 246, 255, 0.1);
+  color: var(--pt-neon-cyan);
+}

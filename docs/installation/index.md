@@ -1,6 +1,6 @@
 ---
-title: Installation
-description: Step-by-step installation guide for the Preem Team collection.
+title: Installing the CPE Collection
+description: Step-by-step installation guide for the Preem Team CPE collection.
 ---
 
 # INSTALLATION // JACKING IN

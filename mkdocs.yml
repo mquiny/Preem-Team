@@ -82,6 +82,7 @@ extra_css:
   - stylesheets/issue-viewer.css?v=1
   - stylesheets/streetcred.css?v=1
   - stylesheets/spawn-commands.css?v=1
+  - stylesheets/nav-dropdown.css?v=1
 
 nav:
   - Home: index.md
@@ -89,7 +90,9 @@ nav:
   - Commands: commands/index.md
   - Installation:
       - installation/index.md
-      - Installing the CPE Collections: installation/cpe_collection.md
+      - Updating the CPE Collection: installation/cpe_collection.md
+      - Installing the Subnautica 2 Collection: installation/subnautica2_collection.md
+      - Installing the Expedition 33 Collection: installation/expedition33_collection.md
   - Guides:
       - guides/index.md
       - Clean Install: guides/clean_install.md
@@ -194,3 +197,4 @@ extra_javascript:
   - javascripts/issue-viewer.js?v=1
   - javascripts/streetcred.js?v=1
   - javascripts/spawn-commands.js?v=1
+  - javascripts/nav-dropdown.js?v=1
