@@ -38,6 +38,33 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:9htmlb:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-subnautica-2-reborn-10">
+<img class="pt-changelog-card-thumb" src="assets/sub2.webp" alt="">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Subnautica 2 Reborn-10</span>
+<span class="pt-changelog-card-date">2026-09-09 · CP2077 Early Access 1.2</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--removed">Removed</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-subnautica-2-reborn-10" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Subnautica 2 Reborn-10
+
+<span class="pt-chip pt-chip--removed">Removed</span>
+
+`2026-09-09` · Game Version `Early Access 1.2` · Posted by **Choomba** · Synced from `#9htmlb`
+
+### Removed {: .pt-changelog-h-removed }
+
+- [Mod Settings for Subnautica 2 - DELETED](https://www.nexusmods.com/subnautica2/mods/20) (v1.3.1)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-subnautica-2-reborn-9">
 <img class="pt-changelog-card-thumb" src="assets/sub2.webp" alt="">
 <span class="pt-changelog-card-body">
