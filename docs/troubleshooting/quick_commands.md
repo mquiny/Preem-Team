@@ -33,10 +33,7 @@ can't add, edit, or run anything from this page.
 | `!Middle` | Wildcard | https://gifsec.com/wp-content/uploads/2022/09/middle-finger-gif-17.gif | All (global) |
 | `!mquiny` | Wildcard | mquiny is awesome https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
 | `!nevergoon` | Wildcard | https://tenor.com/view/never-goon-bozonga-hjjw-saraiva-skibidi-gif-15011026571260862033 | All (global) |
-| `!newbie` | Wildcard | Please review this pinned post https://discord.com/channels/1285796904160202752/1304172034737180764/1446628189333094400 | All (global) |
 | `!Nice Pic` | Wildcard | https://media.tenor.com/Vg_BtJHni2cAAAAC/squeeze-bottle-austin-powers.gif | All (global) |
-| `!nomenu` | Wildcard | https://discord.com/channels/1285796904160202752/1285797091750187039/1398186612910850129 | All (global) |
-| `!offtopic` | Wildcard | Oops, It appears you are going off-topic in the wrong channel, please discuss this in <#1304172034737180764> to keep this channel clear. Thanks choom. | All (global) |
 | `!reqs` | Wildcard | It appears as if your system might not have the correct specifications to run our collections, please double check <#1306308050503733350> and make sure you meet these (Collections will require higher specs than the playing a unmodded base game) | All (global) |
 | `!Romance` | Wildcard | You can enable Non-Canon Romances once in-game by going to the pause menu and enabling the romance in the Mod Setting menu for Non-Canon Romances Enhanced. | All (global) |
 | `!spawncmds` | Wildcard | Here is a handy guide on how to use our bot to search for spawn commands<br><br>https://discord.com/channels/1285796904160202752/1421285814700081263 | All (global) |
