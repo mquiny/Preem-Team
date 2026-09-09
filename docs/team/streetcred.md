@@ -26,14 +26,14 @@ once a day.
 
 <!-- BOT-INJECT:STREETCRED:START -->
 
-**Last synced:** `2026-09-08 05:00 UTC`
+**Last synced:** `2026-09-09 05:00 UTC`
 
 <table class="pt-streetcred-table">
 <thead><tr><th>Rank</th><th>Member</th><th>Tier</th><th>Score</th></tr></thead>
 <tbody>
-<tr data-staff="true"><td>1</td><td>mquiny</td><td>Chrome Head</td><td>1039.7</td></tr>
-<tr data-staff="true"><td>2</td><td>excel</td><td>Chrome Head</td><td>984.2</td></tr>
-<tr data-staff="true"><td>3</td><td>Cara (The Glitchfixer)</td><td>Choom</td><td>344.1</td></tr>
+<tr data-staff="true"><td>1</td><td>mquiny</td><td>Chrome Head</td><td>1111.85</td></tr>
+<tr data-staff="true"><td>2</td><td>excel</td><td>Chrome Head</td><td>1093.35</td></tr>
+<tr data-staff="true"><td>3</td><td>Cara (The Glitchfixer)</td><td>Choom</td><td>418.1</td></tr>
 <tr data-staff="false"><td>4</td><td>not mquiny</td><td>Gutter-Pup</td><td>164.65</td></tr>
 </tbody>
 </table>
