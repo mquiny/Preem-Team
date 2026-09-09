@@ -98,6 +98,7 @@ nav:
       - Clean Install: guides/clean_install.md
       - First Boot: guides/first_time_boot.md
       - CET Setup: guides/cet_setup.md
+      - Changing Your Body Mod: guides/changing_body_mod.md
   - Changelog:
       - Current Revision: changelog/index.md
       - Archived Revisions: changelog/archive.md

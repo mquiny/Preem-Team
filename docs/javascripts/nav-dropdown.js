@@ -38,7 +38,8 @@
       { label: "Guides", href: "" },
       { label: "Clean Install", href: "clean_install/" },
       { label: "First Boot", href: "first_time_boot/" },
-      { label: "CET Setup", href: "cet_setup/" }
+      { label: "CET Setup", href: "cet_setup/" },
+      { label: "Changing Your Body Mod", href: "changing_body_mod/" }
     ],
     "Changelog": [
       { label: "Current Revision", href: "" },
