@@ -23,7 +23,6 @@ can't add, edit, or run anything from this page.
 
 | Trigger | Match | Response | Channels |
 |---|---|---|---|
-| `!addbody` | Wildcard | If you wish to add your own body rig to the NCR collections. Here is a thread with tons of helpful tips.<br><br>https://discord.com/channels/1285796904160202752/1420855549012082800 | All (global) |
 | `!AI` | Wildcard | https://media.zenfs.com/en/know_your_meme_909/a76a07b4f841ca2af1ee12cebf64895a | All (global) |
 | `!barf` | Wildcard | https://tenor.com/view/barf-gif-15784859 | All (global) |
 | `!behave` | Wildcard | https://youtu.be/u2vAFhXDFHk?si=xULtWqE6myPIVK_K | All (global) |
