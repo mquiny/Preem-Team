@@ -63,16 +63,25 @@ theme:
     - content.tabs.link
     - content.action.edit
 
+# The ?v=N on every custom file below is a manual cache-buster. MkDocs
+# doesn't hash/fingerprint extra_css/extra_javascript filenames itself
+# (only its own built-in theme assets get that), so browsers can and do
+# keep serving a stale cached copy of one of these indefinitely after a
+# site update -- exactly what happened when the Features page's popup
+# pagination shipped but a returning visitor's browser kept the old
+# features.js/features.css, producing a broken hybrid of new markup +
+# old script. Bump the number on a specific file whenever you edit it
+# (no need to touch the others) to force browsers to fetch it fresh.
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/backgrounds.css
-  - stylesheets/steps.css
-  - stylesheets/features.css
-  - stylesheets/changelog.css
-  - stylesheets/showcase.css
-  - stylesheets/issue-viewer.css
-  - stylesheets/streetcred.css
-  - stylesheets/spawn-commands.css
+  - stylesheets/extra.css?v=1
+  - stylesheets/backgrounds.css?v=1
+  - stylesheets/steps.css?v=1
+  - stylesheets/features.css?v=2
+  - stylesheets/changelog.css?v=1
+  - stylesheets/showcase.css?v=1
+  - stylesheets/issue-viewer.css?v=1
+  - stylesheets/streetcred.css?v=1
+  - stylesheets/spawn-commands.css?v=1
 
 nav:
   - Home: index.md
@@ -177,11 +186,11 @@ extra:
   generator: false
 
 extra_javascript:
-  - javascripts/backgrounds.js
-  - javascripts/nav-autohide.js
-  - javascripts/steps.js
-  - javascripts/changelog.js
-  - javascripts/features.js
-  - javascripts/issue-viewer.js
-  - javascripts/streetcred.js
-  - javascripts/spawn-commands.js
+  - javascripts/backgrounds.js?v=1
+  - javascripts/nav-autohide.js?v=1
+  - javascripts/steps.js?v=1
+  - javascripts/changelog.js?v=1
+  - javascripts/features.js?v=2
+  - javascripts/issue-viewer.js?v=1
+  - javascripts/streetcred.js?v=1
+  - javascripts/spawn-commands.js?v=1
