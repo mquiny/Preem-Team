@@ -8,6 +8,10 @@ description: Configuring Cyber Engine Tweaks and reading its console log.
 > `> LOADING MODULE: cyber_engine_tweaks.dll`
 > `> STATUS: NOMINAL`
 
+<div class="pt-mascot" markdown="1">
+![Misty](assets/misty1.png)
+</div>
+
 A walkthrough for configuring **Cyber Engine Tweaks (CET)** — one of the core
 frameworks bundled in the Preem Team collection — and for reading its
 console log when something goes wrong.
@@ -23,16 +27,15 @@ game engine at runtime. It also ships with an in-game console overlay used
 for debugging, running commands, and managing loaded mods.
 
 Most of the collection's gameplay and UI mods depend on CET being installed
-and configured correctly — if CET misbehaves, expect knock-on issues across
-the rest of the collection.
+and configured correctly.
 
 ## Opening the console
 
 1. Launch the game with the collection installed.
-2. From the main menu or in-game, press the default bind: `` ` `` (backtick) or `~`.
+2. From the main menu or in-game, press the default bind: `` ` `` (backtick) or `~`. Or whatever key you used when the [First Boot - Set CET Keybinds](https://mquiny.github.io/Preem-Team/guides/first_time_boot/) prompt appeared "
 3. The CET overlay should appear over the game, dimming the background.
 
-- [ ] Console opens with the default hotkey
+- [ ] Console opens with the default hotkey or the hotkey you set
 - [ ] Mod list tab shows all installed CET-dependent mods
 - [ ] No errors appear in red text in the console log
 
