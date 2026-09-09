@@ -52,7 +52,7 @@ Here's who's behind the curtain.
 
 <div class="grid cards" markdown>
 
--   :material-account-plus:{ .lg .middle } **Community Support**
+-   :material-account-plus:{ .lg .middle } **Anti**
 
     ---
 
@@ -62,7 +62,7 @@ Here's who's behind the curtain.
 
     *“I’m not reading just fresh install”*
 
--   :material-account-plus:{ .lg .middle } **Open Position**
+-   :material-account-plus:{ .lg .middle } **To Be Filled**
 
     ---
 
