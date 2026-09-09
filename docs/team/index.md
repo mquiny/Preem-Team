@@ -52,7 +52,7 @@ Here's who's behind the curtain.
 
 <div class="grid cards" markdown>
 
--   :material-account-plus:{ .lg .middle } **Open Position**
+-   :material-account-plus:{ .lg .middle } **Community Support**
 
     ---
 
