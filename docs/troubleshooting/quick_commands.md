@@ -30,8 +30,6 @@ can't add, edit, or run anything from this page.
 | `!carameow` | Wildcard | https://tenor.com/view/smiling-cat-happy-cat-smile-gif-3555983607747631247 | All (global) |
 | `!cetbind` | Wildcard | Have you forgotten what keybind you set to open the CET (Cyber Engine Tweaks) menu. <br><br>If you have never set any keybinds in the CET menu, go to the link below and delete bindings.json If you have previously set keybinds and don't want to lose them, open up bindings.json, search for "overlay_key", and set the value after the : to 0 \Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks | All (global) |
 | `!changebody` | Wildcard | We have a well written guide from our amazing Cara on our website, check it out [here](https://mquiny.github.io/Preem-Team/guides/changing_body_mod/) | All (global) |
-| `!loadorder` | Wildcard | Good news choom, our collections don't use a load order.<br><br>However if you are asking this we assume you have the "auto-convert " mods setting turned off in vortex "v2077 settings"? If not you've installed the collection wrong. | All (global) |
-| `!logs` | Wildcard | https://raw.githubusercontent.com/NCReborn/content-images/refs/heads/main/ncr/image-2.png | All (global) |
 | `!menuvolume` | Wildcard | https://discord.com/channels/1285796904160202752/1474894014720250042 | All (global) |
 | `!Middle` | Wildcard | https://gifsec.com/wp-content/uploads/2022/09/middle-finger-gif-17.gif | All (global) |
 | `!money` | Wildcard | Enter this command into the Cyber Engine Tweaks console<br><br>Game.AddToInventory("Items.money", 100000) | All (global) |
