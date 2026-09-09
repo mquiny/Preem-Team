@@ -8,6 +8,10 @@ description: Configuring Cyber Engine Tweaks and reading its console log.
 > `> LOADING MODULE: cyber_engine_tweaks.dll`
 > `> STATUS: NOMINAL`
 
+<div class="pt-mascot" markdown="1">
+![Judy Alvarez](assets/misty1.png)
+</div>
+
 A walkthrough for configuring **Cyber Engine Tweaks (CET)** — one of the core
 frameworks bundled in the Preem Team collection — and for reading its
 console log when something goes wrong.
