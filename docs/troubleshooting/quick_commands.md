@@ -25,10 +25,8 @@ can't add, edit, or run anything from this page.
 |---|---|---|---|
 | `!addbody` | Wildcard | If you wish to add your own body rig to the NCR collections. Here is a thread with tons of helpful tips.<br><br>https://discord.com/channels/1285796904160202752/1420855549012082800 | All (global) |
 | `!AI` | Wildcard | https://media.zenfs.com/en/know_your_meme_909/a76a07b4f841ca2af1ee12cebf64895a | All (global) |
-| `!auto-convert` | Wildcard | If your auto convert was turned on during install follow these steps to fix;<br><br>1.) Remove all mods from vortex "Don't delete the archives"<br>2.) Change the v2077 settings so "Auto convert" is **OFF** and "Don't prompt when reaching fallback installer" is **ON**<br>3.) Force close out vortex<br>4.) Do a #clean-install <br>5.) Re-add the collection to a new profile in vortex | All (global) |
 | `!barf` | Wildcard | https://tenor.com/view/barf-gif-15784859 | All (global) |
 | `!behave` | Wildcard | https://youtu.be/u2vAFhXDFHk?si=xULtWqE6myPIVK_K | All (global) |
-| `!bugfix` | Wildcard | Hey Choom, the solution to your problem may be in <#1285797091750187039> | All (global) |
 | `!carameow` | Wildcard | https://tenor.com/view/smiling-cat-happy-cat-smile-gif-3555983607747631247 | All (global) |
 | `!cetbind` | Wildcard | Have you forgotten what keybind you set to open the CET (Cyber Engine Tweaks) menu. <br><br>If you have never set any keybinds in the CET menu, go to the link below and delete bindings.json If you have previously set keybinds and don't want to lose them, open up bindings.json, search for "overlay_key", and set the value after the : to 0 \Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks | All (global) |
 | `!CETBINDING` | Wildcard | To reset the Cyber Engine Tweaks (CET) overlay key in Cyberpunk 2077, delete the bindings.json file located in your game's Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks\ folder, then restart the game; this will prompt you to set a new hotkey for the CET overlay. | All (global) |
