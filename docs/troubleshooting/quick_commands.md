@@ -34,9 +34,6 @@ can't add, edit, or run anything from this page.
 | `!mquiny` | Wildcard | mquiny is awesome https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
 | `!nevergoon` | Wildcard | https://tenor.com/view/never-goon-bozonga-hjjw-saraiva-skibidi-gif-15011026571260862033 | All (global) |
 | `!Nice Pic` | Wildcard | https://media.tenor.com/Vg_BtJHni2cAAAAC/squeeze-bottle-austin-powers.gif | All (global) |
-| `!test` | Wildcard | Test | All (global) |
-| `!test2` | Wildcard | Test | All (global) |
-| `!Update` | Wildcard | Use this guide to update the collection: https://discord.com/channels/1285796904160202752/1400942550076100811 | All (global) |
 | `!v2077` | Wildcard | Just to double check though these settings are like this in V2077 in vortex?<br><br>https://cdn.discordapp.com/attachments/1285796905640788030/1456238716745158740/image.png?ex=6957a37d&is=695651fd&hm=f056bbd06a0ea2a2570b6c2e25182aff5441f1ee12c4849600fffae07386a52d& | All (global) |
 | `!v2077fix` | Exact match | If your auto convert was turned on during install follow these steps to fix;<br><br>1.) Remove all mods from vortex **"Don't delete the archives"**<br>2.) Change the v2077 settings so "Auto convert" is **OFF** and "Don't prompt when reaching fallback installer" is **ON**<br>3.) Force close out vortex<br>4.) Do a <#1417639414678687885> (Skip to step 3 as mod are already removed and vortex is closed)<br>5.) Re-add the collection to a new profile in vortex | All (global) |
 | `!veinz` | Wildcard | Is never active https://klipy.com/gifs/cat-standing-13 | All (global) |
