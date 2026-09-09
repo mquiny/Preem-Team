@@ -88,7 +88,7 @@ feel dangerous. [Dark Future](https://www.nexusmods.com/cyberpunk2077/mods/16300
 
 ### Weeee
 
-<span class="pt-feature-caption">Leave the H10 apartment block in...style? Yeah you land in a heap of garbage, guess Night City always has the last laugh.</span>
+<span class="pt-feature-caption">Leave the H10 apartment block in...style? Yeah you land in a heap of garbage, guess Night City always has the last laugh. [Weeee (New H10 Exit)](https://www.nexusmods.com/cyberpunk2077/mods/22334)</span>
 
 </div>
 </div>
