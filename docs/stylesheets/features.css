@@ -105,19 +105,57 @@
   color: var(--pt-neon-pink);
 }
 
-/* One mod's media + text inside an open category modal. Same left/right
-   media+text idea as the old inline .pt-feature layout, just reused here
-   at a smaller scale and stacked vertically when a category holds more
-   than one mod. */
-.pt-feature-modal-entry {
+/* Prev/next controls for stepping between a category's mods one at a
+   time (see javascripts/features.js) -- hidden entirely by JS when a
+   category only has one mod, since there's nothing to page through. */
+.pt-feature-modal-nav {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  padding: 1.2em 0;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 0.4em;
 }
 
-.pt-feature-modal-entry + .pt-feature-modal-entry {
-  border-top: 1px solid rgba(0, 246, 255, 0.15);
+.pt-feature-modal-nav-btn {
+  font: inherit;
+  font-size: 1.3rem;
+  line-height: 1;
+  padding: 0.2em 0.7em;
+  border-radius: 0.3rem;
+  border: 1px solid rgba(0, 246, 255, 0.35);
+  background: rgba(0, 246, 255, 0.08);
+  color: inherit;
+  cursor: pointer;
+}
+
+.pt-feature-modal-nav-btn:hover,
+.pt-feature-modal-nav-btn:focus-visible {
+  border-color: var(--pt-neon-pink);
+}
+
+.pt-feature-modal-nav-count {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  font-family: var(--md-code-font);
+}
+
+/* One mod's media + text inside an open category modal. Same left/right
+   media+text idea as the old inline .pt-feature layout, just reused here
+   at a smaller scale. Only the active entry is ever displayed -- see
+   javascripts/features.js -- both so a category with several heavy AVIF
+   clips only ever has ONE loaded into the DOM at a time (the others'
+   <img> tags carry data-src, not src, until actually paged to) rather
+   than loading every clip in the category the moment it's opened, which
+   was grinding mobile to a halt on categories with 3-4 entries. */
+.pt-feature-modal-entry {
+  display: none;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.4em 0 1.2em;
+}
+
+.pt-feature-modal-entry.pt-feature-modal-entry--active {
+  display: flex;
 }
 
 .pt-feature-modal-media {

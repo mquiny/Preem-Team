@@ -30,9 +30,15 @@ you boot in. Click a category to see what's inside.
 
 ## Survival & Immersion
 
+<div class="pt-feature-modal-nav">
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-prev aria-label="Previous mod">‹</button>
+<span class="pt-feature-modal-nav-count" data-pt-feature-count></span>
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-next aria-label="Next mod">›</button>
+</div>
+
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/survival_darkfuture_statuses.avif" alt="Dark Future survival systems in action" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/survival_darkfuture_statuses.avif" alt="Dark Future survival systems in action">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -50,7 +56,7 @@ feel dangerous.
 
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/survival_drinkanywhere.avif" alt="Drink Anywhere mod in action" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/survival_drinkanywhere.avif" alt="Drink Anywhere mod in action">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -63,7 +69,7 @@ feel dangerous.
 
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/survival_smoking.avif" alt="Smoking mod in action" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/survival_smoking.avif" alt="Smoking mod in action">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -76,7 +82,7 @@ feel dangerous.
 
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/immersion_weeeee.avif" alt="Weeee mod in action" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/immersion_weeeee.avif" alt="Weeee mod in action">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -102,9 +108,15 @@ feel dangerous.
 
 ## Camera & Exploration
 
+<div class="pt-feature-modal-nav">
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-prev aria-label="Previous mod">‹</button>
+<span class="pt-feature-modal-nav-count" data-pt-feature-count></span>
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-next aria-label="Next mod">›</button>
+</div>
+
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/3rdperson.avif" alt="Third person camera mode while exploring Night City" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/3rdperson.avif" alt="Third person camera mode while exploring Night City">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -135,10 +147,16 @@ Switches back to first person instantly whenever you want it in the CET Menu.
 
 ## Vehicles
 
+<div class="pt-feature-modal-nav">
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-prev aria-label="Previous mod">‹</button>
+<span class="pt-feature-modal-nav-count" data-pt-feature-count></span>
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-next aria-label="Next mod">›</button>
+</div>
+
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media pt-feature-modal-media--stack">
-<img class="pt-feature-modal-img" src="assets/vehicle_supra.avif" alt="Toyota Supra Mk3 added to Night City" loading="lazy">
-<img class="pt-feature-modal-img" src="assets/newvehicles.avif" alt="Lamborghini Miura P400 SV added to Night City" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/vehicle_supra.avif" alt="Toyota Supra Mk3 added to Night City">
+<img class="pt-feature-modal-img" data-src="assets/newvehicles.avif" alt="Lamborghini Miura P400 SV added to Night City">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -168,9 +186,15 @@ looking this good parked outside a ripperdoc. Cruise around the City of Dreams I
 
 ## Cyberware
 
+<div class="pt-feature-modal-nav">
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-prev aria-label="Previous mod">‹</button>
+<span class="pt-feature-modal-nav-count" data-pt-feature-count></span>
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-next aria-label="Next mod">›</button>
+</div>
+
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/overcharged_unleashed.avif" alt="Sandevistan operating system visual and gameplay overhaul" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/overcharged_unleashed.avif" alt="Sandevistan operating system visual and gameplay overhaul">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -201,9 +225,15 @@ of gonks feels like the netrunner power fantasy it was always supposed to be.
 
 ## Combat
 
+<div class="pt-feature-modal-nav">
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-prev aria-label="Previous mod">‹</button>
+<span class="pt-feature-modal-nav-count" data-pt-feature-count></span>
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-next aria-label="Next mod">›</button>
+</div>
+
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/balloon_fight.avif" alt="Enhanced enemy AI and combat overhaul" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/balloon_fight.avif" alt="Enhanced enemy AI and combat overhaul">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -234,9 +264,15 @@ into something you need an actual plan for.
 
 ## Character Creator
 
+<div class="pt-feature-modal-nav">
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-prev aria-label="Previous mod">‹</button>
+<span class="pt-feature-modal-nav-count" data-pt-feature-count></span>
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-next aria-label="Next mod">›</button>
+</div>
+
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/overcharged_unleashed.avif" alt="Expanded character creator options" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/overcharged_unleashed.avif" alt="Expanded character creator options">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -267,9 +303,15 @@ City looks the same."
 
 ## Photomode
 
+<div class="pt-feature-modal-nav">
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-prev aria-label="Previous mod">‹</button>
+<span class="pt-feature-modal-nav-count" data-pt-feature-count></span>
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-next aria-label="Next mod">›</button>
+</div>
+
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/photmode_ExtendedNPCs.avif" alt="New Photomode NPCs available for posing" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/photmode_ExtendedNPCs.avif" alt="New Photomode NPCs available for posing">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
@@ -299,9 +341,15 @@ them.
 
 ## World & NPCs
 
+<div class="pt-feature-modal-nav">
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-prev aria-label="Previous mod">‹</button>
+<span class="pt-feature-modal-nav-count" data-pt-feature-count></span>
+<button type="button" class="pt-feature-modal-nav-btn" data-pt-feature-next aria-label="Next mod">›</button>
+</div>
+
 <div class="pt-feature-modal-entry" markdown="1">
 <div class="pt-feature-modal-media">
-<img class="pt-feature-modal-img" src="assets/h10_food_vendors.avif" alt="H10 Food Vendors mod adding street food stalls to Night City" loading="lazy">
+<img class="pt-feature-modal-img" data-src="assets/h10_food_vendors.avif" alt="H10 Food Vendors mod adding street food stalls to Night City">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
