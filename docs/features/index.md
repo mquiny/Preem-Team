@@ -138,7 +138,7 @@ Switches back to first person instantly whenever you want it in the CET Menu.
 <button type="button" class="pt-feature-category" data-pt-feature-open="feature-vehicles">
 <span class="pt-feature-category-icon">🚗</span>
 <span class="pt-feature-category-name">Vehicles</span>
-<span class="pt-feature-category-count">1 mod</span>
+<span class="pt-feature-category-count">2 mods</span>
 </button>
 
 <dialog class="pt-feature-modal" id="feature-vehicles" markdown="1">
@@ -154,19 +154,31 @@ Switches back to first person instantly whenever you want it in the CET Menu.
 </div>
 
 <div class="pt-feature-modal-entry" markdown="1">
-<div class="pt-feature-modal-media pt-feature-modal-media--stack">
+<div class="pt-feature-modal-media">
 <img class="pt-feature-modal-img" data-src="assets/vehicle_supra.avif" alt="Toyota Supra Mk3 added to Night City">
+</div>
+<div class="pt-feature-modal-text" markdown="1">
+
+### Toyota Supra Mk3
+
+New rides keep getting added straight into world spawns and available to
+purchase on vs computer, from the everyday to the absurd. First up: a proper
+street-tuner icon straight out of Night City's underground racing scene.
+Cruise around the City of Dreams in style.
+
+</div>
+</div>
+
+<div class="pt-feature-modal-entry" markdown="1">
+<div class="pt-feature-modal-media">
 <img class="pt-feature-modal-img" data-src="assets/newvehicles.avif" alt="Lamborghini Miura P400 SV added to Night City">
 </div>
 <div class="pt-feature-modal-text" markdown="1">
 
-### New Vehicles
+### Lamborghini Miura P400 SV
 
-Several new rides added straight into world spawns and available to purchase on vs computer
-from the everyday to the absurd. Two favorites from the current lineup: the
-**Toyota Supra Mk3**, a proper street-tuner icon, and the **Lamborghini
-Miura P400 SV**, a slice of pre-War old-world excess that has no business
-looking this good parked outside a ripperdoc. Cruise around the City of Dreams In Style.
+On the other end of the spectrum, a slice of pre-War old-world excess that
+has no business looking this good parked outside a ripperdoc.
 
 </div>
 </div>
