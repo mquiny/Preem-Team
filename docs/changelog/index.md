@@ -37,9 +37,9 @@ stay exactly as they are. Older revisions roll off into the
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-9htmlb">
 <img class="pt-changelog-card-thumb" src="assets/sub2.webp" alt="">
 <span class="pt-changelog-card-body">
-<span class="pt-changelog-card-version">Subnautica 2 Reborn-9</span>
-<span class="pt-changelog-card-date">2026-09-06 · CP2077 Early Access 1.2</span>
-<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+<span class="pt-changelog-card-version">Subnautica 2 Reborn-10</span>
+<span class="pt-changelog-card-date">2026-09-09 · CP2077 Early Access 1.2</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--removed">Removed</span></span>
 </span>
 </button>
 
@@ -48,15 +48,15 @@ stay exactly as they are. Older revisions roll off into the
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
 
-## Subnautica 2 Reborn-9
+## Subnautica 2 Reborn-10
 
-<span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span>
 
-`2026-09-06` · Game Version `Early Access 1.2` · Posted by **Choomba** · Synced from `#9htmlb`
+`2026-09-09` · Game Version `Early Access 1.2` · Posted by **Choomba** · Synced from `#9htmlb`
 
-### Updated
+### Removed {: .pt-changelog-h-removed }
 
-- [Scanner Speed Mod](https://www.nexusmods.com/subnautica2/mods/57) (v1.8.0 → v1.9.0)
+- [Mod Settings for Subnautica 2 - DELETED](https://www.nexusmods.com/subnautica2/mods/20) (v1.3.1)
 
 </div>
 </dialog>
