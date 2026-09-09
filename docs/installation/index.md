@@ -14,6 +14,8 @@ This page walks you through installing the full Preem Team collection, start
 to finish. Follow it top to bottom — don't skip steps, don't improvise, and
 you'll have a stable, modded Night City by the end of it.
 
+NOTE: After verifying everything please install the PE Config Mod manually https://www.nexusmods.com/cyberpunk2077/mods/33680 (after downloading the zip, drag the two folders into the 2077 directory, if it asks to overwrite, say yes)
+
 !!! danger "Read this before you touch anything"
     Modding Cyberpunk 2077 touches your game files directly, but do so safely
     through Vortex. If you skip an installation step and something goes
@@ -184,7 +186,6 @@ Now it's time to select the collection to be downloaded/installed
 </span>
 </summary>
 
-0. Install PE Config Mod manually https://www.nexusmods.com/cyberpunk2077/mods/33680 (after downloading the zip, drag the two folders into the 2077 directory, if it asks to overwrite, say yes)
 1. Launch Cyberpunk 2077 through Vortex's 'Play' button ( **not** Steam/GOG/Epic launcher unless instructed otherwise).
 2. Watch the initial loading screen — you should see the **Cyber Engine Tweaks** console flash briefly, confirming CET loaded. (First time users may be prompted to set a keybind. Make sure it's a key you will remember)
 3. Once in the main menu, press your CET hotkey (default: `` ` `` or `~`) to open the console overlay and confirm the mod list is populated.
