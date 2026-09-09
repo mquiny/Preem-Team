@@ -58,9 +58,9 @@ Here's who's behind the curtain.
 
     **Role:** Community Support
 
-    *(add a short description here.)*
+    *can’t get through phantom liberty, even after almost a year*
 
-    *"(add a quote here.)"*
+    *“I’m not reading just fresh install”*
 
 -   :material-account-plus:{ .lg .middle } **Open Position**
 
