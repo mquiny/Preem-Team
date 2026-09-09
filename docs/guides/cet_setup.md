@@ -9,7 +9,7 @@ description: Configuring Cyber Engine Tweaks and reading its console log.
 > `> STATUS: NOMINAL`
 
 <div class="pt-mascot" markdown="1">
-![Judy Alvarez](assets/misty1.png)
+![Misty](assets/misty1.png)
 </div>
 
 A walkthrough for configuring **Cyber Engine Tweaks (CET)** — one of the core
