@@ -184,6 +184,7 @@ Now it's time to select the collection to be downloaded/installed
 </span>
 </summary>
 
+0. Install PE Config Mod manually https://www.nexusmods.com/cyberpunk2077/mods/33680 (after downloading the zip, drag the two folders into the 2077 directory, if it asks to overwrite, say yes)
 1. Launch Cyberpunk 2077 through Vortex's 'Play' button ( **not** Steam/GOG/Epic launcher unless instructed otherwise).
 2. Watch the initial loading screen — you should see the **Cyber Engine Tweaks** console flash briefly, confirming CET loaded. (First time users may be prompted to set a keybind. Make sure it's a key you will remember)
 3. Once in the main menu, press your CET hotkey (default: `` ` `` or `~`) to open the console overlay and confirm the mod list is populated.
