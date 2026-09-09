@@ -74,10 +74,6 @@ Here's who's behind the curtain.
 
 </div>
 
-!!! tip "Want to help out?"
-    Preem Team is volunteer-run and always open to community contributions
-    — from testing new mod combinations to writing guides. Ask in Discord
-    about how to get involved.
 
 <div class="pt-flavor">
 "No crew, no city. No city, no chrome. Simple as that." — Preem Team
