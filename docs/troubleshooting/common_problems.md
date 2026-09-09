@@ -15,28 +15,18 @@ search (`Ctrl+F` / `Cmd+F`) to jump to your symptom.
 
 ### Game crashes to desktop on launch
 
-!!! failure "Symptom"
-    The game shows the initial splash screen, then crashes to desktop
-    before reaching the main menu.
+!!! failure "Flatline - Crash to Desktop"
+    The game begins to load, but then suddenly flatlines before launching splash screens.
 
 **Likely causes:**
 
-- Leftover mod files from a previous, non-collection install
-- Outdated or mismatched core framework versions (CET / RED4ext)
-- A corrupted download of the collection package
+- Fresh [Clean Install](../guides/clean_install.md) has just been done.
+- Enabled/Disabled mods within Vortex
+- Cleared r6/cache
 
 **Fix:**
 
-1. Verify game files through your platform (Steam/GOG/Epic).
-2. Fully uninstall all existing mods — don't just overwrite them.
-3. Re-download the collection package fresh (a partial or corrupted
-   download is a common culprit).
-4. Reapply the collection following [Installation](../installation/index.md)
-   from Step 3 onward.
-
-- [ ] Vortex - Select collection
-- [ ] Vortex - Install Collection
-- [ ] Verify installation
+This is a common thing that can happen when making mass changes to your cyberpunk directories. The most common fix for this...And you'll never believe me, is a simple PC restart...I know, I didn't believe it at first either. But most Flatline errors are solved by a simple Windows restart cycle.
 
 ---
 
