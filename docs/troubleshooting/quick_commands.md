@@ -37,7 +37,6 @@ can't add, edit, or run anything from this page.
 | `!veinz` | Wildcard | Is never active https://klipy.com/gifs/cat-standing-13 | All (global) |
 | `!yeahbaby` | Wildcard | https://tenor.com/view/austin-powers-mike-myers-yeah-baby-yeah-gif-1691826607058877752 | All (global) |
 | `!yes` | Wildcard | https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
-| `nomenu` | Wildcard | https://discord.com/channels/1285796904160202752/1285797091750187039/1398186612910850129 | All (global) |
 
 <!-- BOT-INJECT:AUTORESPONDERS:END -->
 
