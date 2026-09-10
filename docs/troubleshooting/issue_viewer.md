@@ -20,12 +20,7 @@ report it.
 !!! info "How this works"
     Reports are filed directly on [GitHub](https://github.com/mquiny/Preem-Team/issues)
     — there's no Discord channel for this, so if someone in Discord has a
-    bug to report, point them here. A GitHub Action in this repo
-    ([`scripts/sync-issues.js`](https://github.com/mquiny/Preem-Team/blob/main/scripts/sync-issues.js))
-    re-fetches the issue list and rewrites the table below every time an
-    issue is opened, closed, reopened, edited, or commented on — plus every
-    30 minutes as a fallback. The **Last synced** timestamp confirms when
-    that last happened.
+    bug to report, please report them here.
 
     Only **open** issues live on this page — the moment one's closed on
     GitHub, the next sync drops it here and it shows up on the
@@ -46,7 +41,7 @@ report it.
 
 <!-- BOT-INJECT:ISSUE-TABLE:START -->
 
-**Last synced:** `2026-09-09 21:05 UTC`
+**Last synced:** `2026-09-10 15:58 UTC`
 
 | Status | Issue | Labels | Opened | Comments |
 |---|---|---|---|---|
