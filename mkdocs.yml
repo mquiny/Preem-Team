@@ -99,7 +99,10 @@ nav:
       - First Boot: guides/first_time_boot.md
       - CET Setup: guides/cet_setup.md
       - Changing Your Body Mod: guides/changing_body_mod.md
-  - Config: config/index.md
+      - How to Use Ultra Plus Mod: guides/ultra_plus_mod.md
+      - Installing and Using RESHADE: guides/reshade.md
+      - Adding Personal Mods to Preem Edition: guides/adding_personal_mods.md
+      - Character Creation Guide: guides/character_creation.md
   - Changelog:
       - Current Revision: changelog/index.md
       - Archived Revisions: changelog/archive.md
