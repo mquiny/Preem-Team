@@ -35,7 +35,7 @@ can't add, edit, or run anything from this page.
 | `!nevergoon` | Wildcard | https://tenor.com/view/never-goon-bozonga-hjjw-saraiva-skibidi-gif-15011026571260862033 | All (global) |
 | `!Nice Pic` | Wildcard | https://media.tenor.com/Vg_BtJHni2cAAAAC/squeeze-bottle-austin-powers.gif | All (global) |
 | `!veinz` | Wildcard | Is never active https://klipy.com/gifs/cat-standing-13 | All (global) |
-| `!website` | Wildcard | Hey Choom, check out our website for some Preem Guides and installation guides. https://mquiny.github.io/Preem-Team/ | All (global) |
+| `!website` | Wildcard | Hey Choom, check out our website for some Preem Guides and installation guides. https://preem.team | All (global) |
 | `!yeahbaby` | Wildcard | https://tenor.com/view/austin-powers-mike-myers-yeah-baby-yeah-gif-1691826607058877752 | All (global) |
 | `!yes` | Wildcard | https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
 
