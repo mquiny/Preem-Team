@@ -35,6 +35,7 @@ body::before {
 body.pt-bg-home            { --pt-bg-image: url("../assets/background1.webp"); }
 body.pt-bg-installation    { --pt-bg-image: url("../assets/background2.webp"); }
 body.pt-bg-guides          { --pt-bg-image: url("../assets/background3.webp"); }
+body.pt-bg-config          { --pt-bg-image: url("../assets/background12.webp"); }
 body.pt-bg-changelog       { --pt-bg-image: url("../assets/background4.webp"); }
 body.pt-bg-faq             { --pt-bg-image: url("../assets/background5.webp"); }
 body.pt-bg-showcase        { --pt-bg-image: url("../assets/background6.webp"); }

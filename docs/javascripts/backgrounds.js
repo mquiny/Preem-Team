@@ -10,6 +10,7 @@
     { test: /\/commands\//, cls: "pt-bg-commands" },
     { test: /\/installation\//, cls: "pt-bg-installation" },
     { test: /\/guides\//, cls: "pt-bg-guides" },
+    { test: /\/config\//, cls: "pt-bg-config" },
     { test: /\/changelog\//, cls: "pt-bg-changelog" },
     { test: /\/faq\//, cls: "pt-bg-faq" },
     { test: /\/showcase\//, cls: "pt-bg-showcase" },
