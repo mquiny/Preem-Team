@@ -3,7 +3,7 @@ site_description: >-
   Preem Team — a curated, staff-maintained Cyberpunk 2077 mod collection.
   Docs, guides, changelog, and support hub.
 site_author: Preem Team Crew
-site_url: https://preemteam.com/
+site_url: https://preem.team/
 
 repo_url: https://github.com/mquiny/Preem-Team
 repo_name: mquiny/Preem-Team
@@ -99,6 +99,7 @@ nav:
       - First Boot: guides/first_time_boot.md
       - CET Setup: guides/cet_setup.md
       - Changing Your Body Mod: guides/changing_body_mod.md
+  - Config: config/index.md
   - Changelog:
       - Current Revision: changelog/index.md
       - Archived Revisions: changelog/archive.md
