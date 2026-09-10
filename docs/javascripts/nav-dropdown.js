@@ -69,6 +69,18 @@
 
   var HIDE_DELAY_MS = 150; // small grace period so moving the mouse from the tab down into the dropdown doesn't close it first
 
+  // Whichever dropdown is currently open, tracked so a different tab's
+  // show() can force it closed immediately -- without this, sweeping the
+  // mouse quickly across several tabs left the previous dropdown lingering
+  // for its own HIDE_DELAY_MS and overlapping the new one, since each
+  // dropdown only knew about its own hide timer.
+  var openDropdown = null;
+
+  function hideImmediately(dropdown) {
+    dropdown.classList.remove("pt-nav-dropdown--visible");
+    if (openDropdown === dropdown) openDropdown = null;
+  }
+
   function buildDropdown(tabHref, entries) {
     var ul = document.createElement("ul");
     ul.className = "pt-nav-dropdown";
@@ -104,6 +116,8 @@
 
     function show() {
       clearHide();
+      if (openDropdown && openDropdown !== dropdown) hideImmediately(openDropdown);
+      openDropdown = dropdown;
       positionDropdown(dropdown, li);
       dropdown.classList.add("pt-nav-dropdown--visible");
     }
@@ -111,7 +125,7 @@
     function scheduleHide() {
       clearHide();
       hideTimer = setTimeout(function () {
-        dropdown.classList.remove("pt-nav-dropdown--visible");
+        hideImmediately(dropdown);
       }, HIDE_DELAY_MS);
     }
 
