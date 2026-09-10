@@ -206,8 +206,8 @@ Now it's time to select the collection to be downloaded/installed
 </div>
 
 
-!!!info
-Preem Edition is intended to be played on the Very Hard difficulty (Most difficulty mods use Very Hard as there prefered difficulty. Selecting anything other than Very Hard might have an altered experience.
+!!! info
+    Preem Edition is intended to be played on the Very Hard difficulty (Most difficulty mods use Very Hard as there prefered difficulty. Selecting anything other than Very Hard might have an altered experience.
 
 ## Popups you might see during install
 
