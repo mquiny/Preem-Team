@@ -298,7 +298,7 @@ crashes, see below.
 </span>
 </summary>
 
-We recommend confirming **Confirm game loads** above **before** re-enabling your
+We recommend confirming the step above, **before** re-enabling your
 personal mods, that way you know the update itself was successful, so
 if something breaks after adding your mods back, you know it's likely a
 conflict with one of them rather than the update itself.
