@@ -36,10 +36,9 @@ stay exactly as they are. Older revisions roll off into the
 <!-- CHANGELOG:CURRENT:ENTRY:buqwx3:START -->
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-buqwx3">
 <span class="pt-changelog-card-body">
-<span class="pt-changelog-card-version">Preem Edition-3</span>
+<span class="pt-changelog-card-version">Preem Edition-4</span>
 <span class="pt-changelog-card-date">2026-09-11 · CP2077 2.31a</span>
-<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
-<span class="pt-chip pt-chip--removed">Removed</span></span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
 </span>
 </button>
 
@@ -48,20 +47,16 @@ stay exactly as they are. Older revisions roll off into the
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
 
-## Preem Edition-3
+## Preem Edition-4
 
-<span class="pt-chip pt-chip--added">Added</span>
-<span class="pt-chip pt-chip--removed">Removed</span>
+<span class="pt-chip pt-chip--updated">Updated</span>
 
 `2026-09-11` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
 
-### Added {: .pt-changelog-h-added }
+### Updated
 
-- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.4)
-
-### Removed {: .pt-changelog-h-removed }
-
-- [MCH - Feathered Bob](https://www.nexusmods.com/cyberpunk2077/mods/33289) (v1.0)
+- [Anti-Theft Measures](https://www.nexusmods.com/cyberpunk2077/mods/27229) (v2.1.3 → v2.2)
+- [Time Dilation Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/4931) (v2.34 → v2.35)
 
 </div>
 </dialog>
