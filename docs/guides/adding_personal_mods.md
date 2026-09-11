@@ -24,6 +24,9 @@ that aren't part of the collection, without risking your main setup.
     Always work off a cloned profile, never your main one. If something
     breaks, you want a safe fallback to switch straight back to.
 
+!!! tip "Credit"
+    This guide was written by **mquiny**, thank you for putting it together!
+    
 ## Before you start
 
 - [ ] I know which mod(s) I want to add
