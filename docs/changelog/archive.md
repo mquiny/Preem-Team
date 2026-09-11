@@ -29,6 +29,33 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-4-2">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-4</span>
+<span class="pt-changelog-card-date">2026-09-11 · CP2077 2.31a</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-4-2" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-4
+
+<span class="pt-chip pt-chip--updated">Updated</span>
+
+`2026-09-11` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
+
+### Updated
+
+- [Anti-Theft Measures](https://www.nexusmods.com/cyberpunk2077/mods/27229) (v2.1.3 → v2.2)
+- [Time Dilation Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/4931) (v2.34 → v2.35)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-3-2">
 <span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">Preem Edition-3</span>
