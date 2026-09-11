@@ -29,6 +29,32 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-5">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-5</span>
+<span class="pt-changelog-card-date">2026-09-11 · CP2077 2.31a</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-5" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-5
+
+<span class="pt-chip pt-chip--updated">Updated</span>
+
+`2026-09-11` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
+
+### Updated
+
+- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.4 → v1.5)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-4">
 <span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">Preem Edition-4</span>
