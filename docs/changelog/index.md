@@ -36,10 +36,9 @@ stay exactly as they are. Older revisions roll off into the
 <!-- CHANGELOG:CURRENT:ENTRY:buqwx3:START -->
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-buqwx3">
 <span class="pt-changelog-card-body">
-<span class="pt-changelog-card-version">Preem Edition-2</span>
+<span class="pt-changelog-card-version">Preem Edition-3</span>
 <span class="pt-changelog-card-date">2026-09-11 · CP2077 2.31a</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
-<span class="pt-chip pt-chip--updated">Updated</span>
 <span class="pt-chip pt-chip--removed">Removed</span></span>
 </span>
 </button>
@@ -49,35 +48,20 @@ stay exactly as they are. Older revisions roll off into the
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
 
-## Preem Edition-2
+## Preem Edition-3
 
 <span class="pt-chip pt-chip--added">Added</span>
-<span class="pt-chip pt-chip--updated">Updated</span>
 <span class="pt-chip pt-chip--removed">Removed</span>
 
 `2026-09-11` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
 
 ### Added {: .pt-changelog-h-added }
 
-- [AudioXL](https://www.nexusmods.com/cyberpunk2077/mods/33442) (v0.3.0)
-- [Cara's Presets for Preem Edition](https://www.nexusmods.com/cyberpunk2077/mods/33688) (v1)
-- [Simple XP Multiplier](https://www.nexusmods.com/cyberpunk2077/mods/3136) (v2.4)
-
-### Updated
-
-- [Anti-Theft Measures](https://www.nexusmods.com/cyberpunk2077/mods/27229) (v2.1.2 → v2.1.3)
-- [Atomiic X Hyst atelier store](https://www.nexusmods.com/cyberpunk2077/mods/21893) (v1.5 → v1.6)
-- [Axellysse Virtual Atelier 2](https://www.nexusmods.com/cyberpunk2077/mods/28924) (v12 → v13)
-- [DigitalVixen Core](https://www.nexusmods.com/cyberpunk2077/mods/28390) (v4.8.12 → v4.8.13)
-- [Immersive Third Person - Best Of Both Worlds](https://www.nexusmods.com/cyberpunk2077/mods/32203) (v1.1.0 → v1.2.0)
-- [Night City Allies - Immersive Companion System](https://www.nexusmods.com/cyberpunk2077/mods/27625) (v1.6.2 → v1.6.3)
-- [Panam Conversations Addon](https://www.nexusmods.com/cyberpunk2077/mods/32507) (v1.1 → v1.1.1)
-- [Pet Your Cat](https://www.nexusmods.com/cyberpunk2077/mods/6198) (v3.1.0 → v3.1.1)
-- [Sabbath7991 Weapon and Attachment Shops - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/18757) (v1.79 → v1.80)
+- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.4)
 
 ### Removed {: .pt-changelog-h-removed }
 
-- [Set Bonuses](https://www.nexusmods.com/cyberpunk2077/mods/8103) (v2.3.5u4)
+- [MCH - Feathered Bob](https://www.nexusmods.com/cyberpunk2077/mods/33289) (v1.0)
 
 </div>
 </dialog>
