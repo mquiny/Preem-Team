@@ -30,7 +30,7 @@
   var SECTIONS = {
     "Installation": [
       { label: "Installing the CPE Collection", href: "" },
-      { label: "Updating the CPE Collection", href: "cpe_collection/" },
+      { label: "Updating the CPE Collection", href: "updating_cpe_collection/" },
       { label: "Installing the Subnautica 2 Collection", href: "subnautica2_collection/" },
       { label: "Installing the Expedition 33 Collection", href: "expedition33_collection/" }
     ],

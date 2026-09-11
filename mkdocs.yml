@@ -91,7 +91,7 @@ nav:
   - Commands: commands/index.md
   - Installation:
       - installation/index.md
-      - Updating the CPE Collection: installation/cpe_collection.md
+      - Updating the CPE Collection: installation/updating_cpe_collection.md
       - Installing the Subnautica 2 Collection: installation/subnautica2_collection.md
       - Installing the Expedition 33 Collection: installation/expedition33_collection.md
   - Guides:
