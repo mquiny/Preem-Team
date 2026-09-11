@@ -59,7 +59,8 @@
       { label: "How to Bisect", href: "how_to_bisect/" },
       { label: "Issue Viewer", href: "issue_viewer/" },
       { label: "Issue Archive", href: "issue_archive/" },
-      { label: "Quick Commands", href: "quick_commands/" }
+      { label: "Quick Commands", href: "quick_commands/" },
+      { label: "Known Issues", href: "known_issues/" }
     ],
     "Meet the Team": [
       { label: "Meet the Team", href: "" },

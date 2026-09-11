@@ -1,0 +1,32 @@
+name: Apply known issue from bot
+
+on:
+  repository_dispatch:
+    types: [known_issue_update]
+
+permissions:
+  contents: write
+
+jobs:
+  apply-known-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Apply known issue payload
+        env:
+          KNOWN_ISSUE_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: node scripts/apply-known-issues.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Preem Team Bot"
+          git config user.email "actions@github.com"
+          git add docs/troubleshooting/known_issues.md
+          if git diff --cached --quiet; then
+            echo "No known-issue changes to commit (probably already applied)"
+            exit 0
+          fi
+          git commit -m "Known issue: ${{ github.event.client_payload.status }} ${{ github.event.client_payload.issue_id }}"
+          git push

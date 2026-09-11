@@ -119,6 +119,7 @@ nav:
       - Issue Viewer: troubleshooting/issue_viewer.md
       - Issue Archive: troubleshooting/issue_archive.md
       - Quick Commands: troubleshooting/quick_commands.md
+      - Known Issues: troubleshooting/known_issues.md
   - Meet the Team:
       - team/index.md
       - StreetCred Leaderboard: team/streetcred.md
@@ -204,4 +205,4 @@ extra_javascript:
   - javascripts/issue-viewer.js?v=1
   - javascripts/streetcred.js?v=1
   - javascripts/spawn-commands.js?v=1
-  - javascripts/nav-dropdown.js?v=2
+  - javascripts/nav-dropdown.js?v=3
