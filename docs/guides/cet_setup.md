@@ -22,6 +22,9 @@ console log when something goes wrong.
     Anyone running the Preem Team collection who wants to understand what
     CET does and how to tweak its settings safely.
 
+!!! tip "Credit"
+    This guide was written by **mquiny**, thank you for putting it together!
+    
 ## What is CET?
 
 Cyber Engine Tweaks is a scripting framework that lets mods hook into the
