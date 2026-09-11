@@ -19,6 +19,9 @@ Hey, choom. It's Judy, so I see you've got yourself a Preem collection, let me w
 !!! info "What this guide is for"
     For anyone wondering how to check mods work, or just general things to check and configure, this is the place
 
+!!! tip "Credit"
+    This guide was written by **mquiny**, thank you for putting it together!
+	
 ## Before you start
 
 !!! tip
