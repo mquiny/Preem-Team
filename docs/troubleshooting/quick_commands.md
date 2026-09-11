@@ -29,6 +29,7 @@ can't add, edit, or run anything from this page.
 | `!carameow` | Wildcard | https://tenor.com/view/smiling-cat-happy-cat-smile-gif-3555983607747631247 | All (global) |
 | `!cetbind` | Wildcard | Have you forgotten what keybind you set to open the CET (Cyber Engine Tweaks) menu. <br><br>If you have never set any keybinds in the CET menu, go to the link below and delete bindings.json If you have previously set keybinds and don't want to lose them, open up bindings.json, search for "overlay_key", and set the value after the : to 0 \Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks | All (global) |
 | `!changebody` | Wildcard | We have a well written guide from our amazing Cara on our website, check it out [here](https://mquiny.github.io/Preem-Team/guides/changing_body_mod/) | All (global) |
+| `!cleaninstall` | Wildcard | Hey Choom, your issue look like it can be solved by following our step-by-step clean install guide https://preem.team/guides/clean_install | All (global) |
 | `!config` | Wildcard | Grab our latest config here https://www.nexusmods.com/cyberpunk2077/mods/33680<br>Select "Manual Download", and drag the 2 folders into your Cyberpunk root folder (Selecting Yes to override files) | All (global) |
 | `!issue` | Wildcard | Hey choom, having any issues that need investigating, submit on our GitHub Issues page https://preem.team/troubleshooting/issue_viewer/ | All (global) |
 | `!Middle` | Wildcard | https://gifsec.com/wp-content/uploads/2022/09/middle-finger-gif-17.gif | All (global) |
