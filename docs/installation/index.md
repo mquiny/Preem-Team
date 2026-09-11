@@ -137,6 +137,9 @@ Now it's time to select the collection to be downloaded/installed
     1. Open up vortex
     2. Under the "Browse Nexus Mods" tab in vortex, type in 'Preem Edition'
     3. This will bring up our collection, where you can select "Add Collection" to begin the install process
+    
+	??? example "📷 Show me"
+        ![Latest revision selected](assets/vortex_select_install){ width="500" }
 
 === "Through Nexus Mods"
 
