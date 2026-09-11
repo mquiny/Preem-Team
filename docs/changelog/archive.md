@@ -29,6 +29,38 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-3">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-3</span>
+<span class="pt-changelog-card-date">2026-09-11 · CP2077 2.31a</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
+<span class="pt-chip pt-chip--removed">Removed</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-3" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-3
+
+<span class="pt-chip pt-chip--added">Added</span>
+<span class="pt-chip pt-chip--removed">Removed</span>
+
+`2026-09-11` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
+
+### Added {: .pt-changelog-h-added }
+
+- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.4)
+
+### Removed {: .pt-changelog-h-removed }
+
+- [MCH - Feathered Bob](https://www.nexusmods.com/cyberpunk2077/mods/33289) (v1.0)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-2">
 <span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">Preem Edition-2</span>
