@@ -26,15 +26,18 @@ can't add, edit, or run anything from this page.
 | `!AI` | Wildcard | https://media.zenfs.com/en/know_your_meme_909/a76a07b4f841ca2af1ee12cebf64895a | All (global) |
 | `!barf` | Wildcard | https://tenor.com/view/barf-gif-15784859 | All (global) |
 | `!behave` | Wildcard | https://youtu.be/u2vAFhXDFHk?si=xULtWqE6myPIVK_K | All (global) |
+| `!bisect` | Wildcard | Hey Choom, want a guide on how to bisect your collection, we have one on our website, https://preem.team/troubleshooting/how_to_bisect | All (global) |
 | `!carameow` | Wildcard | https://tenor.com/view/smiling-cat-happy-cat-smile-gif-3555983607747631247 | All (global) |
 | `!cetbind` | Wildcard | Have you forgotten what keybind you set to open the CET (Cyber Engine Tweaks) menu. <br><br>If you have never set any keybinds in the CET menu, go to the link below and delete bindings.json If you have previously set keybinds and don't want to lose them, open up bindings.json, search for "overlay_key", and set the value after the : to 0 \Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks | All (global) |
 | `!changebody` | Wildcard | We have a well written guide from our amazing Cara on our website, check it out [here](https://mquiny.github.io/Preem-Team/guides/changing_body_mod/) | All (global) |
+| `!cleaninstall` | Wildcard | Hey Choom, your issue look like it can be solved by following our step-by-step clean install guide https://preem.team/guides/clean_install | All (global) |
 | `!config` | Wildcard | Grab our latest config here https://www.nexusmods.com/cyberpunk2077/mods/33680<br>Select "Manual Download", and drag the 2 folders into your Cyberpunk root folder (Selecting Yes to override files) | All (global) |
 | `!issue` | Wildcard | Hey choom, having any issues that need investigating, submit on our GitHub Issues page https://preem.team/troubleshooting/issue_viewer/ | All (global) |
 | `!Middle` | Wildcard | https://gifsec.com/wp-content/uploads/2022/09/middle-finger-gif-17.gif | All (global) |
 | `!mquiny` | Wildcard | mquiny is awesome https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
 | `!nevergoon` | Wildcard | https://tenor.com/view/never-goon-bozonga-hjjw-saraiva-skibidi-gif-15011026571260862033 | All (global) |
 | `!Nice Pic` | Wildcard | https://media.tenor.com/Vg_BtJHni2cAAAAC/squeeze-bottle-austin-powers.gif | All (global) |
+| `!update` | Wildcard | Check out our step-by-step guide to updating your collection https://preem.team/installation/updating_cpe_collection | All (global) |
 | `!veinz` | Wildcard | Is never active https://klipy.com/gifs/cat-standing-13 | All (global) |
 | `!website` | Wildcard | Hey Choom, check out our website for some Preem Guides and installation guides. https://preem.team/ | All (global) |
 | `!yeahbaby` | Wildcard | https://tenor.com/view/austin-powers-mike-myers-yeah-baby-yeah-gif-1691826607058877752 | All (global) |

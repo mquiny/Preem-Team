@@ -29,6 +29,9 @@ the guide for you, no need to reinstall from scratch every time.
     and 3, those are just there to help you identify and highlight your
     personal mods before the update.
 
+!!! tip "Credit"
+    This guide was written by **mquiny**, thank you for putting it together!
+    
 ## Step-by-step
 
 Tick a step off once you've finished it, your progress is saved in this
