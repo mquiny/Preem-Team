@@ -24,7 +24,7 @@ pushes a new release to the live page.
 <!-- CHANGELOG:ENTRIES:START -->
 
 <details class="pt-changelog-collection" markdown="1" data-collection-slug="buqwx3">
-<summary>buqwx3</summary>
+<summary>Preem Edition</summary>
 <div class="pt-changelog-cards" markdown="1">
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->

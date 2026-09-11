@@ -30,11 +30,12 @@ stay exactly as they are. Older revisions roll off into the
 <!-- CHANGELOG:CURRENT:START -->
 
 <details class="pt-changelog-collection" markdown="1" data-collection-slug="buqwx3">
-<summary>buqwx3</summary>
+<summary>Preem Edition</summary>
 <div class="pt-changelog-cards" markdown="1">
 
 <!-- CHANGELOG:CURRENT:ENTRY:buqwx3:START -->
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-buqwx3">
+<img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">Preem Edition-7</span>
 <span class="pt-changelog-card-date">2026-09-11 · CP2077 2.31a</span>

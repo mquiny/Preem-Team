@@ -38,7 +38,8 @@ const ARCHIVE_GRID_END = "<!-- CHANGELOG:ENTRIES:END -->";
 const COLLECTION_IMAGES = {
   usushu: "cpe.webp",
   "9htmlb": "sub2.webp",
-  jzmqt4: "e33.webp"
+  jzmqt4: "e33.webp",
+  buqwx3: "preem_edition.webp"
 };
 
 // Collection slug -> display name used as the <summary> label on its
@@ -47,7 +48,8 @@ const COLLECTION_IMAGES = {
 const COLLECTION_NAMES = {
   usushu: "CPE Collection",
   "9htmlb": "Subnautica 2 Reborn",
-  jzmqt4: "Expedition 33"
+  jzmqt4: "Expedition 33",
+  buqwx3: "Preem Edition"
 };
 
 function collectionLabel(slug) {
