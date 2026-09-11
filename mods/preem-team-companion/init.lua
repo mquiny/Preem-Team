@@ -70,7 +70,7 @@ registerForEvent("onDraw", function()
     )
 
     if shouldShow then
-        ImGui.Text(SNAPSHOT.collectionName .. " — Cyberpunk 2077 Mod Collection")
+        ImGui.Text(SNAPSHOT.collectionName .. " - Cyberpunk 2077 Mod Collection")
         ImGui.TextDisabled("Companion v" .. PreemTeamCompanion.version)
         ImGui.Separator()
 
@@ -82,13 +82,13 @@ registerForEvent("onDraw", function()
         ImGui.Text("Changelog")
         ImGui.Separator()
         drawList(SNAPSHOT.changelog, "No cached changelog entries yet.", function(entry)
-            ImGui.BulletText(("%s (%s) — %s"):format(entry.version, entry.date, entry.summary))
+            ImGui.BulletText(("%s (%s) - %s"):format(entry.version, entry.date, entry.summary))
         end)
 
         ImGui.Spacing()
         ImGui.Text("Known Issues")
         ImGui.Separator()
-        drawList(SNAPSHOT.knownIssues, "No open issues right now — nice.", function(issue)
+        drawList(SNAPSHOT.knownIssues, "No open issues right now - nice.", function(issue)
             ImGui.BulletText(issue.title)
         end)
     end
