@@ -22,7 +22,14 @@ reference.
 ## Open Issues
 
 <!-- KNOWN-ISSUES:OPEN:START -->
-_No known issues at this time._
+
+<!-- KNOWN-ISSUE:1548094758218506261:START -->
+??? warning "NIF (Native Interactions Framework) dependency errors shows up every time a save is loaded. Mod A..."
+    NIF (Native Interactions Framework) dependency errors shows up every time a save is loaded. Mod Author aware, will updated when resolved
+
+    *Posted September 11, 2026 — [View original message](https://discord.com/channels/1543366600525217802/1543566145188012144/1548094758218506261)*
+<!-- KNOWN-ISSUE:1548094758218506261:END -->
+
 <!-- KNOWN-ISSUES:OPEN:END -->
 
 ## Resolved Issues
