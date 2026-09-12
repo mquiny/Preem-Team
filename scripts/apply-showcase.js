@@ -31,6 +31,7 @@ const path = require("path");
 
 const INDEX_PATH = path.join(__dirname, "..", "docs", "showcase", "index.md");
 const ARCHIVE_PATH = path.join(__dirname, "..", "docs", "showcase", "archive.md");
+const ASSETS_DIR = path.join(__dirname, "..", "docs", "showcase", "assets");
 
 const GRID_START = "<!-- SHOWCASE:START -->";
 const GRID_END = "<!-- SHOWCASE:END -->";
@@ -59,12 +60,54 @@ function entryMarkers(submissionId) {
   };
 }
 
+// Discord CDN attachment URLs (cdn.discordapp.com/attachments/...) carry a
+// signed ex/is/hm query string that EXPIRES — typically within a day or two.
+// Storing that URL directly in the site would mean every showcased image
+// eventually 404s on its own, permanently, with no way to recover it once
+// Discord's copy scrolls out of the CDN cache either. So instead, the image
+// is downloaded once, right when it's still fresh (moments after the
+// dispatch fires), and committed into the repo alongside the page — a
+// normal file the site controls forever after, independent of Discord.
+async function downloadImage(imageUrl, submissionId) {
+  const response = await fetch(imageUrl);
+  if (!response.ok) {
+    throw new Error(
+      `Failed to download showcase image for "${submissionId}": HTTP ${response.status} ${response.statusText}. ` +
+        `If this is because the Discord CDN link already expired, the bot needs to dispatch sooner after the reaction threshold is hit.`
+    );
+  }
+
+  // Trust the actual bytes over the URL: Discord's media proxy (used for
+  // e.g. resized/quality-adjusted links, ?format=webp&quality=lossless...)
+  // re-encodes to WebP regardless of what extension the original filename
+  // in the path has, so a .png-looking URL can come back as real WebP data.
+  // Serving that under a .png filename would make static hosting send a
+  // "Content-Type: image/png" header for genuinely-WebP bytes, which some
+  // browsers refuse to render.
+  const CONTENT_TYPE_EXTENSIONS = {
+    "image/png": ".png",
+    "image/jpeg": ".jpg",
+    "image/webp": ".webp",
+    "image/gif": ".gif"
+  };
+  const contentType = (response.headers.get("content-type") || "").split(";")[0].trim();
+  const pathname = new URL(imageUrl).pathname; // strip Discord's ex/is/hm query params
+  const ext = CONTENT_TYPE_EXTENSIONS[contentType] || path.extname(pathname) || ".png";
+  const filename = `${submissionId}${ext}`;
+
+  fs.mkdirSync(ASSETS_DIR, { recursive: true });
+  const buffer = Buffer.from(await response.arrayBuffer());
+  fs.writeFileSync(path.join(ASSETS_DIR, filename), buffer);
+
+  return `assets/${filename}`; // relative to docs/showcase/, works from both index.md and archive.md
+}
+
 // Builds one gallery card as a Material "grid cards" list item — NOT
 // wrapped in its own entry markers (the caller adds those).
-function buildCard(payload) {
+function buildCard(payload, localImagePath) {
   const title = payload.title || "Showcase submission";
   const lines = [
-    `-   ![Screenshot posted by ${payload.username} in ${payload.channel}](${payload.image_url})`,
+    `-   ![Screenshot posted by ${payload.username} in ${payload.channel}](${localImagePath})`,
     `    **${title}**`,
     `    *Posted by \`${payload.username}\` in ${payload.channel}*`
   ];
@@ -116,7 +159,7 @@ function extractMonthSections(gridInner) {
   return { sections, remaining };
 }
 
-function main() {
+async function main() {
   const payload = readPayload();
   const submissionId = payload.submission_id;
   if (!submissionId) {
@@ -145,7 +188,8 @@ function main() {
   }
 
   const { key: monthKey, label: monthLabel } = monthKeyAndLabel(payload.posted_at);
-  const newEntryBlock = `${entryStart}\n${buildCard(payload)}\n${entryEnd}`;
+  const localImagePath = await downloadImage(payload.image_url, submissionId);
+  const newEntryBlock = `${entryStart}\n${buildCard(payload, localImagePath)}\n${entryEnd}`;
 
   const monthMarker = `data-month="${monthKey}"`;
   const monthIdx = content.indexOf(monthMarker);
@@ -199,4 +243,7 @@ function main() {
   console.log(`Showcase updated: "${submissionId}" featured under ${monthLabel} (${archivedNote}).`);
 }
 
-main();
+main().catch((err) => {
+  console.error(err.message || err);
+  process.exit(1);
+});

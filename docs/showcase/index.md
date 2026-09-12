@@ -39,21 +39,21 @@ feature.
 <div class="grid cards" markdown="1">
 
 <!-- SHOWCASE:ENTRY:1547430678436773939:START -->
--   ![Screenshot posted by tidalvii in #🌄┃gallery](https://cdn.discordapp.com/attachments/1543381631073525850/1547430677773815868/2755.png?ex=6aa40d5f&is=6aa2bbdf&hm=f421b7701dc32babe71e1cfb45959bb6871621280e13ecb98f8cb07f5184aa77&)
+-   ![Screenshot posted by tidalvii in #🌄┃gallery](assets/1547430678436773939.webp)
     **Showcase submission**
     *Posted by `tidalvii` in #🌄┃gallery*
     [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1547430678436773939)
 <!-- SHOWCASE:ENTRY:1547430678436773939:END -->
 
 <!-- SHOWCASE:ENTRY:1547803811043745792:START -->
--   ![Screenshot posted by tidalvii in #🌄┃gallery](https://cdn.discordapp.com/attachments/1543381631073525850/1547803810037108836/2758.png?ex=6aa4c021&is=6aa36ea1&hm=1a28f3cce6a5dc7adc6d83a15ff54d6e7c2ccdbde0f1c6db3cfd2b78dd7e9e2e&)
+-   ![Screenshot posted by tidalvii in #🌄┃gallery](assets/1547803811043745792.webp)
     **Showcase submission**
     *Posted by `tidalvii` in #🌄┃gallery*
     [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1547803811043745792)
 <!-- SHOWCASE:ENTRY:1547803811043745792:END -->
 
 <!-- SHOWCASE:ENTRY:1547297978723733535:START -->
--   ![Screenshot posted by antisocial247_ in #🌄┃gallery](https://cdn.discordapp.com/attachments/1543381631073525850/1547297978128138291/photomode_28062026_212649.png?ex=6aa2e909&is=6aa19789&hm=c852b4a756dc719e2ff8135b609d71393aef2beec8e0bdf510ef696b14e7d907&)
+-   ![Screenshot posted by antisocial247_ in #🌄┃gallery](assets/1547297978723733535.webp)
     **Showcase submission**
     *Posted by `antisocial247_` in #🌄┃gallery*
     [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1547297978723733535)
