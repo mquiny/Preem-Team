@@ -14,19 +14,46 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Apply showcase payload
+      - name: Apply showcase payload and push (retries on push race)
         env:
           SHOWCASE_PAYLOAD: ${{ toJson(github.event.client_payload) }}
-        run: node scripts/apply-showcase.js
-
-      - name: Commit and push
         run: |
           git config user.name "Preem Team Bot"
           git config user.email "actions@github.com"
-          git add docs/showcase/index.md docs/showcase/archive.md docs/showcase/assets/
-          if git diff --cached --quiet; then
-            echo "No showcase changes to commit (probably already featured)"
-            exit 0
-          fi
-          git commit -m "Showcase: feature submission ${{ github.event.client_payload.submission_id }}"
-          git push
+
+          # Two dispatches landing close together (multiple reactions
+          # crossing the threshold within seconds of each other) can both
+          # start from the same base commit; whichever pushes second gets
+          # a plain non-fast-forward rejection. The bot marks a submission
+          # "handled" as soon as this workflow is triggered, with no way
+          # to know whether the push actually succeeded -- so a submission
+          # that loses this race is silently lost forever unless the push
+          # itself retries. Each retry re-runs apply-showcase.js fresh
+          # against the latest main (rather than rebasing the old commit
+          # onto it), since two submissions can both want to insert right
+          # after the same <div> marker -- a literal rebase of that diff
+          # would conflict, but re-running the (idempotent, marker-based)
+          # script against current content never does.
+          for attempt in 1 2 3 4 5; do
+            node scripts/apply-showcase.js
+
+            git add docs/showcase/index.md docs/showcase/archive.md docs/showcase/assets/
+            if git diff --cached --quiet; then
+              echo "No showcase changes to commit (probably already featured)"
+              exit 0
+            fi
+
+            git commit -m "Showcase: feature submission ${{ github.event.client_payload.submission_id }}"
+
+            if git push; then
+              echo "Pushed successfully on attempt $attempt"
+              exit 0
+            fi
+
+            echo "Push failed on attempt $attempt -- another dispatch landed first, resetting to latest main and retrying..."
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          echo "::error::Failed to push showcase update after 5 attempts (submission ${{ github.event.client_payload.submission_id }})"
+          exit 1
