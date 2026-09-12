@@ -36,6 +36,11 @@ applies when switching to any other body mod.
 - [ ] I know which body mod I'm switching to
 - [ ] I've checked that mod's Nexus page for its own requirements and clothing refits
 
+
+!!! info "What's the Difference between a body mod, and a body rig?
+    - A body mod replaces V's actual body mesh and/or skin textures with a new on, it changes what the body geometrically is, which is why vanilla clothes can need refitting to fit it properly. (Most body mods have seperate refit mods to go with them.
+    - A body rig keeps the vanilla body mesh but reshapes it by adjusting the underlying skeleton/bone weights (proportions like bust, waist, hips), so it's more like a set of sliders on the existing bod, and since it's still the same mesh clothes were built for, clothing compatibility is generally much less of an issue.
+    
 ## Step-by-step
 
 Tick a step off once you've finished it, your progress is saved in this
