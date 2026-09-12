@@ -15,7 +15,7 @@ gets featured here automatically once it either picks up reactions from
 feature.
 
 !!! info "How this works"
-    **Choomba Bot** watches [**#gallery**](https://discordapp.com/channels/1543366600525217802/1543381631073525850).
+    **Jackie Welles** watches [**#gallery**](https://discordapp.com/channels/1543366600525217802/1543381631073525850).
     A post gets synced to this page the moment either:
 
     - **10 different people** react to it — any emoji, any mix, just 10
