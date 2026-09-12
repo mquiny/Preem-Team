@@ -17,6 +17,10 @@ shifting between revisions with no record of it.
     Not every change here may be live in the current revision yet — check
     the [Changelog](../changelog/index.md) for what's actually shipped.
 
+    Every "Before" value here is taken from a genuinely untouched,
+    default install — not reconstructed from memory — so this table can
+    be trusted as an accurate diff, not just an approximation.
+
 ## Setting changes
 
 ??? note "FilterSaves"
@@ -43,34 +47,37 @@ shifting between revisions with no record of it.
 ??? note "NovaOptics"
     | Setting | Before | After |
     |---|---|---|
+    | `enable` (color grading) | Off | On |
     | `autoMode` | Off | On |
 
 ??? note "Shift"
     Driving camera/immersion mod. Several immersion features turned **on**,
-    steering sensitivity halved, and FOV raised.
+    steering sensitivity halved, FOV raised, and the corner-lookahead
+    angle brought in from a wide 80° to a tighter ~40°.
 
     | Setting | Before | After |
     |---|---|---|
     | `aggressiveRidingMode` | Off | On |
     | `cornerLookAheadMode` | Off | On |
+    | `cornerLookAheadYaw` | `80°` | `~40°` (`0.698` rad) |
     | `dynamicSteeringSensitivityMode` | Off | On |
     | `firstEquipCameraEnabled` | Off | On |
     | `immersiveCameraEnabled` | Off | On |
+    | `immersiveCameraFOVChange` | `0` | `10` |
     | `responsiveDrivingMode` | Off | On |
     | `speedAffectsCameraShake` | Off | On |
     | `speedAffectsFOV` | Off | On |
-    | `shakePreset` | `vibrations` | `realistic` |
     | `steeringSensitivity` | `100` | `50` |
     | `cameraFOV` / `baseFOV` | `50.5°` | `67.7°` |
 
 ??? note "AutoDriveEnhanced"
     | Setting | Before | After |
     |---|---|---|
-    | `autoSpeedControlMaxSpeedRatio` | `0.5` | `0.7` |
     | `drivingAI` | `Vanilla` | `ModdedNormal` |
 
 ??? note "DarkFuture"
-    Need decay slowed down across the board, HUD simplified and recolored.
+    Need decay slowed down across the board, carry weight penalty halved,
+    and fast travel disabled.
 
     | Setting | Before | After |
     |---|---|---|
@@ -78,13 +85,9 @@ shifting between revisions with no record of it.
     | `hydrationLossRatePct` | `100%` | `70%` |
     | `nutritionLossRatePct` | `100%` | `70%` |
     | `reducedCarryWeight` | `Full` | `Half` |
-    | `needHUDUIAlwaysOnThreshold` | `100` | `75` |
-    | `energyHUDUIColorTheme` | `Yellow` | `PigeonPost` |
-    | `hydrationHUDUIColorTheme` | `MainBlue` | `PigeonPost` |
-    | `nutritionHUDUIColorTheme` | `StreetCredGreen` | `PigeonPost` |
-    | `nerveHUDUIColorTheme` | `MainRed` | `Rose` |
     | `basicNeedsAdvancedSettings` | Off | On |
-    | `interfaceAdvancedSettings` | On | Off |
+    | `hideFastTravelMarkers` | On | Off |
+    | `fastTravelSettingV2` | `Disabled` | `Enabled` |
 
 ??? note "EasierCounterAttackSettings"
     | Setting | Before | After |
@@ -97,19 +100,14 @@ shifting between revisions with no record of it.
     - Armor, carry weight, lifepath, money, street cred
     - DarkFuture energy, hydration, nerve, and nutrition
 
+    | Setting | Before | After |
+    |---|---|---|
+    | `debuffStyle` | `IconsOnly` | `FullColor` |
+
 ??? note "KdspDeepScanSettings"
     | Setting | Before | After |
     |---|---|---|
     | `enableDiverseRelationships` | Off | On |
-
-??? note "NightCityAllies"
-    Brand-new section — not present in the current config at all.
-
-    | Setting | Value |
-    |---|---|
-    | `allowPassengers` | `true` |
-    | `debugMode` | `false` |
-    | `interactionMenuRange` | `2.5` |
 
 ??? note "NightCityTrafficOverhaul"
     Across-the-board traffic speed and acceleration buffs.
@@ -130,12 +128,45 @@ shifting between revisions with no record of it.
     |---|---|---|
     | `vehHitReactionFrequency` | `Balanced` | `MostlyResigned` |
 
-??? note "TF_Config"
-    | Setting | Before | After |
-    |---|---|---|
-    | `modifierKey` | `Ctrl` | `None` |
-
 ??? note "VendorPreview"
     | Setting | Before | After |
     |---|---|---|
     | `enableDangerZoneChecker` | Off | On |
+
+??? note "ChallengingBreachMinigame"
+    | Setting | Before | After |
+    |---|---|---|
+    | `startImmediately` | Off | On |
+
+??? note "DamageScaling"
+    NPC damage scaling preset switched from the mod's default to a
+    balanced curve — damage taken from NPCs drops off at higher
+    difficulty tiers instead of staying flat.
+
+    | Setting | Before | After |
+    |---|---|---|
+    | `npcPreset` | `Default` | `RMK_Balanced` |
+    | `npcDamageScaling` (per tier) | `1, 1, 1, 1, 1, 1, 1` | `1, 1, 0.85, 0.72, 0.6, 0.5, 0.4` |
+
+??? note "SimpleXPMultiplier"
+    XP gain reduced across the board to slow down leveling.
+
+    | Setting | Before | After |
+    |---|---|---|
+    | `Level` | `1.0×` | `0.6×` |
+    | `StreetCred` | `1.0×` | `0.3×` |
+    | `CoolSkill` / `IntelligenceSkill` / `ReflexesSkill` / `StrengthSkill` / `TechnicalAbilitySkill` | `1.0×` | `0.6×` |
+
+## New mods (no baseline to compare against)
+
+These were added to the collection alongside the settings above — since
+they weren't previously part of it, there's no "vanilla" state to diff
+against, just the values they ship with:
+
+- **FakeLightsNoMore** — dashboard ad lights disabled (`disableAdsLights: On`).
+- **GeneralShadowsFixes** — player shadows disabled, shadow instance budget set to Medium.
+- **PayToGo** — Night City Railroad fast-travel pricing tuned (district
+  rate and inflation scaling both raised from their low placeholder
+  values).
+- **RTLightingFixes**, **MainMenuMusicConfig**, **ReImagined** — installed
+  with their default settings; no tuning changes made yet.

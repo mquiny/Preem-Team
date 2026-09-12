@@ -10,17 +10,23 @@ description: Live view of open GitHub issues for the Preem Team collection.
 
 An automated feed of **open** GitHub Issues for the Preem Team collection,
 kept in sync automatically. Check the table below before filing a
-duplicate — and if your problem isn't listed, use the button below to
-report it.
+duplicate — and if your problem isn't listed, use one of the buttons
+below to report it.
 
 <a href="https://github.com/mquiny/Preem-Team/issues/new/choose" class="md-button md-button--primary" target="_blank" rel="noopener">
 :material-github: Create an Issue
 </a>
+<a href="https://preemteam.com/report/" class="md-button" target="_blank" rel="noopener">
+:material-bug: Report Without a GitHub Account
+</a>
 
 !!! info "How this works"
-    Reports are filed directly on [GitHub](https://github.com/mquiny/Preem-Team/issues)
-    — there's no Discord channel for this, so if someone in Discord has a
-    bug to report, please report them here.
+    Reports are filed on [GitHub](https://github.com/mquiny/Preem-Team/issues)
+    either way — there's no Discord channel for this, so if someone in
+    Discord has a bug to report, please point them here. Don't have (or
+    want) a GitHub account? The second button posts through a small form
+    on our site instead and creates the issue on your behalf — no
+    sign-up needed.
 
     Only **open** issues live on this page — the moment one's closed on
     GitHub, the next sync drops it here and it shows up on the
