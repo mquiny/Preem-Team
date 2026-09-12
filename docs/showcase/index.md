@@ -38,6 +38,13 @@ feature.
 
 <div class="grid cards" markdown="1">
 
+<!-- SHOWCASE:ENTRY:1548080097574133790:START -->
+-   ![Screenshot posted by ultralulz in #🌄┃gallery](assets/1548080097574133790.png)
+    **Showcase submission**
+    *Posted by `ultralulz` in #🌄┃gallery*
+    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1548080097574133790)
+<!-- SHOWCASE:ENTRY:1548080097574133790:END -->
+
 <!-- SHOWCASE:ENTRY:1548456037235957840:START -->
 -   ![Screenshot posted by mquinytest in #🌄┃gallery](assets/1548456037235957840.png)
     **Showcase submission**
