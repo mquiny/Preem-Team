@@ -1,0 +1,134 @@
+BaseStats.HasMegingjordLegs:
+    $base: BaseStats.StatFlag
+    enumName: HasMegingjordLegs
+    enumComment: "If true, player has Megingjord legs equipped"
+
+BaseStatusEffect.MegingjordJumpCooldown:
+    $base: BaseStatusEffect.HoverJumpCooldown
+    duration: BaseStats.InfiniteDuration
+    gameplayTags:
+    -   !remove PlayerCyberwareCooldown
+
+BaseStatusEffect.MegingjordPlayerBuff:
+    $base: BaseStatusEffect.HoverJumpPlayerBuff
+    packages:
+    -   $type: GameplayLogicPackage
+        effectors:
+        -   $type: ApplyStatusEffectEffector
+            inverted: true
+            statusEffect: BaseStatusEffect.MegingjordJumpCooldown
+            removeWithEffector: false
+
+Attunements.BodyArmorIconic:
+    $type: GameplayLogicPackage
+    stackable: true
+    stats:
+    -   $type: CombinedStatModifier
+        statType: BaseStats.Armor
+        modifierType: Additive
+        refStat: BaseStats.Strength
+        opSymbol: "*"
+        value: 0.5
+    UIData:
+        $type: GameplayLogicPackageUIData
+        iconPath: UIIcon.Body
+        localizedName: LocKey#94149
+        localizedDescription: LocKey#91185
+        floatValues: [ 0.5 ]
+        stats: [ BaseStats.AttunementHelper ]
+
+Attacks.Megingjord_Thunderclap:
+    $base: Attacks.BaseEMPExplosion
+    attackType: AttackType.PressureWave
+    playerIncomingDamageMultiplier: 0.0
+    range: 6.0
+    hitFlags:
+    -   !append ForceKnockdown
+    hitReactionSeverityMin: 3
+    hitReactionSeverityMax: 3
+
+Items.MegingjordLegsRare:
+    $base: Items.AdvancedReinforcedMusclesUncommon
+    friendlyName: Megingjord
+    displayName: LocKey#Megingjord_name
+    localizedDescription: LocKey#Megingjord_redtext
+    iconPath: cw_legs_reinforcedmuscles
+    quality: Quality.Rare
+    statModifiers:
+    -   !append-once
+        $type: ConstantStatModifier
+        statType: BaseStats.IsItemIconic
+        modifierType: Additive
+        value: 1.0
+    -   !append
+        $type: ConstantStatModifier
+        statType: BaseStats.HasMegingjordLegs
+        modifierType: Additive
+        value: 1.0
+    -   !remove Items.AdvancedReinforcedMusclesUncommon_inline6
+    -   !remove Items.AdvancedReinforcedMusclesUncommon_inline7
+    -   !remove Items.AdvancedReinforcedMusclesUncommon_inline8
+    OnEquip:
+    -   $type: GameplayLogicPackage
+        stats:
+        -   $type: ConstantStatModifier
+            statType: BaseStats.HasAirHover
+            modifierType: Additive
+            value: 1.0
+        -   $type: ConstantStatModifier
+            statType: BaseStats.JumpHeight
+            modifierType: Multiplier
+            value: 1.5
+        UIData:
+            $type: GameplayLogicPackageUIData
+            localizedDescription: LocKey#43497
+    -   $type: GameplayLogicPackage
+        effectors:
+        -   $base: Perks.ApplyStatGroupOnPlayer
+            prereqRecord: NewPerks.DoesPlayerHaveOvershield
+            statGroup:
+                $type: StatModifierGroup
+                statModifiers:
+                -   $type: ConstantStatModifier
+                    statType: BaseStats.MaxSpeed
+                    modifierType: AdditiveMultiplier
+                    value: 0.2
+                -   $type: ConstantStatModifier
+                    statType: BaseStats.FallDamageReduction
+                    modifierType: Additive
+                    value: 0.15
+#        -   $base: Effectors.RemoveStatusEffectsEffector
+#            prereqRecord: Perks.IsPlayerOnGround
+#            statusEffects:
+#            -   BaseStatusEffect.HoverJumpCooldown
+        -   $base: Effectors.TriggerAttackOnOwnerEffect
+            prereqRecord:
+                $base: Prereqs.ProcessHitTriggered
+                conditions:
+                -   $type: HitPrereqCondition
+                    type: Prereqs.HitFlag
+                    hitFlag: GroundSlam
+                    onlyOncePerShot: true
+            playerAsInstigator: true
+            triggerHitReaction: true
+            isRandom: false
+            attackRecord: Attacks.Megingjord_Thunderclap
+        UIData:
+            $type: GameplayLogicPackageUIData
+            localizedDescription: LocKey#Megingjord_description
+    -   Attunements.BodyArmorIconic
+    nextUpgradeItem: Items.MegingjordLegsRarePlus
+
+$(name):
+    $instances:
+    -   { name: Items.MegingjordLegsRarePlus, rarity: RarePlus, next: Items.MegingjordLegsEpic}
+    -   { name: Items.MegingjordLegsEpic, rarity: Epic, next: Items.MegingjordLegsEpicPlus}
+    -   { name: Items.MegingjordLegsEpicPlus, rarity: EpicPlus, next: Items.MegingjordLegsLegendary}
+    -   { name: Items.MegingjordLegsLegendary, rarity: Legendary, next: Items.MegingjordLegsLegendaryPlus}
+    -   { name: Items.MegingjordLegsLegendaryPlus, rarity: LegendaryPlus, next: Items.MegingjordLegsLegendaryPlusPlus}
+    -   { name: Items.MegingjordLegsLegendaryPlusPlus, rarity: LegendaryPlusPlus, next: None}
+    $base: Items.MegingjordLegsRare
+    quality: Quality.$(rarity)
+    nextUpgradeItem: $(next)
+
+

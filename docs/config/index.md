@@ -21,6 +21,9 @@ shifting between revisions with no record of it.
     default install — not reconstructed from memory — so this table can
     be trusted as an accurate diff, not just an approximation.
 
+    Want to see what changed **between** PE Config Mod releases, not
+    just current vs. stock? See [Version History](version_history.md).
+
 ## Setting changes
 
 ??? note "FilterSaves"

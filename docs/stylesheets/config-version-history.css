@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Preem Team — Config Version History
+   Same accordion look as spawn-commands.css's mod cards. See
+   javascripts/config-version-history.js for the fetch/render logic.
+   ========================================================================== */
+
+.pt-config-history-entry {
+  border: 1px solid rgba(0, 246, 255, 0.25);
+  border-left: 3px solid rgba(0, 246, 255, 0.4);
+  border-radius: 0.4rem;
+  margin: 0.6em 0;
+  transition: border-color 0.2s ease;
+}
+
+.pt-config-history-entry[open] {
+  border-left-color: var(--pt-neon-cyan);
+}
+
+.pt-config-history-entry > summary {
+  list-style: revert;
+  cursor: pointer;
+  padding: 0.7em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6em;
+}
+
+.pt-config-history-entry > summary::marker,
+.pt-config-history-entry > summary::-webkit-details-marker {
+  color: var(--pt-neon-pink);
+}
+
+.pt-config-history-version {
+  font-family: var(--md-code-font);
+  font-weight: 700;
+  color: var(--pt-neon-cyan);
+}
+
+.pt-config-history-meta {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.pt-config-history-body {
+  padding: 0 1em 1em 1em;
+}
+
+.pt-config-history-body h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 1em 0 0.4em;
+}
+
+.pt-config-history-h-added { color: #4ade80; }
+.pt-config-history-h-removed { color: #f87171; }
+
+.pt-config-history-list {
+  margin: 0 0 0.6em;
+  padding-left: 1.2em;
+}
+
+.pt-config-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.4em 0 1em;
+  font-size: 0.82rem;
+}
+
+.pt-config-history-table th,
+.pt-config-history-table td {
+  text-align: left;
+  padding: 0.4em 0.7em;
+  border-bottom: 1px solid rgba(0, 246, 255, 0.15);
+}
+
+.pt-config-history-table th {
+  color: var(--pt-neon-cyan);
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.pt-config-history-setting {
+  font-family: var(--md-code-font);
+}

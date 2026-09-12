@@ -1,0 +1,122 @@
+[
+  {
+    "version": "1.1",
+    "previousVersion": "1.0",
+    "modsAdded": [],
+    "modsRemoved": [],
+    "settingsChanged": []
+  },
+  {
+    "version": "1.2",
+    "previousVersion": "1.1",
+    "modsAdded": [
+      "SimpleXPMultiplier"
+    ],
+    "modsRemoved": [],
+    "settingsChanged": []
+  },
+  {
+    "version": "1.3",
+    "previousVersion": "1.2",
+    "modsAdded": [],
+    "modsRemoved": [],
+    "settingsChanged": [
+      {
+        "mod": "Shift",
+        "setting": "settings.cornerLookAheadYaw",
+        "before": 80,
+        "after": 0.69813170079773
+      },
+      {
+        "mod": "Shift",
+        "setting": "settings.immersiveCameraFOVChange",
+        "before": 0,
+        "after": 10
+      }
+    ]
+  },
+  {
+    "version": "1.4",
+    "previousVersion": "1.3",
+    "modsAdded": [
+      "SeijaxCyberware (Megingjord)"
+    ],
+    "modsRemoved": [],
+    "settingsChanged": []
+  },
+  {
+    "version": "1.5",
+    "previousVersion": "1.4",
+    "modsAdded": [
+      "FakeLightsNoMore",
+      "GeneralShadowsFixes",
+      "RTLightingFixes",
+      "robber804.ReImagined.ReImagined"
+    ],
+    "modsRemoved": [],
+    "settingsChanged": [
+      {
+        "mod": "AntiTheftMeasures.Settings.SettingsSystem",
+        "setting": "breachMode",
+        "before": "(not set)",
+        "after": "Minigame"
+      },
+      {
+        "mod": "InformativeHealthbar.InformativeHealthbarSettings",
+        "setting": "debuffStyle",
+        "before": "IconsOnly",
+        "after": "FullColor"
+      },
+      {
+        "mod": "NightCityAllies.Settings.NCASettings",
+        "setting": "skipAllTimers",
+        "before": "false",
+        "after": "(not set)"
+      },
+      {
+        "mod": "NightCityAllies.Settings.NCASettings",
+        "setting": "skipDeathPenalty",
+        "before": "(not set)",
+        "after": "false"
+      },
+      {
+        "mod": "TF_Config",
+        "setting": "modifierKey",
+        "before": "None",
+        "after": "Ctrl"
+      }
+    ]
+  },
+  {
+    "version": "1.6",
+    "previousVersion": "1.5",
+    "modsAdded": [],
+    "modsRemoved": [],
+    "settingsChanged": [
+      {
+        "mod": "DarkFuture.Settings.DFSettings",
+        "setting": "fastTravelSettingV2",
+        "before": "Disabled",
+        "after": "Enabled"
+      },
+      {
+        "mod": "DarkFuture.Settings.DFSettings",
+        "setting": "hideFastTravelMarkers",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "mod": "PayToGo.PayToGoSSX",
+        "setting": "fMS_TravelDistrictRate",
+        "before": "0.075000",
+        "after": "1.000000"
+      },
+      {
+        "mod": "PayToGo.PayToGoSSX",
+        "setting": "fMS_TravelRateInflation",
+        "before": "0.000500",
+        "after": "0.002500"
+      }
+    ]
+  }
+]
