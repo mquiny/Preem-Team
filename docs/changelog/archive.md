@@ -29,6 +29,41 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-7">
+<img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-7</span>
+<span class="pt-changelog-card-date">2026-09-11 · CP2077 2.31a</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-7" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-7
+
+<span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span>
+
+`2026-09-11` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
+
+### Updated
+
+- [Anti-Theft Measures](https://www.nexusmods.com/cyberpunk2077/mods/27229) (v2.2 → v2.2.1)
+- [AudioXL](https://www.nexusmods.com/cyberpunk2077/mods/33442) (v0.3.0 → v0.3.1)
+
+### Removed {: .pt-changelog-h-removed }
+
+- [Immersive Main Menu Audio](https://www.nexusmods.com/cyberpunk2077/mods/22695) (v1.3)
+- [Preem Edition Music Collection - DELETED](https://www.nexusmods.com/cyberpunk2077/mods/33655) (v1)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-5-2">
 <span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">Preem Edition-5</span>
