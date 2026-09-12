@@ -46,6 +46,7 @@ applies when switching to any other body mod.
       hips), so it's more like a set of sliders on the existing body. Since
       it's still the same mesh clothes were built for, clothing
       compatibility is generally much less of an issue.
+
 ## Step-by-step
 
 Tick a step off once you've finished it, your progress is saved in this
