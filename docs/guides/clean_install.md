@@ -32,7 +32,7 @@ We don't need no shoddy virtu enviros spoiling your fun now do we.
 	- This guide is also for people who are initially installing the collection, and have modded game files before Preem Edition
 
 !!! danger "We do not support Pirated copies"
-    We do not support, endorse or recommend you mod Cyberpunk with a pirated copy of the game, Please make sure you have a legitimate copy of the game aquired through Steam/GOG/Epic Game, we will not offer to support to those who are running non-legit copies of the game.
+    We do not support, endorse or recommend you mod Cyberpunk with a pirated copy of the game, Please make sure you have a legitimate copy of the game aquired through Steam/GOG/Epic Game, we will not offer support to those who are running non-legit copies of the game.
 
 !!! tip "Credit"
     This guide was written by **mquiny**, thank you for putting it together!
