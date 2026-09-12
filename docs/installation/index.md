@@ -40,6 +40,11 @@ Use this as your master checklist. Each item is explained in detail below.
 - [ ] Vortex - Install Collection
 - [ ] Verify installation
 
+
+!!! warning "No Prior Modding"
+    - This guide assumes you have **NEVER** used a previous collection, or installed any mods through Vortex, or manually adding the zip files to your game directories
+	- If this is not the case, then please perform a [Clean Install](../guides/clean_install.md) before attempting installation. This will help ensure no previous modding attempt interfere with this collection install
+	
 ## Step-by-step installation
 
 Tick a step off once you've finished it — your progress is saved in this
