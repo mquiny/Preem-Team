@@ -25,7 +25,6 @@ that aren't part of the collection, without risking your main setup.
     breaks, you want a safe fallback to switch straight back to.
 
 !!! failure "Mods we don't recommend using with PE"
-    These are a list of mods we recommend you don't install alongside PE
     - [New Game Plus - Natives](https://www.nexusmods.com/cyberpunk2077/mods/15043) - Adds a hard requirement in order to load the save (If mod isn't always enabled your save won't load), and messes with the AI Difficulty mods in the collection.
     - [New Lifepath Intro - Fresh Start](https://www.nexusmods.com/cyberpunk2077/mods/18223) - Similar issue to above, can cause issues if not enabled at all times, especially dialogue options (You will never see any life-path specific dialogue options).
  
