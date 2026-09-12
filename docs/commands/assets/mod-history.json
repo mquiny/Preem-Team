@@ -1,0 +1,38 @@
+{
+  "added": [
+    {
+      "modId": 33635,
+      "name": "Navel Piercing Set (Archive XL)",
+      "url": "https://www.nexusmods.com/cyberpunk2077/mods/33635",
+      "revisionConfirmed": null,
+      "scanRevision": "7",
+      "dateDetected": "2026-09-12"
+    }
+  ],
+  "removed": [
+    {
+      "modId": 25380,
+      "name": "Belt Top - Archive XL M F",
+      "url": "https://www.nexusmods.com/cyberpunk2077/mods/25380",
+      "revisionConfirmed": null,
+      "scanRevision": "7",
+      "dateDetected": "2026-09-12"
+    },
+    {
+      "modId": 32495,
+      "name": "Honda Beat 1996",
+      "url": "https://www.nexusmods.com/cyberpunk2077/mods/32495",
+      "revisionConfirmed": null,
+      "scanRevision": "7",
+      "dateDetected": "2026-09-12"
+    },
+    {
+      "modId": 26138,
+      "name": "PROPS - Christmas 2025",
+      "url": "https://www.nexusmods.com/cyberpunk2077/mods/26138",
+      "revisionConfirmed": null,
+      "scanRevision": "7",
+      "dateDetected": "2026-09-12"
+    }
+  ]
+}

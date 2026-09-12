@@ -1,0 +1,7 @@
+[
+  {
+    "modId": 21422,
+    "name": "Native Interactions Framework",
+    "reason": "Scripting framework, not a spawnable item/vehicle mod. Its one command-shaped match (Game.AddToInventory(\"Items.money\", self.cost) in apartment.lua) is internal interaction logic that hands the player money during a scripted apartment event -- typing it into the console errors out (self doesn't exist there), it isn't a real spawn command."
+  }
+]

@@ -26,6 +26,17 @@
 // spawn_commands.json from scratch each time (so hand-editing that file
 // directly would just get silently wiped on the next refresh).
 //
+// The opposite false-positive also happens occasionally: a scripting
+// framework (not a spawnable item/vehicle mod at all) happens to call
+// Game.AddToInventory(...) as part of its own internal game logic, not
+// as a user-facing console command (confirmed case: Native Interactions
+// Framework's apartment.lua hands the player money via
+// Game.AddToInventory("Items.money", self.cost) during a scripted
+// interaction -- typing that into console errors, `self` doesn't exist
+// there). docs/commands/manual-exclusions.json (same
+// survives-every-regeneration pattern as manual-entries.json, but a
+// denylist by modId instead of an allowlist) filters those back out.
+//
 // Each mod folder's name is parsed for a Nexus mod ID (two naming
 // conventions exist across the collection -- see parseModFolderName),
 // and where one's found, that mod's real name/author is looked up from
@@ -49,6 +60,12 @@ const COMMAND_RE = /Game\.AddToInventory\([^)]*\)|Game\.GetVehicleSystem\(\):Ena
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'nexus-mod-cache.json');
 const OUTPUT_PATH = path.join(__dirname, '..', 'docs', 'commands', 'assets', 'spawn_commands.json');
 const MANUAL_ENTRIES_PATH = path.join(__dirname, '..', 'docs', 'commands', 'manual-entries.json');
+const MANUAL_EXCLUSIONS_PATH = path.join(__dirname, '..', 'docs', 'commands', 'manual-exclusions.json');
+const HISTORY_PATH = path.join(__dirname, '..', 'docs', 'commands', 'assets', 'mod-history.json');
+const CHANGELOG_PATHS = [
+  path.join(__dirname, '..', 'docs', 'changelog', 'index.md'),
+  path.join(__dirname, '..', 'docs', 'changelog', 'archive.md')
+];
 const DOMAIN = 'cyberpunk2077';
 const NEXUS_API_KEY = process.env.NEXUS_API_KEY;
 const APP_NAME = process.env.APP_NAME || 'PreemTeamSite';
@@ -186,10 +203,24 @@ function sleep(ms) {
 }
 
 async function main() {
-  const roots = process.argv.slice(2);
+  const rawArgs = process.argv.slice(2);
+  let currentRevision = null;
+  const roots = [];
+  for (const arg of rawArgs) {
+    const m = arg.match(/^--revision=(.+)$/);
+    if (m) {
+      currentRevision = m[1];
+    } else {
+      roots.push(arg);
+    }
+  }
+
   if (roots.length === 0) {
-    console.error('Usage: node generate-spawn-commands.js <root folder 1> [root folder 2] ...');
+    console.error('Usage: node generate-spawn-commands.js [--revision=N] <root folder 1> [root folder 2] ...');
     process.exit(1);
+  }
+  if (!currentRevision) {
+    console.warn('No --revision=N given -- newly detected additions/removals will be logged with revision "unknown" unless found by name in the changelog.');
   }
 
   const modsByKey = new Map();
@@ -249,9 +280,25 @@ async function main() {
     });
   }
 
-  const autoMerged = mergeDuplicatesByCommandSet(results);
+  const excluded = applyManualExclusions(results);
+  const autoMerged = mergeDuplicatesByCommandSet(excluded);
   const { combined, skipped } = addManualEntries(autoMerged);
   combined.sort((a, b) => a.name.localeCompare(b.name));
+
+  // Diff against whatever spawn_commands.json already contained, BEFORE
+  // overwriting it, so additions/removals since the last run can be
+  // logged to mod-history.json. Keyed the same way modsByKey is (modId
+  // when there is one, else the lowercased name) so a mod that never had
+  // a Nexus ID still tracks correctly.
+  const previousCombined = readJsonSafe(OUTPUT_PATH, []);
+  const entryKey = (e) => (e.modId != null ? `id:${e.modId}` : `name:${(e.name || '').toLowerCase()}`);
+  const previousKeys = new Map(previousCombined.map((e) => [entryKey(e), e]));
+  const currentKeys = new Map(combined.map((e) => [entryKey(e), e]));
+
+  const newlyAdded = combined.filter((e) => !previousKeys.has(entryKey(e)));
+  const newlyRemoved = previousCombined.filter((e) => !currentKeys.has(entryKey(e)));
+
+  recordModHistory(newlyAdded, newlyRemoved, currentRevision);
 
   fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
   fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
@@ -276,6 +323,139 @@ async function main() {
 // find automatically, so docs/commands/manual-entries.json is a small
 // hand-maintained list of exceptions that always gets folded back in
 // here, surviving every regeneration instead of being wiped by it.
+function readJsonSafe(filePath, fallback) {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return fallback;
+  }
+}
+
+// Best-effort: if this mod is named in one of the changelog's own
+// "### Added" / "### Updated" / "### Removed" lists, use THAT entry's
+// "## <Version>" heading as the revision instead of whatever
+// --revision=N was passed -- a real per-mod source beats a blanket
+// guess. Plain substring match on the mod name against the whole
+// changelog file text; good enough for this (changelog entries are
+// short markdown link lines like "- [Mod Name](url) (v1.2)"), not
+// trying to be a real markdown parser.
+function findRevisionForMod(modName) {
+  if (!modName) return null;
+
+  for (const changelogPath of CHANGELOG_PATHS) {
+    const content = readFileSafe(changelogPath);
+    if (!content) continue;
+
+    const lines = content.split('\n');
+    let currentVersion = null;
+    for (const line of lines) {
+      const versionMatch = line.match(/^##\s+(.+)$/);
+      if (versionMatch) {
+        currentVersion = versionMatch[1].trim();
+        continue;
+      }
+      if (currentVersion && line.includes(modName)) {
+        return currentVersion;
+      }
+    }
+  }
+
+  return null;
+}
+
+function readFileSafe(filePath) {
+  try {
+    return fs.readFileSync(filePath, 'utf8');
+  } catch {
+    return null;
+  }
+}
+
+// Permanent ledger of every addition/removal this script has ever
+// detected -- docs/commands/index.md's "Mod History" section reads it
+// via docs/javascripts/mod-history.js. Never rewrites or drops an
+// existing entry, only appends ones not already recorded (keyed by
+// modId, falling back to lowercased name for mods with no Nexus ID), so
+// running this script repeatedly with nothing changed is a no-op here.
+//
+// Two separate revision fields, deliberately not collapsed into one --
+// revisionConfirmed is only set when the mod is actually named in a
+// changelog "### Added"/"### Removed" list (a real, sourced fact);
+// scanRevision is just the revision this script happened to be told
+// it's scanning against (--revision=N), i.e. an upper bound on when the
+// change happened, not proof of exactly when. A removal in particular
+// could genuinely predate scanRevision by several revisions if nobody
+// ran this script in between -- rendering both distinctly (see
+// mod-history.js) keeps that honest instead of presenting a guess as a
+// fact.
+function recordModHistory(newlyAdded, newlyRemoved, currentRevision) {
+  if (newlyAdded.length === 0 && newlyRemoved.length === 0) return;
+
+  const history = readJsonSafe(HISTORY_PATH, { added: [], removed: [] });
+  const today = new Date().toISOString().slice(0, 10);
+
+  const alreadyLogged = (list, e) =>
+    list.some((h) => (e.modId != null && h.modId === e.modId) || (e.modId == null && h.name === e.name));
+
+  for (const e of newlyAdded) {
+    if (alreadyLogged(history.added, e)) continue;
+    history.added.push({
+      modId: e.modId,
+      name: e.name,
+      url: e.url,
+      revisionConfirmed: findRevisionForMod(e.name),
+      scanRevision: currentRevision || null,
+      dateDetected: today
+    });
+  }
+
+  for (const e of newlyRemoved) {
+    if (alreadyLogged(history.removed, e)) continue;
+    history.removed.push({
+      modId: e.modId,
+      name: e.name,
+      url: e.url,
+      revisionConfirmed: findRevisionForMod(e.name),
+      scanRevision: currentRevision || null,
+      dateDetected: today
+    });
+  }
+
+  fs.mkdirSync(path.dirname(HISTORY_PATH), { recursive: true });
+  fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2));
+
+  console.log(`Mod history: logged ${newlyAdded.length} addition(s) and ${newlyRemoved.length} removal(s) to ${HISTORY_PATH}`);
+}
+
+function loadManualExclusions() {
+  try {
+    const raw = fs.readFileSync(MANUAL_EXCLUSIONS_PATH, 'utf8');
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+// Drops any scanned entry whose modId is denylisted -- see the comment
+// by MANUAL_EXCLUSIONS_PATH's usage above for why this exists (a
+// scripting framework's internal logic occasionally matches the same
+// command pattern a real spawnable item/vehicle mod would).
+function applyManualExclusions(entries) {
+  const exclusions = loadManualExclusions();
+  if (exclusions.length === 0) return entries;
+
+  const excludedIds = new Set(exclusions.map((e) => e.modId));
+  const kept = entries.filter((e) => !excludedIds.has(e.modId));
+
+  const removedCount = entries.length - kept.length;
+  if (removedCount > 0) {
+    console.log(`Excluded ${removedCount} entr${removedCount === 1 ? 'y' : 'ies'} via manual-exclusions.json.`);
+  }
+
+  return kept;
+}
+
 function loadManualEntries() {
   try {
     const raw = fs.readFileSync(MANUAL_ENTRIES_PATH, 'utf8');

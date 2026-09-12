@@ -606,39 +606,6 @@
     ]
   },
   {
-    "modId": 25380,
-    "name": "Belt Top - Archive XL M F",
-    "author": "Raenef",
-    "url": "https://www.nexusmods.com/cyberpunk2077/mods/25380",
-    "version": "1.0",
-    "sources": [
-      "Cyberpunk 2077"
-    ],
-    "commands": [
-      "Game.AddToInventory(\"Items.raenef_belttop_black\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_blue\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_brightred\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_brown\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_coffee\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_cyan\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_gold\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_green\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_hotpink\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_lavender\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_lightblue\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_mint\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_orange\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_phthalogreen\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_pink\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_purple\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_red\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_silver\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_white\")",
-      "Game.AddToInventory(\"Items.raenef_belttop_yellow\")"
-    ],
-    "aliases": []
-  },
-  {
     "modId": 21973,
     "name": "Braindance and Chill - FEM V (Archive XL)",
     "author": "Tottes",
@@ -2274,8 +2241,7 @@
     "url": "https://www.nexusmods.com/cyberpunk2077/mods/26179",
     "version": "1.0",
     "sources": [
-      "Cyberpunk 2077",
-      "mod-extra-files"
+      "Cyberpunk 2077"
     ],
     "commands": [
       "Game.AddToInventory(\"Items.hyst_freyna_christmas_bag_default\",1)",
@@ -2716,25 +2682,11 @@
     ]
   },
   {
-    "modId": 32495,
-    "name": "Honda Beat 1996",
-    "author": "SDH0",
-    "url": "https://www.nexusmods.com/cyberpunk2077/mods/32495",
-    "version": "0.9",
-    "sources": [
-      "Cyberpunk 2077"
-    ],
-    "commands": [
-      "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.beat_base\", true, false)"
-    ],
-    "aliases": []
-  },
-  {
     "modId": 32203,
     "name": "Immersive Third Person - Best Of Both Worlds",
     "author": "CybrDrake",
     "url": "https://www.nexusmods.com/cyberpunk2077/mods/32203",
-    "version": "1",
+    "version": "1.2.0",
     "sources": [
       "Cyberpunk 2077"
     ],
@@ -5455,6 +5407,57 @@
     ]
   },
   {
+    "modId": 33635,
+    "name": "Navel Piercing Set (Archive XL)",
+    "author": "Tonydiz",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/33635",
+    "version": "1.0",
+    "sources": [
+      "Cyberpunk 2077",
+      "mod-extra-files"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"Items.tony_navel_p_bat_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_bat_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_bow_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_bow_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_butterfly_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_butterfly_gold2\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_butterfly_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_chain_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_chain_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_cherry_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_cherry_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_heart2_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_heart2_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_heart3_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_heart3_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_heart_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_heart_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_jewel_blue\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_jewel_green\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_jewel_red\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_jewel_white\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_love_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_love_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_pirate_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_pirate_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_skull_sword_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_skull_sword_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_spider2_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_spider2_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_spider_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_spider_steel\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_thread_blue\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_thread_green\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_thread_red\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_thread_white\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_zipper_gold\")",
+      "Game.AddToInventory(\"Items.tony_navel_p_zipper_steel\")"
+    ],
+    "aliases": []
+  },
+  {
     "modId": 10690,
     "name": "Neko Cyber-Helmet",
     "author": "DennisReactive",
@@ -6929,25 +6932,6 @@
       "Game.AddToInventory(\"Items.prestige_glasses1_\", 1)",
       "Game.AddToInventory(\"Items.prestige_glasses2_\", 1)",
       "Game.AddToInventory(\"Items.prestige_glasses3_\", 1)"
-    ],
-    "aliases": []
-  },
-  {
-    "modId": 26138,
-    "name": "PROPS - Christmas 2025",
-    "author": "Breezypunk",
-    "url": "https://www.nexusmods.com/cyberpunk2077/mods/26138",
-    "version": "1.0",
-    "sources": [
-      "Cyberpunk 2077"
-    ],
-    "commands": [
-      "Game.AddToInventory(\"Items.tls_x_bp_headband_bow_bow\")",
-      "Game.AddToInventory(\"Items.tls_x_bp_headband_christmas_christmas\")",
-      "Game.AddToInventory(\"Items.tls_x_bp_headband_deer_one_deer_one\")",
-      "Game.AddToInventory(\"Items.tls_x_bp_headband_deer_two_deer_two\")",
-      "Game.AddToInventory(\"Items.tls_x_bp_headband_snowflake_snowflake\")",
-      "Game.AddToInventory(\"Items.tls_x_bp_headband_tree_tree\")"
     ],
     "aliases": []
   },

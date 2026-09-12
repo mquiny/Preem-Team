@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Preem Team — Mod History (Added / Removed) tables
+   Small companion to spawn-commands.css -- same neon-cyan/pink accents,
+   just a plain table instead of the collapsible mod cards since this
+   list is short and doesn't need search/filter.
+   See javascripts/mod-history.js for the fetch/render logic.
+   ========================================================================== */
+
+.pt-mod-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8em 0;
+  font-size: 0.85rem;
+}
+
+.pt-mod-history-table th,
+.pt-mod-history-table td {
+  text-align: left;
+  padding: 0.5em 0.8em;
+  border-bottom: 1px solid rgba(0, 246, 255, 0.2);
+}
+
+.pt-mod-history-table th {
+  color: var(--pt-neon-cyan);
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.pt-mod-history-table td:first-child {
+  font-family: var(--md-code-font);
+}
+
+.pt-mod-history-table a {
+  color: inherit;
+}
+
+.pt-mod-history-table tbody tr:hover {
+  background: rgba(0, 246, 255, 0.05);
+}
