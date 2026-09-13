@@ -32,6 +32,7 @@ can't add, edit, or run anything from this page.
 | `!changebody` | Wildcard | We have a well written guide from our amazing Cara on our website, check it out [here](https://mquiny.github.io/Preem-Team/guides/changing_body_mod/) | All (global) |
 | `!cleaninstall` | Wildcard | Hey Choom, your issue look like it can be solved by following our step-by-step clean install guide https://preem.team/guides/clean_install | All (global) |
 | `!config` | Wildcard | Grab our latest config here https://www.nexusmods.com/cyberpunk2077/mods/33680<br>Select "Manual Download", and drag the 2 folders into your Cyberpunk root folder (Selecting Yes to override files) | All (global) |
+| `!darkfuture` | Wildcard | Hey Choom, are you wondering what amazing immersive features Dark Future has, or want to know how to get rid of a Debuff, check out there official wiki here https://wiki.darkfuture2077.com/ | All (global) |
 | `!issue` | Wildcard | Hey choom, having any issues that need investigating, submit on our GitHub Issues page https://preem.team/troubleshooting/issue_viewer/ | All (global) |
 | `!Middle` | Wildcard | https://gifsec.com/wp-content/uploads/2022/09/middle-finger-gif-17.gif | All (global) |
 | `!mquiny` | Wildcard | mquiny is awesome https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
