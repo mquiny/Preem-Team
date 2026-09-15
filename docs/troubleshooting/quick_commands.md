@@ -34,6 +34,7 @@ can't add, edit, or run anything from this page.
 | `!config` | Wildcard | Grab our latest config here https://www.nexusmods.com/cyberpunk2077/mods/33680<br>Select "Manual Download", and drag the 2 folders into your Cyberpunk root folder (Selecting Yes to override files) | All (global) |
 | `!darkfuture` | Wildcard | Hey Choom, are you wondering what amazing immersive features Dark Future has, or want to know how to get rid of a Debuff, check out there official wiki here https://wiki.darkfuture2077.com/ | All (global) |
 | `!issue` | Wildcard | Hey choom, having any issues that need investigating, submit on our GitHub Issues page https://preem.team/troubleshooting/issue_viewer/ | All (global) |
+| `!knownissue` | Wildcard | Hey Choom, seems your issue has already been covered in our Known Issues section on our Website, check it out here https://preem.team/troubleshooting/known_issues/ | All (global) |
 | `!Middle` | Wildcard | https://gifsec.com/wp-content/uploads/2022/09/middle-finger-gif-17.gif | All (global) |
 | `!mquiny` | Wildcard | mquiny is awesome https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
 | `!nevergoon` | Wildcard | https://tenor.com/view/never-goon-bozonga-hjjw-saraiva-skibidi-gif-15011026571260862033 | All (global) |
