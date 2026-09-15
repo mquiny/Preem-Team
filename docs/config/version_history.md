@@ -19,6 +19,6 @@ into a single flattened "before/after."
     the previous release's (not a raw text comparison — several of
     these files reorder their own keys between exports, which makes a
     naive diff report false changes on values that never actually
-    moved). Versions currently tracked: 1.0 through 1.6.
+    moved). Versions currently tracked: 1.0 through 1.7.
 
 <div id="pt-config-history" data-src="../assets/version-history.json"></div>

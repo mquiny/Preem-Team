@@ -118,5 +118,83 @@
         "after": "0.002500"
       }
     ]
+  },
+  {
+    "version": "1.7",
+    "previousVersion": "1.6",
+    "modsAdded": [
+      "AdaptiveSlidersConfig"
+    ],
+    "modsRemoved": [
+      "MainMenuMusic.MainMenuMusicConfig"
+    ],
+    "settingsChanged": [
+      {
+        "mod": "FakeLightsNoMore",
+        "setting": "disableLightChannels",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "mod": "FakeLightsNoMore",
+        "setting": "disablePortalLights",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "mod": "GeneralShadowsFixes",
+        "setting": "dynInstBudget",
+        "before": "Medium",
+        "after": "Vanilla"
+      },
+      {
+        "mod": "GeneralShadowsFixes",
+        "setting": "rtMode",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "mod": "NightCityAllies.Settings.NCASettings",
+        "setting": "mercSpawnLimit",
+        "before": "(not set)",
+        "after": "6"
+      },
+      {
+        "mod": "NightCityAllies.Settings.NCASettings",
+        "setting": "useDefaultRecords",
+        "before": "(not set)",
+        "after": "false"
+      },
+      {
+        "mod": "RTLightingFixes",
+        "setting": "ptMode",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "mod": "TF_Config",
+        "setting": "batteryDurationNormal",
+        "before": "600.000000",
+        "after": "30.000000"
+      },
+      {
+        "mod": "TF_Config",
+        "setting": "batteryDurationTac",
+        "before": "60.000000",
+        "after": "10.000000"
+      },
+      {
+        "mod": "TF_Config",
+        "setting": "batteryFullChargeNotification",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "mod": "TF_Config",
+        "setting": "batteryRechargeTime",
+        "before": "1200.000000",
+        "after": "60.000000"
+      }
+    ]
   }
 ]

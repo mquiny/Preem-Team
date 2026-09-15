@@ -160,13 +160,68 @@ shifting between revisions with no record of it.
     | `StreetCred` | `1.0×` | `0.3×` |
     | `CoolSkill` / `IntelligenceSkill` / `ReflexesSkill` / `StrengthSkill` / `TechnicalAbilitySkill` | `1.0×` | `0.6×` |
 
+??? note "FakeLightsNoMore"
+    Already shipped with dashboard ad lights disabled
+    (`disableAdsLights: On`) — as of the 1.7 config update, two more
+    light types are disabled alongside it.
+
+    | Setting | Before | After |
+    |---|---|---|
+    | `disableLightChannels` | Off | On |
+    | `disablePortalLights` | Off | On |
+
+??? note "GeneralShadowsFixes"
+    Player shadows remain disabled. Ray-traced shadows now enabled, and
+    the dynamic shadow instance budget reverted from a tuned `Medium`
+    back to `Vanilla`.
+
+    | Setting | Before | After |
+    |---|---|---|
+    | `rtMode` | Off | On |
+    | `dynInstBudget` | `Medium` | `Vanilla` |
+
+??? note "RTLightingFixes"
+    Previously shipped fully default — path tracing mode is now enabled.
+
+    | Setting | Before | After |
+    |---|---|---|
+    | `ptMode` | Off | On |
+
+??? note "TF_Config"
+    Tactical flashlight/gadget battery now drains and recharges much
+    faster.
+
+    | Setting | Before | After |
+    |---|---|---|
+    | `batteryDurationNormal` | `600s` | `30s` |
+    | `batteryDurationTac` | `60s` | `10s` |
+    | `batteryRechargeTime` | `1200s` | `60s` |
+    | `batteryFullChargeNotification` | On | Off |
+
+??? note "NightCityAllies"
+    Two settings that didn't exist in this mod's config before now appear,
+    already tuned:
+
+    | Setting | Before | After |
+    |---|---|---|
+    | `mercSpawnLimit` | *(new setting)* | `6` |
+    | `useDefaultRecords` | *(new setting)* | Off |
+
 ## New mods (no baseline to compare against)
 
 These were added to the collection alongside the settings above — since
 they weren't previously part of it, there's no "vanilla" state to diff
 against, just the values they ship with:
 
-
 - **PayToGo** — Night City Railroad fast-travel pricing tuned (district
   rate and inflation scaling both raised from their low placeholder
   values).
+- **AdaptiveSlidersConfig** — automatically sets quantity sliders to max
+  when disassembling, selling, crafting, dropping, or transferring items
+  to storage (left at default for buying or transferring to yourself);
+  also auto-confirms the max-quantity prompt when disassembling.
+- **True Night Vision** — new cybernetic night-vision overlay. Keybinds:
+  `P` to toggle, `H` for heat-vision mode. Ships with its own extensive
+  custom color-grading preset.
+- **ReImagined** — installed with its default settings; no tuning
+  changes made yet.

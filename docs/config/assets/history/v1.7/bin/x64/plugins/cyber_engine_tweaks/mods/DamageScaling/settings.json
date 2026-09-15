@@ -1,0 +1,60 @@
+{
+  "headhshotMultiplier": 1,
+  "quickhackDamageMult": 1,
+  "grenadeDamageMult": 1,
+  "mechanicalEnemyDamageMult": 1,
+  "npcMeleeDamageMult": 1,
+  "playerMeleeDamageMult": 1,
+  "damageToVehiclesMult": 1,
+  "npcDamageScaling": [
+    1,
+    1,
+    0.85,
+    0.72,
+    0.6,
+    0.5,
+    0.4
+  ],
+  "playerDamageScaling": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "npcPreset": "RMK_Balanced",
+  "playerPreset": "Default",
+  "customNpcPreset": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "customPlayerPreset": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "npcApplyToNonPlayerSource": false,
+  "playerApplyToExplosions": false,
+  "applyMultsToReplacerScenes": false,
+  "npcToNpcDamageMult": 1,
+  "trashDamageMultplier": 1,
+  "weakDamageMultiplier": 1,
+  "normalDamageMultiplier": 1,
+  "officerDamageMultiplier": 1,
+  "rareDamageMultiplier": 1,
+  "eliteDamageMultiplier": 1,
+  "bossDamageMultiplier": 1,
+  "maxtacDamageMultiplier": 1,
+  "staminaCostMultiplier": 1
+}
