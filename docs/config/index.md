@@ -166,10 +166,7 @@ These were added to the collection alongside the settings above — since
 they weren't previously part of it, there's no "vanilla" state to diff
 against, just the values they ship with:
 
-- **FakeLightsNoMore** — dashboard ad lights disabled (`disableAdsLights: On`).
-- **GeneralShadowsFixes** — player shadows disabled, shadow instance budget set to Medium.
+
 - **PayToGo** — Night City Railroad fast-travel pricing tuned (district
   rate and inflation scaling both raised from their low placeholder
   values).
-- **RTLightingFixes**, **MainMenuMusicConfig**, **ReImagined** — installed
-  with their default settings; no tuning changes made yet.
