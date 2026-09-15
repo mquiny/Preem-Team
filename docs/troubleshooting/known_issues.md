@@ -24,8 +24,9 @@ reference.
 <!-- KNOWN-ISSUES:OPEN:START -->
 
 <!-- KNOWN-ISSUE:1549485319810973839:START -->
-??? warning "Known Vanilla Issue: During the quest 'Never Fade Away' there is a well known vanilla bug where d..."
-    The Fix: Set the difficulty to Easy just before diving into the Net in the Voodoo Boys hideout. And avoid dying during the quest. Turn difficulty back to Very hard once the quest is over and you're back at the VDB Hideout.
+??? warning "Known Vanilla Issue: During the quest 'Never Fade Away'"
+    - There is a well known vanilla bug, where dying at any gun fight sequence of the quest, will cause you to crash (Flatline error) upon loading the save. Unfortunately this issue cannot be solved, and will require you to load a save before diving into the NET with Mamam Brigette
+    - The Fix: Set the difficulty to Easy just before diving into the Net in the Voodoo Boys hideout. And avoid dying during the quest. Turn difficulty back to Very hard once the quest is over and you're back at the VDB Hideout.
 
     *Posted September 15, 2026 — [View original message](https://discord.com/channels/1543366600525217802/1547734597091987517/1549485319810973839)*
 <!-- KNOWN-ISSUE:1549485319810973839:END -->
