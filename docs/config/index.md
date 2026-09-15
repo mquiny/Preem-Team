@@ -216,12 +216,7 @@ against, just the values they ship with:
 - **PayToGo** — Night City Railroad fast-travel pricing tuned (district
   rate and inflation scaling both raised from their low placeholder
   values).
-- **AdaptiveSlidersConfig** — automatically sets quantity sliders to max
-  when disassembling, selling, crafting, dropping, or transferring items
-  to storage (left at default for buying or transferring to yourself);
-  also auto-confirms the max-quantity prompt when disassembling.
 - **True Night Vision** — new cybernetic night-vision overlay. Keybinds:
   `P` to toggle, `H` for heat-vision mode. Ships with its own extensive
   custom color-grading preset.
-- **ReImagined** — installed with its default settings; no tuning
-  changes made yet.
+
