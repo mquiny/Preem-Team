@@ -47,11 +47,11 @@ below to report it.
 
 <!-- BOT-INJECT:ISSUE-TABLE:START -->
 
-**Last synced:** `2026-09-20 20:27 UTC`
+**Last synced:** `2026-09-20 20:40 UTC`
 
 | Status | Issue | Labels | Opened | Comments |
 |---|---|---|---|---|
-| <span class="pt-chip pt-chip--open">Open</span> | [Crash on headshot](https://github.com/mquiny/Preem-Team/issues/8) | `Mod Issue` | `2026-09-11` | 1 |
+| — | *No open issues right now — nice.* | — | — | — |
 
 <!-- BOT-INJECT:ISSUE-TABLE:END -->
 

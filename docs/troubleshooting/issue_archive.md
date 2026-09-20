@@ -41,10 +41,11 @@ here if you want to see whether your issue was already dealt with.
 
 <!-- BOT-INJECT:ISSUE-ARCHIVE-TABLE:START -->
 
-**Last synced:** `2026-09-20 20:27 UTC`
+**Last synced:** `2026-09-20 20:40 UTC`
 
 | Status | Issue | Labels | Opened | Closed | Comments |
 |---|---|---|---|---|---|
+| <span class="pt-chip pt-chip--resolved">Resolved</span> | [Crash on headshot](https://github.com/mquiny/Preem-Team/issues/8) | `Mod Issue` | `2026-09-11` | `2026-09-20` | 1 |
 | <span class="pt-chip pt-chip--resolved">Resolved</span> | [Test Log](https://github.com/mquiny/Preem-Team/issues/7) | `Mod Issue` | `2026-09-05` | `2026-09-06` | 0 |
 
 <!-- BOT-INJECT:ISSUE-ARCHIVE-TABLE:END -->
