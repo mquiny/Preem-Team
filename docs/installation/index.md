@@ -36,6 +36,8 @@ Use this as your master checklist. Each item is explained in detail below.
 - [ ] Vortex - Install Collection
 - [ ] Verify installation
 
+!!! info "Load Order"
+Cyberpunk does not require a load order, any load ordering is handled by renaming .archive files using ASCII-alphabetical ordering. Load order generally only matters for texture mods, since other types of mods should never be conflicting or overwriting the same files.
 
 !!! warning "No Prior Modding"
     - This guide assumes you have **NEVER** used a previous collection, or installed any mods through Vortex, or manually adding the zip files to your game directories
