@@ -140,8 +140,12 @@ body.pt-bg-commands        { --pt-bg-image: url("../assets/background11.webp"); 
   display: none;
 }
 
-/* Terminal-prompt mark -- echoes the "> CONNECTION ESTABLISHED..."
-   copy style already used on every page. */
+/* Currently rendering as an <img> (cyberpunk_banner.png -- see header.html)
+   rather than the terminal-prompt text mark this was originally built
+   for. The text-mark rules below (.pt-header-brand-prompt/-cursor) are
+   dead CSS while that's true -- harmless, and left in place since
+   header.html's markup is the actual switch between the two; swap that
+   file's <img> back for the <span> version to revert. */
 .pt-header-brand {
   display: flex;
   align-items: center;
@@ -154,6 +158,11 @@ body.pt-bg-commands        { --pt-bg-image: url("../assets/background11.webp"); 
   text-decoration: none;
   white-space: nowrap;
   margin-right: 0.75rem;
+}
+.pt-header-brand-img {
+  height: 1.65rem;
+  width: auto;
+  display: block;
 }
 .pt-header-brand-prompt {
   color: var(--pt-neon-pink, #ff2e97);

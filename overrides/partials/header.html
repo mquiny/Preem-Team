@@ -44,7 +44,7 @@
       of that title animating in). This is just always there.
     #}
     <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" class="pt-header-brand" aria-label="{{ config.site_name }}">
-      <span class="pt-header-brand-prompt">&gt;</span> PREEM_TEAM<span class="pt-header-brand-cursor" aria-hidden="true"></span>
+      <img src="{{ 'assets/cyberpunk_banner.png' | url }}" alt="{{ config.site_name }}" class="pt-header-brand-img">
     </a>
     <label class="md-header__button md-icon" for="__drawer">
       {% set icon = config.theme.icon.menu or "material/menu" %}

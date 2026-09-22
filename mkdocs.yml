@@ -75,7 +75,7 @@ theme:
 # (no need to touch the others) to force browsers to fetch it fresh.
 extra_css:
   - stylesheets/extra.css?v=1
-  - stylesheets/backgrounds.css?v=16
+  - stylesheets/backgrounds.css?v=17
   - stylesheets/steps.css?v=1
   - stylesheets/features.css?v=2
   - stylesheets/changelog.css?v=1
