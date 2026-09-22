@@ -16,9 +16,6 @@ below to report it.
 <a href="https://github.com/mquiny/Preem-Team/issues/new/choose" class="md-button md-button--primary" target="_blank" rel="noopener">
 :material-github: Create an Issue
 </a>
-<a href="https://preemteam.com/report/" class="md-button" target="_blank" rel="noopener">
-:material-bug: Report Without a GitHub Account
-</a>
 
 !!! info "How this works"
     Reports are filed on [GitHub](https://github.com/mquiny/Preem-Team/issues)
