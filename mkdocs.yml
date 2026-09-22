@@ -75,7 +75,7 @@ theme:
 # (no need to touch the others) to force browsers to fetch it fresh.
 extra_css:
   - stylesheets/extra.css?v=1
-  - stylesheets/backgrounds.css?v=1
+  - stylesheets/backgrounds.css?v=16
   - stylesheets/steps.css?v=1
   - stylesheets/features.css?v=2
   - stylesheets/changelog.css?v=1
@@ -202,7 +202,7 @@ extra:
 
 extra_javascript:
   - javascripts/backgrounds.js?v=1
-  - javascripts/nav-autohide.js?v=1
+  - javascripts/nav-autohide.js?v=2
   - javascripts/steps.js?v=1
   - javascripts/changelog.js?v=1
   - javascripts/features.js?v=2
@@ -212,3 +212,4 @@ extra_javascript:
   - javascripts/mod-history.js?v=1
   - javascripts/config-version-history.js?v=1
   - javascripts/nav-dropdown.js?v=3
+  - javascripts/nav-tabs-scroll.js?v=1

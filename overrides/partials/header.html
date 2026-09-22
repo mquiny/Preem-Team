@@ -1,0 +1,112 @@
+{#
+  Copied from mkdocs-material's own partials/header.html (verbatim, read
+  directly off the installed package so this doesn't drift from a
+  half-remembered version) and extended with two changes:
+
+  1. A .pt-header-actions cluster (search toggle, Discord link, "View
+     Collection" CTA) inside .md-header__inner, right after
+     .md-header__source.
+  2. partials/tabs.html moved from its stock position (a separate <nav>
+     sibling below .md-header__inner, rendered as its own row) to inside
+     .md-header__inner itself, wrapped in .pt-header-tabs-slot -- this is
+     what actually merges the tab links into the same single row as the
+     logo/search/Discord/CTA, matching a unified navbar instead of two
+     stacked bars. Its CSS (backgrounds.css) resets the stock .md-tabs
+     positioning assumptions (full-width bar of its own) for this nested
+     context.
+
+  Both live in the actual server-rendered header markup on every page --
+  deliberately NOT injected via runtime JS. A previous attempt at
+  something similar (relocating the stock search box down into the tabs
+  bar via JS) didn't survive Material's instant-navigation page swaps
+  reliably; elements that are part of the template itself, identical on
+  every page, don't have that problem -- that's how the CTA/search/
+  Discord/tabs here work today.
+#}
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+  {% set class = class ~ " md-header--shadow" %}
+{% endif %}
+<header class="{{ class }}" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    {#
+      Static brand wordmark, independent of Material's own .md-logo (a
+      busy photo-textured square icon that doesn't suit this slim bar,
+      hidden in backgrounds.css) and .md-header__title (which stays
+      collapsed to 0 width at rest by design -- it's meant to reveal only
+      once you scroll PAST a page's own heading, a condition our merged
+      header never reaches since the whole thing hides on scroll instead
+      of that title animating in). This is just always there.
+    #}
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" class="pt-header-brand" aria-label="{{ config.site_name }}">
+      <span class="pt-header-brand-prompt">&gt;</span> PREEM_TEAM<span class="pt-header-brand-cursor" aria-hidden="true"></span>
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            {{ config.site_name }}
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            {% if page.meta and page.meta.title %}
+              {{ page.meta.title }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+    {% if "navigation.tabs.sticky" in features and "navigation.tabs" in features %}
+      <div class="pt-header-tabs-slot">
+        {% include "partials/tabs.html" %}
+      </div>
+    {% endif %}
+    {% if config.theme.palette %}
+      {% if not config.theme.palette is mapping %}
+        {% include "partials/palette.html" %}
+      {% endif %}
+    {% endif %}
+    {% if not config.theme.palette is mapping %}
+      {% include "partials/javascripts/palette.html" %}
+    {% endif %}
+    {% if config.extra.alternate %}
+      {% include "partials/alternate.html" %}
+    {% endif %}
+    {% if "material/search" in config.plugins %}
+      {% set search = config.plugins["material/search"] | attr("config") %}
+      {% if search.enabled %}
+        <label class="md-header__button md-icon" for="__search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+    {% endif %}
+    {% if config.repo_url %}
+      <div class="md-header__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+    <div class="pt-header-actions">
+      <a class="pt-header-discord" href="https://discord.gg/QvYzYZFmnE" title="Join our Discord" target="_blank" rel="noopener">
+        <svg viewBox="0 0 127.14 96.36" role="img" aria-label="Discord"><path fill="currentColor" d="M107.7 8.07A105.15 105.15 0 0 0 81.47 0a72.06 72.06 0 0 0-3.36 6.83 97.68 97.68 0 0 0-29.11 0A72.37 72.37 0 0 0 45.64 0a105.89 105.89 0 0 0-26.25 8.09C2.79 32.65-1.71 56.6.54 80.21a105.73 105.73 0 0 0 32.17 16.15 77.7 77.7 0 0 0 6.89-11.11 68.42 68.42 0 0 1-10.85-5.18c.91-.66 1.8-1.34 2.66-2a75.57 75.57 0 0 0 64.32 0c.87.71 1.76 1.39 2.66 2a68.68 68.68 0 0 1-10.87 5.19 77 77 0 0 0 6.89 11.1 105.25 105.25 0 0 0 32.19-16.14c2.64-27.38-4.51-51.11-18.9-72.15ZM42.45 65.69C36.18 65.69 31 60 31 53s5-12.74 11.43-12.74S54 46 53.89 53s-5.05 12.69-11.44 12.69Zm42.24 0C78.41 65.69 73.25 60 73.25 53s5-12.74 11.44-12.74S96.23 46 96.12 53s-5.04 12.69-11.43 12.69Z"/></svg>
+      </a>
+      <a class="pt-header-cta" href="https://www.nexusmods.com/games/cyberpunk2077/collections/usushu" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16"/></svg>
+        <span class="pt-cta-label">View Collection</span>
+      </a>
+    </div>
+  </nav>
+</header>
