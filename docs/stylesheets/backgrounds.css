@@ -32,7 +32,7 @@ body::before {
   transition: background-image 0.25s ease;
 }
 
-body.pt-bg-home            { --pt-bg-image: url("../assets/background1.webp"); }
+body.pt-bg-home            { --pt-bg-image: url("../assets/background13.webp"); }
 body.pt-bg-installation    { --pt-bg-image: url("../assets/background2.webp"); }
 body.pt-bg-guides          { --pt-bg-image: url("../assets/background3.webp"); }
 body.pt-bg-config          { --pt-bg-image: url("../assets/background12.webp"); }
