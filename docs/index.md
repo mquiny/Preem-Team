@@ -64,54 +64,6 @@ The Preem Team collection typically bundles together categories like:
 Exact mod lists change as the collection is updated — check the
 [Changelog](changelog/index.md) for the current state of the build.
 
-## Quick Navigation
-
-<div class="grid cards" markdown>
-
--   :material-download-box:{ .lg .middle } **[Installation](installation/index.md)**
-
-    ---
-
-    Step-by-step setup, from clean game to fully modded rig.
-
--   :material-book-open-page-variant:{ .lg .middle } **[Guides](guides/index.md)**
-
-    ---
-
-    Deep dives on specific tools, mechanics, and configuration.
-
--   :material-history:{ .lg .middle } **[Changelog](changelog/index.md)**
-
-    ---
-
-    What changed, what broke, what got fixed — straight from the bot feed.
-
--   :material-help-circle:{ .lg .middle } **[FAQ](faq/index.md)**
-
-    ---
-
-    Answers to the questions the Discord gets asked daily.
-
--   :material-image-multiple:{ .lg .middle } **[Showcase](showcase/index.md)**
-
-    ---
-
-    Screenshots from the community, straight out of Night City.
-
--   :material-wrench:{ .lg .middle } **[Troubleshooting](troubleshooting/index.md)**
-
-    ---
-
-    Crash fixes, known issues, and how to file a proper bug report.
-
--   :material-account-star:{ .lg .middle } **[Meet the Team](team/index.md)**
-
-    ---
-
-    The chooms behind the collection.
-
-</div>
-
 ---
 
 !!! tip "New here?"
