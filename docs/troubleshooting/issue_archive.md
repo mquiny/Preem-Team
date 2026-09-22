@@ -41,7 +41,7 @@ here if you want to see whether your issue was already dealt with.
 
 <!-- BOT-INJECT:ISSUE-ARCHIVE-TABLE:START -->
 
-**Last synced:** `2026-09-22 17:10 UTC`
+**Last synced:** `2026-09-22 20:23 UTC`
 
 | Status | Issue | Labels | Opened | Closed | Comments |
 |---|---|---|---|---|---|
