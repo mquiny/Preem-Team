@@ -261,6 +261,19 @@ into something you need an actual plan for.
 </div>
 </div>
 
+<div class="pt-feature-modal-entry" markdown="1">
+<div class="pt-feature-modal-media">
+<img class="pt-feature-modal-img" data-src="assets/weapon-jackiesmachete.avif" alt="Wield Jackie's Machete">
+</div>
+<div class="pt-feature-modal-text" markdown="1">
+
+### Weapon - ﻿Bramido
+
+<span class="pt-feature-caption">Run around Night City with Jackies Iconic Weapon '﻿Bramido'. (Feature of the [Jackie's Machete - New Iconic Weapon](https://www.nexusmods.com/cyberpunk2077/mods/19608) mod).</span>
+
+</div>
+</div>
+
 </div>
 </dialog>
 
