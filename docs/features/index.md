@@ -228,7 +228,7 @@ of gonks feels like the netrunner power fantasy it was always supposed to be.
 <button type="button" class="pt-feature-category" data-pt-feature-open="feature-combat">
 <span class="pt-feature-category-icon">⚔️</span>
 <span class="pt-feature-category-name">Combat</span>
-<span class="pt-feature-category-count">2 mods</span>
+<span class="pt-feature-category-count">3 mods</span>
 </button>
 
 <dialog class="pt-feature-modal" id="feature-combat" markdown="1">
@@ -270,6 +270,19 @@ into something you need an actual plan for.
 ### Weapon - ﻿Bramido
 
 <span class="pt-feature-caption">Run around Night City with Jackies Iconic Weapon '﻿Bramido'. (Feature of the [Jackie's Machete - New Iconic Weapon](https://www.nexusmods.com/cyberpunk2077/mods/19608) mod).</span>
+
+</div>
+</div>
+
+<div class="pt-feature-modal-entry" markdown="1">
+<div class="pt-feature-modal-media">
+<img class="pt-feature-modal-img" data-src="assets/new-scopes.avif" alt="Wield Jackie's Machete">
+</div>
+<div class="pt-feature-modal-text" markdown="1">
+
+### New Scopes - Militech Sight Pack
+
+<span class="pt-feature-caption">Level up your sights, and see everything through a different lense, featuring the Militech Sight Pack - Night Vision scope. (Feature of the [Militech Sight Pack]|(https://www.nexusmods.com/cyberpunk2077/mods/25490) mod).</span>
 
 </div>
 </div>
