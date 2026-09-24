@@ -282,7 +282,7 @@ into something you need an actual plan for.
 
 ### New Scopes - Militech Sight Pack
 
-<span class="pt-feature-caption">Level up your sights, and see everything through a different lense, featuring the Militech Sight Pack - Night Vision scope. (Feature of the [Militech Sight Pack]|(https://www.nexusmods.com/cyberpunk2077/mods/25490) mod).</span>
+<span class="pt-feature-caption">Level up your sights, and see everything through a different lense, featuring the Militech Sight Pack - Night Vision scope. (Feature of the [Militech Sight Pack](https://www.nexusmods.com/cyberpunk2077/mods/25490) mod).</span>
 
 </div>
 </div>
