@@ -228,7 +228,7 @@ of gonks feels like the netrunner power fantasy it was always supposed to be.
 <button type="button" class="pt-feature-category" data-pt-feature-open="feature-combat">
 <span class="pt-feature-category-icon">⚔️</span>
 <span class="pt-feature-category-name">Combat</span>
-<span class="pt-feature-category-count">1 mod</span>
+<span class="pt-feature-category-count">2 mods</span>
 </button>
 
 <dialog class="pt-feature-modal" id="feature-combat" markdown="1">
