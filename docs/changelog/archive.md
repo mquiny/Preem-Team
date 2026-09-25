@@ -29,6 +29,54 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-8">
+<img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-8</span>
+<span class="pt-changelog-card-date">2026-09-14 · CP2077 2.31a</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
+<span class="pt-chip pt-chip--updated">Updated</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-8" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-8
+
+<span class="pt-chip pt-chip--added">Added</span>
+<span class="pt-chip pt-chip--updated">Updated</span>
+
+`2026-09-14` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
+
+### Added {: .pt-changelog-h-added }
+
+- [KMKC's - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/16065) (v6.6)
+
+### Updated
+
+- [3D World Map Fixed](https://www.nexusmods.com/cyberpunk2077/mods/26500) (v1.4.0 → v1.5.0)
+- [Adaptive Sliders](https://www.nexusmods.com/cyberpunk2077/mods/5075) (v2024-06-10 → v20260912)
+- [AudioXL](https://www.nexusmods.com/cyberpunk2077/mods/33442) (v0.3.1 → v0.4.3)
+- [Computer Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/12520) (v2.2.0 → v2.2.1)
+- [DigitalVixen Core](https://www.nexusmods.com/cyberpunk2077/mods/28390) (v4.8.13 → v4.8.17)
+- [Dusty Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/14797) (v72 → v73)
+- [Immersive Explosions](https://www.nexusmods.com/cyberpunk2077/mods/31624) (v1.1.1 → v1.1.2a)
+- [Informative Healthbar](https://www.nexusmods.com/cyberpunk2077/mods/29625) (v1.11.3 → v1.12)
+- [NC Fashion Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/4805) (v10.1.f → v10.1.g)
+- [Night City Allies - Immersive Companion System](https://www.nexusmods.com/cyberpunk2077/mods/27625) (v1.6.3 → v1.6.4)
+- [North Oak Impala Automatics Climbable Tower](https://www.nexusmods.com/cyberpunk2077/mods/29786) (v1.1 → v1.2)
+- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.6 → v1.7)
+- [Redscript Configuration Framework](https://www.nexusmods.com/cyberpunk2077/mods/30726) (v2.1.6 → v2.1.7)
+- [SDH0's Vehicle Resources](https://www.nexusmods.com/cyberpunk2077/mods/20956) (v1.0.9 → v2.0.0)
+- [Skyfall LUT](https://www.nexusmods.com/cyberpunk2077/mods/33326) (v1.5 → v1.6)
+- [Stiletto Platform Heels - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/9184) (vv1.0 → vv1.2)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-7-2">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
