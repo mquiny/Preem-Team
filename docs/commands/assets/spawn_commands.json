@@ -1650,7 +1650,7 @@
     "name": "Comfy Short Shorts",
     "author": "Buzzler",
     "url": "https://www.nexusmods.com/cyberpunk2077/mods/21399",
-    "version": "1.0",
+    "version": "1.1",
     "sources": [
       "Cyberpunk 2077"
     ],
@@ -1770,6 +1770,26 @@
     "aliases": [
       "Cross Earrings - Both V"
     ]
+  },
+  {
+    "modId": 33916,
+    "name": "Cyber Hackclaw Outfit",
+    "author": "Veegee",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/33916",
+    "version": "2",
+    "sources": [
+      "Cyberpunk 2077",
+      "mod-extra-files"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"Items.veegee_cyber_hackclaw_pants_black\", 1)",
+      "Game.AddToInventory(\"Items.veegee_cyber_hackclaw_pants_white\", 1)",
+      "Game.AddToInventory(\"Items.veegee_cyber_hackclaw_sleeves_black\", 1)",
+      "Game.AddToInventory(\"Items.veegee_cyber_hackclaw_sleeves_white\", 1)",
+      "Game.AddToInventory(\"Items.veegee_cyber_hackclaw_top_black\", 1)",
+      "Game.AddToInventory(\"Items.veegee_cyber_hackclaw_top_white\", 1)"
+    ],
+    "aliases": []
   },
   {
     "modId": 20456,
@@ -2686,7 +2706,7 @@
     "name": "Immersive Third Person - Best Of Both Worlds",
     "author": "CybrDrake",
     "url": "https://www.nexusmods.com/cyberpunk2077/mods/32203",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "sources": [
       "Cyberpunk 2077"
     ],
@@ -5991,6 +6011,62 @@
     ]
   },
   {
+    "modId": 34188,
+    "name": "Nola Dreamer's High-End Luxury Jewelry - Chanel - Van Cleef Arpels - Yves Saint Laurent inspired - Archive XL",
+    "author": "NolaDreamer",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/34188",
+    "version": "1.0",
+    "sources": [
+      "Cyberpunk 2077",
+      "mod-extra-files"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_chanel_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_chanel_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_chanel_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_cross_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_cross_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_cross_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_drops_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_drops_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_drops_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_heart_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_heart_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_heart_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_honeycomb_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_honeycomb_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_honeycomb_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_vca_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_vca_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_vca_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_ysl_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_ysl_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_earrings_ysl_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_chanel_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_chanel_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_chanel_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_cross_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_cross_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_cross_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_drops_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_drops_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_drops_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_heart_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_heart_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_heart_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_honeycomb_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_honeycomb_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_honeycomb_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_vca_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_vca_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_vca_silver\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_ysl_gold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_ysl_rosegold\", 1)",
+      "Game.AddToInventory(\"Items.nd_accessories_chanel_vca_ysl_necklace_ysl_silver\", 1)"
+    ],
+    "aliases": []
+  },
+  {
     "modId": 32021,
     "name": "Nola Dreamer's Jewelry Collection - Cartier Inspired - Archive XL",
     "author": "NolaDreamer",
@@ -9128,6 +9204,26 @@
     "aliases": []
   },
   {
+    "modId": 33489,
+    "name": "Toyota Celica Supra A60 - ArchiveXL",
+    "author": "yellingintothevoid",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/33489",
+    "version": "1.0.2",
+    "sources": [
+      "Cyberpunk 2077"
+    ],
+    "commands": [
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_a60_customisable', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_a60_livery_custom', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_a60_livery_green', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_a60_livery_kiroshi', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_a60_livery_orange_white', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_a60_livery_red_grey', true, false)",
+      "Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.yv_a60_livery_trd', true, false)"
+    ],
+    "aliases": []
+  },
+  {
     "modId": 12319,
     "name": "TraumaV Wardrobe",
     "author": "Alex Ashfold",
@@ -9374,6 +9470,50 @@
     "aliases": [
       "Twlight Cocktail Outfit"
     ]
+  },
+  {
+    "modId": 34197,
+    "name": "Ultimate Hailey Suit (Archive XL - ACM - FemV)",
+    "author": "Dusty2077",
+    "url": "https://www.nexusmods.com/cyberpunk2077/mods/34197",
+    "version": "1",
+    "sources": [
+      "Cyberpunk 2077",
+      "mod-extra-files"
+    ],
+    "commands": [
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_bodysuit_01\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_bodysuit_02\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_bodysuit_03\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_bodysuit_04\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_bodysuit_05\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_bodysuit_06\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_boots_01\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_boots_02\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_boots_03\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_boots_04\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_boots_05\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_boots_06\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_gloves_01\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_gloves_02\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_gloves_03\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_gloves_04\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_gloves_05\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_gloves_06\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_suit_01\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_suit_02\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_suit_03\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_suit_04\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_suit_05\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_suit_06\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_visor_01\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_visor_02\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_visor_03\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_visor_04\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_visor_05\",1)",
+      "Game.AddToInventory(\"Items.dusty_ultimatehailey_visor_06\",1)"
+    ],
+    "aliases": []
   },
   {
     "modId": 17491,
