@@ -11,8 +11,7 @@ description: Community screenshots from the Preem Team collection.
 Screenshots from the Preem Team community, running the collection in the
 wild. A post in [**#gallery**](https://discordapp.com/channels/1543366600525217802/1543381631073525850)
 gets featured here automatically once it either picks up reactions from
-**10 different people**, or catches a staff member's eye for an instant ⭐
-feature.
+**10 different people**, or catches a staff member's eye for an instant feature.
 
 <!-- SHOWCASE:START -->
 
