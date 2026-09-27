@@ -12,24 +12,8 @@ Real reactions from the Preem Team community, straight from
 [**#feedback**](https://discord.com/channels/1543366600525217802/1547734597091987517)
 on Discord.
 
-!!! info "How this works"
-    A staff member right-clicks a message in
-    [**#feedback**](https://discord.com/channels/1543366600525217802/1547734597091987517)
-    and runs **Feature as Testimonial** — that's it, no reaction threshold
-    or approval queue, picking the message *is* the approval. It's synced
-    to this page moments later. Nothing on this page should be hand-edited
-    except by the bot — see
-    [`scripts/apply-feedback.js`](https://github.com/mquiny/Preem-Team/blob/main/scripts/apply-feedback.js)
-    for exactly how that works.
 
 <div class="grid cards pt-feedback-grid" markdown="1">
-
-<!-- FEEDBACK:ENTRY:1553810954968371374:START -->
--   > "Test"
-
-    ![](https://cdn.discordapp.com/avatars/680928073587359902/a_6e24e85ae5a13930a49a6cf9be918d91.gif?size=128){ .pt-feedback-avatar } **mquiny** · *#💬┃preem-chat* · [View original message](https://discord.com/channels/1543366600525217802/1543366601456361534/1553810954968371374)
-<!-- FEEDBACK:ENTRY:1553810954968371374:END -->
-
 
 <!-- FEEDBACK:ENTRY:1552982894560026635:START -->
 -   > "This review i also can relate to. Only difference is with other collections ive got bored and stopped playing. This collection has kept my interest and had me commit to a full new playthrough now 30 hrs in 🥰💪"
