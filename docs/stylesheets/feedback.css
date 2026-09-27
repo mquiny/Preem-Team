@@ -4,7 +4,10 @@
    scripts/apply-feedback.js for how the bot integration adds a new card.
    ========================================================================== */
 
-.pt-feedback-grid > li {
+/* Material's "grid cards" extension wraps each `-` item in its own <ul>,
+   so a card <li> is a grandchild of the div (.pt-feedback-grid > ul > li),
+   not a direct child -- a `>` combinator here silently matches nothing. */
+.pt-feedback-grid li {
   border-left: 3px solid var(--pt-neon-pink);
   /* Cards sit directly over the page's Night City background photo --
      without an opaque-ish backing, italic quote text loses contrast
@@ -16,7 +19,7 @@
   -webkit-backdrop-filter: blur(6px);
 }
 
-.pt-feedback-grid > li blockquote {
+.pt-feedback-grid li blockquote {
   margin: 0 0 0.6em 0;
   padding: 0;
   border: none;
