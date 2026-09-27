@@ -24,6 +24,13 @@ on Discord.
 
 <div class="grid cards pt-feedback-grid" markdown="1">
 
+<!-- FEEDBACK:ENTRY:1553803325399502852:START -->
+-   > "Stable, fun, makes the game more challenging.  Most of the time you breeze through Cyberpunk being practically the ultimate, lucid cyberpyscho. Preem changes all that. Ammo? More hard to come by. Enemies? No longer bullet sponges. Leveling? No longer a breeze, the main gigs don't give you nearly as much XP as in the base game, it makes gigs matter SO much more. I've been playing Cyberpunk for a wh…"
+
+    ![](https://cdn.discordapp.com/avatars/249323652862967811/cf02ec178abb6cad9956cfe0bcf8026d.webp?size=128){ .pt-feedback-avatar } **ultralulz** · *#🎤┃feedback* · [View original message](https://discord.com/channels/1543366600525217802/1547734597091987517/1553803325399502852)
+<!-- FEEDBACK:ENTRY:1553803325399502852:END -->
+
+
 <!-- FEEDBACK:ENTRY:1553115250222698627:START -->
 -   > "Stable. Imo the biggest difference between this mod pack and so many others. The balance of enough mods to make it feel new. Yet doesn't stutter like Bubba Ray Dudly trying to read a textbook."
 
