@@ -24,6 +24,13 @@ on Discord.
 
 <div class="grid cards pt-feedback-grid" markdown="1">
 
+<!-- FEEDBACK:ENTRY:1553115250222698627:START -->
+-   > "Stable. Imo the biggest difference between this mod pack and so many others. The balance of enough mods to make it feel new. Yet doesn't stutter like Bubba Ray Dudly trying to read a textbook."
+
+    ![](https://cdn.discordapp.com/avatars/988906631590977566/f5f4d3285ddb6e2bd0ad792eac9ee71a.webp?size=128){ .pt-feedback-avatar } **hughjass69.** · *#🎤┃feedback* · [View original message](https://discord.com/channels/1543366600525217802/1547734597091987517/1553115250222698627)
+<!-- FEEDBACK:ENTRY:1553115250222698627:END -->
+
+
 </div>
 
 !!! tip "Got something to say?"
