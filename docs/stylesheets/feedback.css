@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Preem Team — testimonial wall (Feedback page)
+   Flat grid of staff-featured #feedback messages. See
+   scripts/apply-feedback.js for how the bot integration adds a new card.
+   ========================================================================== */
+
+.pt-feedback-grid > li {
+  border-left: 3px solid var(--pt-neon-pink);
+}
+
+.pt-feedback-grid > li blockquote {
+  margin: 0 0 0.6em 0;
+  padding: 0;
+  border: none;
+  font-style: italic;
+  color: var(--md-default-fg-color);
+}
+
+.pt-feedback-avatar {
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}

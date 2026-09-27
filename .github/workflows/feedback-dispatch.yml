@@ -1,0 +1,51 @@
+name: Apply feedback submission from bot
+
+on:
+  repository_dispatch:
+    types: [feedback_submission]
+
+permissions:
+  contents: write
+
+jobs:
+  apply-feedback:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Apply feedback payload and push (retries on push race)
+        env:
+          FEEDBACK_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          git config user.name "Preem Team Bot"
+          git config user.email "actions@github.com"
+
+          # Same race as showcase-dispatch.yml: two staff members featuring
+          # different messages within seconds of each other can both branch
+          # from the same base commit. Retry against latest main rather than
+          # rebasing the old commit, since apply-feedback.js is idempotent
+          # and marker-based -- re-running it fresh never conflicts.
+          for attempt in 1 2 3 4 5; do
+            node scripts/apply-feedback.js
+
+            git add docs/feedback/index.md
+            if git diff --cached --quiet; then
+              echo "No feedback changes to commit (probably already featured)"
+              exit 0
+            fi
+
+            git commit -m "Feedback: feature submission ${{ github.event.client_payload.submission_id }}"
+
+            if git push; then
+              echo "Pushed successfully on attempt $attempt"
+              exit 0
+            fi
+
+            echo "Push failed on attempt $attempt -- another dispatch landed first, resetting to latest main and retrying..."
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          echo "::error::Failed to push feedback update after 5 attempts (submission ${{ github.event.client_payload.submission_id }})"
+          exit 1

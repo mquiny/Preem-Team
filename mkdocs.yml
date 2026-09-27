@@ -86,6 +86,7 @@ extra_css:
   - stylesheets/mod-history.css?v=1
   - stylesheets/config-version-history.css?v=1
   - stylesheets/nav-dropdown.css?v=1
+  - stylesheets/feedback.css?v=1
 
 nav:
   - Home: index.md
@@ -124,6 +125,7 @@ nav:
       - Issue Archive: troubleshooting/issue_archive.md
       - Quick Commands: troubleshooting/quick_commands.md
       - Known Issues: troubleshooting/known_issues.md
+  - Feedback: feedback/index.md
   - Meet the Team:
       - team/index.md
       - StreetCred Leaderboard: team/streetcred.md
