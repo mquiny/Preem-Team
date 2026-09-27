@@ -86,7 +86,7 @@ extra_css:
   - stylesheets/mod-history.css?v=1
   - stylesheets/config-version-history.css?v=1
   - stylesheets/nav-dropdown.css?v=1
-  - stylesheets/feedback.css?v=1
+  - stylesheets/feedback.css?v=2
 
 nav:
   - Home: index.md

@@ -6,6 +6,14 @@
 
 .pt-feedback-grid > li {
   border-left: 3px solid var(--pt-neon-pink);
+  /* Cards sit directly over the page's Night City background photo --
+     without an opaque-ish backing, italic quote text loses contrast
+     against busy parts of the image. Blur (matching the site's other
+     "liquid glass" surfaces, e.g. the header) keeps the photo readable
+     as texture behind the card without it fighting the text. */
+  background: rgba(10, 10, 18, 0.82);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .pt-feedback-grid > li blockquote {
