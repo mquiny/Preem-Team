@@ -24,6 +24,13 @@ on Discord.
 
 <div class="grid cards pt-feedback-grid" markdown="1">
 
+<!-- FEEDBACK:ENTRY:1552982894560026635:START -->
+-   > "This review i also can relate to. Only difference is with other collections ive got bored and stopped playing. This collection has kept my interest and had me commit to a full new playthrough now 30 hrs in 🥰💪"
+
+    ![](https://cdn.discordapp.com/avatars/300239284773060619/a16b8eef8659c5a8fb6999381143be4e.webp?size=128){ .pt-feedback-avatar } **ffc007** · *#🎤┃feedback* · [View original message](https://discord.com/channels/1543366600525217802/1547734597091987517/1552982894560026635)
+<!-- FEEDBACK:ENTRY:1552982894560026635:END -->
+
+
 <!-- FEEDBACK:ENTRY:1552979560986050641:START -->
 -   > "If I can give feedback on the Cyberpunk 2077 Preem Edition Mod Collection, that might entice returning Cyberpunk players, let me say this: I have been playing Cyberpunk 2077 religiously since it released in it's infamously bugged out state in 2020. I played at launch on the PS4 console, knowing nothing of the world or genre. But like many, I saw the potential and fell in love with the world crafte…"
 
