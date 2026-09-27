@@ -61,7 +61,7 @@ The Preem Team collection typically bundles together categories like:
 
 </div>
 
-Exact mod lists change as the collection is updated — check the
+Exact mod lists change as the collection is updated, check the
 [Changelog](changelog/index.md) for the current state of the build.
 
 ---
