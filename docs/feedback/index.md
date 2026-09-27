@@ -24,6 +24,13 @@ on Discord.
 
 <div class="grid cards pt-feedback-grid" markdown="1">
 
+<!-- FEEDBACK:ENTRY:1552979560986050641:START -->
+-   > "If I can give feedback on the Cyberpunk 2077 Preem Edition Mod Collection, that might entice returning Cyberpunk players, let me say this: I have been playing Cyberpunk 2077 religiously since it released in it's infamously bugged out state in 2020. I played at launch on the PS4 console, knowing nothing of the world or genre. But like many, I saw the potential and fell in love with the world crafte…"
+
+    ![](https://cdn.discordapp.com/avatars/1217004264694485046/540c53d0a040dcdeaf627610fe7f986b.webp?size=128){ .pt-feedback-avatar } **writers_block1999** · *#🎤┃feedback* · [View original message](https://discord.com/channels/1543366600525217802/1547734597091987517/1552979560986050641)
+<!-- FEEDBACK:ENTRY:1552979560986050641:END -->
+
+
 <!-- FEEDBACK:ENTRY:1553803325399502852:START -->
 -   > "Stable, fun, makes the game more challenging.  Most of the time you breeze through Cyberpunk being practically the ultimate, lucid cyberpyscho. Preem changes all that. Ammo? More hard to come by. Enemies? No longer bullet sponges. Leveling? No longer a breeze, the main gigs don't give you nearly as much XP as in the base game, it makes gigs matter SO much more. I've been playing Cyberpunk for a wh…"
 
