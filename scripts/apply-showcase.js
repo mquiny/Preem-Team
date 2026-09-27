@@ -117,6 +117,21 @@ function buildCard(payload, localImagePath) {
   return lines.join("\n");
 }
 
+// Splices a freshly-built entry block in over an existing one with the same
+// id, wherever it lives (index.md's current month, or an archived one) --
+// used when a re-dispatch is an EDIT of an already-featured post rather
+// than a new submission. Returns null if the id isn't actually in this
+// content, so the caller can try the other file.
+function replaceEntryInPlace(content, entryStart, entryEnd, newBlock) {
+  const startIdx = content.indexOf(entryStart);
+  if (startIdx === -1) return null;
+  const endIdx = content.indexOf(entryEnd, startIdx);
+  if (endIdx === -1) {
+    throw new Error(`Found ${entryStart} but not its matching END marker`);
+  }
+  return content.slice(0, startIdx) + newBlock + content.slice(endIdx + entryEnd.length);
+}
+
 function findMarkedBlock(content, start, end) {
   const startIdx = content.indexOf(start);
   if (startIdx === -1) return null;
@@ -177,8 +192,28 @@ async function main() {
   let archiveContent = fs.readFileSync(ARCHIVE_PATH, "utf8");
 
   const { start: entryStart, end: entryEnd } = entryMarkers(submissionId);
+
+  // A re-dispatch of an id already featured is an EDIT (ncrbot's
+  // messageUpdate handler re-dispatches on edit so the site reflects the
+  // current caption/wording, not a snapshot from whenever it was first
+  // featured) -- update the existing card in place rather than treating it
+  // as a duplicate. The image itself can't meaningfully change via a
+  // Discord edit (attachments can only be removed, never added), but the
+  // caption/title can, so it's still worth rebuilding the card.
   if (content.includes(entryStart) || archiveContent.includes(entryStart)) {
-    console.log(`Submission "${submissionId}" is already featured — nothing to do.`);
+    const localImagePath = await downloadImage(payload.image_url, submissionId);
+    const updatedBlock = `${entryStart}\n${buildCard(payload, localImagePath)}\n${entryEnd}`;
+
+    const updatedIndex = replaceEntryInPlace(content, entryStart, entryEnd, updatedBlock);
+    if (updatedIndex !== null) {
+      fs.writeFileSync(INDEX_PATH, updatedIndex, "utf8");
+      console.log(`Showcase updated: "${submissionId}" refreshed in place on index.md.`);
+      return;
+    }
+
+    const updatedArchive = replaceEntryInPlace(archiveContent, entryStart, entryEnd, updatedBlock);
+    fs.writeFileSync(ARCHIVE_PATH, updatedArchive, "utf8");
+    console.log(`Showcase updated: "${submissionId}" refreshed in place on archive.md.`);
     return;
   }
 

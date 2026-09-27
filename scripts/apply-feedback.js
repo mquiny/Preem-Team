@@ -9,9 +9,12 @@
 // archiving -- testimonials are staff hand-picked (not reaction-driven),
 // so the page grows slowly and doesn't need the same overflow handling.
 //
-// Each entry is keyed by `submission_id` (the source Discord message ID)
-// so a message that somehow triggers twice is a no-op the second time,
-// instead of a duplicate card.
+// Each entry is keyed by `submission_id` (the source Discord message ID).
+// A re-dispatch of an id already on the page UPDATES that card in place
+// (rebuilt from the fresh payload) rather than adding a duplicate --
+// ncrbot's messageUpdate handler re-dispatches on an edit for exactly this
+// reason: if someone's opinion changes months later, the site should
+// reflect the current wording, not whatever it said when first featured.
 //
 // Invoked by .github/workflows/feedback-dispatch.yml with the payload JSON
 // in the FEEDBACK_PAYLOAD env var.
@@ -89,9 +92,18 @@ function main() {
 
   let content = fs.readFileSync(INDEX_PATH, "utf8");
 
-  const { start: entryStart } = entryMarkers(payload.submission_id);
-  if (content.includes(entryStart)) {
-    console.log(`Submission ${payload.submission_id} already featured -- no-op.`);
+  const { start: entryStart, end: entryEnd } = entryMarkers(payload.submission_id);
+  const existingStart = content.indexOf(entryStart);
+  if (existingStart !== -1) {
+    const existingEnd = content.indexOf(entryEnd, existingStart);
+    if (existingEnd === -1) {
+      throw new Error(`Found ${entryStart} but not its matching END marker in ${INDEX_PATH}`);
+    }
+    const updatedEntry = buildEntry(payload);
+    content =
+      content.slice(0, existingStart) + updatedEntry + content.slice(existingEnd + entryEnd.length);
+    fs.writeFileSync(INDEX_PATH, content);
+    console.log(`Updated existing feedback entry ${payload.submission_id} from ${payload.username}.`);
     return;
   }
 
