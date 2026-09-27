@@ -14,23 +14,6 @@ gets featured here automatically once it either picks up reactions from
 **10 different people**, or catches a staff member's eye for an instant ⭐
 feature.
 
-!!! info "How this works"
-    **Jackie Welles** watches [**#gallery**](https://discordapp.com/channels/1543366600525217802/1543381631073525850).
-    A post gets synced to this page the moment either:
-
-    - **10 different people** react to it — any emoji, any mix, just 10
-      unique reactors, or
-    - **A staff member** reacts with ⭐ — an instant staff pick, no
-      reaction count needed.
-
-    Only the **current calendar month's** submissions live on this page.
-    The moment a new month's first submission gets featured, the previous
-    month is moved wholesale to the [**Archive**](archive.md) so this page
-    stays a quick, current snapshot rather than an ever-growing scroll.
-    Nothing on this page should be hand-edited except by the bot — see
-    [`scripts/apply-showcase.js`](https://github.com/mquiny/Preem-Team/blob/main/scripts/apply-showcase.js)
-    for exactly how that works.
-
 <!-- SHOWCASE:START -->
 
 <details class="pt-showcase-month" open markdown="1" data-month="2026-09">
