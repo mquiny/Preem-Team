@@ -39,6 +39,9 @@ Use this as your master checklist. Each item is explained in detail below.
 !!! info "Load Order"
     Cyberpunk does not require a load order, any load ordering is handled by renaming .archive files using ASCII-alphabetical ordering. Load order generally only matters for texture mods, since other types of mods should never be conflicting or overwriting the same files.
 
+!!! info "Do I need RedMOD"
+    This collection, similar to many other collection, does not require RedMOD to be installed, so leave this uninstalled in your game launcher and leave "Enable mods" unticked in the RedLauncher (This setting does not effect non-RedMod mods).
+
 !!! warning "No Prior Modding"
     - This guide assumes you have **NEVER** used a previous collection, or installed any mods through Vortex, or manually adding the zip files to your game directories
 	- If this is not the case, then please perform a [Clean Install](../guides/clean_install.md) before attempting installation. This will help ensure no previous modding attempt interfere with this collection install
