@@ -29,6 +29,43 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-10">
+<img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-10</span>
+<span class="pt-changelog-card-date">2026-09-27 · CP2077 2.31a</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-10" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-10
+
+<span class="pt-chip pt-chip--updated">Updated</span>
+
+`2026-09-27` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
+
+### Updated
+
+- [Atomiic Shop](https://www.nexusmods.com/cyberpunk2077/mods/20058) (v3.11 → v3.12)
+- [AudioXL](https://www.nexusmods.com/cyberpunk2077/mods/33442) (v0.4.3 → v0.5.0)
+- [DigitalVixen Core](https://www.nexusmods.com/cyberpunk2077/mods/28390) (v4.9.1 → v4.9.2)
+- [Immersive Night City Fixes](https://www.nexusmods.com/cyberpunk2077/mods/20588) (v0.33 → v0.34)
+- [Inorganic skin for arms and legs for Masc and Fem v compatible with my cyberware mods](https://www.nexusmods.com/cyberpunk2077/mods/17897) (v1.2.0 → v1.3.0)
+- [Much Better Ammo](https://www.nexusmods.com/cyberpunk2077/mods/32447) (v1.5 → v1.6)
+- [Night City Allies - Immersive Companion System](https://www.nexusmods.com/cyberpunk2077/mods/27625) (v1.6.6 → v1.6.7)
+- [Redscript Configuration Framework](https://www.nexusmods.com/cyberpunk2077/mods/30726) (v3.0.0 → v3.0.1)
+- [The Nullifier](https://www.nexusmods.com/cyberpunk2077/mods/23091) (v1.4.4 → v1.4.5)
+- [Vehicle Handling Redux](https://www.nexusmods.com/cyberpunk2077/mods/33749) (v2.0 → v2.1)
+- [Window Utils GUI Library - Animation - Grid Alignment](https://www.nexusmods.com/cyberpunk2077/mods/26589) (v1.1.2 → v1.1.3)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-9">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
