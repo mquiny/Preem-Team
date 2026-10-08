@@ -26,20 +26,20 @@ once a day.
 
 <!-- BOT-INJECT:STREETCRED:START -->
 
-**Last synced:** `2026-10-07 05:00 UTC`
+**Last synced:** `2026-10-08 05:00 UTC`
 
 <table class="pt-streetcred-table">
 <thead><tr><th>Rank</th><th>Member</th><th>Tier</th><th>Score</th></tr></thead>
 <tbody>
-<tr data-staff="true"><td>1</td><td>excel</td><td>Techie</td><td>4563</td></tr>
-<tr data-staff="true"><td>2</td><td>mquiny</td><td>Merc</td><td>3030.3</td></tr>
-<tr data-staff="true"><td>3</td><td>Cara (The Glitchfixer)</td><td>Street Kid</td><td>930.15</td></tr>
+<tr data-staff="true"><td>1</td><td>excel</td><td>Techie</td><td>4588.35</td></tr>
+<tr data-staff="true"><td>2</td><td>mquiny</td><td>Merc</td><td>3034.2</td></tr>
+<tr data-staff="true"><td>3</td><td>Cara (The Glitchfixer)</td><td>Street Kid</td><td>932.1</td></tr>
 <tr data-staff="false"><td>4</td><td>Ultra Lulz!</td><td>Street Kid</td><td>873.2</td></tr>
 <tr data-staff="false"><td>5</td><td>Faustas</td><td>Street Kid</td><td>788.1</td></tr>
-<tr data-staff="false"><td>6</td><td>PhenomXII</td><td>Street Kid</td><td>704.85</td></tr>
+<tr data-staff="false"><td>6</td><td>PhenomXII</td><td>Street Kid</td><td>712.25</td></tr>
 <tr data-staff="false"><td>7</td><td>TimeR</td><td>Street Kid</td><td>603.1</td></tr>
 <tr data-staff="false"><td>8</td><td>FFC007</td><td>Choom</td><td>447.7</td></tr>
-<tr data-staff="false"><td>9</td><td>Frank</td><td>Choom</td><td>379.25</td></tr>
+<tr data-staff="false"><td>9</td><td>Frank</td><td>Choom</td><td>384.8</td></tr>
 <tr data-staff="true"><td>10</td><td>Numb</td><td>Choom</td><td>290.45</td></tr>
 <tr data-staff="false"><td>11</td><td>MostlyPeacefulPines</td><td>Choom</td><td>266.4</td></tr>
 <tr data-staff="false"><td>12</td><td>Dedra</td><td>Choom</td><td>257.15</td></tr>
