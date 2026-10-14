@@ -26,23 +26,23 @@ once a day.
 
 <!-- BOT-INJECT:STREETCRED:START -->
 
-**Last synced:** `2026-10-13 05:00 UTC`
+**Last synced:** `2026-10-14 05:00 UTC`
 
 <table class="pt-streetcred-table">
 <thead><tr><th>Rank</th><th>Member</th><th>Tier</th><th>Score</th></tr></thead>
 <tbody>
-<tr data-staff="true"><td>1</td><td>excel</td><td>Techie</td><td>4914</td></tr>
-<tr data-staff="true"><td>2</td><td>mquiny</td><td>Merc</td><td>3110.25</td></tr>
-<tr data-staff="false"><td>3</td><td>Ultra Lulz!</td><td>Street Kid</td><td>958.3</td></tr>
+<tr data-staff="true"><td>1</td><td>excel</td><td>Techie</td><td>4958.85</td></tr>
+<tr data-staff="true"><td>2</td><td>mquiny</td><td>Merc</td><td>3141.45</td></tr>
+<tr data-staff="false"><td>3</td><td>Ultra Lulz!</td><td>Chrome Head</td><td>991.6</td></tr>
 <tr data-staff="true"><td>4</td><td>Cara (The Glitchfixer)</td><td>Street Kid</td><td>932.1</td></tr>
 <tr data-staff="false"><td>5</td><td>Faustas</td><td>Street Kid</td><td>815.85</td></tr>
 <tr data-staff="false"><td>6</td><td>PhenomXII</td><td>Street Kid</td><td>734.45</td></tr>
-<tr data-staff="false"><td>7</td><td>TimeR</td><td>Street Kid</td><td>625.3</td></tr>
+<tr data-staff="false"><td>7</td><td>TimeR</td><td>Street Kid</td><td>640.1</td></tr>
 <tr data-staff="false"><td>8</td><td>FFC007</td><td>Choom</td><td>447.7</td></tr>
-<tr data-staff="false"><td>9</td><td>Frank</td><td>Choom</td><td>421.8</td></tr>
-<tr data-staff="true"><td>10</td><td>Numb</td><td>Choom</td><td>303.4</td></tr>
-<tr data-staff="false"><td>11</td><td>MostlyPeacefulPines</td><td>Choom</td><td>266.4</td></tr>
-<tr data-staff="false"><td>12</td><td>AZR341</td><td>Choom</td><td>266.4</td></tr>
+<tr data-staff="false"><td>9</td><td>Frank</td><td>Choom</td><td>425.5</td></tr>
+<tr data-staff="true"><td>10</td><td>Numb</td><td>Choom</td><td>312.65</td></tr>
+<tr data-staff="false"><td>11</td><td>AZR341</td><td>Choom</td><td>273.8</td></tr>
+<tr data-staff="false"><td>12</td><td>MostlyPeacefulPines</td><td>Choom</td><td>266.4</td></tr>
 <tr data-staff="false"><td>13</td><td>Dedra</td><td>Choom</td><td>259</td></tr>
 <tr data-staff="false"><td>14</td><td>brahmax</td><td>Choom</td><td>241.5</td></tr>
 <tr data-staff="false"><td>15</td><td>still not mquiny</td><td>Gutter-Pup</td><td>168.35</td></tr>
@@ -52,13 +52,13 @@ once a day.
 <tr data-staff="false"><td>19</td><td>tasoarctic</td><td>Gutter-Pup</td><td>134.75</td></tr>
 <tr data-staff="false"><td>20</td><td>Zenith</td><td>Gutter-Pup</td><td>127.75</td></tr>
 <tr data-staff="false"><td>21</td><td>tidalvii</td><td>Gutter-Pup</td><td>120.75</td></tr>
-<tr data-staff="true"><td>22</td><td>Anti (the first)</td><td>Gutter-Pup</td><td>96.2</td></tr>
+<tr data-staff="true"><td>22</td><td>Anti (the first)</td><td>Gutter-Pup</td><td>98.05</td></tr>
 <tr data-staff="false"><td>23</td><td>Pho</td><td>Gutter-Pup</td><td>85.1</td></tr>
 <tr data-staff="false"><td>24</td><td>KL.</td><td>Gutter-Pup</td><td>83.25</td></tr>
-<tr data-staff="false"><td>25</td><td>Unknown (866751259214479400)</td><td>Gutter-Pup</td><td>77</td></tr>
-<tr data-staff="false"><td>26</td><td>Issa</td><td>Gutter-Pup</td><td>68.25</td></tr>
-<tr data-staff="false"><td>27</td><td>ふ HughJass🍸</td><td>Gutter-Pup</td><td>64.75</td></tr>
-<tr data-staff="false"><td>28</td><td>Preem T</td><td>Gutter-Pup</td><td>63</td></tr>
+<tr data-staff="false"><td>25</td><td>Issa</td><td>Gutter-Pup</td><td>80.5</td></tr>
+<tr data-staff="false"><td>26</td><td>Unknown (866751259214479400)</td><td>Gutter-Pup</td><td>77</td></tr>
+<tr data-staff="false"><td>27</td><td>Preem T</td><td>Gutter-Pup</td><td>68.25</td></tr>
+<tr data-staff="false"><td>28</td><td>ふ HughJass🍸</td><td>Gutter-Pup</td><td>64.75</td></tr>
 <tr data-staff="false"><td>29</td><td>JSnakes89</td><td>Gonk</td><td>44.4</td></tr>
 <tr data-staff="false"><td>30</td><td>Ben Starkiller</td><td>Gonk</td><td>38.5</td></tr>
 <tr data-staff="false"><td>31</td><td>Brooklyn</td><td>Gonk</td><td>29.75</td></tr>
@@ -68,15 +68,15 @@ once a day.
 <tr data-staff="false"><td>35</td><td>EnigmaBeaver™</td><td>Gonk</td><td>19.25</td></tr>
 <tr data-staff="false"><td>36</td><td>OliverGTS</td><td>Gonk</td><td>17.5</td></tr>
 <tr data-staff="false"><td>37</td><td>M8 ∂³Σx²</td><td>Gonk</td><td>14.8</td></tr>
-<tr data-staff="false"><td>38</td><td>Smokelessjoe</td><td>Gonk</td><td>14</td></tr>
-<tr data-staff="false"><td>39</td><td>Goxtroy</td><td>Gonk</td><td>14</td></tr>
-<tr data-staff="false"><td>40</td><td>quampers</td><td>Gonk</td><td>14</td></tr>
-<tr data-staff="false"><td>41</td><td>Justin...</td><td>Gonk</td><td>14</td></tr>
-<tr data-staff="false"><td>42</td><td>DGHS1993</td><td>Gonk</td><td>12.25</td></tr>
-<tr data-staff="false"><td>43</td><td>KYR_QUICKY</td><td>Gonk</td><td>12.25</td></tr>
-<tr data-staff="false"><td>44</td><td>Morningstar</td><td>Gonk</td><td>12.25</td></tr>
-<tr data-staff="false"><td>45</td><td>Vae</td><td>Gonk</td><td>12.25</td></tr>
-<tr data-staff="false"><td>46</td><td>Thalia</td><td>Gonk</td><td>12.25</td></tr>
+<tr data-staff="false"><td>38</td><td>Goxtroy</td><td>Gonk</td><td>14</td></tr>
+<tr data-staff="false"><td>39</td><td>Smokelessjoe</td><td>Gonk</td><td>14</td></tr>
+<tr data-staff="false"><td>40</td><td>Justin...</td><td>Gonk</td><td>14</td></tr>
+<tr data-staff="false"><td>41</td><td>quampers</td><td>Gonk</td><td>14</td></tr>
+<tr data-staff="false"><td>42</td><td>Vae</td><td>Gonk</td><td>12.25</td></tr>
+<tr data-staff="false"><td>43</td><td>Morningstar</td><td>Gonk</td><td>12.25</td></tr>
+<tr data-staff="false"><td>44</td><td>KYR_QUICKY</td><td>Gonk</td><td>12.25</td></tr>
+<tr data-staff="false"><td>45</td><td>Thalia</td><td>Gonk</td><td>12.25</td></tr>
+<tr data-staff="false"><td>46</td><td>DGHS1993</td><td>Gonk</td><td>12.25</td></tr>
 <tr data-staff="false"><td>47</td><td>Kayha</td><td>Gonk</td><td>10.5</td></tr>
 <tr data-staff="false"><td>48</td><td>Unknown (328726595692920834)</td><td>Gonk</td><td>10.5</td></tr>
 <tr data-staff="false"><td>49</td><td>Ronove</td><td>Gonk</td><td>10.5</td></tr>
