@@ -256,7 +256,10 @@ async function main() {
     if (!archiveGrid) {
       throw new Error("Could not find SHOWCASE:ARCHIVE markers in showcase/archive.md");
     }
-    const toPrepend = oldSections.map((s) => s.block).join("\n\n");
+    // Archived months start collapsed; only the current month is open.
+    const toPrepend = oldSections
+      .map((s) => s.block.replace(/^(<details class="pt-showcase-month") open /, "$1 "))
+      .join("\n\n");
     const insertAt = archiveGrid.startIdx + ARCHIVE_GRID_START.length;
     archiveContent =
       archiveContent.slice(0, insertAt) + `\n\n${toPrepend}` + archiveContent.slice(insertAt);

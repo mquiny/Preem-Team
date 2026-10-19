@@ -21,7 +21,7 @@ newest archived month first.
 
 <!-- SHOWCASE:ARCHIVE:START -->
 
-<details class="pt-showcase-month" open markdown="1" data-month="2026-09">
+<details class="pt-showcase-month" markdown="1" data-month="2026-09">
 <summary>September 2026</summary>
 
 <div class="grid cards" markdown="1">

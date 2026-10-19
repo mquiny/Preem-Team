@@ -3,3 +3,7 @@ mkdocs-material>=9.5
 mkdocs-glightbox>=0.4
 mkdocs-minify-plugin>=0.8
 mkdocs-git-revision-date-localized-plugin>=1.2
+
+# mkdocs-glightbox rewrites <img> tags via selectolax; selectolax 1.x silently
+# drops every image from the built pages, so stay on 0.x until that is fixed.
+selectolax<1
