@@ -11,7 +11,7 @@ description: Preem Team — a curated Cyberpunk 2077 mod collection.
 
     **Core mod status** *(last updated: 22 Oct 2026)*
 
-    - ⏳ Redscript
+    - ✅ Redscript
     - ✅ Cyber Engine Tweaks
     - ⏳ RED4ext
     - ⏳ ArchiveXL
