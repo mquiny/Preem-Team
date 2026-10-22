@@ -3,6 +3,38 @@ title: Home
 description: Preem Team — a curated Cyberpunk 2077 mod collection.
 ---
 
+<!-- 2.5 BANNER:START (temporary - delete this whole block once the collection is on 2.5) -->
+!!! warning "Cyberpunk 2077 2.5 update in progress"
+    The collection is **not yet 2.5 compatible**. We're waiting on the core mods
+    everything else depends on to update first. Please stay on your current game
+    version for now.
+
+    **Core mod status** *(last updated: 22 Oct 2026)*
+
+    - ⏳ Redscript
+    - ✅ Cyber Engine Tweaks
+    - ⏳ RED4ext
+    - ⏳ ArchiveXL
+    - ⏳ TweakXL
+    - ⏳ Codeware
+
+    **Other RED4ext plugins**
+
+    - ⏳ Photomode-Ex
+    - ⏳ RedHotTools
+    - ⏳ RedData / RedFileSystem
+    - ⏳ RedFileSystem
+    - ⏳ RedHttpClient
+    - ⏳ Mod Settings
+    - ⏳ In-World Navigation
+    - ⏳ Let There Be Flight
+    - ⏳ New Game Plus - Native
+
+    ✅ updated · ⏳ needs an update
+
+    Once the core mods are ready, we'll update the rest of the collection and post it in the [changelog](changelog/index.md).
+<!-- 2.5 BANNER:END -->
+
 # PREEM TEAM // NIGHT CITY
 
 > `> CONNECTION ESTABLISHED...`
