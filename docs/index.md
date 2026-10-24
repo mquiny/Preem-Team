@@ -4,7 +4,7 @@ description: Preem Team — a curated Cyberpunk 2077 mod collection.
 ---
 
 <!-- 2.5 BANNER:START (temporary - delete this whole block once the collection is on 2.5) -->
-!!! warning "Cyberpunk 2077 2.5 update in progress"
+!!!- warning "Cyberpunk 2077 2.5 update in progress"
     The collection is **not yet 2.5 compatible**. We're waiting on the core mods
     everything else depends on to update first. Please stay on your current game
     version for now.
@@ -13,7 +13,7 @@ description: Preem Team — a curated Cyberpunk 2077 mod collection.
 
     - ✅ Redscript
     - ✅ Cyber Engine Tweaks
-    - ⏳ RED4ext
+    - ✅ RED4ext
     - ⏳ ArchiveXL
     - ⏳ TweakXL
     - ⏳ Codeware
@@ -21,14 +21,8 @@ description: Preem Team — a curated Cyberpunk 2077 mod collection.
     **Other RED4ext plugins**
 
     - ⏳ Photomode-Ex
-    - ⏳ RedHotTools
-    - ⏳ RedData / RedFileSystem
-    - ⏳ RedFileSystem
-    - ⏳ RedHttpClient
+    - ✅ RedFileSystem
     - ⏳ Mod Settings
-    - ⏳ In-World Navigation
-    - ⏳ Let There Be Flight
-    - ⏳ New Game Plus - Native
 
     ✅ updated · ⏳ needs an update
 
