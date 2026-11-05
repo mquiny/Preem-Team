@@ -15,24 +15,17 @@ gets featured here automatically once it either picks up reactions from
 
 <!-- SHOWCASE:START -->
 
-<details class="pt-showcase-month" open markdown="1" data-month="2026-10">
-<summary>October 2026</summary>
+<details class="pt-showcase-month" open markdown="1" data-month="2026-11">
+<summary>November 2026</summary>
 
 <div class="grid cards" markdown="1">
 
-<!-- SHOWCASE:ENTRY:1559282034495590440:START -->
--   ![Screenshot posted by ultralulz in #🌄┃preem-gallery](assets/1559282034495590440.png)
-    **Showcase submission**
-    *Posted by `ultralulz` in #🌄┃preem-gallery*
-    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1559282034495590440)
-<!-- SHOWCASE:ENTRY:1559282034495590440:END -->
-
-<!-- SHOWCASE:ENTRY:1559131487729885197:START -->
--   ![Screenshot posted by .yaiez. in #🌄┃preem-gallery](assets/1559131487729885197.png)
-    **Showcase submission**
+<!-- SHOWCASE:ENTRY:1567351896577015808:START -->
+-   ![Screenshot posted by .yaiez. in #🌄┃preem-gallery](assets/1567351896577015808.png)
+    **Ones I didn't post here apparently**
     *Posted by `.yaiez.` in #🌄┃preem-gallery*
-    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1559131487729885197)
-<!-- SHOWCASE:ENTRY:1559131487729885197:END -->
+    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1567351896577015808)
+<!-- SHOWCASE:ENTRY:1567351896577015808:END -->
 
 </div>
 </details>

@@ -21,6 +21,28 @@ newest archived month first.
 
 <!-- SHOWCASE:ARCHIVE:START -->
 
+<details class="pt-showcase-month" markdown="1" data-month="2026-10">
+<summary>October 2026</summary>
+
+<div class="grid cards" markdown="1">
+
+<!-- SHOWCASE:ENTRY:1559282034495590440:START -->
+-   ![Screenshot posted by ultralulz in #🌄┃preem-gallery](assets/1559282034495590440.png)
+    **Showcase submission**
+    *Posted by `ultralulz` in #🌄┃preem-gallery*
+    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1559282034495590440)
+<!-- SHOWCASE:ENTRY:1559282034495590440:END -->
+
+<!-- SHOWCASE:ENTRY:1559131487729885197:START -->
+-   ![Screenshot posted by .yaiez. in #🌄┃preem-gallery](assets/1559131487729885197.png)
+    **Showcase submission**
+    *Posted by `.yaiez.` in #🌄┃preem-gallery*
+    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1559131487729885197)
+<!-- SHOWCASE:ENTRY:1559131487729885197:END -->
+
+</div>
+</details>
+
 <details class="pt-showcase-month" markdown="1" data-month="2026-09">
 <summary>September 2026</summary>
 
