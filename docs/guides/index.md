@@ -23,6 +23,13 @@ beyond the basic [Installation](../installation/index.md) steps.
     How to strip the collection back out and restore a vanilla Cyberpunk 2077
     install.
 
+-   :material-nuke:{ .lg .middle } **[Let's Go Nuclear](nuclear_install.md)**
+
+    ---
+
+    The full wipe: Mod Remover plus deleting leftover folders from your
+    Cyberpunk 2077 install by hand.
+
 -   :material-tools:{ .lg .middle } **[First Boot](first_time_boot.md)**
 
     ---
