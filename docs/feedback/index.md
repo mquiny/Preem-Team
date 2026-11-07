@@ -14,6 +14,13 @@ on Discord.
 
 <div class="grid cards pt-feedback-grid" markdown="1">
 
+<!-- FEEDBACK:ENTRY:1568609162412302347:START -->
+-   > "I’ve been a long time ncr user back while it was still a whole pack and not segmented but Id been having a lot of fps drops and stutters with the last few revisions, so thought I’d try something different and this collection is brilliant. Even with all the 2.5 jank (thanks Cdpr) this mod pack runs incredibly and I love the dark future implementation. Thank you guys for such an amazing collection :…"
+
+    ![](https://cdn.discordapp.com/avatars/580613472832978955/a_058dc2ebd321b44d06afc979d9edbeab.gif?size=128){ .pt-feedback-avatar } **diors_** · *#🎤┃feedback* · [View original message](https://discord.com/channels/1543366600525217802/1547734597091987517/1568609162412302347)
+<!-- FEEDBACK:ENTRY:1568609162412302347:END -->
+
+
 <!-- FEEDBACK:ENTRY:1552982894560026635:START -->
 -   > "This review i also can relate to. Only difference is with other collections ive got bored and stopped playing. This collection has kept my interest and had me commit to a full new playthrough now 30 hrs in 🥰💪"
 
