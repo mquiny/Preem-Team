@@ -228,9 +228,13 @@ Now it's time to select the collection to be downloaded/installed
 
 !!! tip "Seeing through V's body when looking down?"
     You may need to adjust the **first person look down FOV** yourself. Open
-    the **SHIFT** menu in CET and look for the FOV offset setting. We can't change this globally because
+    the **SHIFT** menu in CET, go to the **Immersive Camera** option and find
+    **Depth offset at maximum pitch**. We can't change this globally because
     everyone's setup is unique, so it needs tuning on your end until you can
     no longer see through V's body when looking down.
+
+    ??? example "📷 Show me"
+        ![Depth offset at maximum pitch in the SHIFT Immersive Camera options](assets/shift_depth.png){ width="500" }
 
 ## Popups you might see during install
 
