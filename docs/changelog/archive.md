@@ -29,6 +29,52 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-16">
+<img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-16</span>
+<span class="pt-changelog-card-date">2026-11-06 · CP2077 2.31a</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-16" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-16
+
+<span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span>
+
+`2026-11-06` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
+
+### Updated
+
+- [Axellysse - Mili Dress](https://www.nexusmods.com/cyberpunk2077/mods/28795) (v2 → v3)
+- [Canyon construction ramp](https://www.nexusmods.com/cyberpunk2077/mods/27013) (v1.0.1 → v1.0.2)
+- [Canyon Explorer](https://www.nexusmods.com/cyberpunk2077/mods/25617) (v1.0.2 → v1.0.3)
+- [DigitalVixen Core](https://www.nexusmods.com/cyberpunk2077/mods/28390) (v4.9.10 → v4.9.11)
+- [Exploded Vehicles Smoke Overhaul VFX](https://www.nexusmods.com/cyberpunk2077/mods/23861) (v2.0 → v2.02)
+- [Extra Iconics](https://www.nexusmods.com/cyberpunk2077/mods/15889) (v2.3.1 → v2.3.2)
+- [Melee Attack Variety](https://www.nexusmods.com/cyberpunk2077/mods/32817) (v1.1.0 → v1.1.2)
+- [Moonrise - Natural Lunar Phases](https://www.nexusmods.com/cyberpunk2077/mods/30935) (v1.0.3 → v1.0.4)
+- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.7 → v1.8)
+- [RedFunctions](https://www.nexusmods.com/cyberpunk2077/mods/32312) (v0.15.0 → v0.15.1)
+- [Reset Attributes always available - Redscript](https://www.nexusmods.com/cyberpunk2077/mods/9240) (v1.0.0.5 → v1.0.0.7)
+- [The Nullifier](https://www.nexusmods.com/cyberpunk2077/mods/23091) (v1.4.6 → v1.4.7)
+- [Tony's Adult Store 2 Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/28555) (v4.3 → v4.4)
+
+### Removed {: .pt-changelog-h-removed }
+
+- [General Vehicles Fixes](https://www.nexusmods.com/cyberpunk2077/mods/31813) (v3.1.2)
+- [Nulled Drive Helpers](https://www.nexusmods.com/cyberpunk2077/mods/30908) (v2.0)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-15">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
