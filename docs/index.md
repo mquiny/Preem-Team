@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Preem Team: a curated Cyberpunk 2077 mod collection.
+description: Preem Team, a curated Cyberpunk 2077 mod collection.
 ---
 
 # PREEM TEAM // NIGHT CITY
