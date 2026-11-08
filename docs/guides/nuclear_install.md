@@ -1,6 +1,6 @@
 ---
-title: First time booting - After collection install
-description: What to do when after you install the collection.
+title: Let's Go Nuclear 
+description: Full wipe installation guide, remove every trace of modding from your Cyberpunk 2077 install, including folders Mod Remover leaves behind.
 ---
 
 # LET'S GO NUCLEAR // FULL WIPE
