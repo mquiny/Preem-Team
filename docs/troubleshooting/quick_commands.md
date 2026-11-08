@@ -39,7 +39,7 @@ can't add, edit, or run anything from this page.
 | `!mquiny` | Wildcard | mquiny is awesome https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
 | `!nevergoon` | Wildcard | https://tenor.com/view/never-goon-bozonga-hjjw-saraiva-skibidi-gif-15011026571260862033 | All (global) |
 | `!Nice Pic` | Wildcard | https://media.tenor.com/Vg_BtJHni2cAAAAC/squeeze-bottle-austin-powers.gif | All (global) |
-| `!nuke` | Wildcard | It’s time to go nuclear, choom. Don’t worry, you’ll still be a 💎🐕 <br><br>https://youtu.be/TkClJm9SrHI?si=vRk7WBI8XOomK9bo<br><br>https://preem.team/guides/nuclear_install/ | All (global) |
+| `!nuke` | Wildcard | It’s time to go nuclear, choom. Don’t worry, you’ll still be a 💎🐕 <br><br>https://youtu.be/MfXoOPWuMnA?si=9zI5Jf_JDKR73Xbg<br><br>https://preem.team/guides/nuclear_install/ | All (global) |
 | `!update` | Wildcard | Check out our step-by-step guide to updating your collection https://preem.team/installation/updating_cpe_collection | All (global) |
 | `!veinz` | Wildcard | Is never active https://klipy.com/gifs/cat-standing-13 | All (global) |
 | `!website` | Wildcard | Hey Choom, check out our website for some Preem Guides and installation guides. https://preem.team/ | All (global) |
