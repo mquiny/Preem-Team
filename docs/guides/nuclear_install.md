@@ -15,7 +15,7 @@ description: Full wipe installation guide — remove every trace of modding from
 !!! warning "Placeholder content"
     This guide is a work in progress, the steps below are placeholders and will be rewritten.
 
-Placeholder intro: the [Clean Install](clean_install.md) guide is a quick fix
+the [Clean Install](clean_install.md) guide is a quick fix
 that strips out the common traces of modding. Going nuclear is the full wipe,
 on top of the Mod Remover run, you'll also delete certain folders inside your
 Cyberpunk 2077 install directory by hand so nothing survives.
@@ -26,10 +26,10 @@ Cyberpunk 2077 install directory by hand so nothing survives.
 
 !!! info "Who this is for"
     - Placeholder: anyone whose [Clean Install](clean_install.md) didn't fix
-      the problem, or who wants an absolutely guaranteed blank slate.
+      the problem, was recommended to by the Preem Devs, or who wants an absolutely guaranteed blank slate.
 
 !!! danger "This deletes files"
-    Placeholder warning: the folders you delete in this guide are permanent.
+    Warning: the folders you delete in this guide are permanent.
     Back up anything you want to keep before you start.
 
 ## Before you start
