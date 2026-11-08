@@ -76,5 +76,5 @@ Here's who's behind the curtain.
 
 
 <div class="pt-flavor">
-"No crew, no city. No city, no chrome. Simple as that." — Preem Team
+"No crew, no city. No city, no chrome. Simple as that." - Preem Team
 </div>

@@ -1,6 +1,6 @@
 ---
 title: Let's Go Nuclear
-description: Full wipe installation guide — remove every trace of modding from your Cyberpunk 2077 install, including folders Mod Remover leaves behind.
+description: Full wipe installation guide: remove every trace of modding from your Cyberpunk 2077 install, including folders Mod Remover leaves behind.
 ---
 
 # LET'S GO NUCLEAR // FULL WIPE
@@ -17,7 +17,7 @@ that strips out the common traces of modding. Going nuclear is the full wipe,
 on top of the Mod Remover run, you'll also delete certain folders inside your
 Cyberpunk 2077 install directory by hand so nothing survives.
 
-<p class="pt-judy-quote">"Bushido II, bomb’s name was what again?" <cite>— Johnny Silverhand</cite></p>
+<p class="pt-judy-quote">"Bushido II, bomb’s name was what again?" <cite>Johnny Silverhand</cite></p>
 
 <div class="pt-clear"></div>
 
@@ -37,7 +37,7 @@ Cyberpunk 2077 install directory by hand so nothing survives.
 
 ## Step-by-step wipe
 
-Tick a step off once you've finished it — your progress is saved in this
+Tick a step off once you've finished it, your progress is saved in this
 browser, so it's still here if you close the tab and come back later.
 
 <div class="pt-steps" markdown="1" data-pt-steps>
@@ -60,10 +60,10 @@ browser, so it's still here if you close the tab and come back later.
 
 1. Open up Vortex, and under **Mods** select all the mods (`Ctrl+A`).
 2. At the bottom of Vortex select **Remove**, then check **Remove mod** from
-   the popup menu — **don't select "Delete Archive"**.
+   the popup menu, **don't select "Delete Archive"**.
 
 *If `Ctrl+A` doesn't work: select the top mod, scroll to the bottom, hold
-`Ctrl` and select the last mod — this will highlight them all.*
+`Ctrl` and select the last mod, this will highlight them all.*
 
 You may have to do this multiple times if you still see mods in Vortex.
 
@@ -90,7 +90,7 @@ Download [Mod Remover](https://www.nexusmods.com/cyberpunk2077/mods/8597) from
 Nexus, extract it into your game's root directory, and run either the `.exe`
 or `.bat`. Press Enter to create a backup and let it finish.
 
-When it asks you to verify your game files, **don't do that yet** — we'll do
+When it asks you to verify your game files, **don't do that yet**, we'll do
 it after the folder wipe.
 
 - [ ] Ran Mod Remover and let it finish
@@ -169,11 +169,11 @@ by mods, so there's no need to redownload them. Everything else, including
 - [ ] Everything in `archive/pc` deleted except `content` and `ep1`
 
 ??? example "📷 Show me"
-    The game's root folder — delete everything except `archive`:
+    The game's root folder, delete everything except `archive`:
 
     ![Folders to delete in the game's root folder](../installation/assets/nuclear_clear1.png){ width="500" }
 
-    Inside `archive/pc` — delete everything except `content` and `ep1`:
+    Inside `archive/pc`, delete everything except `content` and `ep1`:
 
     ![Folders to delete inside archive/pc](../installation/assets/nuclear_clear_archive.png){ width="500" }
 
@@ -201,7 +201,7 @@ redownload every file you just deleted and restore it to stock.
 <summary>
 <span class="pt-step-label">
 <input type="checkbox" class="pt-step-check" data-pt-step-check aria-label="Mark Step 6 complete">
-<span class="pt-step-title">Step 6: Done — some final checks</span>
+<span class="pt-step-title">Step 6: Done, some final checks</span>
 </span>
 </summary>
 
@@ -209,7 +209,7 @@ Congratulations, you now have a factory-fresh Cyberpunk installation.
 
 !!! danger "Do not open Vortex yet"
     First confirm your game boots in a vanilla state, using your default
-    launcher (Steam/GOG) — not Vortex.
+    launcher (Steam/GOG), not Vortex.
 
 Once you've confirmed it boots vanilla, re-add the collection from our Nexus
 page back into Vortex **under a new profile** (don't reuse your old
@@ -231,5 +231,5 @@ profile).
 </div>
 
 <div class="pt-flavor">
-"Wake the f*** up, Samurai. We have a city to burn." — Johnny Silverhand
+"Wake the f*** up, Samurai. We have a city to burn." - Johnny Silverhand
 </div>

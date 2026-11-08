@@ -12,11 +12,11 @@ description: Guide for safely adding your own personal mods alongside the Preem 
 ![Rogue](assets/rogue1.png)
 </div>
 
-Want to add your own personal mods on top of Preem Edition? No problem —
+Want to add your own personal mods on top of Preem Edition? No problem,
 just do it right, choom. This guide walks you through safely adding mods
 that aren't part of the collection, without risking your main setup.
 
-<p class="pt-judy-quote">"Cool ain't free. Neither's a build that doesn't break the second you touch it." <cite>— Rogue Amendiares</cite></p>
+<p class="pt-judy-quote">"Cool ain't free. Neither's a build that doesn't break the second you touch it." <cite>Rogue Amendiares</cite></p>
 
 <div class="pt-clear"></div>
 
@@ -38,7 +38,7 @@ that aren't part of the collection, without risking your main setup.
 
 ## Step-by-step
 
-Tick a step off once you've finished it — your progress is saved in this
+Tick a step off once you've finished it, your progress is saved in this
 browser, so it's still here if you close the tab and come back later.
 
 <div class="pt-steps" markdown="1" data-pt-steps>
@@ -91,7 +91,7 @@ dependencies it needs.
 
 For example: installing
 [Ultra Plus](https://www.nexusmods.com/cyberpunk2077/mods/2500), its
-"Requirements" section lists **Cyber Engine Tweaks** and **RED4ext** —
+"Requirements" section lists **Cyber Engine Tweaks** and **RED4ext**,
 these are core frameworks already included in the collection, so nothing
 extra to do there. But if a dependency listed *isn't* already in the
 collection, you'll need to install that too, or the mod won't work.
@@ -103,7 +103,7 @@ collection, you'll need to install that too, or the mod won't work.
     Have a quick read of the mod description for any conflicts the mod
     author has flagged. If it conflicts with something already in the
     collection (e.g. a mod like Third Person Perspective), you'll need to
-    decide which one to keep — unless you set up a conflict rule to have
+    decide which one to keep, unless you set up a conflict rule to have
     them work together.
 
 - [ ] Checked the mod's requirements and any flagged conflicts
@@ -160,13 +160,13 @@ Now that your first mod is installed, repeat from Step 2 to add more.
 </summary>
 
 !!! success "Well done, choom"
-    You've successfully installed additional mods on top of Preem Edition
-    — enjoy your Preem Edition... Deluxe Edition.
+    You've successfully installed additional mods on top of Preem Edition.
+    Enjoy your Preem Edition... Deluxe Edition.
 
 </details>
 
 </div>
 
 <div class="pt-flavor">
-"Every job's got a right way and a fast way. Only one of them doesn't come back to bite you." — Preem Team install notes
+"Every job's got a right way and a fast way. Only one of them doesn't come back to bite you." - Preem Team install notes
 </div>

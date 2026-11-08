@@ -9,7 +9,7 @@ description: Searchable directory of console spawn commands for mods in the Pree
 > `> INDEXING KNOWN ITEM CODES...`
 
 A searchable directory of `Game.AddToInventory(...)` console commands
-bundled with mods in the collection — paste one into the
+bundled with mods in the collection, paste one into the
 [Cyber Engine Tweaks](../guides/cet_setup.md) console to spawn that item
 directly, instead of hunting for it in-game. Search by mod name, author,
 or even a specific command.
@@ -40,7 +40,7 @@ or even a specific command.
 A log of mods added to or dropped from this directory, so you can tell
 whether something's gone missing on purpose or your install's out of
 sync. "Revision" only names an exact revision when the mod is actually
-called out by name in the [Changelog](../changelog/index.md) — where
+called out by name in the [Changelog](../changelog/index.md), where
 it isn't, this instead shows the most recent revision this log was
 checked against, since a removal in particular can predate that by a
 revision or more if nobody ran the check in between.

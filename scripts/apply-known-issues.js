@@ -87,7 +87,7 @@ function buildEntry(payload, resolved) {
 
   const bodyLines = [description];
   if (metaParts.length > 0) {
-    bodyLines.push("", `*${metaParts.join(" — ")}*`);
+    bodyLines.push("", `*${metaParts.join(". ")}*`);
   }
 
   const block = [

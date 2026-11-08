@@ -34,11 +34,11 @@ gets featured here automatically once it either picks up reactions from
 
 !!! tip "Want your shot featured?"
     Post your best Preem Team screenshots in [**#gallery**](https://discordapp.com/channels/1543366600525217802/1543381631073525850)
-    on Discord — get 10 people to react, or catch a staff member's eye for
+    on Discord, get 10 people to react, or catch a staff member's eye for
     an instant ⭐ feature.
 
 Looking for an older month? Check the [**Showcase Archive**](archive.md).
 
 <div class="pt-flavor">
-"Every screenshot's a postcard from a city that never sleeps and never forgives." — Showcase curators
+"Every screenshot's a postcard from a city that never sleeps and never forgives." - Showcase curators
 </div>

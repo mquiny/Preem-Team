@@ -1,16 +1,16 @@
 # Config baseline
 
 The actual source-of-truth data behind [`docs/config/index.md`](../index.md)
-— not just the rendered table, so future comparisons are reproducible
+not just the rendered table, so future comparisons are reproducible
 instead of relying on memory (which is exactly what went wrong before
 this baseline was captured on 2026-09-12).
 
-- **`vanilla/`** — the relevant mod settings files copied directly from a
+- **`vanilla/`**: the relevant mod settings files copied directly from a
   genuinely default install (no config mod active, no manual tweaks in
   any mod's settings menu). Mirrors the same relative paths as the game
   install itself (`bin/x64/plugins/cyber_engine_tweaks/mods/...`,
   `red4ext/plugins/mod_settings/user.ini`, etc.).
-- **`pe-config-mod/`** — the actual downloaded PE Config Mod package
+- **`pe-config-mod/`**: the actual downloaded PE Config Mod package
   (from Nexus) whose files get applied over the vanilla defaults above.
   This is the "After" side of the diff.
 

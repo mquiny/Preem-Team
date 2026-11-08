@@ -45,8 +45,8 @@ resource, usually related to world streaming or NPC spawn tables.
    it will show the last session's log).
 2. Look for `[error]` lines referencing a specific `.archive` or `.tweak`
    file.
-3. Cross-reference that filename against the [Issue Viewer](issue_viewer.md)
-   — this is one of the most commonly tracked issue types.
+3. Cross-reference that filename against the [Issue Viewer](issue_viewer.md).
+    This is one of the most commonly tracked issue types.
 4. If unresolved, [file a new issue](index.md#still-stuck-file-an-issue)
    with the log attached.
 
@@ -69,7 +69,7 @@ build, or a missing dependency the mod expects to already be loaded.
 
 1. Confirm your CET version matches the one specified for the current
    collection release in the [Changelog](../changelog/index.md).
-2. Confirm the mod in question is still part of the current collection —
+2. Confirm the mod in question is still part of the current collection,
    it may have been replaced or removed in a recent update.
 3. Reinstall just that mod's files, ensuring they land in the correct
    `bin/x64/plugins/cyber_engine_tweaks/mods/` subfolder.
@@ -79,7 +79,7 @@ build, or a missing dependency the mod expects to already be loaded.
 ### ArchiveXL / TweakXL conflicts
 
 !!! failure "Symptom"
-    Custom appearances, clothing, or item stats don't apply — items look
+    Custom appearances, clothing, or item stats don't apply, items look
     or behave like vanilla despite the mod being installed.
 
 **Likely cause:** Two mods editing the same `.tweak` or `.xl` resource,
@@ -91,7 +91,7 @@ with load order determining which one "wins."
    confirm your manager or manual setup matches it exactly.
 2. If using Vortex, let it auto-sort using the collection's rules rather
    than manually reordering plugins.
-3. If the conflict persists, it's likely a genuine bug — check the
+3. If the conflict persists, it's likely a genuine bug, check the
    [Issue Viewer](issue_viewer.md) or file a new report.
 
 ---
@@ -110,7 +110,7 @@ GPUs, or shader cache not yet built.
 **Fix:**
 
 1. Let the game run in one dense area for a few minutes uninterrupted on
-   first launch — this allows the shader cache to build; subsequent runs
+   first launch, this allows the shader cache to build; subsequent runs
    are smoother.
 2. If stuttering persists, switch to the **"Lite"** variant of the
    collection mentioned in the [Changelog](../changelog/archive.md).
@@ -120,9 +120,9 @@ GPUs, or shader cache not yet built.
 
 !!! note "This is a known trade-off"
     The full visual bundle is tuned for mid-to-high-end hardware. Staff are
-    aware performance on older GPUs is a common ask — track progress on
+    aware performance on older GPUs is a common ask, track progress on
     this via the [Issue Viewer](issue_viewer.md).
 
 <div class="pt-flavor">
-"Every bug has a root cause. Finding it is the job. Admitting it's your load order is the hard part." — Support team
+"Every bug has a root cause. Finding it is the job. Admitting it's your load order is the hard part." - Support team
 </div>

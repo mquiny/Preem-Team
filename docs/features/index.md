@@ -48,7 +48,7 @@ Night City stops being a theme park and starts being a place you have to
 survive. Hunger, thirst, fatigue, and addiction all become real pressures on
 V, environmental hazards actually matter, and healing items get scarce
 enough that a firefight has actual stakes again. Everything is
-tunable — dial it up for a proper survival run, or just enough to make combat
+tunable, dial it up for a proper survival run, or just enough to make combat
 feel dangerous. [Dark Future](https://www.nexusmods.com/cyberpunk2077/mods/16300)
 
 </div>
@@ -212,12 +212,12 @@ has no business looking this good parked outside a ripperdoc.
 
 ### Sandevistan OS Showcase
 
-Time-slowing was always cool — now it looks the part. Reworked Sandevistan
+Time-slowing was always cool, now it looks the part. Reworked Sandevistan
 operating systems bring new activation effects, screen-space distortion, and
 sound design on top of tuned slow-mo gameplay, so ripping through a room full
 of gonks feels like the netrunner power fantasy it was always supposed to be.
 
-<span class="pt-feature-caption">Placeholder preview — final capture coming soon.</span>
+<span class="pt-feature-caption">Placeholder preview, final capture coming soon.</span>
 
 </div>
 </div>
@@ -253,10 +253,10 @@ of gonks feels like the netrunner power fantasy it was always supposed to be.
 
 A combat and enemy-behavior overhaul that stops NPCs from standing around
 waiting to be shot. Enemies flank, take cover, call in backup, and actually
-react to what V is doing — turning most firefights from a shooting gallery
+react to what V is doing, turning most firefights from a shooting gallery
 into something you need an actual plan for.
 
-<span class="pt-feature-caption">Placeholder preview — final capture coming soon.</span>
+<span class="pt-feature-caption">Placeholder preview, final capture coming soon.</span>
 
 </div>
 </div>
@@ -316,12 +316,12 @@ into something you need an actual plan for.
 
 ### New Character Creator Options
 
-A huge expansion to character creation — more body options, skin and makeup
+A huge expansion to character creation, more body options, skin and makeup
 detail, tattoos, hairstyles, and cyberware variants than base-game V ever
 had. The result is a lot more of *your* V and a lot less "everyone in Night
 City looks the same."
 
-<span class="pt-feature-caption">Censor mode enabled for this capture — placeholder preview, final capture coming soon.</span>
+<span class="pt-feature-caption">Censor mode enabled for this capture, placeholder preview, final capture coming soon.</span>
 
 </div>
 </div>
@@ -355,7 +355,7 @@ City looks the same."
 
 ### New Photomode NPCs
 
-A roster of new, posable NPCs added specifically for Photomode — proper
+A roster of new, posable NPCs added specifically for Photomode, proper
 scene-building material for the collection's screenshot crowd, not just
 whatever happened to be walking past. Check the
 [Showcase](../showcase/index.md) for what the community's already done with
@@ -404,5 +404,5 @@ Interact more around the H10 apartment, with the H10 Food Vendor mod, Adds a foo
 </div>
 
 <div class="pt-flavor">
-"A screenshot tells you what the collection looks like. This page tells you what it *does*." — Preem Team crew
+"A screenshot tells you what the collection looks like. This page tells you what it *does*." - Preem Team crew
 </div>

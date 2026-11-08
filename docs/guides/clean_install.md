@@ -21,7 +21,7 @@ wiping a 'deck before you jack back in, sometimes you need bare metal to
 tell if the problem's the collection, or the game itself throwing a tantrum.
 We don't need no shoddy virtu enviros spoiling your fun now do we.
 
-<p class="pt-judy-quote">"Your synapses will sizzle like locusts in a deep fryer." <cite>— Judy Alvarez</cite></p>
+<p class="pt-judy-quote">"Your synapses will sizzle like locusts in a deep fryer." <cite>Judy Alvarez</cite></p>
 
 <div class="pt-clear"></div>
 
@@ -41,18 +41,18 @@ We don't need no shoddy virtu enviros spoiling your fun now do we.
 
 - [ ] I've backed up any save files I want to keep (a clean install doesn't
   touch saves, but it's good practice before touching game files)
-- [ ] I've noted which personal mods I have installed outside the collection —
+- [ ] I've noted which personal mods I have installed outside the collection,
   they'll show as "uninstalled" in Vortex afterward and need re-adding by hand
 
 !!! tip
     If you only want to remove *one* mod rather than the whole collection,
-    check [Common Problems](../troubleshooting/common_problems.md) first —
+    check [Common Problems](../troubleshooting/common_problems.md) first,
     a full clean install is the last resort, not the first troubleshooting
     step.
 
 ## Step-by-step removal
 
-Tick a step off once you've finished it — your progress is saved in this
+Tick a step off once you've finished it, your progress is saved in this
 browser, so it's still here if you close the tab and come back later.
 
 <div class="pt-steps" markdown="1" data-pt-steps>
@@ -81,7 +81,7 @@ Make sure **"Don't prompt when reaching fallback installer"** is **ON**.
 - [ ] Confirmed "Don't prompt when reaching fallback installer" is ON
 
 ??? example "📷 Show me"
-    ![V2077 settings — don't prompt when reaching fallback installer](assets/dontprompt.png){ width="500" }
+    ![V2077 settings: don't prompt when reaching fallback installer](assets/dontprompt.png){ width="500" }
 
 </details>
 
@@ -95,13 +95,13 @@ Make sure **"Don't prompt when reaching fallback installer"** is **ON**.
 
 1. Open up Vortex, and under **Mods** select all the mods (`Ctrl+A`).
 2. At the bottom of Vortex select **Remove**, then check **Remove mod** from
-   the popup menu — **don't select "Delete Archive"**.
+   the popup menu, **don't select "Delete Archive"**.
 
 *If `Ctrl+A` doesn't work: select the top mod, scroll to the bottom, hold
-`Ctrl` and select the last mod — this will highlight them all.*
+`Ctrl` and select the last mod, this will highlight them all.*
 
 This will remove mods linked to Vortex and leave Vortex clean. You may have
-to do this multiple times if you still see mods in Vortex — these will
+to do this multiple times if you still see mods in Vortex, these will
 likely be older versions left over from previous revisions.
 
 !!! note "Personal mods"
@@ -177,7 +177,7 @@ either the `.exe` or `.bat`.
 </span>
 </summary>
 
-Now run the program — you'll be prompted to press Enter to create a backup.
+Now run the program, you'll be prompted to press Enter to create a backup.
 It will then begin removing all modded files from your directory, leaving a
 clean install.
 
@@ -213,7 +213,7 @@ Steam/GOG and verify/repair your game files.
 <summary>
 <span class="pt-step-label">
 <input type="checkbox" class="pt-step-check" data-pt-step-check aria-label="Mark Step 7 complete">
-<span class="pt-step-title">Step 7: Done — some final checks</span>
+<span class="pt-step-title">Step 7: Done, some final checks</span>
 </span>
 </summary>
 
@@ -221,7 +221,7 @@ Congratulations, you should now have a clean Cyberpunk installation.
 
 !!! danger "Do not open Vortex yet"
     First confirm your game boots in a vanilla state, using your default
-    launcher (Steam/GOG) — not Vortex.
+    launcher (Steam/GOG), not Vortex.
 
 Once you've confirmed it boots vanilla, re-add the collection from our Nexus
 page back into Vortex **under a new profile** (don't reuse your old
@@ -232,7 +232,7 @@ installed incorrectly to auto convert accidentally being on during install.
 - [ ] Collection re-added under a new Vortex profile
 
 !!! success "You're back to stock"
-    That's it — you're on a clean, vanilla install. From here you can update
+    That's it, you're on a clean, vanilla install. From here you can update
     the game safely, or head back to [Installation](../installation/index.md)
     whenever you're ready to mod it again.
 
@@ -246,5 +246,5 @@ installed incorrectly to auto convert accidentally being on during install.
 </div>
 
 <div class="pt-flavor">
-"Sometimes the cleanest jack-out is the one that leaves nothing behind." — Preem Team install notes
+"Sometimes the cleanest jack-out is the one that leaves nothing behind." - Preem Team install notes
 </div>

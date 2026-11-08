@@ -60,7 +60,7 @@ function escapeCell(text) {
 function formatLabels(issue) {
   return issue.labels.length
     ? issue.labels.map((l) => `\`${escapeCell(typeof l === "string" ? l : l.name)}\``).join(", ")
-    : "—";
+    : "N/A";
 }
 
 function buildOpenRow(issue) {
@@ -84,7 +84,7 @@ function buildOpenTable(issues) {
   ];
 
   if (issues.length === 0) {
-    lines.push("| — | *No open issues right now — nice.* | — | — | — |");
+    lines.push("| N/A | *No open issues right now, nice.* | N/A | N/A | N/A |");
   } else {
     for (const issue of issues) lines.push(buildOpenRow(issue));
   }
@@ -102,7 +102,7 @@ function buildArchiveTable(issues) {
   ];
 
   if (issues.length === 0) {
-    lines.push("| — | *No closed issues yet.* | — | — | — | — |");
+    lines.push("| N/A | *No closed issues yet.* | N/A | N/A | N/A | N/A |");
   } else {
     for (const issue of issues) lines.push(buildClosedRow(issue));
   }

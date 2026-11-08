@@ -39,7 +39,7 @@
     tr.appendChild(revisionTd);
 
     const dateTd = document.createElement("td");
-    dateTd.textContent = entry.dateDetected || "—";
+    dateTd.textContent = entry.dateDetected || "N/A";
     tr.appendChild(dateTd);
 
     return tr;

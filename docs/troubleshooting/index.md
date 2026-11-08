@@ -8,7 +8,7 @@ description: Support hub for the Preem Team collection.
 > `> RUNNING DIAGNOSTICS...`
 > `> SCANNING FOR KNOWN FAULTS...`
 
-Something broke? Start here before pinging staff in Discord — most issues
+Something broke? Start here before pinging staff in Discord, most issues
 have already been solved once.
 
 ## Troubleshoot/Diagnostics
@@ -51,13 +51,13 @@ have already been solved once.
 
     ---
 
-    Live-synced view of closed GitHub issues — see what's already fixed.
+    Live-synced view of closed GitHub issues, see what's already fixed.
 	
 </div>
 
 ## Before you report anything
 
-1. Check [Common Problems](common_problems.md) and [Issue Archive](issue_archive.md) — your issue is probably already documented.
+1. Check [Common Problems](common_problems.md) and [Issue Archive](issue_archive.md), your issue is probably already documented.
 2. Check the [Changelog](../changelog/index.md) for any outfit/weapon mods that might have been remove that you used. That can cause crashes when loading saves.
 3. Check the [FAQ](../faq/index.md) for quick answers to common questions.
 4. Confirm you followed every step in [Installation](../installation/index.md), especially the verification checklist.
@@ -87,10 +87,10 @@ that isn't documented, file a proper issue on GitHub.
     - [ ] Whether the issue happens on a fresh save or an existing one
 	- [ ] What are your hardware specs? (Mainly your CPU/GPU/RAM) 
 
-Issues filed without this information take longer to triage — staff will
+Issues filed without this information take longer to triage, staff will
 usually ask for it anyway, so including it up front speeds things up
 considerably.
 
 <div class="pt-flavor">
-"Every crash log tells a story. Most of them are tragedies. A few are mysteries." — Support team
+"Every crash log tells a story. Most of them are tragedies. A few are mysteries." - Support team
 </div>

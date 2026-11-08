@@ -50,8 +50,8 @@ on Discord.
 !!! tip "Got something to say?"
     Drop your thoughts in
     [**#feedback**](https://discord.com/channels/1543366600525217802/1547734597091987517)
-    on Discord — staff read every message, and the best ones end up here.
+    on Discord, staff read every message, and the best ones end up here.
 
 <div class="pt-flavor">
-"Every rating's a signal in the noise, and this city listens." — Preem Team crew
+"Every rating's a signal in the noise, and this city listens." - Preem Team crew
 </div>

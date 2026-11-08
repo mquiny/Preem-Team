@@ -9,16 +9,16 @@ description: Documented config changes to mods in the Preem Team collection.
 > `> STATUS: TRACKING CHANGES`
 
 This page documents config changes made to mods in the collection, so
-everyone can see what's changed and why — rather than settings quietly
+everyone can see what's changed and why, rather than settings quietly
 shifting between revisions with no record of it.
 
 !!! info "What this page is"
     A running log of tuning changes made to the collection's mod configs.
-    Not every change here may be live in the current revision yet — check
+    Not every change here may be live in the current revision yet, check
     the [Changelog](../changelog/index.md) for what's actually shipped.
 
     Every "Before" value here is taken from a genuinely untouched,
-    default install — not reconstructed from memory — so this table can
+    default install, not reconstructed from memory, so this table can
     be trusted as an accurate diff, not just an approximation.
 
     Want to see what changed **between** PE Config Mod releases, not
@@ -143,7 +143,7 @@ shifting between revisions with no record of it.
 
 ??? note "DamageScaling"
     NPC damage scaling preset switched from the mod's default to a
-    balanced curve — damage taken from NPCs drops off at higher
+    balanced curve, damage taken from NPCs drops off at higher
     difficulty tiers instead of staying flat.
 
     | Setting | Before | After |
@@ -162,7 +162,7 @@ shifting between revisions with no record of it.
 
 ??? note "FakeLightsNoMore"
     Already shipped with dashboard ad lights disabled
-    (`disableAdsLights: On`) — as of the 1.7 config update, two more
+    (`disableAdsLights: On`), as of the 1.7 config update, two more
     light types are disabled alongside it.
 
     | Setting | Before | After |
@@ -181,7 +181,7 @@ shifting between revisions with no record of it.
     | `dynInstBudget` | `Medium` | `Vanilla` |
 
 ??? note "RTLightingFixes"
-    Previously shipped fully default — path tracing mode is now enabled.
+    Previously shipped fully default, path tracing mode is now enabled.
 
     | Setting | Before | After |
     |---|---|---|
@@ -209,14 +209,14 @@ shifting between revisions with no record of it.
 
 ## New mods (no baseline to compare against)
 
-These were added to the collection alongside the settings above — since
+These were added to the collection alongside the settings above, since
 they weren't previously part of it, there's no "vanilla" state to diff
 against, just the values they ship with:
 
-- **PayToGo** — Night City Railroad fast-travel pricing tuned (district
+- **PayToGo**: Night City Railroad fast-travel pricing tuned (district
   rate and inflation scaling both raised from their low placeholder
   values).
-- **True Night Vision** — new cybernetic night-vision overlay. Keybinds:
+- **True Night Vision**: new cybernetic night-vision overlay. Keybinds:
   `P` to toggle, `H` for heat-vision mode. Ships with its own extensive
   custom color-grading preset.
 

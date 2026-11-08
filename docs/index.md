@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Preem Team — a curated Cyberpunk 2077 mod collection.
+description: Preem Team: a curated Cyberpunk 2077 mod collection.
 ---
 
 # PREEM TEAM // NIGHT CITY
@@ -11,7 +11,7 @@ description: Preem Team — a curated Cyberpunk 2077 mod collection.
 
 **Welcome Choom, You've reached the home of the Preem Team, we hope you enjoy your stay**
 <div class="pt-flavor">
-"Every city's got a skeleton. Ours just happens to run on mods." — Preem Team crew
+"Every city's got a skeleton. Ours just happens to run on mods." - Preem Team crew
 </div>
 
 ## Who are the Preem Team?
@@ -71,5 +71,5 @@ Exact mod lists change as the collection is updated, check the
     top to bottom, no prior modding experience required.
 
 <div class="pt-flavor">
-"You don't choose the collection. The collection chooses you." — probably not true, but it sounded preem.
+"You don't choose the collection. The collection chooses you." - probably not true, but it sounded preem.
 </div>

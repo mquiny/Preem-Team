@@ -9,7 +9,7 @@ description: Step-by-step installation guide for the Preem Team Expedition 33 co
 > `> STATUS: GUIDE IN PROGRESS`
 
 !!! info "Guide coming soon"
-    The full step-by-step guide for this collection is still being written —
+    The full step-by-step guide for this collection is still being written,
     check back soon. The structure below will fill in the same way the
     [CPE collection guide](index.md) works: tick steps off as you go, with
     your progress saved in this browser.

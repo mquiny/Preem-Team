@@ -10,7 +10,7 @@ description: Frequently asked questions about the Preem Team collection.
 
 Answers to the questions the Discord gets asked most. Click a question to
 expand it. If yours isn't here, ask in the support channel before opening a
-[GitHub Issue](https://github.com/mquiny/Preem-Team/issues) —
+[GitHub Issue](https://github.com/mquiny/Preem-Team/issues),
 someone's probably already answered it.
 
 ## General
@@ -27,7 +27,7 @@ someone's probably already answered it.
 
 ??? question "Which game version does the collection support?"
     Always check the **Supported Game Version** listed in the collections
-    [Changelog](../changelog/index.md) — it's kept in sync with the current
+    [Changelog](../changelog/index.md), it's kept in sync with the current
     collection release.
 
 ??? question "Is Preem Team free?"
@@ -45,21 +45,21 @@ someone's probably already answered it.
     add them **after** confirming the base collection works, one at a time,
     so you can identify what broke if something does.
 
-??? question "Vortex or manual install — which is better?"
+??? question "Vortex or manual install, which is better?"
     Vortex is recommended for this collection, given it have over 900 mods, manually installing all of them will be a giant pain, Vortex is easier to use, and it manages the mods and
     conflicts automatically.
 
 ## Troubleshooting
 
 ??? question "The game crashes on launch after installing. What do I do?"
-    Check [Common Problems](../troubleshooting/common_problems.md) first —
+    Check [Common Problems](../troubleshooting/common_problems.md) first,
     most launch crashes are covered there. If yours isn't, follow the steps
     on the [Troubleshooting](../troubleshooting/index.md) see if your issue has been covered already.
 	
 	If you are crashing to desktop after doing a [Clean Install](../guides/clean_install.md) (Flatline Error), simply restart your PC.
 
 ??? question "CET console won't open. Is something broken?"
-    Usually not — it's most often a keybind conflict. See the
+    Usually not, it's most often a keybind conflict. See the
     [CET setup guide](../guides/cet_setup.md#opening-the-console) for
     the fix.
 
@@ -69,5 +69,5 @@ someone's probably already answered it.
 ---
 
 <div class="pt-flavor">
-"Ask a question in the Discord and you'll get five answers. Ask it here and you'll get one." — FAQ maintainers
+"Ask a question in the Discord and you'll get five answers. Ask it here and you'll get one." - FAQ maintainers
 </div>

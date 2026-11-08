@@ -9,7 +9,7 @@ description: Guide for using the Ultra Plus mod with the Preem Team collection.
 > `> STATUS: GUIDE IN PROGRESS`
 
 !!! info "Guide coming soon"
-    The full guide for using Ultra Plus is still being written — check back
+    The full guide for using Ultra Plus is still being written, check back
     soon. The structure below will fill in the same way other guides on this
     site work: tick steps off as you go, with your progress saved in this
     browser.

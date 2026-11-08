@@ -8,7 +8,7 @@ description: Currently known issues with the Preem Team collection, and their re
 > `> INITIATING SETUP SEQUENCE...`
 > `> STATUS: MONITORING`
 
-A running log of issues the team is already aware of — posted here as soon
+A running log of issues the team is already aware of, posted here as soon
 as we've confirmed them, so you know it's a known problem and not
 something unique to your setup. Resolved issues are kept below for
 reference.
@@ -28,14 +28,14 @@ reference.
     - There is a well known vanilla bug, where dying at any gun fight sequence of the quest, will cause you to crash (Flatline error) upon loading the save. Unfortunately this issue cannot be solved, and will require you to load a save before diving into the NET with Mamam Brigette
     - The Fix: Set the difficulty to Easy just before diving into the Net in the Voodoo Boys hideout. And avoid dying during the quest. Turn difficulty back to Very hard once the quest is over and you're back at the VDB Hideout.
 
-    *Posted September 15, 2026 — [View original message](https://discord.com/channels/1543366600525217802/1547734597091987517/1549485319810973839)*
+    *Posted September 15, 2026. [View original message](https://discord.com/channels/1543366600525217802/1547734597091987517/1549485319810973839)*
 <!-- KNOWN-ISSUE:1549485319810973839:END -->
 
 <!-- KNOWN-ISSUE:1548094758218506261:START -->
 ??? warning "NIF (Native Interactions Framework)"
     NIF (Native Interactions Framework) dependency errors shows up every time a save is loaded. Mod Author aware, will updated when resolved
 
-    *Posted September 11, 2026 — [View original message](https://discord.com/channels/1543366600525217802/1543566145188012144/1548094758218506261)*
+    *Posted September 11, 2026. [View original message](https://discord.com/channels/1543366600525217802/1543566145188012144/1548094758218506261)*
 <!-- KNOWN-ISSUE:1548094758218506261:END -->
 
 <!-- KNOWN-ISSUES:OPEN:END -->

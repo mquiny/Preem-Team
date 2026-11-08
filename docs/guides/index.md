@@ -8,7 +8,7 @@ description: Deep-dive guides for the Preem Team collection.
 > `> ACCESSING DATASHARD LIBRARY...`
 > `> INDEXING KNOWLEDGE FRAGMENTS...`
 
-This section holds deep-dive guides written by the Preem Team crew — setup
+This section holds deep-dive guides written by the Preem Team crew, setup
 walkthroughs, configuration deep-dives, and mechanic explainers that go
 beyond the basic [Installation](../installation/index.md) steps.
 
@@ -46,9 +46,9 @@ beyond the basic [Installation](../installation/index.md) steps.
 
 !!! note "More guides coming"
     This library grows as staff publish new datashards. Check back after
-    collection updates — new guides are usually announced alongside
+    collection updates, new guides are usually announced alongside
     [Changelog](../changelog/index.md) entries.
 
 <div class="pt-flavor">
-"Every choom who ever survived Night City did it by reading the manual first." — Guides team
+"Every choom who ever survived Night City did it by reading the manual first." - Guides team
 </div>

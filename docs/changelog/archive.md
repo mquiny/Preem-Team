@@ -10,7 +10,7 @@ description: Historical changelog entries for the Preem Team collection.
 
 Older changelog entries live here once they've been superseded by a newer
 release on the [main Changelog page](index.md). Click a release below to
-see its full changes — entries are added by the Discord bot in
+see its full changes, entries are added by the Discord bot in
 reverse-chronological order (newest archived entry first) whenever it
 pushes a new release to the live page.
 
@@ -1358,5 +1358,5 @@ pushes a new release to the live page.
 <!-- CHANGELOG:ENTRIES:END -->
 
 <div class="pt-flavor">
-"Cold storage never forgets. Neither does the bot." — Archive maintainers
+"Cold storage never forgets. Neither does the bot." - Archive maintainers
 </div>

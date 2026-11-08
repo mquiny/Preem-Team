@@ -12,11 +12,11 @@ description: Configuring Cyber Engine Tweaks and reading its console log.
 ![Misty](assets/misty1.png)
 </div>
 
-A walkthrough for configuring **Cyber Engine Tweaks (CET)** — one of the core
-frameworks bundled in the Preem Team collection — and for reading its
+A walkthrough for configuring **Cyber Engine Tweaks (CET)**, one of the core
+frameworks bundled in the Preem Team collection, and for reading its
 console log when something goes wrong.
 
-<p class="pt-misty-quote">"Life is so powerfully beautiful. So much more powerful than death" <cite>— Misty</cite></p>
+<p class="pt-misty-quote">"Life is so powerfully beautiful. So much more powerful than death" <cite>Misty</cite></p>
 
 !!! info "Who this is for"
     Anyone running the Preem Team collection who wants to understand what
@@ -72,7 +72,7 @@ The most commonly adjusted options:
     }
     ```
 
-    Keeps overhead low and avoids flooding the log with debug noise — the
+    Keeps overhead low and avoids flooding the log with debug noise, the
     configuration the Preem Team collection ships with by default.
 
 === "Debugging a mod issue"
@@ -85,7 +85,7 @@ The most commonly adjusted options:
     ```
 
     Turns on verbose logging. Useful when following steps from
-    [Troubleshooting](../troubleshooting/index.md), but noisy for normal play —
+    [Troubleshooting](../troubleshooting/index.md), but noisy for normal play,
     turn it back off afterward.
 
 !!! warning "Don't hand-edit while the game is running"
@@ -99,7 +99,7 @@ If something's crashing, the CET log is usually the first place to look.
 
 1. Open the CET overlay (`` ` ``).
 2. Navigate to the **Log** tab.
-3. Scroll to the bottom — the most recent entries are what you want.
+3. Scroll to the bottom, the most recent entries are what you want.
 4. Look for lines in red or containing `[error]` / `[fatal]`.
 
 !!! danger "Common fatal error"
@@ -111,5 +111,5 @@ If something's crashing, the CET log is usually the first place to look.
     for the fix.
 
 <div class="pt-flavor">
-"The console doesn't lie. It just doesn't always tell you the whole truth either." — CET maintainers
+"The console doesn't lie. It just doesn't always tell you the whole truth either." - CET maintainers
 </div>

@@ -23,7 +23,7 @@ that only one suspect is left.
     bisecting your collection.
 
     ??? example "📷 Show me"
-        ![V2077 settings — Auto convert off, don't prompt on](assets/dontprompt.png){ width="500" }
+        ![V2077 settings: Auto convert off, don't prompt on](assets/dontprompt.png){ width="500" }
 
 ## Overview checklist
 
@@ -38,7 +38,7 @@ Use this as your master checklist. Each item is explained in detail below.
 
 ## Step-by-step bisecting
 
-Tick a step off once you've finished it — your progress is saved in this
+Tick a step off once you've finished it, your progress is saved in this
 browser, so it's still here if you close the tab and come back later.
 
 <div class="pt-steps" markdown="1" data-pt-steps>
@@ -114,7 +114,7 @@ framework mods work as intended, and rules them out as the culprit.
 
 - If you enable these mods and still crash, then likely a core mod isn't
   installed properly.
-- If these are enabled and the game boots fine, great — it's not a core mod
+- If these are enabled and the game boots fine, great, it's not a core mod
   causing the issue.
 
 - [ ] Core mods (Modders Resources) enabled and game boots fine
@@ -136,15 +136,15 @@ Now you've confirmed the core mods aren't the problem, it's time to go
 category by category and enable them one at a time until you can replicate
 the crash/issue.
 
-1. Start with **Animations** — enable all the mods in that category, boot the
+1. Start with **Animations**, enable all the mods in that category, boot the
    game, and double check the issue isn't there.
 2. If it's not crashing, you know it's not an animation mod. Close the game
    and move onto the next category.
-3. Repeat for each category until you run into the crash/issue — then you'll
+3. Repeat for each category until you run into the crash/issue, then you'll
    know the rough area the problem lies in.
 
 *Example: you begin to crash/experience your issue after enabling the
-**Utilities** category — bingo, you now have your chunk of potential mods.*
+**Utilities** category, bingo, you now have your chunk of potential mods.*
 
 !!! danger "Ignore the Cyberpunk 2077 category"
     Every mod is listed under this category, so enabling it will guarantee
@@ -172,24 +172,24 @@ crash/issue. *(For the example above, the issue was in **Utilities**.)*
 1. Filter by that category, enable one half of the mods inside it, and leave
    the other half disabled.
 2. Boot the game and see if the crash/issue is present.
-      - If it's **not**, that half is fine — go ahead and enable half of the
+      - If it's **not**, that half is fine, go ahead and enable half of the
         remaining disabled mods too (now 3/4 of the category is enabled).
         Boot the game and repeat as required until you narrow in on the mod.
-      - If it **does** crash, you're close — do the reverse: disable half of
+      - If it **does** crash, you're close, do the reverse: disable half of
         the mods you just enabled, and repeat until you're left with the one
         mod causing your crash.
 
 !!! example "Worked example"
-    Say the problem mod is **The Nullifier**, and it's enabled — you
+    Say the problem mod is **The Nullifier**, and it's enabled, you
     crash when loading the game.
 
     You disable one half of the enabled mods (say, "input_loader_v0.2.3" through
     "Adshield Atelier Store"), leaving the other half enabled. The Nullifier is
-    still enabled, so you still crash — you're getting close. Down to 5
+    still enabled, so you still crash, you're getting close. Down to 5
     mods, you check one by one until you stop crashing, and there it is:
     disabling **The Nullifier** stops the crash.
 
-    **Bingo — found the problem mod.**
+    **Bingo! Found the problem mod.**
 
 Once you've identified the mod responsible, confirm the fix: re-enable every
 mod **except** the one you bisected. If you don't crash/have the issue
@@ -205,7 +205,7 @@ keep bisecting to find the rest.
     ![Narrowing down the exact mod within a category](assets/identifiedmods.png){ width="500" }
 
 !!! success "Bisected!"
-    That's it — you've found your problem mod. Report it in the **Preem Team
+    That's it, you've found your problem mod. Report it in the **Preem Team
     Discord** so staff can look into a fix or flag a known conflict.
 
 !!! failure "Still crashing after bisecting?"
@@ -219,5 +219,5 @@ keep bisecting to find the rest.
 </div>
 
 <div class="pt-flavor">
-"Every collection hides one mod that doesn't want to be found. Bisecting is how you drag it into the light." — Preem Team support notes
+"Every collection hides one mod that doesn't want to be found. Bisecting is how you drag it into the light." - Preem Team support notes
 </div>

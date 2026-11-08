@@ -11,7 +11,7 @@ description: Step-by-step installation guide for the Preem Team CPE collection.
 > `> RISK LEVEL: LOW, IF YOU FOLLOW THE STEPS`
 
 This page walks you through installing the full Preem Team collection, start
-to finish. Follow it top to bottom — don't skip steps, don't improvise, and
+to finish. Follow it top to bottom, don't skip steps, don't improvise, and
 you'll have a stable, modded Night City by the end of it.
 
 !!! danger "Read this before you touch anything"
@@ -48,7 +48,7 @@ Use this as your master checklist. Each item is explained in detail below.
 	
 ## Step-by-step installation
 
-Tick a step off once you've finished it — your progress is saved in this
+Tick a step off once you've finished it, your progress is saved in this
 browser, so it's still here if you close the tab and come back later.
 
 <div class="pt-steps" markdown="1" data-pt-steps>
@@ -201,16 +201,16 @@ Now it's time to select the collection to be downloaded/installed
 </summary>
 
 1. Launch Cyberpunk 2077 through Vortex's 'Play' button ( **not** Steam/GOG/Epic launcher unless instructed otherwise).
-2. Watch the initial loading screen — you should see the **Cyber Engine Tweaks** console flash briefly, confirming CET loaded. (First time users may be prompted to set a keybind. Make sure it's a key you will remember)
+2. Watch the initial loading screen, you should see the **Cyber Engine Tweaks** console flash briefly, confirming CET loaded. (First time users may be prompted to set a keybind. Make sure it's a key you will remember)
 3. Once in the main menu, press your CET hotkey (default: `` ` `` or `~`) to open the console overlay and confirm the mod list is populated.
 4. Confirm you have 'mods' and 'mods settings' options in the main menu to confirm mods are installed.
 !!! success "You're in"
-    If every box above is checked, congratulations, choom — you're running
+    If every box above is checked, congratulations, choom, you're running
     the full Preem Team collection. Welcome to a better Night City.
 
 !!! failure "Something's wrong?"
-    Don't panic. Head straight to [Troubleshooting](../troubleshooting/index.md)
-    — most first-install issues are covered in
+    Don't panic. Head straight to [Troubleshooting](../troubleshooting/index.md).
+    Most first-install issues are covered in
     [Common Problems](../troubleshooting/common_problems.md).
 
 </details>
@@ -235,7 +235,7 @@ Now it's time to select the collection to be downloaded/installed
 ## Popups you might see during install
 
 Vortex throws up a handful of warning-style popups mid-install that look
-alarming but are expected — the collection is large enough that a few of
+alarming but are expected, the collection is large enough that a few of
 these are normal, not a sign anything's gone wrong. Click a popup below if
 you're not sure whether to worry about it.
 
@@ -246,7 +246,7 @@ you're not sure whether to worry about it.
     which ones you want and installs everything into the staging folder for
     you to sort out later if needed.
 
-    You don't need to do anything — just click **Understood!** and carry
+    You don't need to do anything, just click **Understood!** and carry
     on with the install. The mod is already installed correctly for normal
     use; this is only relevant if you specifically want to hand-pick between
     variants of that particular mod later on.
@@ -254,5 +254,5 @@ you're not sure whether to worry about it.
     ![Mod Installed But May Need Manual Adjustment popup](assets/manual_adjustment.png){ width="500" }
 
 <div class="pt-flavor">
-"First rule of netrunning: always know your exit. Second rule: always back up your save." — Preem Team install notes
+"First rule of netrunning: always know your exit. Second rule: always back up your save." - Preem Team install notes
 </div>

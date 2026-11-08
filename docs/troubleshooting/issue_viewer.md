@@ -10,7 +10,7 @@ description: Live view of open GitHub issues for the Preem Team collection.
 
 An automated feed of **open** GitHub Issues for the Preem Team collection,
 kept in sync automatically. Check the table below before filing a
-duplicate — and if your problem isn't listed, use one of the buttons
+duplicate, and if your problem isn't listed, use one of the buttons
 below to report it.
 
 <a href="https://github.com/mquiny/Preem-Team/issues/new/choose" class="md-button md-button--primary" target="_blank" rel="noopener">
@@ -19,13 +19,13 @@ below to report it.
 
 !!! info "How this works"
     Reports are filed on [GitHub](https://github.com/mquiny/Preem-Team/issues)
-    either way — there's no Discord channel for this, so if someone in
+    either way, there's no Discord channel for this, so if someone in
     Discord has a bug to report, please point them here. Don't have (or
     want) a GitHub account? The second button posts through a small form
-    on our site instead and creates the issue on your behalf — no
+    on our site instead and creates the issue on your behalf, no
     sign-up needed.
 
-    Only **open** issues live on this page — the moment one's closed on
+    Only **open** issues live on this page, the moment one's closed on
     GitHub, the next sync drops it here and it shows up on the
     [**Issue Archive**](issue_archive.md) instead.
 
@@ -39,7 +39,7 @@ below to report it.
 <!--
   scripts/sync-issues.js writes between the two markers below on every
   sync. Do not hand-edit content between BOT-INJECT:ISSUE-TABLE:START and
-  BOT-INJECT:ISSUE-TABLE:END — it will be overwritten on the next sync.
+  BOT-INJECT:ISSUE-TABLE:END, it will be overwritten on the next sync.
 -->
 
 <!-- BOT-INJECT:ISSUE-TABLE:START -->
@@ -48,7 +48,7 @@ below to report it.
 
 | Status | Issue | Labels | Opened | Comments |
 |---|---|---|---|---|
-| — | *No open issues right now — nice.* | — | — | — |
+| N/A | *No open issues right now, nice.* | N/A | N/A | N/A |
 
 <!-- BOT-INJECT:ISSUE-TABLE:END -->
 
@@ -58,19 +58,19 @@ below to report it.
 
 Type in the search box above the table to match against an issue's title,
 or use the label chips to show only issues tagged with one label at a time
-— for example just `bug`, or just `performance`. Both can be combined, and
+for example just `bug`, or just `performance`. Both can be combined, and
 **All** clears the label filter. This runs entirely in your browser
 ([`javascripts/issue-viewer.js`](https://github.com/mquiny/Preem-Team/blob/main/docs/javascripts/issue-viewer.js))
 against whatever's currently in the table, so it stays in sync with the
-live issue list automatically — no separate configuration to maintain as
+live issue list automatically, no separate configuration to maintain as
 labels change.
 
 ## Don't see your issue?
 
 If a search of this page doesn't turn up your problem, use the
-**Create an Issue** button above to file a new one on GitHub — it'll show
+**Create an Issue** button above to file a new one on GitHub, it'll show
 up here automatically once it's synced.
 
 <div class="pt-flavor">
-"The netwatch never sleeps. Neither, apparently, does the bug tracker." — Issue triage team
+"The netwatch never sleeps. Neither, apparently, does the bug tracker." - Issue triage team
 </div>

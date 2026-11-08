@@ -10,7 +10,7 @@ description: Latest changes to the Preem Team collection.
 > `> SOURCE: DISCORD BOT`
 
 This page tracks the current revision of every collection we track. Each
-collection's card below always reflects its own **latest** revision — an
+collection's card below always reflects its own **latest** revision, an
 update to one collection only replaces that collection's card, the others
 stay exactly as they are. Older revisions roll off into the
 [Archive](archive.md) as soon as that specific collection updates again.
@@ -245,5 +245,5 @@ stay exactly as they are. Older revisions roll off into the
 Looking for a specific past release? Head to the [Archive](archive.md).
 
 <div class="pt-flavor">
-"Every patch note is a promise. Some of them are even kept." — Preem Team release notes
+"Every patch note is a promise. Some of them are even kept." - Preem Team release notes
 </div>

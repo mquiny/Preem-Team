@@ -19,7 +19,7 @@ uses.
 This guide uses **ANGEL Body** as the example, but the same general process
 applies when switching to any other body mod.
 
-<p class="pt-judy-quote">"Changing your ride, doesn't mean you change who's driving." <cite>— Panam Palmer</cite></p>
+<p class="pt-judy-quote">"Changing your ride, doesn't mean you change who's driving." <cite>Panam Palmer</cite></p>
 
 <div class="pt-clear"></div>
 
@@ -38,7 +38,7 @@ applies when switching to any other body mod.
 
 !!! info "What's the difference between a body mod and a body rig?"
     - A body mod replaces V's actual body mesh and/or skin textures with a
-      new one — it changes what the body geometrically *is*, which is why
+      new one, it changes what the body geometrically *is*, which is why
       vanilla clothes can need refitting to fit it properly. (Most body
       mods have separate refit mods to go with them.)
     - A body rig keeps the vanilla body mesh but reshapes it by adjusting
@@ -253,5 +253,5 @@ Changing your body in Preem Edition is basically:
 6. Find some clothing made for your new body
 
 <div class="pt-flavor">
-"New chassis, same choom underneath." — Preem Team install notes
+"New chassis, same choom underneath." - Preem Team install notes
 </div>

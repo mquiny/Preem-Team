@@ -8,7 +8,7 @@ description: Community activity leaderboard for the Preem Team Discord.
 > `> PULLING LEADERBOARD SNAPSHOT...`
 > `> SOURCE: DISCORD BOT`
 
-A snapshot of the top community members by **Street Creed** — our
+A snapshot of the top community members by **Street Creed**, our
 Discord activity/reputation system. This page is **read-only**, synced
 once a day.
 
@@ -89,5 +89,5 @@ once a day.
 </div>
 
 <div class="pt-flavor">
-"Street Creed isn't given. It's earned, one message at a time." — Preem Team
+"Street Creed isn't given. It's earned, one message at a time." - Preem Team
 </div>

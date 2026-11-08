@@ -15,7 +15,7 @@ description: Guide for updating an existing Preem Team CPE collection install.
 Already running Preem Edition and just need the latest revision? This is
 the guide for you, no need to reinstall from scratch every time.
 
-<p class="pt-judy-quote">"Relax, choom. It's a mod update, not a corpo hit squad." <cite>— Johnny Silverhand</cite></p>
+<p class="pt-judy-quote">"Relax, choom. It's a mod update, not a corpo hit squad." <cite>Johnny Silverhand</cite></p>
 
 <div class="pt-clear"></div>
 
