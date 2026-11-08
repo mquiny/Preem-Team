@@ -223,16 +223,12 @@ Now it's time to select the collection to be downloaded/installed
 
 ## After you're in: two things to check
 
-!!! warning "Use the \"Large\" chest setting for Preem Edition FEMVs"
-    The Preem Edition FEMV scenes are designed to be played with the
-    **Large** chest setting in order to work properly. We're not aware of any
-    body mods that keep the chest settings intact and functional, so if you
-    swap your body mod, expect the FEMVs to look wrong.
+!!! warning "Use the "Large" chest setting for Preem Edition FemaleV"
+    In the character creation, for breast size, select "Large" in order for the body mod to show as intended.
 
 !!! tip "Seeing through V's body when looking down?"
     You may need to adjust the **first person look down FOV** yourself. Open
-    the **SHIFT** menu in CET and look for the FOV offset setting (the exact
-    name may differ slightly). We can't change this globally because
+    the **SHIFT** menu in CET and look for the FOV offset setting. We can't change this globally because
     everyone's setup is unique, so it needs tuning on your end until you can
     no longer see through V's body when looking down.
 
