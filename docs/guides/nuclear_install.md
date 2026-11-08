@@ -171,7 +171,7 @@ by mods, so there's no need to redownload them. Everything else, including
 ??? example "📷 Show me"
     The game's root folder — delete everything except `archive`:
 
-    ![Folders to delete in the game's root folder](../installation/assets/nuclear_clear.png){ width="500" }
+    ![Folders to delete in the game's root folder](../installation/assets/nuclear_clear1.png){ width="500" }
 
     Inside `archive/pc` — delete everything except `content` and `ep1`:
 
