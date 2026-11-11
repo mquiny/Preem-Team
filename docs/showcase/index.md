@@ -20,6 +20,13 @@ gets featured here automatically once it either picks up reactions from
 
 <div class="grid cards" markdown="1">
 
+<!-- SHOWCASE:ENTRY:1569947504919969872:START -->
+-   ![Screenshot posted by .yaiez. in #🌄┃preem-gallery](assets/1569947504919969872.png)
+    **My V got a breast reduction surgery (which meant updating a few dozen mods)**
+    *Posted by `.yaiez.` in #🌄┃preem-gallery*
+    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1569947504919969872)
+<!-- SHOWCASE:ENTRY:1569947504919969872:END -->
+
 <!-- SHOWCASE:ENTRY:1569253888874385530:START -->
 -   ![Screenshot posted by .yaiez. in #🌄┃preem-gallery](assets/1569253888874385530.png)
     **Did said portraits**
