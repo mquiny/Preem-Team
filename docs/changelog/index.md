@@ -38,7 +38,7 @@ stay exactly as they are. Older revisions roll off into the
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
 <span class="pt-changelog-card-version">Preem Edition-20</span>
-<span class="pt-changelog-card-date">2026-11-15 · CP2077 2.31a</span>
+<span class="pt-changelog-card-date">2026-11-15 · CP2077 2.5</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--updated">Updated</span></span>
 </span>
@@ -54,7 +54,7 @@ stay exactly as they are. Older revisions roll off into the
 <span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--updated">Updated</span>
 
-`2026-11-15` · Game Version `2.31a` · Posted by **Choomba** · Synced from `#CPE`
+`2026-11-15` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
 
 ### Added {: .pt-changelog-h-added }
 
