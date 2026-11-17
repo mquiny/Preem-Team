@@ -37,8 +37,8 @@ stay exactly as they are. Older revisions roll off into the
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-buqwx3">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
-<span class="pt-changelog-card-version">Preem Edition-21</span>
-<span class="pt-changelog-card-date">2026-11-15 · CP2077 2.5</span>
+<span class="pt-changelog-card-version">Preem Edition-22</span>
+<span class="pt-changelog-card-date">2026-11-17 · CP2077 2.5</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--updated">Updated</span>
 <span class="pt-chip pt-chip--removed">Removed</span></span>
@@ -50,35 +50,41 @@ stay exactly as they are. Older revisions roll off into the
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
 
-## Preem Edition-21
+## Preem Edition-22
 
 <span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--updated">Updated</span>
 <span class="pt-chip pt-chip--removed">Removed</span>
 
-`2026-11-15` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
+`2026-11-17` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
 
 ### Added {: .pt-changelog-h-added }
 
-- [Mr. Blue Eyes and Akira Bodyguard Dark Matter Club](https://www.nexusmods.com/cyberpunk2077/mods/22696) (v12.0.0)
-- [RELENTLESS-Live Dismemberment](https://www.nexusmods.com/cyberpunk2077/mods/35703) (v1.1.2)
-- [SOLO Vol.10 pose pack](https://www.nexusmods.com/cyberpunk2077/mods/38541) (v1)
-- [Veegee Jewelry Shop](https://www.nexusmods.com/cyberpunk2077/mods/8688) (v1.24)
-- [Veegee rings - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/8668) (v1.1)
+- [Air Traffic Fix](https://www.nexusmods.com/cyberpunk2077/mods/38677) (v1.0.0)
+- [Kerry Conversations Addon](https://www.nexusmods.com/cyberpunk2077/mods/38662) (v1.0.1)
+- [Meredith Stout - Enhanced Body](https://www.nexusmods.com/cyberpunk2077/mods/37097) (v1.0)
+- [MUSE - Photo Mode Expression Studio](https://www.nexusmods.com/cyberpunk2077/mods/38736) (v1.2)
 
 ### Updated
 
-- [ACU - Character Preset Manager](https://www.nexusmods.com/cyberpunk2077/mods/3850) (v4.1.4 → v4.1.8)
-- [Better Quality Sort V2](https://www.nexusmods.com/cyberpunk2077/mods/20267) (v2.4.0 → v2.4.1)
-- [DigitalVixen Core](https://www.nexusmods.com/cyberpunk2077/mods/28390) (v4.9.13 → v4.9.14)
-- [Dusty Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/14797) (v75 → v76)
-- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.10 → v1.11)
-- [Vectors of Joi](https://www.nexusmods.com/cyberpunk2077/mods/25613) (v1.0 → v1.1)
-- [Weapon Skin Icons](https://www.nexusmods.com/cyberpunk2077/mods/35480) (v1.0.4 → v1.0.5)
+- [Canyon Fixes](https://www.nexusmods.com/cyberpunk2077/mods/25918) (v1.2.1 → v1.2.2)
+- [Cutscene Weapon Swapper](https://www.nexusmods.com/cyberpunk2077/mods/20743) (v1.4.2 → v1.5.0)
+- [High Fashion Netrunner - more than 150 suits - regular and unzipped - toggleable arms and legs](https://www.nexusmods.com/cyberpunk2077/mods/9314) (v4.0.1 → v4.0.2)
+- [Hothead Restored Gig Cut Content Quest](https://www.nexusmods.com/cyberpunk2077/mods/37939) (v2.2 → v3.0)
+- [KMKC's - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/16065) (v11 → v12)
+- [Leaky Interiors Fixed](https://www.nexusmods.com/cyberpunk2077/mods/29002) (v1.1 → v1.2)
+- [Much Better AI](https://www.nexusmods.com/cyberpunk2077/mods/31402) (v2.4 → v3.0)
+- [North Oak Nail Spa - Pedicures and Nails](https://www.nexusmods.com/cyberpunk2077/mods/24993) (v1.5.0 → v1.6.0)
+- [North Oak Nails Winter 2026 Collection](https://www.nexusmods.com/cyberpunk2077/mods/26597) (v1.0.2 → v1.1.0)
+- [RedFunctions](https://www.nexusmods.com/cyberpunk2077/mods/32312) (v0.16.0 → v0.18.0)
+- [SOLO Vol.10 pose pack](https://www.nexusmods.com/cyberpunk2077/mods/38541) (v1 → v1.1)
+- [True Flashlight - Immersive Tactical Lighting Gadget](https://www.nexusmods.com/cyberpunk2077/mods/28873) (v1.8.1 → v1.8.2)
+- [Valentino Cyber Arms for Masc and Fem V with support for UV and VTK body mods](https://www.nexusmods.com/cyberpunk2077/mods/15123) (v2.2.1 → v2.2.2)
 
 ### Removed {: .pt-changelog-h-removed }
 
-- [Malorian Arms CODA](https://www.nexusmods.com/cyberpunk2077/mods/37487) (v1.2)
+- [NCsVelaris x Watson - Teddy Top FEM V](https://www.nexusmods.com/cyberpunk2077/mods/25707) (v1.1)
+- [Watson Underground - Atelier](https://www.nexusmods.com/cyberpunk2077/mods/25027) (v1.4)
 
 </div>
 </dialog>

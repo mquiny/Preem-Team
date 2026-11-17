@@ -29,6 +29,55 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-21">
+<img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-21</span>
+<span class="pt-changelog-card-date">2026-11-15 · CP2077 2.5</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
+<span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-21" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-21
+
+<span class="pt-chip pt-chip--added">Added</span>
+<span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span>
+
+`2026-11-15` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
+
+### Added {: .pt-changelog-h-added }
+
+- [Mr. Blue Eyes and Akira Bodyguard Dark Matter Club](https://www.nexusmods.com/cyberpunk2077/mods/22696) (v12.0.0)
+- [RELENTLESS-Live Dismemberment](https://www.nexusmods.com/cyberpunk2077/mods/35703) (v1.1.2)
+- [SOLO Vol.10 pose pack](https://www.nexusmods.com/cyberpunk2077/mods/38541) (v1)
+- [Veegee Jewelry Shop](https://www.nexusmods.com/cyberpunk2077/mods/8688) (v1.24)
+- [Veegee rings - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/8668) (v1.1)
+
+### Updated
+
+- [ACU - Character Preset Manager](https://www.nexusmods.com/cyberpunk2077/mods/3850) (v4.1.4 → v4.1.8)
+- [Better Quality Sort V2](https://www.nexusmods.com/cyberpunk2077/mods/20267) (v2.4.0 → v2.4.1)
+- [DigitalVixen Core](https://www.nexusmods.com/cyberpunk2077/mods/28390) (v4.9.13 → v4.9.14)
+- [Dusty Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/14797) (v75 → v76)
+- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.10 → v1.11)
+- [Vectors of Joi](https://www.nexusmods.com/cyberpunk2077/mods/25613) (v1.0 → v1.1)
+- [Weapon Skin Icons](https://www.nexusmods.com/cyberpunk2077/mods/35480) (v1.0.4 → v1.0.5)
+
+### Removed {: .pt-changelog-h-removed }
+
+- [Malorian Arms CODA](https://www.nexusmods.com/cyberpunk2077/mods/37487) (v1.2)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-20-2">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
