@@ -37,9 +37,9 @@ stay exactly as they are. Older revisions roll off into the
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-buqwx3">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
-<span class="pt-changelog-card-version">Preem Edition-23</span>
+<span class="pt-changelog-card-version">Preem Edition-24</span>
 <span class="pt-changelog-card-date">2026-11-17 · CP2077 2.5</span>
-<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--removed">Removed</span></span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
 </span>
 </button>
 
@@ -48,15 +48,16 @@ stay exactly as they are. Older revisions roll off into the
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
 
-## Preem Edition-23
+## Preem Edition-24
 
-<span class="pt-chip pt-chip--removed">Removed</span>
+<span class="pt-chip pt-chip--updated">Updated</span>
 
 `2026-11-17` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
 
-### Removed {: .pt-changelog-h-removed }
+### Updated
 
-- [Melee Enemy Swarm](https://www.nexusmods.com/cyberpunk2077/mods/34212) (v1.0.0)
+- [Much Better AI](https://www.nexusmods.com/cyberpunk2077/mods/31402) (v3.0 → v3.0.1)
+- [Weapon Skin Icons](https://www.nexusmods.com/cyberpunk2077/mods/35480) (v1.0.5 → v1.0.6)
 
 </div>
 </dialog>
