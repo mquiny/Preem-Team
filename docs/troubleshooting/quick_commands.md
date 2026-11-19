@@ -43,6 +43,7 @@ can't add, edit, or run anything from this page.
 | `!update` | Wildcard | Check out our step-by-step guide to updating your collection https://preem.team/installation/updating_cpe_collection | All (global) |
 | `!veinz` | Wildcard | Is never active https://klipy.com/gifs/cat-standing-13 | All (global) |
 | `!website` | Wildcard | Hey Choom, check out our website for some Preem Guides and installation guides. https://preem.team/ | All (global) |
+| `!willitbreakmysave?` | Wildcard | https://c.tenor.com/xIVna3QzuUIAAAAC/dr-evil-how-about-no.gif | All (global) |
 | `!yeahbaby` | Wildcard | https://tenor.com/view/austin-powers-mike-myers-yeah-baby-yeah-gif-1691826607058877752 | All (global) |
 | `!yes` | Wildcard | https://tenor.com/view/jack-nicholson-jack-nicholson-yes-yes-nod-head-nod-gif-17444176260167585294 | All (global) |
 
