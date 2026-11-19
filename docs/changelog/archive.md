@@ -29,6 +29,34 @@ pushes a new release to the live page.
 
 <!-- CHANGELOG:ARCHIVE:buqwx3:PREPEND_HERE -->
 
+<button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-24">
+<img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
+<span class="pt-changelog-card-body">
+<span class="pt-changelog-card-version">Preem Edition-24</span>
+<span class="pt-changelog-card-date">2026-11-17 · CP2077 2.5</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+</span>
+</button>
+
+<dialog class="pt-changelog-modal" id="changelog-preem-edition-24" markdown="1">
+<div class="pt-changelog-modal-inner" markdown="1">
+
+<button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
+
+## Preem Edition-24
+
+<span class="pt-chip pt-chip--updated">Updated</span>
+
+`2026-11-17` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
+
+### Updated
+
+- [Much Better AI](https://www.nexusmods.com/cyberpunk2077/mods/31402) (v3.0 → v3.0.1)
+- [Weapon Skin Icons](https://www.nexusmods.com/cyberpunk2077/mods/35480) (v1.0.5 → v1.0.6)
+
+</div>
+</dialog>
+
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-preem-edition-23">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">

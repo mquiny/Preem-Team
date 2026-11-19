@@ -37,9 +37,11 @@ stay exactly as they are. Older revisions roll off into the
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-buqwx3">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
-<span class="pt-changelog-card-version">Preem Edition-24</span>
-<span class="pt-changelog-card-date">2026-11-17 · CP2077 2.5</span>
-<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--updated">Updated</span></span>
+<span class="pt-changelog-card-version">Preem Edition-25</span>
+<span class="pt-changelog-card-date">2026-11-19 · CP2077 2.5</span>
+<span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
+<span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span></span>
 </span>
 </button>
 
@@ -48,16 +50,40 @@ stay exactly as they are. Older revisions roll off into the
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
 
-## Preem Edition-24
+## Preem Edition-25
 
+<span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--updated">Updated</span>
+<span class="pt-chip pt-chip--removed">Removed</span>
 
-`2026-11-17` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
+`2026-11-19` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
+
+### Added {: .pt-changelog-h-added }
+
+- [V Focus - Inventory and Wardrobe Preview Controls - Zoom Pan Rotate](https://www.nexusmods.com/cyberpunk2077/mods/33527) (v1.1.4)
 
 ### Updated
 
-- [Much Better AI](https://www.nexusmods.com/cyberpunk2077/mods/31402) (v3.0 → v3.0.1)
-- [Weapon Skin Icons](https://www.nexusmods.com/cyberpunk2077/mods/35480) (v1.0.5 → v1.0.6)
+- [Always First Equip](https://www.nexusmods.com/cyberpunk2077/mods/2557) (v2.2.1 → v2.2.2)
+- [AudioXL](https://www.nexusmods.com/cyberpunk2077/mods/33442) (v0.9.4 → v0.10.1)
+- [DigitalVixen Core](https://www.nexusmods.com/cyberpunk2077/mods/28390) (v4.9.14 → v4.9.15)
+- [Dusty Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/14797) (v76 → v77)
+- [KMKC's - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/16065) (v12 → v12.1)
+- [Much Better AI](https://www.nexusmods.com/cyberpunk2077/mods/31402) (v3.0.1 → v3.0.2)
+- [MUSE - Photo Mode Expression Studio](https://www.nexusmods.com/cyberpunk2077/mods/38736) (v1.2 → v1.3)
+- [N3 Atelier](https://www.nexusmods.com/cyberpunk2077/mods/21967) (v1.7 → v1.8)
+- [RedFunctions](https://www.nexusmods.com/cyberpunk2077/mods/32312) (v0.18.0 → v0.18.1)
+- [Reinforcements System](https://www.nexusmods.com/cyberpunk2077/mods/21532) (v1.2.1 → v1.2.2)
+- [Reset Attributes always available - Redscript](https://www.nexusmods.com/cyberpunk2077/mods/9240) (v1.0.0.7 → v1.0.0.8)
+- [TELEPORTING CAR DISABLED](https://www.nexusmods.com/cyberpunk2077/mods/24378) (v1.0 → v1.0.1)
+- [Time Dilation Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/4931) (v2.38.1 → v2.39)
+- [Valentino Cyber Arms for Masc and Fem V with support for UV and VTK body mods](https://www.nexusmods.com/cyberpunk2077/mods/15123) (v2.2.2 → v2.2.3)
+
+### Removed {: .pt-changelog-h-removed }
+
+- [Lamborghini Miura P400 SV Garage](https://www.nexusmods.com/cyberpunk2077/mods/13508) (v2.0.1)
+- [Sabbath7991 Weapon and Attachment Shops - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/18757) (v1.91)
+- [SDH0's Vehicle Resources](https://www.nexusmods.com/cyberpunk2077/mods/20956) (v2.0.1)
 
 </div>
 </dialog>
