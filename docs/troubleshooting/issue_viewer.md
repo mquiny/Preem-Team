@@ -44,11 +44,11 @@ below to report it.
 
 <!-- BOT-INJECT:ISSUE-TABLE:START -->
 
-**Last synced:** `2026-11-20 13:27 UTC`
+**Last synced:** `2026-11-20 14:59 UTC`
 
 | Status | Issue | Labels | Opened | Comments |
 |---|---|---|---|---|
-| N/A | *No open issues right now, nice.* | N/A | N/A | N/A |
+| <span class="pt-chip pt-chip--open">Open</span> | [preem edition 2.5 flatline even after restart and been installed by instructions on fresh game](https://github.com/mquiny/Preem-Team/issues/9) | N/A | `2026-11-20` | 0 |
 
 <!-- BOT-INJECT:ISSUE-TABLE:END -->
 
