@@ -20,6 +20,13 @@ gets featured here automatically once it either picks up reactions from
 
 <div class="grid cards" markdown="1">
 
+<!-- SHOWCASE:ENTRY:1573390659296039055:START -->
+-   ![Screenshot posted by .yaiez. in #🌄┃preem-gallery](assets/1573390659296039055.png)
+    **Showcase submission**
+    *Posted by `.yaiez.` in #🌄┃preem-gallery*
+    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1573390659296039055)
+<!-- SHOWCASE:ENTRY:1573390659296039055:END -->
+
 <!-- SHOWCASE:ENTRY:1572504959142993980:START -->
 -   ![Screenshot posted by .yaiez. in #🌄┃preem-gallery](assets/1572504959142993980.png)
     **Trying out a few different approaches. Just to train stuff in Photomode**
