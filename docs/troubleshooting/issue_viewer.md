@@ -44,7 +44,7 @@ below to report it.
 
 <!-- BOT-INJECT:ISSUE-TABLE:START -->
 
-**Last synced:** `2026-11-19 23:26 UTC`
+**Last synced:** `2026-11-20 04:12 UTC`
 
 | Status | Issue | Labels | Opened | Comments |
 |---|---|---|---|---|
