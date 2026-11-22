@@ -152,7 +152,7 @@ Now it's time to select the collection to be downloaded/installed
 
 === "Through Nexus Mods"
 
-    1. Visit our Nexus Mods Collection page [here](https://www.nexusmods.com/games/cyberpunk2077/collections/usushu)
+    1. Visit our Nexus Mods Collection page [here](https://www.nexusmods.com/games/cyberpunk2077/collections/buqwx3)
     2. Make sure the latest revision is selected (Top most option)
     3. Click "Add Collection" to begin the install process
 
@@ -160,7 +160,7 @@ Now it's time to select the collection to be downloaded/installed
         Whenever you download the collection from nexus mods, always select the latest revision. Otherwise you might run the risk of incompatible/outdated mods being installed.
 
     ??? example "📷 Show me"
-        ![Latest revision selected](assets/select-latest-revision.png){ width="500" }
+        ![Latest revision selected](assets/Latest Revision (First + Clean).png){ width="500" }
 
 </details>
 
