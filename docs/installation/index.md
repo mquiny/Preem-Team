@@ -148,7 +148,7 @@ Now it's time to select the collection to be downloaded/installed
     3. This will bring up our collection, where you can select "Add Collection" to begin the install process
     
 	??? example "📷 Show me"
-        ![Latest revision selected](assets/vortex_select_install){ width="500" }
+        ![Latest revision selected](assets/vortex_select_install.png){ width="500" }
 
 === "Through Nexus Mods"
 
@@ -160,7 +160,7 @@ Now it's time to select the collection to be downloaded/installed
         Whenever you download the collection from nexus mods, always select the latest revision. Otherwise you might run the risk of incompatible/outdated mods being installed.
 
     ??? example "📷 Show me"
-        ![Latest revision selected](assets/Latest Revision (First + Clean).png){ width="500" }
+        ![Latest revision selected](assets/select-latest-revision.png){ width="500" }
 
 </details>
 
