@@ -37,8 +37,8 @@ stay exactly as they are. Older revisions roll off into the
 <button type="button" class="pt-changelog-card" data-pt-changelog-open="changelog-current-buqwx3">
 <img class="pt-changelog-card-thumb" src="assets/preem_edition.webp" alt="">
 <span class="pt-changelog-card-body">
-<span class="pt-changelog-card-version">Preem Edition-28</span>
-<span class="pt-changelog-card-date">2026-11-22 · CP2077 2.5</span>
+<span class="pt-changelog-card-version">Preem Edition-29</span>
+<span class="pt-changelog-card-date">2026-11-23 · CP2077 2.5</span>
 <span class="pt-changelog-card-chips"><span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--updated">Updated</span>
 <span class="pt-chip pt-chip--removed">Removed</span></span>
@@ -50,38 +50,40 @@ stay exactly as they are. Older revisions roll off into the
 
 <button type="button" class="pt-changelog-modal-close" data-pt-changelog-close aria-label="Close changelog">×</button>
 
-## Preem Edition-28
+## Preem Edition-29
 
 <span class="pt-chip pt-chip--added">Added</span>
 <span class="pt-chip pt-chip--updated">Updated</span>
 <span class="pt-chip pt-chip--removed">Removed</span>
 
-`2026-11-22` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
+`2026-11-23` · Game Version `2.5` · Posted by **Choomba** · Synced from `#CPE`
 
 ### Added {: .pt-changelog-h-added }
 
-- [Kingsley Military Pants - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/39038) (v1.0)
-- [Reds Logging Headers](https://www.nexusmods.com/cyberpunk2077/mods/18588) (v1.0.0)
+- [3D Fish Replacer Including Judy Apartment](https://www.nexusmods.com/cyberpunk2077/mods/39354) (v1.0)
+- [Heavy machine guns audio bug fix - HMG overheat missing sound fix](https://www.nexusmods.com/cyberpunk2077/mods/31792) (v1.0.0.0)
+- [Model 002 Cyber Arms for Masc and Fem V](https://www.nexusmods.com/cyberpunk2077/mods/39059) (v1.0.0)
+- [Respect Your Weapon 2.0](https://www.nexusmods.com/cyberpunk2077/mods/27287) (v2.2.2)
 
 ### Updated
 
-- [Cyberware Bonus Stats Fix](https://www.nexusmods.com/cyberpunk2077/mods/39119) (v1.0.2 → v1.0.3)
-- [DigitalVixen Core](https://www.nexusmods.com/cyberpunk2077/mods/28390) (v4.9.16 → v4.9.17)
-- [HUD Scaler](https://www.nexusmods.com/cyberpunk2077/mods/39094) (v1 → v1.0.1)
-- [Immersive V Dialogue Expanded](https://www.nexusmods.com/cyberpunk2077/mods/24377) (v1.1.0 → v2.0.0)
-- [Kriostech Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/23477) (v1.2 → v1.3)
-- [Loot Icons Extension](https://www.nexusmods.com/cyberpunk2077/mods/16386) (v1.61 → v1.62)
-- [MELUMINARY x VEILGARDENS VIRTUAL ATELIER](https://www.nexusmods.com/cyberpunk2077/mods/26511) (v35 → v37)
-- [Photomode UI Improvements](https://www.nexusmods.com/cyberpunk2077/mods/34353) (v1.4.4b → v1.5.0)
-- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.15 → v1.16)
-- [Redscript Configuration Framework](https://www.nexusmods.com/cyberpunk2077/mods/30726) (v3.2.3 → v3.2.4)
-- [The Nullifier](https://www.nexusmods.com/cyberpunk2077/mods/23091) (v1.4.8 → v1.5.0)
-- [True Night Vision](https://www.nexusmods.com/cyberpunk2077/mods/28627) (v3.5.2 → v3.5.3)
+- [ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/4198) (v1.28.8 → v1.28.11)
+- [Equipment-EX](https://www.nexusmods.com/cyberpunk2077/mods/6945) (v1.3.1 → v1.3.2)
+- [Honda 04](https://www.nexusmods.com/cyberpunk2077/mods/34870) (v4 → v5)
+- [Inorganic skin for arms and legs for Masc and Fem v compatible with my cyberware mods](https://www.nexusmods.com/cyberpunk2077/mods/17897) (v1.4.0 → v1.4.1)
+- [KiasuBurger Cyberware Core](https://www.nexusmods.com/cyberpunk2077/mods/14948) (v2.2.1 → v2.2.2)
+- [KMKC's - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/16065) (v12.1 → v13)
+- [Miscellaneous cyberware stat fixes](https://www.nexusmods.com/cyberpunk2077/mods/37384) (v1.0.0 → v2.0.1)
+- [Much Better AI](https://www.nexusmods.com/cyberpunk2077/mods/31402) (v3.0.2 → v3.1)
+- [Passive stat application fix for left gun](https://www.nexusmods.com/cyberpunk2077/mods/37542) (v2.0.0 → v2.0.1)
+- [Preem Edition Config](https://www.nexusmods.com/cyberpunk2077/mods/33680) (v1.16 → v1.17)
+- [Quickhack Gore](https://www.nexusmods.com/cyberpunk2077/mods/39032) (v1.9 → v2.0)
+- [Time Dilation Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/4931) (v2.39 → v2.40)
+- [Wardrobe UI Improvements](https://www.nexusmods.com/cyberpunk2077/mods/36262) (v1.0.5 → v1.0.6)
 
 ### Removed {: .pt-changelog-h-removed }
 
-- [APEX - Sonora Canyon and Safehouse](https://www.nexusmods.com/cyberpunk2077/mods/25999) (v1.0.4)
-- [Audioware](https://www.nexusmods.com/cyberpunk2077/mods/12001) (v1.11.0)
+- [Nissan Skyline R31 GTS-R - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/34435) (v1.0)
 
 </div>
 </dialog>
