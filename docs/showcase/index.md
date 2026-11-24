@@ -20,6 +20,13 @@ gets featured here automatically once it either picks up reactions from
 
 <div class="grid cards" markdown="1">
 
+<!-- SHOWCASE:ENTRY:1574587862949699705:START -->
+-   ![Screenshot posted by defacr in #🌄┃preem-gallery](assets/1574587862949699705.png)
+    **Maelstrom gig will always go hard**
+    *Posted by `defacr` in #🌄┃preem-gallery*
+    [View original post](https://discord.com/channels/1543366600525217802/1543381631073525850/1574587862949699705)
+<!-- SHOWCASE:ENTRY:1574587862949699705:END -->
+
 <!-- SHOWCASE:ENTRY:1573390659296039055:START -->
 -   ![Screenshot posted by .yaiez. in #🌄┃preem-gallery](assets/1573390659296039055.png)
     **Showcase submission**
